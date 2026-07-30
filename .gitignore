@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+allure-results/
+.env
+flaky-tests.json
+load-test-report*
+reports/
+
+# mutmut
+mutants/
+.mutmut-cache
+
+venv/
+.venv/

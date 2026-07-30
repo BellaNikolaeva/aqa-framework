@@ -1,0 +1,49 @@
+# Общие настройки, чтобы не дублировать build/env в каждом сервисе.
+x-common: &common
+  build: .
+  env_file:
+    # .env не обязателен — без него используются дефолты из
+    # config/settings.py (боевой Render-адрес). Создай .env из
+    # .env.example, если нужно переопределить (например, локальный сервер).
+    - path: .env
+      required: false
+  volumes:
+    # allure-results остаётся на хосте после завершения контейнера —
+    # иначе результаты отчёта пропадут вместе с контейнером.
+    - ./allure-results:/app/allure-results
+
+services:
+  # Быстрый прогон критичных проверок: docker compose up smoke
+  smoke:
+    <<: *common
+    command: pytest -m smoke
+
+  # Полный regression: docker compose up regression
+  regression:
+    <<: *common
+    command: pytest -m regression
+
+  # Контрактные тесты против реальной OpenAPI-схемы: docker compose up contract
+  contract:
+    <<: *common
+    command: pytest tests/test_contract.py
+
+  # Mutation testing: docker compose up mutation
+  # Результаты (mutants/) не персистятся на хост — это одноразовая
+  # проверка, не артефакт для хранения между запусками.
+  mutation:
+    <<: *common
+    command: mutmut run
+
+  # Нагрузочный смоук: docker compose up load-test
+  # Читай-онли сценарий против реального API по умолчанию (см. locustfile.py) —
+  # переопредели AQA_LOCUST_HOST в .env, если нужно нагрузить локальный мок.
+  load-test:
+    <<: *common
+    volumes:
+      - ./allure-results:/app/allure-results
+      - ./reports:/app/reports
+    command: >
+      locust -f locustfile.py --host ${AQA_LOCUST_HOST:-https://book-tracker-api-frnm.onrender.com}
+      --users 10 --spawn-rate 2 --run-time 30s --headless
+      --csv /app/reports/load-test-report --html /app/reports/load-test-report.html

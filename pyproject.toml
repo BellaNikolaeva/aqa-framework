@@ -1,0 +1,50 @@
+[project]
+name = "aqa-framework"
+version = "0.1.0"
+description = "API test automation framework for Book Tracker API"
+requires-python = ">=3.11"
+
+[tool.pytest.ini_options]
+addopts = "-v --strict-markers --alluredir=allure-results --ignore=tests/test_contract.py --ignore=mutants"
+markers = [
+    "smoke: критичные проверки для быстрого прогона (в CI на каждый push)",
+    "regression: полный набор, включая негативные и граничные кейсы",
+]
+# --strict-markers: опечатка в @pytest.mark.* падает как ошибка конфигурации,
+# а не тихо игнорируется — типичная причина "тест как будто не запустился".
+
+[tool.ruff]
+line-length = 110
+target-version = "py312"
+extend-exclude = ["mutants"]  # рабочая песочница mutmut, не часть проекта
+
+[tool.ruff.lint]
+select = [
+    "E",    # pycodestyle
+    "F",    # pyflakes
+    "I",    # изохронная сортировка импортов (isort)
+    "UP",   # устаревший синтаксис (актуальность для type hints и т.п.)
+    "B",    # flake8-bugbear — типичные баги (мутабельные дефолты, голый except и т.п.)
+    "SIM",  # flake8-simplify — избыточно сложный код там, где есть более простой эквивалент
+    "C4",   # flake8-comprehensions — неоптимальные list/dict/set comprehensions
+]
+ignore = [
+    "B008",  # разрешаем вызовы функций в дефолтных значениях аргументов pydantic/fastapi-style
+]
+
+[tool.ruff.format]
+quote-style = "double"
+
+[tool.mutmut]
+# Мутируем только clients/ — это чистая логика (сборка payload/params,
+# роутинг по HTTP-методам), которую тестируют напрямую. Мутировать весь
+# проект нецелесообразно: schemas/ — декларативные Pydantic-модели без
+# ветвлений, config/ — константы, а полный прогон тестов на каждый
+# мутант против реального Render занял бы часы.
+source_paths = ["clients/"]
+pytest_add_cli_args_test_selection = ["tests/"]
+pytest_add_cli_args = ["-m", "smoke", "-x", "-q"]
+# clients/ импортирует config/ и косвенно тянет schemas/ и utils/ через
+# conftest.py — без этого mutmut падает с ModuleNotFoundError в изолированной
+# песочнице mutants/, куда копируются по умолчанию только исходники и тесты.
+also_copy = ["config/", "schemas/", "utils/"]

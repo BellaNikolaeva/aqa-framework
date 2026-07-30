@@ -1,0 +1,139 @@
+name: AQA Framework CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  schedule:
+    # ежедневный regression + contract прогон против прод-API — ловит
+    # проблемы, даже если в сам фреймворк никто не коммитил
+    - cron: "0 6 * * *"
+  workflow_dispatch:  # ручной запуск — нужен для load-test job ниже
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    # contents: write нужен только для публикации Allure-истории на
+    # gh-pages в шагах ниже; сам прогон тестов в этом не нуждается.
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Lint
+        run: |
+          ruff check .
+          ruff format --check .
+
+      # параллельный прогон теперь не дефолт (см. pyproject.toml) — на
+      # реальном Render с холодным стартом он не всегда ускоряет, а
+      # отладку падений усложняет. Включается явным флагом -n <N> при
+      # необходимости, а не молчаливо для каждого прогона.
+      #
+      # --reruns здесь — только в CI против реального API, где сетевая
+      # нестабильность и холодный старт Render — реальный источник
+      # случайных падений, не связанный с багами тестов. Локально по
+      # умолчанию ретраев нет — чтобы падение было видно сразу, без
+      # маскировки. Какие тесты потребовали перезапуска, всё равно видно
+      # явно (см. conftest.py: pytest_terminal_summary + flaky-tests.json).
+      - name: Smoke tests (on every push/PR)
+        if: github.event_name != 'schedule'
+        run: pytest -m smoke --reruns 2 --reruns-delay 5
+
+      - name: Full regression (nightly schedule)
+        if: github.event_name == 'schedule'
+        run: pytest -m regression --reruns 2 --reruns-delay 5
+
+      - name: Contract tests against live schema (nightly only)
+        if: github.event_name == 'schedule'
+        run: pytest tests/test_contract.py
+
+      - name: Flag flaky tests
+        if: always()
+        run: |
+          if [ -s flaky-tests.json ] && [ "$(jq '.flaky_tests | length' flaky-tests.json)" -gt 0 ]; then
+            echo "::warning::Обнаружены flaky-тесты (прошли только после перезапуска): $(jq -r '.flaky_tests | join(\", \")' flaky-tests.json)"
+          fi
+
+      - name: Upload flaky-tests report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: flaky-tests
+          path: flaky-tests.json
+
+      - name: Upload Allure results
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: allure-results
+          path: allure-results
+
+      # Публикуем историю только с main — у PR-веток нет смысла зашумлять
+      # общий тренд отчётами по недомерженному коду, и push с чужого
+      # форка не имеет прав писать в gh-pages этого репозитория.
+      - name: Load previous Allure history
+        if: always() && github.ref == 'refs/heads/main'
+        uses: actions/checkout@v4
+        continue-on-error: true
+        with:
+          ref: gh-pages
+          path: gh-pages
+
+      - name: Build Allure report with history
+        if: always() && github.ref == 'refs/heads/main'
+        uses: simple-elf/allure-report-action@master
+        with:
+          allure_results: allure-results
+          allure_history: allure-history
+          gh_pages: gh-pages
+          keep_reports: 30
+
+      - name: Publish Allure history to GitHub Pages
+        if: always() && github.ref == 'refs/heads/main'
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_branch: gh-pages
+          publish_dir: allure-history
+
+  docker:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Build image
+        run: docker build -t aqa-framework .
+      - name: Smoke tests inside the container
+        run: docker run --rm aqa-framework pytest -m smoke
+
+  load-test:
+    # Только вручную (Actions → Run workflow) — не на каждый push и не по
+    # расписанию. Это read-only нагрузка на чужой бесплатный сервис
+    # (Render), гонять её молча в фоне на каждый коммит неуместно.
+    if: github.event_name == 'workflow_dispatch'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+      - name: Run Locust (read-only, 30s, 10 users)
+        run: |
+          locust -f locustfile.py --host https://book-tracker-api-frnm.onrender.com \
+            --users 10 --spawn-rate 2 --run-time 30s --headless \
+            --csv load-test-report --html load-test-report.html
+      - name: Upload load-test report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: load-test-report
+          path: load-test-report*

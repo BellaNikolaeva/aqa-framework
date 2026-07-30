@@ -1,0 +1,17 @@
+.git
+.github
+__pycache__
+*.pyc
+.pytest_cache
+allure-results
+.env
+venv
+.venv
+README.md
+mutants
+.mutmut-cache
+.hypothesis
+.ruff_cache
+flaky-tests.json
+load-test-report*
+reports
