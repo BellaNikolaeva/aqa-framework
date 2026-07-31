@@ -92,32 +92,47 @@ jobs:
           ref: gh-pages
           path: gh-pages
 
-      # Первый прогон: ветки gh-pages ещё не существует, чекаут выше падает
-      # (ожидаемо, continue-on-error). Без этой строки simple-elf/allure-
-      # report-action получает несуществующий путь вместо пустой папки —
-      # на первом прогоне это приводило к пустому allure-history на
-      # выходе и падению publish-шага с "src refspec does not match any",
-      # даже когда allure-results был совершенно нормальный.
-      - name: Ensure gh-pages history dir exists (first run has none yet)
+      # Официальный паттерн из документации Allure для тренда по сборкам:
+      # скопировать history/ из предыдущего отчёта (gh-pages) внутрь
+      # allure-results ДО генерации — allure generate сам подхватит её
+      # и построит график. На первом прогоне gh-pages/history просто нет
+      # (чекаут выше не удался, ветки ещё не существует) — тогда просто
+      # генерируется отчёт без истории, это ожидаемо и не ошибка.
+      - name: Copy previous history into results (for trend graph)
         if: always() && github.ref == 'refs/heads/main' && hashFiles('allure-results/**') != ''
-        run: mkdir -p gh-pages
+        run: |
+          mkdir -p allure-results/history
+          if [ -d gh-pages/history ]; then
+            cp -r gh-pages/history/. allure-results/history/
+          fi
 
-      - name: Build Allure report with history
+      # simple-elf/allure-report-action заменён на прямой вызов Allure CLI:
+      # тот экшен подтягивается по нестабильному тегу @master и на первом
+      # прогоне (без существующей ветки gh-pages) стабильно давал пустой
+      # allure-history на выходе — из-за этого actions-gh-pages падал с
+      # "src refspec gh-pages does not match any" (нечего пушить).
+      # Прямой вызов CLI полностью под контролем и не зависит от того,
+      # как сторонний экшен обрабатывает отсутствие истории.
+      - name: Install Allure CLI
         if: always() && github.ref == 'refs/heads/main' && hashFiles('allure-results/**') != ''
-        uses: simple-elf/allure-report-action@master
-        with:
-          allure_results: allure-results
-          allure_history: allure-history
-          gh_pages: gh-pages
-          keep_reports: 30
+        run: |
+          sudo apt-get update -y -qq
+          sudo apt-get install -y -qq default-jre-headless
+          curl -sL -o allure.tgz https://github.com/allure-framework/allure2/releases/download/2.44.0/allure-2.44.0.tgz
+          tar -zxf allure.tgz
+          echo "$PWD/allure-2.44.0/bin" >> "$GITHUB_PATH"
 
-      - name: Publish Allure history to GitHub Pages
+      - name: Generate Allure report
+        if: always() && github.ref == 'refs/heads/main' && hashFiles('allure-results/**') != ''
+        run: allure generate allure-results --clean -o allure-report
+
+      - name: Publish Allure report to GitHub Pages
         if: always() && github.ref == 'refs/heads/main' && hashFiles('allure-results/**') != ''
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_branch: gh-pages
-          publish_dir: allure-history
+          publish_dir: allure-report
 
   docker:
     runs-on: ubuntu-latest
