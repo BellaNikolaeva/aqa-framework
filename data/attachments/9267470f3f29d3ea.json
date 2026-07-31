@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "Картинка счастье",
+      "author": "Маргарита Андреевна Белова",
+      "genre": "fantasy",
+      "year_published": 1998,
+      "cover_url": "https://placekitten.com/40/402"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 146.0,
+    "body": {
+      "id": 1128,
+      "title": "Картинка счастье",
+      "author": "Маргарита Андреевна Белова",
+      "genre": "fantasy",
+      "year_published": 1998,
+      "cover_url": "https://placekitten.com/40/402",
+      "tags": [],
+      "created_at": "2026-07-31T12:00:22.418732+03:00"
+    }
+  }
+}

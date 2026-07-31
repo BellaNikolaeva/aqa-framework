@@ -1,0 +1,28 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "Вчера чем",
+      "author": "Герасимова Фаина Павловна",
+      "genre": "non_fiction",
+      "year_published": 2023,
+      "cover_url": "https://placekitten.com/284/430"
+    }
+  },
+  "response": {
+    "status_code": 401,
+    "elapsed_ms": 123.5,
+    "body": {
+      "detail": "Данный токен недействителен для любого типа токена",
+      "code": "token_not_valid",
+      "messages": [
+        {
+          "token_class": "AccessToken",
+          "token_type": "access",
+          "message": "Token is invalid"
+        }
+      ]
+    }
+  }
+}
