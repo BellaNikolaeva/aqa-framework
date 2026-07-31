@@ -79,16 +79,31 @@ jobs:
       # Публикуем историю только с main — у PR-веток нет смысла зашумлять
       # общий тренд отчётами по недомерженному коду, и push с чужого
       # форка не имеет прав писать в gh-pages этого репозитория.
+      # hashFiles(...) != '' — дополнительная защита: если allure-results
+      # почему-то оказался пустым (например, упал шаг раньше, до генерации
+      # отчёта), publish-шаги ниже просто не запускаются, а не падают с
+      # непонятной "src refspec gh-pages does not match any" — эту ошибку
+      # actions-gh-pages выдаёт именно тогда, когда коммитить нечего.
       - name: Load previous Allure history
-        if: always() && github.ref == 'refs/heads/main'
+        if: always() && github.ref == 'refs/heads/main' && hashFiles('allure-results/**') != ''
         uses: actions/checkout@v4
         continue-on-error: true
         with:
           ref: gh-pages
           path: gh-pages
 
+      # Первый прогон: ветки gh-pages ещё не существует, чекаут выше падает
+      # (ожидаемо, continue-on-error). Без этой строки simple-elf/allure-
+      # report-action получает несуществующий путь вместо пустой папки —
+      # на первом прогоне это приводило к пустому allure-history на
+      # выходе и падению publish-шага с "src refspec does not match any",
+      # даже когда allure-results был совершенно нормальный.
+      - name: Ensure gh-pages history dir exists (first run has none yet)
+        if: always() && github.ref == 'refs/heads/main' && hashFiles('allure-results/**') != ''
+        run: mkdir -p gh-pages
+
       - name: Build Allure report with history
-        if: always() && github.ref == 'refs/heads/main'
+        if: always() && github.ref == 'refs/heads/main' && hashFiles('allure-results/**') != ''
         uses: simple-elf/allure-report-action@master
         with:
           allure_results: allure-results
@@ -97,7 +112,7 @@ jobs:
           keep_reports: 30
 
       - name: Publish Allure history to GitHub Pages
-        if: always() && github.ref == 'refs/heads/main'
+        if: always() && github.ref == 'refs/heads/main' && hashFiles('allure-results/**') != ''
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
