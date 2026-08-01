@@ -1,0 +1,17 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/tags/",
+    "payload": {
+      "name": "обида-a35d4896-e6b3-4438-a435-6754fa280898"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 2101.5,
+    "body": {
+      "id": 94,
+      "name": "обида-a35d4896-e6b3-4438-a435-6754fa280898"
+    }
+  }
+}

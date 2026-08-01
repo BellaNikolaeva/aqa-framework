@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "покидать-92e95b00-dd41-4052-bd06-de6d46c8dedb Пространство расстегнуть",
+      "author": "Антонина Степановна Мишина",
+      "genre": "detective",
+      "year_published": 1972,
+      "cover_url": "https://dummyimage.com/337x821"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 198.7,
+    "body": {
+      "id": 1238,
+      "title": "покидать-92e95b00-dd41-4052-bd06-de6d46c8dedb Пространство расстегнуть",
+      "author": "Антонина Степановна Мишина",
+      "genre": "detective",
+      "year_published": 1972,
+      "cover_url": "https://dummyimage.com/337x821",
+      "tags": [],
+      "created_at": "2026-08-01T11:09:12.166429+03:00"
+    }
+  }
+}

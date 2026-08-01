@@ -1,0 +1,21 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "Пол протягивать лететь",
+      "genre": "detective",
+      "year_published": 2011,
+      "cover_url": "https://dummyimage.com/581x818"
+    }
+  },
+  "response": {
+    "status_code": 400,
+    "elapsed_ms": 227.9,
+    "body": {
+      "author": [
+        "Обязательное поле."
+      ]
+    }
+  }
+}

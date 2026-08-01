@@ -1,0 +1,17 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/tags/",
+    "payload": {
+      "name": "пятеро-ed238d6a-4df9-4a63-981b-45c3d1cf1291"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 207.5,
+    "body": {
+      "id": 97,
+      "name": "пятеро-ed238d6a-4df9-4a63-981b-45c3d1cf1291"
+    }
+  }
+}

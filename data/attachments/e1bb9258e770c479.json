@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "покидать-92e95b00-dd41-4052-bd06-de6d46c8dedb Куча кидать",
+      "author": "Колобов Пров Ефстафьевич",
+      "genre": "non_fiction",
+      "year_published": 1980,
+      "cover_url": "https://placekitten.com/199/826"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 160.9,
+    "body": {
+      "id": 1221,
+      "title": "покидать-92e95b00-dd41-4052-bd06-de6d46c8dedb Куча кидать",
+      "author": "Колобов Пров Ефстафьевич",
+      "genre": "non_fiction",
+      "year_published": 1980,
+      "cover_url": "https://placekitten.com/199/826",
+      "tags": [],
+      "created_at": "2026-08-01T11:09:09.321122+03:00"
+    }
+  }
+}

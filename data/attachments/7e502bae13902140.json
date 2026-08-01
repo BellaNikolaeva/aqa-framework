@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "Совещание иной",
+      "author": "Антонина Алексеевна Шашкова",
+      "genre": "non_fiction",
+      "year_published": 1975,
+      "cover_url": "https://placekitten.com/869/469"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 2115.2,
+    "body": {
+      "id": 1153,
+      "title": "Совещание иной",
+      "author": "Антонина Алексеевна Шашкова",
+      "genre": "non_fiction",
+      "year_published": 1975,
+      "cover_url": "https://placekitten.com/869/469",
+      "tags": [],
+      "created_at": "2026-08-01T11:07:44.829866+03:00"
+    }
+  }
+}

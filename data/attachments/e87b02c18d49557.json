@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "Грудь деньги",
+      "author": "Прохор Богданович Тихонов",
+      "genre": "detective",
+      "year_published": 1987,
+      "cover_url": "https://placekitten.com/956/740"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 464.9,
+    "body": {
+      "id": 1240,
+      "title": "Грудь деньги",
+      "author": "Прохор Богданович Тихонов",
+      "genre": "detective",
+      "year_published": 1987,
+      "cover_url": "https://placekitten.com/956/740",
+      "tags": [],
+      "created_at": "2026-08-01T11:09:25.982383+03:00"
+    }
+  }
+}

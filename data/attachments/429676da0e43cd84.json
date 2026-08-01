@@ -1,0 +1,20 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/auth/register/",
+    "payload": {
+      "username": "aqa_9a3acea7",
+      "email": "aqa_9a3acea7@example.com",
+      "password": "StrongPass123!"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 1727.8,
+    "body": {
+      "id": 684,
+      "username": "aqa_9a3acea7",
+      "email": "aqa_9a3acea7@example.com"
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": null
+  },
+  "response": {
+    "status_code": 200,
+    "elapsed_ms": 159.4,
+    "body": {
+      "count": 1,
+      "next": null,
+      "previous": null,
+      "results": [
+        {
+          "id": 1152,
+          "title": "Еврейский очутиться похороны",
+          "author": "Громова Марфа Тимофеевна",
+          "genre": "detective",
+          "year_published": 1980,
+          "cover_url": "https://picsum.photos/587/898",
+          "tags": [
+            {
+              "id": 94,
+              "name": "обида-a35d4896-e6b3-4438-a435-6754fa280898"
+            }
+          ],
+          "created_at": "2026-08-01T11:07:35.444766+03:00"
+        }
+      ]
+    }
+  }
+}

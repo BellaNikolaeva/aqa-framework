@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "Сустав умирать",
+      "author": "Евфросиния Дмитриевна Блохина",
+      "genre": "classic",
+      "year_published": 1960,
+      "cover_url": "https://placekitten.com/164/180"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 214.3,
+    "body": {
+      "id": 1145,
+      "title": "Сустав умирать",
+      "author": "Евфросиния Дмитриевна Блохина",
+      "genre": "classic",
+      "year_published": 1960,
+      "cover_url": "https://placekitten.com/164/180",
+      "tags": [],
+      "created_at": "2026-08-01T11:07:03.135047+03:00"
+    }
+  }
+}
