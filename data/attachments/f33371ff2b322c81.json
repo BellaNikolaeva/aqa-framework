@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "висеть-3d4ca332-9168-4274-a0f2-317e3ee71d46 Материя помолчать",
+      "author": "Лукьян Герасимович Веселов",
+      "genre": "sci_fi",
+      "year_published": 2010,
+      "cover_url": "https://dummyimage.com/763x340"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 130.9,
+    "body": {
+      "id": 1272,
+      "title": "висеть-3d4ca332-9168-4274-a0f2-317e3ee71d46 Материя помолчать",
+      "author": "Лукьян Герасимович Веселов",
+      "genre": "sci_fi",
+      "year_published": 2010,
+      "cover_url": "https://dummyimage.com/763x340",
+      "tags": [],
+      "created_at": "2026-08-02T11:10:12.199254+03:00"
+    }
+  }
+}

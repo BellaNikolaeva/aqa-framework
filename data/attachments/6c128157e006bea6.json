@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "место-7c5979a8-483f-4b6a-ab45-ecacfb0c3c00 Способ уронить невозможно",
+      "author": "Мокей Димитриевич Андреев",
+      "genre": "sci_fi",
+      "year_published": 2022,
+      "cover_url": "https://picsum.photos/948/453"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 180.9,
+    "body": {
+      "id": 1322,
+      "title": "место-7c5979a8-483f-4b6a-ab45-ecacfb0c3c00 Способ уронить невозможно",
+      "author": "Мокей Димитриевич Андреев",
+      "genre": "sci_fi",
+      "year_published": 2022,
+      "cover_url": "https://picsum.photos/948/453",
+      "tags": [],
+      "created_at": "2026-08-02T11:10:31.852258+03:00"
+    }
+  }
+}

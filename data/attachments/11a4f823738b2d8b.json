@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "место-7c5979a8-483f-4b6a-ab45-ecacfb0c3c00 Рассуждение славный сверкающий",
+      "author": "Вера Петровна Панфилова",
+      "genre": "non_fiction",
+      "year_published": 1999,
+      "cover_url": "https://picsum.photos/681/122"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 300.3,
+    "body": {
+      "id": 1324,
+      "title": "место-7c5979a8-483f-4b6a-ab45-ecacfb0c3c00 Рассуждение славный сверкающий",
+      "author": "Вера Петровна Панфилова",
+      "genre": "non_fiction",
+      "year_published": 1999,
+      "cover_url": "https://picsum.photos/681/122",
+      "tags": [],
+      "created_at": "2026-08-02T11:10:32.267760+03:00"
+    }
+  }
+}

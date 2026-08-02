@@ -1,0 +1,21 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "author": "тов. Крылов Аким Венедиктович",
+      "genre": "non_fiction",
+      "year_published": 2011,
+      "cover_url": "https://placekitten.com/861/194"
+    }
+  },
+  "response": {
+    "status_code": 400,
+    "elapsed_ms": 119.8,
+    "body": {
+      "title": [
+        "Обязательное поле."
+      ]
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "Факультет инфекция непривычный",
+      "author": "Нинель Тимуровна Доронина",
+      "genre": "fantasy",
+      "year_published": 2024,
+      "cover_url": "https://dummyimage.com/532x210"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 126.4,
+    "body": {
+      "id": 1257,
+      "title": "Факультет инфекция непривычный",
+      "author": "Нинель Тимуровна Доронина",
+      "genre": "fantasy",
+      "year_published": 2024,
+      "cover_url": "https://dummyimage.com/532x210",
+      "tags": [],
+      "created_at": "2026-08-02T11:09:25.316729+03:00"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "место-7c5979a8-483f-4b6a-ab45-ecacfb0c3c00 Механический вообще вздрогнуть",
+      "author": "Жукова Агафья Петровна",
+      "genre": "non_fiction",
+      "year_published": 2026,
+      "cover_url": "https://picsum.photos/29/957"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 112.5,
+    "body": {
+      "id": 1327,
+      "title": "место-7c5979a8-483f-4b6a-ab45-ecacfb0c3c00 Механический вообще вздрогнуть",
+      "author": "Жукова Агафья Петровна",
+      "genre": "non_fiction",
+      "year_published": 2026,
+      "cover_url": "https://picsum.photos/29/957",
+      "tags": [],
+      "created_at": "2026-08-02T11:10:32.975953+03:00"
+    }
+  }
+}

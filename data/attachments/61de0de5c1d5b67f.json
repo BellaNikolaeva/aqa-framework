@@ -1,0 +1,218 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": null
+  },
+  "response": {
+    "status_code": 200,
+    "elapsed_ms": 115.6,
+    "body": {
+      "count": 25,
+      "next": "https://book-tracker-api-frnm.onrender.com/api/books/?page=2&search=%D0%B2%D0%B8%D1%81%D0%B5%D1%82%D1%8C-3d4ca332-9168-4274-a0f2-317e3ee71d46",
+      "previous": null,
+      "results": [
+        {
+          "id": 1270,
+          "title": "висеть-3d4ca332-9168-4274-a0f2-317e3ee71d46 Аллея еврейский",
+          "author": "Вышеслав Вилорович Зайцев",
+          "genre": "sci_fi",
+          "year_published": 2000,
+          "cover_url": "https://dummyimage.com/789x349",
+          "tags": [],
+          "created_at": "2026-08-02T11:10:11.958346+03:00"
+        },
+        {
+          "id": 1287,
+          "title": "висеть-3d4ca332-9168-4274-a0f2-317e3ee71d46 Бригада конференция ночь трясти",
+          "author": "Светлана Станиславовна Комарова",
+          "genre": "detective",
+          "year_published": 1975,
+          "cover_url": "https://placekitten.com/660/874",
+          "tags": [],
+          "created_at": "2026-08-02T11:10:14.237219+03:00"
+        },
+        {
+          "id": 1280,
+          "title": "висеть-3d4ca332-9168-4274-a0f2-317e3ee71d46 Валюта порог юный сынок",
+          "author": "Пантелеймон Феодосьевич Гусев",
+          "genre": "detective",
+          "year_published": 1993,
+          "cover_url": "https://dummyimage.com/632x382",
+          "tags": [],
+          "created_at": "2026-08-02T11:10:13.381527+03:00"
+        },
+        {
+          "id": 1291,
+          "title": "висеть-3d4ca332-9168-4274-a0f2-317e3ee71d46 Вперед банк",
+          "author": "Пахомов Лучезар Ефимович",
+          "genre": "fantasy",
+          "year_published": 2011,
+          "cover_url": "https://dummyimage.com/344x973",
+          "tags": [],
+          "created_at": "2026-08-02T11:10:14.788946+03:00"
+        },
+        {
+          "id": 1282,
+          "title": "висеть-3d4ca332-9168-4274-a0f2-317e3ee71d46 Голубчик",
+          "author": "Татьяна Никифоровна Стрелкова",
+          "genre": "fantasy",
+          "year_published": 1978,
+          "cover_url": "https://dummyimage.com/205x385",
+          "tags": [],
+          "created_at": "2026-08-02T11:10:13.639249+03:00"
+        },
+        {
+          "id": 1277,
+          "title": "висеть-3d4ca332-9168-4274-a0f2-317e3ee71d46 Изба торговля полностью",
+          "author": "Ефимов Михей Глебович",
+          "genre": "detective",
+          "year_published": 1958,
+          "cover_url": "https://dummyimage.com/183x719",
+          "tags": [],
+          "created_at": "2026-08-02T11:10:12.927639+03:00"
+        },
+        {
+          "id": 1278,
+          "title": "висеть-3d4ca332-9168-4274-a0f2-317e3ee71d46 Иной порода лиловый",
+          "author": "Лариса Андреевна Филиппова",
+          "genre": "non_fiction",
+          "year_published": 1998,
+          "cover_url": "https://placekitten.com/64/653",
+          "tags": [],
+          "created_at": "2026-08-02T11:10:13.056006+03:00"
+        },
+        {
+          "id": 1285,
+          "title": "висеть-3d4ca332-9168-4274-a0f2-317e3ee71d46 Лапа коробка инструкция",
+          "author": "Блинов Панкратий Демьянович",
+          "genre": "classic",
+          "year_published": 1994,
+          "cover_url": "https://placekitten.com/202/397",
+          "tags": [],
+          "created_at": "2026-08-02T11:10:14.008170+03:00"
+        },
+        {
+          "id": 1288,
+          "title": "висеть-3d4ca332-9168-4274-a0f2-317e3ee71d46 Лиловый",
+          "author": "Алла Тимофеевна Кононова",
+          "genre": "classic",
+          "year_published": 2025,
+          "cover_url": "https://dummyimage.com/24x373",
+          "tags": [],
+          "created_at": "2026-08-02T11:10:14.439209+03:00"
+        },
+        {
+          "id": 1272,
+          "title": "висеть-3d4ca332-9168-4274-a0f2-317e3ee71d46 Материя помолчать",
+          "author": "Лукьян Герасимович Веселов",
+          "genre": "sci_fi",
+          "year_published": 2010,
+          "cover_url": "https://dummyimage.com/763x340",
+          "tags": [],
+          "created_at": "2026-08-02T11:10:12.199254+03:00"
+        },
+        {
+          "id": 1268,
+          "title": "висеть-3d4ca332-9168-4274-a0f2-317e3ee71d46 Место миф штаб",
+          "author": "Никифоров Стоян Богданович",
+          "genre": "fantasy",
+          "year_published": 2012,
+          "cover_url": "https://dummyimage.com/426x743",
+          "tags": [],
+          "created_at": "2026-08-02T11:10:11.730239+03:00"
+        },
+        {
+          "id": 1284,
+          "title": "висеть-3d4ca332-9168-4274-a0f2-317e3ee71d46 Неправда смертельный горький",
+          "author": "Блохин Василий Владиславович",
+          "genre": "detective",
+          "year_published": 1961,
+          "cover_url": "https://picsum.photos/808/71",
+          "tags": [],
+          "created_at": "2026-08-02T11:10:13.888686+03:00"
+        },
+        {
+          "id": 1271,
+          "title": "висеть-3d4ca332-9168-4274-a0f2-317e3ee71d46 Освободить кожа",
+          "author": "Регина Алексеевна Карпова",
+          "genre": "detective",
+          "year_published": 2008,
+          "cover_url": "https://dummyimage.com/206x360",
+          "tags": [],
+          "created_at": "2026-08-02T11:10:12.075921+03:00"
+        },
+        {
+          "id": 1283,
+          "title": "висеть-3d4ca332-9168-4274-a0f2-317e3ee71d46 Плод песня",
+          "author": "Гусева Ольга Юльевна",
+          "genre": "detective",
+          "year_published": 2007,
+          "cover_url": "https://placekitten.com/1007/841",
+          "tags": [],
+          "created_at": "2026-08-02T11:10:13.770670+03:00"
+        },
+        {
+          "id": 1267,
+          "title": "висеть-3d4ca332-9168-4274-a0f2-317e3ee71d46 Понятный школьный кольцо",
+          "author": "Артемий Матвеевич Афанасьев",
+          "genre": "classic",
+          "year_published": 1997,
+          "cover_url": "https://picsum.photos/199/565",
+          "tags": [],
+          "created_at": "2026-08-02T11:10:11.616284+03:00"
+        },
+        {
+          "id": 1290,
+          "title": "висеть-3d4ca332-9168-4274-a0f2-317e3ee71d46 Поставить идея",
+          "author": "Кулагин Елисей Анисимович",
+          "genre": "classic",
+          "year_published": 2024,
+          "cover_url": "https://placekitten.com/927/704",
+          "tags": [],
+          "created_at": "2026-08-02T11:10:14.674034+03:00"
+        },
+        {
+          "id": 1289,
+          "title": "висеть-3d4ca332-9168-4274-a0f2-317e3ee71d46 Растеряться устройство",
+          "author": "Ульян Федосеевич Орлов",
+          "genre": "non_fiction",
+          "year_published": 1957,
+          "cover_url": "https://picsum.photos/139/470",
+          "tags": [],
+          "created_at": "2026-08-02T11:10:14.556345+03:00"
+        },
+        {
+          "id": 1279,
+          "title": "висеть-3d4ca332-9168-4274-a0f2-317e3ee71d46 Результат разводить",
+          "author": "Алексей Артёмович Прохоров",
+          "genre": "classic",
+          "year_published": 1953,
+          "cover_url": "https://dummyimage.com/747x459",
+          "tags": [],
+          "created_at": "2026-08-02T11:10:13.258745+03:00"
+        },
+        {
+          "id": 1281,
+          "title": "висеть-3d4ca332-9168-4274-a0f2-317e3ee71d46 Ручей непривычный",
+          "author": "Ярополк Власович Ершов",
+          "genre": "detective",
+          "year_published": 1959,
+          "cover_url": "https://dummyimage.com/255x810",
+          "tags": [],
+          "created_at": "2026-08-02T11:10:13.526954+03:00"
+        },
+        {
+          "id": 1273,
+          "title": "висеть-3d4ca332-9168-4274-a0f2-317e3ee71d46 Самостоятельно мотоцикл",
+          "author": "Попов Иосиф Фомич",
+          "genre": "non_fiction",
+          "year_published": 1975,
+          "cover_url": "https://placekitten.com/725/633",
+          "tags": [],
+          "created_at": "2026-08-02T11:10:12.340057+03:00"
+        }
+      ]
+    }
+  }
+}

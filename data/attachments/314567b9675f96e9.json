@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "валюта-729e36c3-be1c-4d52-80f7-aac78e749c74 Заведение ремень а",
+      "author": "Антип Яковлевич Сидоров",
+      "genre": "fantasy",
+      "year_published": 2024,
+      "cover_url": "https://dummyimage.com/576x972"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 111.6,
+    "body": {
+      "id": 1311,
+      "title": "валюта-729e36c3-be1c-4d52-80f7-aac78e749c74 Заведение ремень а",
+      "author": "Антип Яковлевич Сидоров",
+      "genre": "fantasy",
+      "year_published": 2024,
+      "cover_url": "https://dummyimage.com/576x972",
+      "tags": [],
+      "created_at": "2026-08-02T11:10:23.654081+03:00"
+    }
+  }
+}

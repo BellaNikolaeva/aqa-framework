@@ -1,0 +1,15 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/tags/103/",
+    "payload": null
+  },
+  "response": {
+    "status_code": 200,
+    "elapsed_ms": 107.9,
+    "body": {
+      "id": 103,
+      "name": "дошлый-dc039ff2-0a05-494d-b073-7a63f6913832"
+    }
+  }
+}

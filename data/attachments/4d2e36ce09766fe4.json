@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "место-7c5979a8-483f-4b6a-ab45-ecacfb0c3c00 Художественный естественный житель",
+      "author": "Ксения Феликсовна Чернова",
+      "genre": "non_fiction",
+      "year_published": 1997,
+      "cover_url": "https://dummyimage.com/921x614"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 120.3,
+    "body": {
+      "id": 1337,
+      "title": "место-7c5979a8-483f-4b6a-ab45-ecacfb0c3c00 Художественный естественный житель",
+      "author": "Ксения Феликсовна Чернова",
+      "genre": "non_fiction",
+      "year_published": 1997,
+      "cover_url": "https://dummyimage.com/921x614",
+      "tags": [],
+      "created_at": "2026-08-02T11:10:34.145810+03:00"
+    }
+  }
+}

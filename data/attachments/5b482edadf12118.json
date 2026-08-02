@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "место-7c5979a8-483f-4b6a-ab45-ecacfb0c3c00 Правый госпожа падаль уронить",
+      "author": "Вера Макаровна Новикова",
+      "genre": "fantasy",
+      "year_published": 1966,
+      "cover_url": "https://picsum.photos/1000/765"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 112.7,
+    "body": {
+      "id": 1333,
+      "title": "место-7c5979a8-483f-4b6a-ab45-ecacfb0c3c00 Правый госпожа падаль уронить",
+      "author": "Вера Макаровна Новикова",
+      "genre": "fantasy",
+      "year_published": 1966,
+      "cover_url": "https://picsum.photos/1000/765",
+      "tags": [],
+      "created_at": "2026-08-02T11:10:33.675973+03:00"
+    }
+  }
+}

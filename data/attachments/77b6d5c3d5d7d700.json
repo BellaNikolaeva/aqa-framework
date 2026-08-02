@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "висеть-3d4ca332-9168-4274-a0f2-317e3ee71d46 Цель сравнение необычный",
+      "author": "Карпова Юлия Ефимовна",
+      "genre": "non_fiction",
+      "year_published": 2002,
+      "cover_url": "https://placekitten.com/976/815"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 114.4,
+    "body": {
+      "id": 1269,
+      "title": "висеть-3d4ca332-9168-4274-a0f2-317e3ee71d46 Цель сравнение необычный",
+      "author": "Карпова Юлия Ефимовна",
+      "genre": "non_fiction",
+      "year_published": 2002,
+      "cover_url": "https://placekitten.com/976/815",
+      "tags": [],
+      "created_at": "2026-08-02T11:10:11.843534+03:00"
+    }
+  }
+}

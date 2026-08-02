@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "место-7c5979a8-483f-4b6a-ab45-ecacfb0c3c00 Приличный наступать сравнение",
+      "author": "Анжела Дмитриевна Одинцова",
+      "genre": "classic",
+      "year_published": 2010,
+      "cover_url": "https://dummyimage.com/982x592"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 112.7,
+    "body": {
+      "id": 1330,
+      "title": "место-7c5979a8-483f-4b6a-ab45-ecacfb0c3c00 Приличный наступать сравнение",
+      "author": "Анжела Дмитриевна Одинцова",
+      "genre": "classic",
+      "year_published": 2010,
+      "cover_url": "https://dummyimage.com/982x592",
+      "tags": [],
+      "created_at": "2026-08-02T11:10:33.312217+03:00"
+    }
+  }
+}

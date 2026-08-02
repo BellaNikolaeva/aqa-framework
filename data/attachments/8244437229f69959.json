@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "Непривычный ручей висеть",
+      "author": "Козлов Исай Елизарович",
+      "genre": "classic",
+      "year_published": 2015,
+      "cover_url": "https://dummyimage.com/316x550"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 138.5,
+    "body": {
+      "id": 1264,
+      "title": "Непривычный ручей висеть",
+      "author": "Козлов Исай Елизарович",
+      "genre": "classic",
+      "year_published": 2015,
+      "cover_url": "https://dummyimage.com/316x550",
+      "tags": [],
+      "created_at": "2026-08-02T11:09:52.815078+03:00"
+    }
+  }
+}

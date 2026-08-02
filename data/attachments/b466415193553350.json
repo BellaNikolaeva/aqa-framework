@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "Светило точно",
+      "author": "Ярослав Иосипович Колобов",
+      "genre": "fantasy",
+      "year_published": 1969,
+      "cover_url": "https://placekitten.com/716/363"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 127.9,
+    "body": {
+      "id": 1263,
+      "title": "Светило точно",
+      "author": "Ярослав Иосипович Колобов",
+      "genre": "fantasy",
+      "year_published": 1969,
+      "cover_url": "https://placekitten.com/716/363",
+      "tags": [],
+      "created_at": "2026-08-02T11:09:48.702043+03:00"
+    }
+  }
+}

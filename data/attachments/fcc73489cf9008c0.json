@@ -1,0 +1,17 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/tags/",
+    "payload": {
+      "name": "банк-57753b2c-aca7-4a1a-9690-ceb099d8f665"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 135.0,
+    "body": {
+      "id": 106,
+      "name": "банк-57753b2c-aca7-4a1a-9690-ceb099d8f665"
+    }
+  }
+}

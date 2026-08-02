@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "висеть-3d4ca332-9168-4274-a0f2-317e3ee71d46 Понятный школьный кольцо",
+      "author": "Артемий Матвеевич Афанасьев",
+      "genre": "classic",
+      "year_published": 1997,
+      "cover_url": "https://picsum.photos/199/565"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 127.5,
+    "body": {
+      "id": 1267,
+      "title": "висеть-3d4ca332-9168-4274-a0f2-317e3ee71d46 Понятный школьный кольцо",
+      "author": "Артемий Матвеевич Афанасьев",
+      "genre": "classic",
+      "year_published": 1997,
+      "cover_url": "https://picsum.photos/199/565",
+      "tags": [],
+      "created_at": "2026-08-02T11:10:11.616284+03:00"
+    }
+  }
+}

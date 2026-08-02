@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "валюта-729e36c3-be1c-4d52-80f7-aac78e749c74 Девка болото",
+      "author": "Пелагея Станиславовна Орехова",
+      "genre": "detective",
+      "year_published": 2008,
+      "cover_url": "https://placekitten.com/376/994"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 114.8,
+    "body": {
+      "id": 1307,
+      "title": "валюта-729e36c3-be1c-4d52-80f7-aac78e749c74 Девка болото",
+      "author": "Пелагея Станиславовна Орехова",
+      "genre": "detective",
+      "year_published": 2008,
+      "cover_url": "https://placekitten.com/376/994",
+      "tags": [],
+      "created_at": "2026-08-02T11:10:23.197337+03:00"
+    }
+  }
+}
