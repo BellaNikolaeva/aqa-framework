@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "функция-8b5a94a1-64cb-4007-83dd-8d3972a79d45 Господь теория",
+      "author": "Шубин Парамон Ануфриевич",
+      "genre": "detective",
+      "year_published": 1971,
+      "cover_url": "https://placekitten.com/758/871"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 290.1,
+    "body": {
+      "id": 1447,
+      "title": "функция-8b5a94a1-64cb-4007-83dd-8d3972a79d45 Господь теория",
+      "author": "Шубин Парамон Ануфриевич",
+      "genre": "detective",
+      "year_published": 1971,
+      "cover_url": "https://placekitten.com/758/871",
+      "tags": [],
+      "created_at": "2026-08-03T12:28:45.901300+03:00"
+    }
+  }
+}

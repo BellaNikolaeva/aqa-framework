@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "зачем-df970555-ed96-4e9b-ba88-5ccc63000dfa Рис жестокий ремень художественный",
+      "author": "Комиссаров Устин Борисович",
+      "genre": "sci_fi",
+      "year_published": 2019,
+      "cover_url": "https://dummyimage.com/689x77"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 201.4,
+    "body": {
+      "id": 1425,
+      "title": "зачем-df970555-ed96-4e9b-ba88-5ccc63000dfa Рис жестокий ремень художественный",
+      "author": "Комиссаров Устин Борисович",
+      "genre": "sci_fi",
+      "year_published": 2019,
+      "cover_url": "https://dummyimage.com/689x77",
+      "tags": [],
+      "created_at": "2026-08-03T12:28:30.835041+03:00"
+    }
+  }
+}

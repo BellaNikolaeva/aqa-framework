@@ -1,0 +1,17 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/tags/",
+    "payload": {
+      "name": "вообще-4b42b7ff-7672-419c-a611-e9cfbf65f557"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 298.8,
+    "body": {
+      "id": 120,
+      "name": "вообще-4b42b7ff-7672-419c-a611-e9cfbf65f557"
+    }
+  }
+}

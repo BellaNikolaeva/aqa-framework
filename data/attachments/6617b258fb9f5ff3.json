@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "зачем-df970555-ed96-4e9b-ba88-5ccc63000dfa Механический угроза секунда порог",
+      "author": "Субботина Алла Ниловна",
+      "genre": "non_fiction",
+      "year_published": 2011,
+      "cover_url": "https://picsum.photos/254/601"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 294.2,
+    "body": {
+      "id": 1429,
+      "title": "зачем-df970555-ed96-4e9b-ba88-5ccc63000dfa Механический угроза секунда порог",
+      "author": "Субботина Алла Ниловна",
+      "genre": "non_fiction",
+      "year_published": 2011,
+      "cover_url": "https://picsum.photos/254/601",
+      "tags": [],
+      "created_at": "2026-08-03T12:28:31.665060+03:00"
+    }
+  }
+}

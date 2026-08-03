@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "Провинция ночь близко",
+      "author": "Леонтий Иларионович Пестов",
+      "genre": "sci_fi",
+      "year_published": 1981,
+      "cover_url": "https://placekitten.com/664/372"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 285.9,
+    "body": {
+      "id": 1391,
+      "title": "Провинция ночь близко",
+      "author": "Леонтий Иларионович Пестов",
+      "genre": "sci_fi",
+      "year_published": 1981,
+      "cover_url": "https://placekitten.com/664/372",
+      "tags": [],
+      "created_at": "2026-08-03T12:27:36.598627+03:00"
+    }
+  }
+}

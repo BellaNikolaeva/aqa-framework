@@ -1,0 +1,16 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/tags/",
+    "payload": {
+      "name": "пропаганда-a966c713-fbe9-4612-90f1-f84970866666"
+    }
+  },
+  "response": {
+    "status_code": 401,
+    "elapsed_ms": 280.8,
+    "body": {
+      "detail": "Учетные данные не были предоставлены."
+    }
+  }
+}

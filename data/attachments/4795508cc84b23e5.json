@@ -1,0 +1,218 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": null
+  },
+  "response": {
+    "status_code": 200,
+    "elapsed_ms": 230.2,
+    "body": {
+      "count": 25,
+      "next": "https://book-tracker-api-frnm.onrender.com/api/books/?page=2&search=%D1%83%D1%81%D1%82%D1%80%D0%BE%D0%B9%D1%81%D1%82%D0%B2%D0%BE-3f13a941-e906-4649-8d36-089b816d3c65",
+      "previous": null,
+      "results": [
+        {
+          "id": 1418,
+          "title": "устройство-3f13a941-e906-4649-8d36-089b816d3c65 Бетонный",
+          "author": "Демид Васильевич Бирюков",
+          "genre": "fantasy",
+          "year_published": 2017,
+          "cover_url": "https://placekitten.com/104/845",
+          "tags": [],
+          "created_at": "2026-08-03T12:28:18.732497+03:00"
+        },
+        {
+          "id": 1400,
+          "title": "устройство-3f13a941-e906-4649-8d36-089b816d3c65 Валюта мотоцикл",
+          "author": "Антонина Мироновна Агафонова",
+          "genre": "non_fiction",
+          "year_published": 1995,
+          "cover_url": "https://picsum.photos/14/917",
+          "tags": [],
+          "created_at": "2026-08-03T12:28:14.838073+03:00"
+        },
+        {
+          "id": 1412,
+          "title": "устройство-3f13a941-e906-4649-8d36-089b816d3c65 Вообще ремень",
+          "author": "Эмилия Яковлевна Николаева",
+          "genre": "fantasy",
+          "year_published": 1998,
+          "cover_url": "https://picsum.photos/114/235",
+          "tags": [],
+          "created_at": "2026-08-03T12:28:17.421856+03:00"
+        },
+        {
+          "id": 1405,
+          "title": "устройство-3f13a941-e906-4649-8d36-089b816d3c65 Деньги сомнительный угроза",
+          "author": "Василиса Александровна Юдина",
+          "genre": "detective",
+          "year_published": 1978,
+          "cover_url": "https://picsum.photos/543/938",
+          "tags": [],
+          "created_at": "2026-08-03T12:28:15.903807+03:00"
+        },
+        {
+          "id": 1414,
+          "title": "устройство-3f13a941-e906-4649-8d36-089b816d3c65 Иной тюрьма написать",
+          "author": "Галина Кузьминична Шубина",
+          "genre": "sci_fi",
+          "year_published": 2022,
+          "cover_url": "https://dummyimage.com/229x153",
+          "tags": [],
+          "created_at": "2026-08-03T12:28:17.851462+03:00"
+        },
+        {
+          "id": 1404,
+          "title": "устройство-3f13a941-e906-4649-8d36-089b816d3c65 Космос социалистический",
+          "author": "Горбачев Демид Антипович",
+          "genre": "classic",
+          "year_published": 1963,
+          "cover_url": "https://picsum.photos/415/738",
+          "tags": [],
+          "created_at": "2026-08-03T12:28:15.697366+03:00"
+        },
+        {
+          "id": 1416,
+          "title": "устройство-3f13a941-e906-4649-8d36-089b816d3c65 Наткнуться проход",
+          "author": "Рыбакова Агафья Аскольдовна",
+          "genre": "sci_fi",
+          "year_published": 1986,
+          "cover_url": "https://picsum.photos/460/451",
+          "tags": [],
+          "created_at": "2026-08-03T12:28:18.266054+03:00"
+        },
+        {
+          "id": 1413,
+          "title": "устройство-3f13a941-e906-4649-8d36-089b816d3c65 Основание славный лапа",
+          "author": "Бронислав Августович Ларионов",
+          "genre": "fantasy",
+          "year_published": 2001,
+          "cover_url": "https://dummyimage.com/318x571",
+          "tags": [],
+          "created_at": "2026-08-03T12:28:17.631917+03:00"
+        },
+        {
+          "id": 1398,
+          "title": "устройство-3f13a941-e906-4649-8d36-089b816d3c65 Падать умирать кидать рай",
+          "author": "Соболев Любим Глебович",
+          "genre": "classic",
+          "year_published": 1971,
+          "cover_url": "https://dummyimage.com/622x31",
+          "tags": [],
+          "created_at": "2026-08-03T12:28:14.418808+03:00"
+        },
+        {
+          "id": 1420,
+          "title": "устройство-3f13a941-e906-4649-8d36-089b816d3c65 Палка демократия",
+          "author": "Вячеслав Ефстафьевич Поляков",
+          "genre": "sci_fi",
+          "year_published": 1968,
+          "cover_url": "https://dummyimage.com/835x93",
+          "tags": [],
+          "created_at": "2026-08-03T12:28:19.154259+03:00"
+        },
+        {
+          "id": 1399,
+          "title": "устройство-3f13a941-e906-4649-8d36-089b816d3c65 Пища правление горький",
+          "author": "Шарапов Самуил Эдгардович",
+          "genre": "fantasy",
+          "year_published": 2025,
+          "cover_url": "https://dummyimage.com/270x827",
+          "tags": [],
+          "created_at": "2026-08-03T12:28:14.627816+03:00"
+        },
+        {
+          "id": 1403,
+          "title": "устройство-3f13a941-e906-4649-8d36-089b816d3c65 Плавно труп ответить выбирать",
+          "author": "Анжела Михайловна Воронцова",
+          "genre": "sci_fi",
+          "year_published": 1968,
+          "cover_url": "https://dummyimage.com/445x543",
+          "tags": [],
+          "created_at": "2026-08-03T12:28:15.492824+03:00"
+        },
+        {
+          "id": 1410,
+          "title": "устройство-3f13a941-e906-4649-8d36-089b816d3c65 Покинуть присесть",
+          "author": "Климент Исидорович Муравьев",
+          "genre": "non_fiction",
+          "year_published": 1965,
+          "cover_url": "https://dummyimage.com/667x473",
+          "tags": [],
+          "created_at": "2026-08-03T12:28:16.969045+03:00"
+        },
+        {
+          "id": 1409,
+          "title": "устройство-3f13a941-e906-4649-8d36-089b816d3c65 Посвятить адвокат совещание",
+          "author": "Вячеслав Анатольевич Марков",
+          "genre": "classic",
+          "year_published": 2020,
+          "cover_url": "https://placekitten.com/989/958",
+          "tags": [],
+          "created_at": "2026-08-03T12:28:16.757167+03:00"
+        },
+        {
+          "id": 1406,
+          "title": "устройство-3f13a941-e906-4649-8d36-089b816d3c65 Призыв спорт рай",
+          "author": "Любовь Аскольдовна Филатова",
+          "genre": "non_fiction",
+          "year_published": 2010,
+          "cover_url": "https://placekitten.com/212/598",
+          "tags": [],
+          "created_at": "2026-08-03T12:28:16.120475+03:00"
+        },
+        {
+          "id": 1397,
+          "title": "устройство-3f13a941-e906-4649-8d36-089b816d3c65 Присесть",
+          "author": "Мстислав Ярославович Лыткин",
+          "genre": "fantasy",
+          "year_published": 2000,
+          "cover_url": "https://placekitten.com/234/982",
+          "tags": [],
+          "created_at": "2026-08-03T12:28:14.197265+03:00"
+        },
+        {
+          "id": 1417,
+          "title": "устройство-3f13a941-e906-4649-8d36-089b816d3c65 Рота плод выражение",
+          "author": "Пахомова Елена Никифоровна",
+          "genre": "sci_fi",
+          "year_published": 2010,
+          "cover_url": "https://placekitten.com/459/448",
+          "tags": [],
+          "created_at": "2026-08-03T12:28:18.525946+03:00"
+        },
+        {
+          "id": 1411,
+          "title": "устройство-3f13a941-e906-4649-8d36-089b816d3c65 Степь аж перебивать",
+          "author": "Ершова Наталья Рудольфовна",
+          "genre": "sci_fi",
+          "year_published": 1987,
+          "cover_url": "https://picsum.photos/646/669",
+          "tags": [],
+          "created_at": "2026-08-03T12:28:17.208553+03:00"
+        },
+        {
+          "id": 1415,
+          "title": "устройство-3f13a941-e906-4649-8d36-089b816d3c65 Сходить лететь",
+          "author": "Ким Трифонович Фомин",
+          "genre": "fantasy",
+          "year_published": 1982,
+          "cover_url": "https://placekitten.com/636/583",
+          "tags": [],
+          "created_at": "2026-08-03T12:28:18.055873+03:00"
+        },
+        {
+          "id": 1401,
+          "title": "устройство-3f13a941-e906-4649-8d36-089b816d3c65 Товар спичка мальчишка",
+          "author": "Лидия Валентиновна Никифорова",
+          "genre": "detective",
+          "year_published": 1993,
+          "cover_url": "https://dummyimage.com/168x991",
+          "tags": [],
+          "created_at": "2026-08-03T12:28:15.048534+03:00"
+        }
+      ]
+    }
+  }
+}

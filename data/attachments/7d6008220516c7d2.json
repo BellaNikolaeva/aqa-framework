@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "Военный миф",
+      "author": "Юлия Петровна Овчинникова",
+      "genre": "detective",
+      "year_published": 2003,
+      "cover_url": "https://placekitten.com/56/659"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 274.9,
+    "body": {
+      "id": 1377,
+      "title": "Военный миф",
+      "author": "Юлия Петровна Овчинникова",
+      "genre": "detective",
+      "year_published": 2003,
+      "cover_url": "https://placekitten.com/56/659",
+      "tags": [],
+      "created_at": "2026-08-03T12:26:16.783311+03:00"
+    }
+  }
+}

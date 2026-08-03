@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "функция-8b5a94a1-64cb-4007-83dd-8d3972a79d45 Рассуждение сходить неправда",
+      "author": "Максимов Денис Димитриевич",
+      "genre": "fantasy",
+      "year_published": 2005,
+      "cover_url": "https://picsum.photos/873/151"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 201.2,
+    "body": {
+      "id": 1470,
+      "title": "функция-8b5a94a1-64cb-4007-83dd-8d3972a79d45 Рассуждение сходить неправда",
+      "author": "Максимов Денис Димитриевич",
+      "genre": "fantasy",
+      "year_published": 2005,
+      "cover_url": "https://picsum.photos/873/151",
+      "tags": [],
+      "created_at": "2026-08-03T12:28:50.606889+03:00"
+    }
+  }
+}

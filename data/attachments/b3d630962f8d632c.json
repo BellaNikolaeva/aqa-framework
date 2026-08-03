@@ -1,0 +1,35 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "Пропасть пятеро карман",
+      "author": "Трофимова Ангелина Ефимовна",
+      "genre": "fantasy",
+      "year_published": 1966,
+      "cover_url": "https://picsum.photos/212/881",
+      "tag_ids": [
+        117
+      ]
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 284.5,
+    "body": {
+      "id": 1384,
+      "title": "Пропасть пятеро карман",
+      "author": "Трофимова Ангелина Ефимовна",
+      "genre": "fantasy",
+      "year_published": 1966,
+      "cover_url": "https://picsum.photos/212/881",
+      "tags": [
+        {
+          "id": 117,
+          "name": "пастух-f411acba-6b27-4d3c-b834-30721484d45a"
+        }
+      ],
+      "created_at": "2026-08-03T12:27:02.869842+03:00"
+    }
+  }
+}

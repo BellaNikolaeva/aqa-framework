@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "функция-8b5a94a1-64cb-4007-83dd-8d3972a79d45 Отдел конструкция вперед",
+      "author": "Королева Валерия Эдуардовна",
+      "genre": "fantasy",
+      "year_published": 1965,
+      "cover_url": "https://placekitten.com/235/359"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 209.0,
+    "body": {
+      "id": 1461,
+      "title": "функция-8b5a94a1-64cb-4007-83dd-8d3972a79d45 Отдел конструкция вперед",
+      "author": "Королева Валерия Эдуардовна",
+      "genre": "fantasy",
+      "year_published": 1965,
+      "cover_url": "https://placekitten.com/235/359",
+      "tags": [],
+      "created_at": "2026-08-03T12:28:48.747957+03:00"
+    }
+  }
+}

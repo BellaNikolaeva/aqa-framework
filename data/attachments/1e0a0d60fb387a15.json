@@ -1,0 +1,21 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "author": "Вера Николаевна Савина",
+      "genre": "classic",
+      "year_published": 1952,
+      "cover_url": "https://dummyimage.com/730x966"
+    }
+  },
+  "response": {
+    "status_code": 400,
+    "elapsed_ms": 285.6,
+    "body": {
+      "title": [
+        "Обязательное поле."
+      ]
+    }
+  }
+}

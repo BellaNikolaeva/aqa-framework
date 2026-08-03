@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "Отъезд триста",
+      "author": "Ситников Пахом Васильевич",
+      "genre": "non_fiction",
+      "year_published": 1984,
+      "cover_url": "https://picsum.photos/843/15"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 275.4,
+    "body": {
+      "id": 1389,
+      "title": "Отъезд триста",
+      "author": "Ситников Пахом Васильевич",
+      "genre": "non_fiction",
+      "year_published": 1984,
+      "cover_url": "https://picsum.photos/843/15",
+      "tags": [],
+      "created_at": "2026-08-03T12:27:27.188682+03:00"
+    }
+  }
+}

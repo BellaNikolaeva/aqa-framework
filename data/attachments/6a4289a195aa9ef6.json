@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "зачем-df970555-ed96-4e9b-ba88-5ccc63000dfa Дремать социалистический разнообразный",
+      "author": "Нинель Игоревна Сидорова",
+      "genre": "classic",
+      "year_published": 1985,
+      "cover_url": "https://placekitten.com/901/865"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 212.0,
+    "body": {
+      "id": 1432,
+      "title": "зачем-df970555-ed96-4e9b-ba88-5ccc63000dfa Дремать социалистический разнообразный",
+      "author": "Нинель Игоревна Сидорова",
+      "genre": "classic",
+      "year_published": 1985,
+      "cover_url": "https://placekitten.com/901/865",
+      "tags": [],
+      "created_at": "2026-08-03T12:28:32.564729+03:00"
+    }
+  }
+}

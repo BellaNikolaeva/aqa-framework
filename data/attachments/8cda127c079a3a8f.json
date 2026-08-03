@@ -1,0 +1,17 @@
+{
+  "request": {
+    "method": "PUT",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/tags/119/",
+    "payload": {
+      "name": "плод-f8f52a72-a42c-4106-a56f-ab2aedb79869"
+    }
+  },
+  "response": {
+    "status_code": 200,
+    "elapsed_ms": 198.3,
+    "body": {
+      "id": 119,
+      "name": "плод-f8f52a72-a42c-4106-a56f-ab2aedb79869"
+    }
+  }
+}

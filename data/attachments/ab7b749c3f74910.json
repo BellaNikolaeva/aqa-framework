@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "Виднеться дрогнуть",
+      "author": "Евгения Егоровна Муравьева",
+      "genre": "non_fiction",
+      "year_published": 2013,
+      "cover_url": "https://placekitten.com/603/962"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 304.8,
+    "body": {
+      "id": 1387,
+      "title": "Виднеться дрогнуть",
+      "author": "Евгения Егоровна Муравьева",
+      "genre": "non_fiction",
+      "year_published": 2013,
+      "cover_url": "https://placekitten.com/603/962",
+      "tags": [],
+      "created_at": "2026-08-03T12:27:16.909488+03:00"
+    }
+  }
+}

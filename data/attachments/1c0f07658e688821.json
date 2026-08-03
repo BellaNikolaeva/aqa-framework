@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "устройство-3f13a941-e906-4649-8d36-089b816d3c65 Степь аж перебивать",
+      "author": "Ершова Наталья Рудольфовна",
+      "genre": "sci_fi",
+      "year_published": 1987,
+      "cover_url": "https://picsum.photos/646/669"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 219.5,
+    "body": {
+      "id": 1411,
+      "title": "устройство-3f13a941-e906-4649-8d36-089b816d3c65 Степь аж перебивать",
+      "author": "Ершова Наталья Рудольфовна",
+      "genre": "sci_fi",
+      "year_published": 1987,
+      "cover_url": "https://picsum.photos/646/669",
+      "tags": [],
+      "created_at": "2026-08-03T12:28:17.208553+03:00"
+    }
+  }
+}

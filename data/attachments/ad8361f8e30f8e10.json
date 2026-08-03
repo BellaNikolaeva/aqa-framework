@@ -1,0 +1,33 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/my-books/",
+    "payload": {
+      "book_id": 1392,
+      "status": "reading"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 369.8,
+    "body": {
+      "id": 206,
+      "book": {
+        "id": 1392,
+        "title": "Спичка",
+        "author": "Стрелков Будимир Архипович",
+        "genre": "classic",
+        "year_published": 1970,
+        "cover_url": "https://picsum.photos/92/413",
+        "tags": [],
+        "created_at": "2026-08-03T12:27:41.693302+03:00"
+      },
+      "status": "reading",
+      "rating": null,
+      "notes": "",
+      "started_at": null,
+      "finished_at": null,
+      "updated_at": "2026-08-03T12:27:42.022939+03:00"
+    }
+  }
+}

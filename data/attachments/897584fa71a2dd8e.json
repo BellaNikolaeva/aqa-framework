@@ -1,0 +1,17 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/tags/",
+    "payload": {
+      "name": "расстегнуть-fb4d4db7-5ab6-45b2-a17c-2ea8737a3ddb"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 274.7,
+    "body": {
+      "id": 119,
+      "name": "расстегнуть-fb4d4db7-5ab6-45b2-a17c-2ea8737a3ddb"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "зачем-df970555-ed96-4e9b-ba88-5ccc63000dfa Падаль недостаток",
+      "author": "Ираида Константиновна Кулакова",
+      "genre": "classic",
+      "year_published": 1972,
+      "cover_url": "https://dummyimage.com/832x629"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 200.4,
+    "body": {
+      "id": 1434,
+      "title": "зачем-df970555-ed96-4e9b-ba88-5ccc63000dfa Падаль недостаток",
+      "author": "Ираида Константиновна Кулакова",
+      "genre": "classic",
+      "year_published": 1972,
+      "cover_url": "https://dummyimage.com/832x629",
+      "tags": [],
+      "created_at": "2026-08-03T12:28:33.073101+03:00"
+    }
+  }
+}

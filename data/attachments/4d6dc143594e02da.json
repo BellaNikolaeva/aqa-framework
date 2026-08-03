@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "зачем-df970555-ed96-4e9b-ba88-5ccc63000dfa Сустав",
+      "author": "Кабанов Юлий Фомич",
+      "genre": "sci_fi",
+      "year_published": 2026,
+      "cover_url": "https://dummyimage.com/854x1016"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 215.1,
+    "body": {
+      "id": 1437,
+      "title": "зачем-df970555-ed96-4e9b-ba88-5ccc63000dfa Сустав",
+      "author": "Кабанов Юлий Фомич",
+      "genre": "sci_fi",
+      "year_published": 2026,
+      "cover_url": "https://dummyimage.com/854x1016",
+      "tags": [],
+      "created_at": "2026-08-03T12:28:33.694951+03:00"
+    }
+  }
+}

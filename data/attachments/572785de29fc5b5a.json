@@ -1,0 +1,218 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": null
+  },
+  "response": {
+    "status_code": 200,
+    "elapsed_ms": 221.4,
+    "body": {
+      "count": 25,
+      "next": "https://book-tracker-api-frnm.onrender.com/api/books/?page=2&search=%D1%84%D1%83%D0%BD%D0%BA%D1%86%D0%B8%D1%8F-8b5a94a1-64cb-4007-83dd-8d3972a79d45",
+      "previous": null,
+      "results": [
+        {
+          "id": 1462,
+          "title": "функция-8b5a94a1-64cb-4007-83dd-8d3972a79d45 Бегать нервно",
+          "author": "Лукьян Георгиевич Федотов",
+          "genre": "classic",
+          "year_published": 2013,
+          "cover_url": "https://picsum.photos/13/466",
+          "tags": [],
+          "created_at": "2026-08-03T12:28:48.958785+03:00"
+        },
+        {
+          "id": 1467,
+          "title": "функция-8b5a94a1-64cb-4007-83dd-8d3972a79d45 Выраженный эпоха вздрогнуть",
+          "author": "Сидор Ярославович Шашков",
+          "genre": "non_fiction",
+          "year_published": 1961,
+          "cover_url": "https://dummyimage.com/418x430",
+          "tags": [],
+          "created_at": "2026-08-03T12:28:49.992637+03:00"
+        },
+        {
+          "id": 1447,
+          "title": "функция-8b5a94a1-64cb-4007-83dd-8d3972a79d45 Господь теория",
+          "author": "Шубин Парамон Ануфриевич",
+          "genre": "detective",
+          "year_published": 1971,
+          "cover_url": "https://placekitten.com/758/871",
+          "tags": [],
+          "created_at": "2026-08-03T12:28:45.901300+03:00"
+        },
+        {
+          "id": 1457,
+          "title": "функция-8b5a94a1-64cb-4007-83dd-8d3972a79d45 Грустный избегать",
+          "author": "Анжела Евгеньевна Комарова",
+          "genre": "non_fiction",
+          "year_published": 1967,
+          "cover_url": "https://placekitten.com/436/592",
+          "tags": [],
+          "created_at": "2026-08-03T12:28:47.924821+03:00"
+        },
+        {
+          "id": 1466,
+          "title": "функция-8b5a94a1-64cb-4007-83dd-8d3972a79d45 Каюта эпоха применяться",
+          "author": "Ермакова Акулина Николаевна",
+          "genre": "fantasy",
+          "year_published": 2000,
+          "cover_url": "https://picsum.photos/524/860",
+          "tags": [],
+          "created_at": "2026-08-03T12:28:49.792036+03:00"
+        },
+        {
+          "id": 1460,
+          "title": "функция-8b5a94a1-64cb-4007-83dd-8d3972a79d45 Конференция инвалид",
+          "author": "Рогов Гедеон Гавриилович",
+          "genre": "classic",
+          "year_published": 2017,
+          "cover_url": "https://picsum.photos/961/592",
+          "tags": [],
+          "created_at": "2026-08-03T12:28:48.539213+03:00"
+        },
+        {
+          "id": 1456,
+          "title": "функция-8b5a94a1-64cb-4007-83dd-8d3972a79d45 Крутой мера",
+          "author": "Велимир Ануфриевич Кулагин",
+          "genre": "fantasy",
+          "year_published": 1964,
+          "cover_url": "https://picsum.photos/321/803",
+          "tags": [],
+          "created_at": "2026-08-03T12:28:47.724101+03:00"
+        },
+        {
+          "id": 1448,
+          "title": "функция-8b5a94a1-64cb-4007-83dd-8d3972a79d45 Крыса написать",
+          "author": "Громова Зоя Васильевна",
+          "genre": "classic",
+          "year_published": 1968,
+          "cover_url": "https://placekitten.com/172/147",
+          "tags": [],
+          "created_at": "2026-08-03T12:28:46.109996+03:00"
+        },
+        {
+          "id": 1469,
+          "title": "функция-8b5a94a1-64cb-4007-83dd-8d3972a79d45 Магазин соответствие багровый",
+          "author": "Софрон Ануфриевич Поляков",
+          "genre": "classic",
+          "year_published": 1958,
+          "cover_url": "https://dummyimage.com/956x622",
+          "tags": [],
+          "created_at": "2026-08-03T12:28:50.401894+03:00"
+        },
+        {
+          "id": 1450,
+          "title": "функция-8b5a94a1-64cb-4007-83dd-8d3972a79d45 Налоговый художественный тусклый",
+          "author": "Калашникова Полина Вячеславовна",
+          "genre": "fantasy",
+          "year_published": 1994,
+          "cover_url": "https://dummyimage.com/139x557",
+          "tags": [],
+          "created_at": "2026-08-03T12:28:46.510446+03:00"
+        },
+        {
+          "id": 1461,
+          "title": "функция-8b5a94a1-64cb-4007-83dd-8d3972a79d45 Отдел конструкция вперед",
+          "author": "Королева Валерия Эдуардовна",
+          "genre": "fantasy",
+          "year_published": 1965,
+          "cover_url": "https://placekitten.com/235/359",
+          "tags": [],
+          "created_at": "2026-08-03T12:28:48.747957+03:00"
+        },
+        {
+          "id": 1459,
+          "title": "функция-8b5a94a1-64cb-4007-83dd-8d3972a79d45 Порода ленинград",
+          "author": "Рожков Якуб Адамович",
+          "genre": "sci_fi",
+          "year_published": 2017,
+          "cover_url": "https://placekitten.com/308/3",
+          "tags": [],
+          "created_at": "2026-08-03T12:28:48.333435+03:00"
+        },
+        {
+          "id": 1449,
+          "title": "функция-8b5a94a1-64cb-4007-83dd-8d3972a79d45 Порода пропасть горький",
+          "author": "Григорий Ильич Трофимов",
+          "genre": "fantasy",
+          "year_published": 1964,
+          "cover_url": "https://placekitten.com/192/437",
+          "tags": [],
+          "created_at": "2026-08-03T12:28:46.310535+03:00"
+        },
+        {
+          "id": 1458,
+          "title": "функция-8b5a94a1-64cb-4007-83dd-8d3972a79d45 Потрясти",
+          "author": "Прохоров Мефодий Иосифович",
+          "genre": "detective",
+          "year_published": 2025,
+          "cover_url": "https://placekitten.com/531/492",
+          "tags": [],
+          "created_at": "2026-08-03T12:28:48.132721+03:00"
+        },
+        {
+          "id": 1471,
+          "title": "функция-8b5a94a1-64cb-4007-83dd-8d3972a79d45 Потянуться услать сравнение",
+          "author": "Мина Эдгардович Моисеев",
+          "genre": "sci_fi",
+          "year_published": 1983,
+          "cover_url": "https://dummyimage.com/175x133",
+          "tags": [],
+          "created_at": "2026-08-03T12:28:50.804402+03:00"
+        },
+        {
+          "id": 1453,
+          "title": "функция-8b5a94a1-64cb-4007-83dd-8d3972a79d45 Прежний освобождение",
+          "author": "Наталья Эдуардовна Капустина",
+          "genre": "fantasy",
+          "year_published": 2007,
+          "cover_url": "https://placekitten.com/902/722",
+          "tags": [],
+          "created_at": "2026-08-03T12:28:47.127959+03:00"
+        },
+        {
+          "id": 1452,
+          "title": "функция-8b5a94a1-64cb-4007-83dd-8d3972a79d45 Прелесть славный",
+          "author": "Виктория Андреевна Корнилова",
+          "genre": "detective",
+          "year_published": 1972,
+          "cover_url": "https://placekitten.com/704/1010",
+          "tags": [],
+          "created_at": "2026-08-03T12:28:46.924160+03:00"
+        },
+        {
+          "id": 1455,
+          "title": "функция-8b5a94a1-64cb-4007-83dd-8d3972a79d45 Провинция",
+          "author": "Елена Романовна Костина",
+          "genre": "classic",
+          "year_published": 2025,
+          "cover_url": "https://picsum.photos/895/670",
+          "tags": [],
+          "created_at": "2026-08-03T12:28:47.526940+03:00"
+        },
+        {
+          "id": 1463,
+          "title": "функция-8b5a94a1-64cb-4007-83dd-8d3972a79d45 Разуметься невыносимый дыхание",
+          "author": "Ладимир Феликсович Большаков",
+          "genre": "fantasy",
+          "year_published": 1972,
+          "cover_url": "https://dummyimage.com/440x576",
+          "tags": [],
+          "created_at": "2026-08-03T12:28:49.164034+03:00"
+        },
+        {
+          "id": 1468,
+          "title": "функция-8b5a94a1-64cb-4007-83dd-8d3972a79d45 Район мелькнуть налево",
+          "author": "Королева Нина Тимуровна",
+          "genre": "classic",
+          "year_published": 2013,
+          "cover_url": "https://picsum.photos/372/2",
+          "tags": [],
+          "created_at": "2026-08-03T12:28:50.196177+03:00"
+        }
+      ]
+    }
+  }
+}

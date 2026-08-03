@@ -1,0 +1,21 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "Песня",
+      "genre": "detective",
+      "year_published": 2003,
+      "cover_url": "https://picsum.photos/521/789"
+    }
+  },
+  "response": {
+    "status_code": 400,
+    "elapsed_ms": 272.4,
+    "body": {
+      "author": [
+        "Обязательное поле."
+      ]
+    }
+  }
+}
