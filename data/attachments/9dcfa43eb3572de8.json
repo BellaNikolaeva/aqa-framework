@@ -1,0 +1,33 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/my-books/",
+    "payload": {
+      "book_id": 1363,
+      "status": "want_to_read"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 1712.0,
+    "body": {
+      "id": 189,
+      "book": {
+        "id": 1363,
+        "title": "Упор соответствие",
+        "author": "Калашников Ефрем Дорофеевич",
+        "genre": "fantasy",
+        "year_published": 1975,
+        "cover_url": "https://placekitten.com/844/633",
+        "tags": [],
+        "created_at": "2026-08-03T11:41:25.553099+03:00"
+      },
+      "status": "want_to_read",
+      "rating": null,
+      "notes": "",
+      "started_at": null,
+      "finished_at": null,
+      "updated_at": "2026-08-03T11:41:27.266016+03:00"
+    }
+  }
+}

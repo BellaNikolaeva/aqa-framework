@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "Слать оборот неправда",
+      "author": "Кира Афанасьевна Богданова",
+      "genre": "fantasy",
+      "year_published": 1994,
+      "cover_url": "https://placekitten.com/306/199"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 310.5,
+    "body": {
+      "id": 1346,
+      "title": "Слать оборот неправда",
+      "author": "Кира Афанасьевна Богданова",
+      "genre": "fantasy",
+      "year_published": 1994,
+      "cover_url": "https://placekitten.com/306/199",
+      "tags": [],
+      "created_at": "2026-08-03T11:40:12.454383+03:00"
+    }
+  }
+}

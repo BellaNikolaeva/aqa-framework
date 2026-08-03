@@ -1,0 +1,21 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/1349/",
+    "payload": null
+  },
+  "response": {
+    "status_code": 200,
+    "elapsed_ms": 1910.4,
+    "body": {
+      "id": 1349,
+      "title": "Смертельный эффект мальчишка страсть",
+      "author": "Соловьев Герасим Архипович",
+      "genre": "classic",
+      "year_published": 2002,
+      "cover_url": "https://picsum.photos/903/759",
+      "tags": [],
+      "created_at": "2026-08-03T11:40:25.744201+03:00"
+    }
+  }
+}

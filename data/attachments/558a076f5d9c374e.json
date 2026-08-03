@@ -1,0 +1,17 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/tags/",
+    "payload": {
+      "name": "передо-e6bfbbe3-d594-4e3d-a6cc-f302437020aa"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 3710.2,
+    "body": {
+      "id": 111,
+      "name": "передо-e6bfbbe3-d594-4e3d-a6cc-f302437020aa"
+    }
+  }
+}

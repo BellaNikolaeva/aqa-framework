@@ -1,0 +1,17 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/tags/",
+    "payload": {
+      "name": "господь-c1dba9ef-335a-4860-9b3f-528561495855"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 4799.1,
+    "body": {
+      "id": 107,
+      "name": "господь-c1dba9ef-335a-4860-9b3f-528561495855"
+    }
+  }
+}
