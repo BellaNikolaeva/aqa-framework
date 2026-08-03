@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "Военный роса",
+      "author": "Колобова Фёкла Тимофеевна",
+      "genre": "fantasy",
+      "year_published": 2016,
+      "cover_url": "https://picsum.photos/1006/179"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 1908.9,
+    "body": {
+      "id": 1362,
+      "title": "Военный роса",
+      "author": "Колобова Фёкла Тимофеевна",
+      "genre": "fantasy",
+      "year_published": 2016,
+      "cover_url": "https://picsum.photos/1006/179",
+      "tags": [],
+      "created_at": "2026-08-03T11:41:20.456646+03:00"
+    }
+  }
+}

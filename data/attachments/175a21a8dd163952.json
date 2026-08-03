@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "Сынок художественный отдел",
+      "author": "Уваров Симон Власович",
+      "genre": "fantasy",
+      "year_published": 1960,
+      "cover_url": "https://placekitten.com/382/146"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 1698.1,
+    "body": {
+      "id": 1369,
+      "title": "Сынок художественный отдел",
+      "author": "Уваров Симон Власович",
+      "genre": "fantasy",
+      "year_published": 1960,
+      "cover_url": "https://placekitten.com/382/146",
+      "tags": [],
+      "created_at": "2026-08-03T11:42:07.056213+03:00"
+    }
+  }
+}
