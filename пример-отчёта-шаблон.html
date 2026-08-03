@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Пример отчёта — QA-аудит</title>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.0/chart.umd.min.js"></script>
+<style>
+  :root{
+    --bg:#f7f6f3;
+    --surface:#ffffff;
+    --border:#e2e0da;
+    --ink:#1c1e1b;
+    --ink-soft:#5c5e58;
+    --navy:#2b3a4a;
+    --critical:#b3271c;
+    --high:#c0631a;
+    --medium:#94781f;
+    --low:#3d6b63;
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0;
+    background:var(--bg);
+    color:var(--ink);
+    font-family:'IBM Plex Sans',sans-serif;
+    -webkit-font-smoothing:antialiased;
+  }
+  .wrap{max-width:760px;margin:0 auto;padding:0 0 90px;}
+
+  .demo-banner{
+    background:#fff8e6;
+    border-bottom:1px solid #ecdca8;
+    color:#7a5f14;
+    font-size:12.5px;
+    text-align:center;
+    padding:10px 20px;
+    font-family:'IBM Plex Mono',monospace;
+  }
+
+  .report-header{
+    background:var(--navy);
+    color:#eef1f3;
+    padding:40px 24px 32px;
+  }
+  .eyebrow{
+    font-family:'IBM Plex Mono',monospace;
+    font-size:11px;
+    letter-spacing:0.12em;
+    text-transform:uppercase;
+    color:#9fb0bd;
+    margin-bottom:14px;
+  }
+  h1{
+    font-size:26px;
+    font-weight:600;
+    line-height:1.3;
+    margin:0 0 10px;
+  }
+  .meta-row{
+    display:flex;
+    flex-wrap:wrap;
+    gap:6px 18px;
+    font-size:12.5px;
+    color:#b7c2ca;
+    font-family:'IBM Plex Mono',monospace;
+  }
+
+  .summary{
+    background:var(--surface);
+    border:1px solid var(--border);
+    border-top:none;
+    padding:24px;
+  }
+  .summary-grid{
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:1px;
+    background:var(--border);
+    border:1px solid var(--border);
+    border-radius:4px;
+    overflow:hidden;
+    margin-bottom:26px;
+  }
+  .summary-cell{
+    background:var(--surface);
+    text-align:center;
+    padding:16px 4px;
+  }
+  .summary-cell .num{
+    font-family:'IBM Plex Mono',monospace;
+    font-size:24px;
+    font-weight:600;
+    display:block;
+  }
+  .summary-cell .lbl{
+    font-size:10px;
+    text-transform:uppercase;
+    letter-spacing:0.06em;
+    color:var(--ink-soft);
+    margin-top:3px;
+    display:block;
+  }
+  .n-critical{color:var(--critical);}
+  .n-high{color:var(--high);}
+  .n-medium{color:var(--medium);}
+  .n-low{color:var(--low);}
+
+  .chart-row{
+    display:flex;
+    align-items:center;
+    gap:28px;
+  }
+  .chart-holder{width:130px;height:130px;flex-shrink:0;position:relative;}
+  .legend{flex:1;display:flex;flex-direction:column;gap:8px;}
+  .legend-item{
+    display:flex;
+    align-items:center;
+    gap:8px;
+    font-size:12.5px;
+  }
+  .dot{width:9px;height:9px;border-radius:2px;flex-shrink:0;}
+  .legend-item span.count{
+    margin-left:auto;
+    font-family:'IBM Plex Mono',monospace;
+    color:var(--ink-soft);
+  }
+
+  .findings{
+    background:var(--surface);
+    border:1px solid var(--border);
+    border-top:none;
+  }
+  .findings-title{
+    padding:20px 24px 4px;
+    font-size:15px;
+    font-weight:600;
+  }
+  .findings-sub{
+    padding:0 24px 18px;
+    font-size:12px;
+    color:var(--ink-soft);
+  }
+
+  .finding{
+    border-top:1px solid var(--border);
+  }
+  .finding-head{
+    display:flex;
+    align-items:flex-start;
+    gap:12px;
+    padding:16px 24px;
+    cursor:pointer;
+    user-select:none;
+  }
+  .sev-chip{
+    font-family:'IBM Plex Mono',monospace;
+    font-size:10px;
+    font-weight:600;
+    letter-spacing:0.04em;
+    text-transform:uppercase;
+    padding:3px 8px;
+    border-radius:3px;
+    flex-shrink:0;
+    margin-top:2px;
+    color:#fff;
+  }
+  .sev-critical{background:var(--critical);}
+  .sev-high{background:var(--high);}
+  .sev-medium{background:var(--medium);}
+  .sev-low{background:var(--low);}
+
+  .finding-id{
+    font-family:'IBM Plex Mono',monospace;
+    font-size:11px;
+    color:var(--ink-soft);
+    margin-top:3px;
+    flex-shrink:0;
+    width:32px;
+  }
+  .finding-title{
+    font-size:14px;
+    font-weight:500;
+    line-height:1.4;
+    flex:1;
+  }
+  .chevron{
+    font-size:11px;
+    color:var(--ink-soft);
+    transition:transform 0.2s ease;
+    flex-shrink:0;
+    margin-top:4px;
+  }
+  .finding.open .chevron{transform:rotate(90deg);}
+
+  .finding-body{
+    max-height:0;
+    overflow:hidden;
+    transition:max-height 0.25s ease;
+  }
+  .finding-body-inner{
+    padding:0 24px 20px 68px;
+    font-size:13px;
+    line-height:1.65;
+    color:#33352f;
+  }
+  .field{margin-bottom:10px;}
+  .field:last-child{margin-bottom:0;}
+  .field-label{
+    font-family:'IBM Plex Mono',monospace;
+    font-size:10px;
+    text-transform:uppercase;
+    letter-spacing:0.06em;
+    color:var(--ink-soft);
+    display:block;
+    margin-bottom:3px;
+  }
+  ol{margin:0;padding-left:18px;}
+
+  .services{
+    background:var(--surface);
+    border:1px solid var(--border);
+    border-top:none;
+    padding:22px 24px 24px;
+  }
+  .services-title{
+    font-size:13px;
+    font-weight:600;
+    text-transform:uppercase;
+    letter-spacing:0.04em;
+    color:var(--ink-soft);
+    margin-bottom:10px;
+  }
+  .services-text{
+    font-size:13.5px;
+    line-height:1.6;
+    margin:0 0 8px;
+  }
+  .services-text strong{color:var(--navy);}
+  .services-note{
+    font-size:12px;
+    line-height:1.6;
+    color:var(--ink-soft);
+    margin:0;
+  }
+
+  footer{
+    text-align:center;
+    padding:28px 20px 0;
+    font-size:11px;
+    color:var(--ink-soft);
+    font-family:'IBM Plex Mono',monospace;
+  }
+
+  @media (max-width:480px){
+    .summary-grid{grid-template-columns:repeat(2,1fr);}
+    .summary-grid .summary-cell:nth-child(1),
+    .summary-grid .summary-cell:nth-child(2){border-bottom:1px solid var(--border);}
+    .finding-body-inner{padding-left:24px;}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <div class="demo-banner">Демонстрационный пример отчёта — данные вымышленные</div>
+
+  <div class="report-header">
+    <div class="eyebrow">QA Audit Report · пример формата</div>
+    <h1>Аудит сайта/приложения — [Название проекта]</h1>
+    <div class="meta-row">
+      <span>Объект: [ссылка на проект]</span>
+      <span>Окружение: iOS / Web</span>
+      <span>Багов: 8</span>
+    </div>
+  </div>
+
+  <div class="summary">
+    <div class="summary-grid">
+      <div class="summary-cell"><span class="num n-critical">1</span><span class="lbl">Critical</span></div>
+      <div class="summary-cell"><span class="num n-high">2</span><span class="lbl">High</span></div>
+      <div class="summary-cell"><span class="num n-medium">2</span><span class="lbl">Medium</span></div>
+      <div class="summary-cell"><span class="num n-low">3</span><span class="lbl">Low</span></div>
+    </div>
+
+    <div class="chart-row">
+      <div class="chart-holder"><canvas id="sevChart"></canvas></div>
+      <div class="legend">
+        <div class="legend-item"><span class="dot" style="background:var(--critical)"></span>Critical — блокирует базовый сценарий<span class="count">1</span></div>
+        <div class="legend-item"><span class="dot" style="background:var(--high)"></span>High — существенно портит UX<span class="count">2</span></div>
+        <div class="legend-item"><span class="dot" style="background:var(--medium)"></span>Medium — заметно, но не критично<span class="count">2</span></div>
+        <div class="legend-item"><span class="dot" style="background:var(--low)"></span>Low — визуальные шлифовки<span class="count">3</span></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="findings">
+    <div class="findings-title">Баги</div>
+    <div class="findings-sub">Нажми на строку, чтобы раскрыть подробности</div>
+    <div id="files"></div>
+  </div>
+
+  <div class="services">
+    <div class="services-title">Дальнейшее сотрудничество</div>
+    <p class="services-text">
+      Первый аудит — бесплатный, в рамках знакомства с проектом. Повторный аудит или проверка нового раздела — <strong>500 ₽</strong>.
+    </p>
+    <p class="services-note">
+      Взамен первого аудита буду благодарна за отзыв или разрешение указать проект как кейс.
+    </p>
+  </div>
+
+  <footer>Пример формата отчёта · QA-аудит</footer>
+</div>
+
+<script>
+const bugs = [
+  {
+    id:'01', sev:'critical', title:'Оплата не проходит при использовании определённого способа оплаты',
+    steps:['Добавить товар в корзину','Перейти к оформлению заказа','Выбрать способ оплаты «Х»','Подтвердить заказ'],
+    expected:'Оплата проходит успешно, заказ оформляется.',
+    actual:'Запрос завершается ошибкой сервера, заказ не создаётся, пользователь не получает объяснения.',
+    impact:'Прямая потеря продаж — пользователь не может завершить покупку выбранным способом оплаты.',
+    fix:'Проверить обработку этого способа оплаты на бэкенде и логировать ошибку для диагностики.'
+  },
+  {
+    id:'02', sev:'high', title:'Форма регистрации не валидирует формат email',
+    steps:['Открыть форму регистрации','Ввести в поле email текст без символа «@»','Отправить форму'],
+    expected:'Форма показывает ошибку валидации и не даёт отправить некорректный email.',
+    actual:'Форма принимает некорректный email и создаёт аккаунт.',
+    impact:'В базе накапливаются нерабочие email-адреса, письма подтверждения не доходят до части пользователей.'
+  },
+  {
+    id:'03', sev:'high', title:'Не отображается индикатор загрузки при отправке формы',
+    steps:['Заполнить любую форму на сайте','Нажать кнопку отправки','Дождаться ответа сервера (1-3 секунды)'],
+    expected:'Пользователь видит индикатор загрузки/заблокированную кнопку на время ответа.',
+    actual:'Кнопка остаётся активной, никакой индикации не появляется — пользователь может нажать повторно.',
+    impact:'Риск повторной отправки формы (дублирующиеся заказы/заявки) и ощущение «зависшего» сайта.'
+  },
+  {
+    id:'04', sev:'medium', title:'Всплывающее окно перекрывает кнопку закрытия на мобильном экране',
+    steps:['Открыть сайт на мобильном устройстве','Дождаться появления модального окна (например, промо-баннера)'],
+    expected:'Кнопка закрытия окна доступна и видна полностью.',
+    actual:'Кнопка закрытия частично обрезана верхней границей экрана на некоторых моделях телефонов.',
+    impact:'Пользователь может не найти способ закрыть окно и уйти с сайта.'
+  },
+  {
+    id:'05', sev:'medium', title:'Изображения товаров не оптимизированы для мобильной версии',
+    steps:['Открыть каталог товаров на мобильном устройстве с медленным интернетом'],
+    expected:'Изображения загружаются быстро, адаптированы под размер экрана.',
+    actual:'Загружаются полноразмерные изображения, время загрузки страницы заметно увеличено.',
+    impact:'Часть пользователей на медленном интернете не дожидается загрузки и покидает страницу.',
+    fix:'Использовать адаптивные размеры изображений (srcset) и сжатие.'
+  },
+  {
+    id:'06', sev:'low', title:'Кнопки в футере не выровнены между собой',
+    actual:'Кнопки соцсетей и ссылки в футере расположены с разным вертикальным отступом.'
+  },
+  {
+    id:'07', sev:'low', title:'Не хватает placeholder-текста в поле поиска',
+    actual:'Поле поиска пустое без подсказки, неочевидно, что и как можно искать.'
+  },
+  {
+    id:'08', sev:'low', title:'Ссылка в шапке сайта ведёт на несуществующую страницу (404)',
+    steps:['Открыть любую страницу сайта','Нажать на ссылку «О компании» в шапке'],
+    actual:'Открывается страница 404 вместо страницы «О компании».'
+  },
+];
+
+const sevLabel = {critical:'Critical', high:'High', medium:'Medium', low:'Low'};
+const sevOrder = {critical:0, high:1, medium:2, low:3};
+bugs.sort((a,b)=> sevOrder[a.sev]-sevOrder[b.sev]);
+
+const filesEl = document.getElementById('files');
+bugs.forEach(bug=>{
+  const el = document.createElement('div');
+  el.className='finding';
+
+  const parts = [];
+  if(bug.steps){
+    parts.push(`<div class="field"><span class="field-label">Шаги воспроизведения</span><ol>${bug.steps.map(s=>`<li>${s}</li>`).join('')}</ol></div>`);
+  }
+  if(bug.expected){
+    parts.push(`<div class="field"><span class="field-label">Ожидаемый результат</span>${bug.expected}</div>`);
+  }
+  if(bug.actual){
+    parts.push(`<div class="field"><span class="field-label">Фактический результат</span>${bug.actual}</div>`);
+  }
+  if(bug.impact){
+    parts.push(`<div class="field"><span class="field-label">Влияние</span>${bug.impact}</div>`);
+  }
+  if(bug.fix){
+    parts.push(`<div class="field"><span class="field-label">Рекомендация</span>${bug.fix}</div>`);
+  }
+
+  el.innerHTML = `
+    <div class="finding-head" onclick="this.parentElement.classList.toggle('open')">
+      <span class="sev-chip sev-${bug.sev}">${sevLabel[bug.sev]}</span>
+      <span class="finding-id">#${bug.id}</span>
+      <span class="finding-title">${bug.title}</span>
+      <span class="chevron">&#9656;</span>
+    </div>
+    <div class="finding-body"><div class="finding-body-inner">${parts.join('')}</div></div>
+  `;
+  filesEl.appendChild(el);
+
+  const head = el.querySelector('.finding-head');
+  const body = el.querySelector('.finding-body');
+  head.addEventListener('click', ()=>{
+    if(el.classList.contains('open')){
+      body.style.maxHeight = body.scrollHeight + 'px';
+    } else {
+      body.style.maxHeight = 0;
+    }
+  });
+});
+
+const ctx = document.getElementById('sevChart');
+new Chart(ctx, {
+  type:'doughnut',
+  data:{
+    labels:['Critical','High','Medium','Low'],
+    datasets:[{
+      data:[1,2,2,3],
+      backgroundColor:['#b3271c','#c0631a','#94781f','#3d6b63'],
+      borderColor:'#ffffff',
+      borderWidth:2,
+    }]
+  },
+  options:{
+    responsive:true,
+    maintainAspectRatio:false,
+    cutout:'68%',
+    plugins:{ legend:{display:false} }
+  }
+});
+</script>
+</body>
+</html>
