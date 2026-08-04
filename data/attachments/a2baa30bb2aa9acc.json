@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "пробовать-45b765e6-8154-4c07-bce4-da64258a2538 Ход порог",
+      "author": "Михеев Эмиль Тихонович",
+      "genre": "non_fiction",
+      "year_published": 2015,
+      "cover_url": "https://picsum.photos/800/650"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 214.0,
+    "body": {
+      "id": 1547,
+      "title": "пробовать-45b765e6-8154-4c07-bce4-da64258a2538 Ход порог",
+      "author": "Михеев Эмиль Тихонович",
+      "genre": "non_fiction",
+      "year_published": 2015,
+      "cover_url": "https://picsum.photos/800/650",
+      "tags": [],
+      "created_at": "2026-08-04T11:27:06.504059+03:00"
+    }
+  }
+}

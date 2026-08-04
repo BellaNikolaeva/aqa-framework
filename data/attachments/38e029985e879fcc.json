@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "запретить-8a2e5166-d93c-4acb-a092-7277f5ffe605 Житель крыса деньги",
+      "author": "Карл Владиленович Петухов",
+      "genre": "non_fiction",
+      "year_published": 2007,
+      "cover_url": "https://picsum.photos/697/780"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 286.7,
+    "body": {
+      "id": 1549,
+      "title": "запретить-8a2e5166-d93c-4acb-a092-7277f5ffe605 Житель крыса деньги",
+      "author": "Карл Владиленович Петухов",
+      "genre": "non_fiction",
+      "year_published": 2007,
+      "cover_url": "https://picsum.photos/697/780",
+      "tags": [],
+      "created_at": "2026-08-04T11:27:16.488322+03:00"
+    }
+  }
+}

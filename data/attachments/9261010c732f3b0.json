@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "выгнать-7acdac8b-68e3-408c-a1e8-e364ad71ba3c Применяться покидать даль",
+      "author": "Изяслав Марсович Емельянов",
+      "genre": "classic",
+      "year_published": 2023,
+      "cover_url": "https://placekitten.com/17/494"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 196.2,
+    "body": {
+      "id": 1516,
+      "title": "выгнать-7acdac8b-68e3-408c-a1e8-e364ad71ba3c Применяться покидать даль",
+      "author": "Изяслав Марсович Емельянов",
+      "genre": "classic",
+      "year_published": 2023,
+      "cover_url": "https://placekitten.com/17/494",
+      "tags": [],
+      "created_at": "2026-08-04T11:26:50.172009+03:00"
+    }
+  }
+}

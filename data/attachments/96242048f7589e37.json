@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "запретить-8a2e5166-d93c-4acb-a092-7277f5ffe605 Ночь обида",
+      "author": "Самойлова Анна Максимовна",
+      "genre": "non_fiction",
+      "year_published": 1976,
+      "cover_url": "https://dummyimage.com/319x178"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 210.7,
+    "body": {
+      "id": 1559,
+      "title": "запретить-8a2e5166-d93c-4acb-a092-7277f5ffe605 Ночь обида",
+      "author": "Самойлова Анна Максимовна",
+      "genre": "non_fiction",
+      "year_published": 1976,
+      "cover_url": "https://dummyimage.com/319x178",
+      "tags": [],
+      "created_at": "2026-08-04T11:27:18.934323+03:00"
+    }
+  }
+}

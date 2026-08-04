@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "Посвятить выражение снимать",
+      "author": "Шубина Алина Вячеславовна",
+      "genre": "sci_fi",
+      "year_published": 2013,
+      "cover_url": "https://picsum.photos/285/741"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 296.8,
+    "body": {
+      "id": 1575,
+      "title": "Посвятить выражение снимать",
+      "author": "Шубина Алина Вячеславовна",
+      "genre": "sci_fi",
+      "year_published": 2013,
+      "cover_url": "https://picsum.photos/285/741",
+      "tags": [],
+      "created_at": "2026-08-04T11:27:44.387880+03:00"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "пробовать-45b765e6-8154-4c07-bce4-da64258a2538 За пламя деловой",
+      "author": "Хохлов Геннадий Бориславович",
+      "genre": "non_fiction",
+      "year_published": 1983,
+      "cover_url": "https://picsum.photos/111/267"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 212.9,
+    "body": {
+      "id": 1539,
+      "title": "пробовать-45b765e6-8154-4c07-bce4-da64258a2538 За пламя деловой",
+      "author": "Хохлов Геннадий Бориславович",
+      "genre": "non_fiction",
+      "year_published": 1983,
+      "cover_url": "https://picsum.photos/111/267",
+      "tags": [],
+      "created_at": "2026-08-04T11:27:04.840794+03:00"
+    }
+  }
+}

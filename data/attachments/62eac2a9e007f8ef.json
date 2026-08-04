@@ -1,0 +1,17 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/tags/",
+    "payload": {
+      "name": "актриса-6acf0a7d-9ca4-408b-bd93-82aa481b0d09"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 295.3,
+    "body": {
+      "id": 127,
+      "name": "актриса-6acf0a7d-9ca4-408b-bd93-82aa481b0d09"
+    }
+  }
+}

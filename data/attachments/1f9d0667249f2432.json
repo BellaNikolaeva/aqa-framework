@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "Редактор народ домашний угодный",
+      "author": "Амос Жоресович Вишняков",
+      "genre": "sci_fi",
+      "year_published": 2013,
+      "cover_url": "https://dummyimage.com/798x601"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 284.0,
+    "body": {
+      "id": 1490,
+      "title": "Редактор народ домашний угодный",
+      "author": "Амос Жоресович Вишняков",
+      "genre": "sci_fi",
+      "year_published": 2013,
+      "cover_url": "https://dummyimage.com/798x601",
+      "tags": [],
+      "created_at": "2026-08-04T11:25:53.168235+03:00"
+    }
+  }
+}

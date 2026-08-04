@@ -1,0 +1,16 @@
+{
+  "request": {
+    "method": "PATCH",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/my-books/225/",
+    "payload": {
+      "status": "dropped"
+    }
+  },
+  "response": {
+    "status_code": 404,
+    "elapsed_ms": 317.3,
+    "body": {
+      "detail": "No UserBook matches the given query."
+    }
+  }
+}

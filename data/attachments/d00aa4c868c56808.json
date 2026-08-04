@@ -1,0 +1,18 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/tags/",
+    "payload": {
+      "name": "палец-e390cb7e-3887-40e5-b2f1-0414b49e632f"
+    }
+  },
+  "response": {
+    "status_code": 400,
+    "elapsed_ms": 196.0,
+    "body": {
+      "name": [
+        "tag с таким name уже существует."
+      ]
+    }
+  }
+}

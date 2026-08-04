@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "выгнать-7acdac8b-68e3-408c-a1e8-e364ad71ba3c Отражение",
+      "author": "Тимофеев Родион Афанасьевич",
+      "genre": "non_fiction",
+      "year_published": 1984,
+      "cover_url": "https://dummyimage.com/750x274"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 208.1,
+    "body": {
+      "id": 1518,
+      "title": "выгнать-7acdac8b-68e3-408c-a1e8-e364ad71ba3c Отражение",
+      "author": "Тимофеев Родион Афанасьевич",
+      "genre": "non_fiction",
+      "year_published": 1984,
+      "cover_url": "https://dummyimage.com/750x274",
+      "tags": [],
+      "created_at": "2026-08-04T11:26:50.565580+03:00"
+    }
+  }
+}

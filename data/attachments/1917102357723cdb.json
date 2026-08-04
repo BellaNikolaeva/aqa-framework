@@ -1,0 +1,15 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/tags/125/",
+    "payload": null
+  },
+  "response": {
+    "status_code": 200,
+    "elapsed_ms": 212.0,
+    "body": {
+      "id": 125,
+      "name": "спичка-9dfd5166-7d12-419f-ad5a-d21ea996d777"
+    }
+  }
+}

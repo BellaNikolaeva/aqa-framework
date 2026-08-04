@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "пробовать-45b765e6-8154-4c07-bce4-da64258a2538 Какой жидкий",
+      "author": "Овчинников Лазарь Харлампьевич",
+      "genre": "fantasy",
+      "year_published": 1961,
+      "cover_url": "https://placekitten.com/456/251"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 209.0,
+    "body": {
+      "id": 1531,
+      "title": "пробовать-45b765e6-8154-4c07-bce4-da64258a2538 Какой жидкий",
+      "author": "Овчинников Лазарь Харлампьевич",
+      "genre": "fantasy",
+      "year_published": 1961,
+      "cover_url": "https://placekitten.com/456/251",
+      "tags": [],
+      "created_at": "2026-08-04T11:27:03.098040+03:00"
+    }
+  }
+}

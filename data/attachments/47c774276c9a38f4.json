@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "Головка мотоцикл",
+      "author": "Смирнов Андрей Тарасович",
+      "genre": "detective",
+      "year_published": 1961,
+      "cover_url": "https://dummyimage.com/903x567"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 270.3,
+    "body": {
+      "id": 1489,
+      "title": "Головка мотоцикл",
+      "author": "Смирнов Андрей Тарасович",
+      "genre": "detective",
+      "year_published": 1961,
+      "cover_url": "https://dummyimage.com/903x567",
+      "tags": [],
+      "created_at": "2026-08-04T11:25:48.769649+03:00"
+    }
+  }
+}

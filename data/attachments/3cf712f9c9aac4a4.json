@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "запретить-8a2e5166-d93c-4acb-a092-7277f5ffe605 Рота кпсс лиловый",
+      "author": "Субботина Октябрина Антоновна",
+      "genre": "detective",
+      "year_published": 1967,
+      "cover_url": "https://dummyimage.com/534x491"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 227.6,
+    "body": {
+      "id": 1555,
+      "title": "запретить-8a2e5166-d93c-4acb-a092-7277f5ffe605 Рота кпсс лиловый",
+      "author": "Субботина Октябрина Антоновна",
+      "genre": "detective",
+      "year_published": 1967,
+      "cover_url": "https://dummyimage.com/534x491",
+      "tags": [],
+      "created_at": "2026-08-04T11:27:18.080565+03:00"
+    }
+  }
+}

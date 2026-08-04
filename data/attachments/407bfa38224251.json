@@ -1,0 +1,33 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/my-books/",
+    "payload": {
+      "book_id": 1574,
+      "status": "want_to_read"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 628.8,
+    "body": {
+      "id": 225,
+      "book": {
+        "id": 1574,
+        "title": "Запретить коробка",
+        "author": "Красильников Корнил Евстигнеевич",
+        "genre": "classic",
+        "year_published": 1960,
+        "cover_url": "https://dummyimage.com/390x234",
+        "tags": [],
+        "created_at": "2026-08-04T11:27:35.465838+03:00"
+      },
+      "status": "want_to_read",
+      "rating": null,
+      "notes": "",
+      "started_at": null,
+      "finished_at": null,
+      "updated_at": "2026-08-04T11:27:35.766907+03:00"
+    }
+  }
+}

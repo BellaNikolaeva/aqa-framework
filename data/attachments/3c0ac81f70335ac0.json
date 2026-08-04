@@ -1,0 +1,14 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/my-books/",
+    "payload": null
+  },
+  "response": {
+    "status_code": 401,
+    "elapsed_ms": 289.7,
+    "body": {
+      "detail": "Учетные данные не были предоставлены."
+    }
+  }
+}

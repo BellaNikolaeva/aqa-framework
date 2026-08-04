@@ -1,0 +1,33 @@
+{
+  "request": {
+    "method": "PATCH",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/my-books/221/",
+    "payload": {
+      "status": "finished",
+      "finished_at": "2026-02-01"
+    }
+  },
+  "response": {
+    "status_code": 200,
+    "elapsed_ms": 220.8,
+    "body": {
+      "id": 221,
+      "book": {
+        "id": 1494,
+        "title": "Терапия танцевать",
+        "author": "Ершов Автоном Елисеевич",
+        "genre": "sci_fi",
+        "year_published": 1983,
+        "cover_url": "https://placekitten.com/293/380",
+        "tags": [],
+        "created_at": "2026-08-04T11:26:12.485226+03:00"
+      },
+      "status": "finished",
+      "rating": null,
+      "notes": "",
+      "started_at": "2026-01-15",
+      "finished_at": "2026-02-01",
+      "updated_at": "2026-08-04T11:26:13.228756+03:00"
+    }
+  }
+}

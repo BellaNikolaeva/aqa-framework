@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "пробовать-45b765e6-8154-4c07-bce4-da64258a2538 Четыре",
+      "author": "Тихон Ильясович Маслов",
+      "genre": "classic",
+      "year_published": 2024,
+      "cover_url": "https://placekitten.com/642/783"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 205.6,
+    "body": {
+      "id": 1533,
+      "title": "пробовать-45b765e6-8154-4c07-bce4-da64258a2538 Четыре",
+      "author": "Тихон Ильясович Маслов",
+      "genre": "classic",
+      "year_published": 2024,
+      "cover_url": "https://placekitten.com/642/783",
+      "tags": [],
+      "created_at": "2026-08-04T11:27:03.513307+03:00"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/my-books/226/",
+    "payload": null
+  },
+  "response": {
+    "status_code": 200,
+    "elapsed_ms": 216.8,
+    "body": {
+      "id": 226,
+      "book": {
+        "id": 1575,
+        "title": "Посвятить выражение снимать",
+        "author": "Шубина Алина Вячеславовна",
+        "genre": "sci_fi",
+        "year_published": 2013,
+        "cover_url": "https://picsum.photos/285/741",
+        "tags": [],
+        "created_at": "2026-08-04T11:27:44.387880+03:00"
+      },
+      "status": "want_to_read",
+      "rating": null,
+      "notes": "",
+      "started_at": null,
+      "finished_at": null,
+      "updated_at": "2026-08-04T11:27:44.672639+03:00"
+    }
+  }
+}

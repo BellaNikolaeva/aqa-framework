@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "выгнать-7acdac8b-68e3-408c-a1e8-e364ad71ba3c Изменение космос",
+      "author": "Кондрат Федотович Никитин",
+      "genre": "sci_fi",
+      "year_published": 1950,
+      "cover_url": "https://placekitten.com/662/479"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 203.1,
+    "body": {
+      "id": 1504,
+      "title": "выгнать-7acdac8b-68e3-408c-a1e8-e364ad71ba3c Изменение космос",
+      "author": "Кондрат Федотович Никитин",
+      "genre": "sci_fi",
+      "year_published": 1950,
+      "cover_url": "https://placekitten.com/662/479",
+      "tags": [],
+      "created_at": "2026-08-04T11:26:47.738288+03:00"
+    }
+  }
+}

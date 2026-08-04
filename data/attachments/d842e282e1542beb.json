@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "запретить-8a2e5166-d93c-4acb-a092-7277f5ffe605 Еврейский следовательно",
+      "author": "Жданов Всемил Гурьевич",
+      "genre": "non_fiction",
+      "year_published": 2026,
+      "cover_url": "https://dummyimage.com/900x494"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 204.9,
+    "body": {
+      "id": 1557,
+      "title": "запретить-8a2e5166-d93c-4acb-a092-7277f5ffe605 Еврейский следовательно",
+      "author": "Жданов Всемил Гурьевич",
+      "genre": "non_fiction",
+      "year_published": 2026,
+      "cover_url": "https://dummyimage.com/900x494",
+      "tags": [],
+      "created_at": "2026-08-04T11:27:18.514111+03:00"
+    }
+  }
+}

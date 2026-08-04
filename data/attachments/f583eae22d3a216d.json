@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "запретить-8a2e5166-d93c-4acb-a092-7277f5ffe605 Пространство торговля",
+      "author": "Фома Владиленович Одинцов",
+      "genre": "fantasy",
+      "year_published": 1964,
+      "cover_url": "https://picsum.photos/922/164"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 216.3,
+    "body": {
+      "id": 1551,
+      "title": "запретить-8a2e5166-d93c-4acb-a092-7277f5ffe605 Пространство торговля",
+      "author": "Фома Владиленович Одинцов",
+      "genre": "fantasy",
+      "year_published": 1964,
+      "cover_url": "https://picsum.photos/922/164",
+      "tags": [],
+      "created_at": "2026-08-04T11:27:17.237332+03:00"
+    }
+  }
+}

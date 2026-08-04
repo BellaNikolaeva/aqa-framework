@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "запретить-8a2e5166-d93c-4acb-a092-7277f5ffe605 Кузнец господь зато",
+      "author": "Костина Нонна Леоновна",
+      "genre": "classic",
+      "year_published": 1979,
+      "cover_url": "https://picsum.photos/721/380"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 206.6,
+    "body": {
+      "id": 1566,
+      "title": "запретить-8a2e5166-d93c-4acb-a092-7277f5ffe605 Кузнец господь зато",
+      "author": "Костина Нонна Леоновна",
+      "genre": "classic",
+      "year_published": 1979,
+      "cover_url": "https://picsum.photos/721/380",
+      "tags": [],
+      "created_at": "2026-08-04T11:27:20.416249+03:00"
+    }
+  }
+}

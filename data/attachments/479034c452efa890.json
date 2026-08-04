@@ -1,0 +1,218 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": null
+  },
+  "response": {
+    "status_code": 200,
+    "elapsed_ms": 205.4,
+    "body": {
+      "count": 25,
+      "next": "https://book-tracker-api-frnm.onrender.com/api/books/?page=2&search=%D0%B2%D1%8B%D0%B3%D0%BD%D0%B0%D1%82%D1%8C-7acdac8b-68e3-408c-a1e8-e364ad71ba3c",
+      "previous": null,
+      "results": [
+        {
+          "id": 1509,
+          "title": "выгнать-7acdac8b-68e3-408c-a1e8-e364ad71ba3c Актриса снимать вряд",
+          "author": "Евпраксия Геннадиевна Маркова",
+          "genre": "detective",
+          "year_published": 2022,
+          "cover_url": "https://picsum.photos/326/951",
+          "tags": [],
+          "created_at": "2026-08-04T11:26:48.761139+03:00"
+        },
+        {
+          "id": 1512,
+          "title": "выгнать-7acdac8b-68e3-408c-a1e8-e364ad71ba3c Бегать",
+          "author": "Филатова Зоя Архиповна",
+          "genre": "non_fiction",
+          "year_published": 1950,
+          "cover_url": "https://dummyimage.com/746x723",
+          "tags": [],
+          "created_at": "2026-08-04T11:26:49.368639+03:00"
+        },
+        {
+          "id": 1520,
+          "title": "выгнать-7acdac8b-68e3-408c-a1e8-e364ad71ba3c Близко носок",
+          "author": "Пахом Игнатьевич Воробьев",
+          "genre": "detective",
+          "year_published": 1996,
+          "cover_url": "https://picsum.photos/636/341",
+          "tags": [],
+          "created_at": "2026-08-04T11:26:50.984413+03:00"
+        },
+        {
+          "id": 1514,
+          "title": "выгнать-7acdac8b-68e3-408c-a1e8-e364ad71ba3c Валюта выкинуть",
+          "author": "Елисеев Милий Фёдорович",
+          "genre": "sci_fi",
+          "year_published": 2000,
+          "cover_url": "https://dummyimage.com/469x790",
+          "tags": [],
+          "created_at": "2026-08-04T11:26:49.770833+03:00"
+        },
+        {
+          "id": 1505,
+          "title": "выгнать-7acdac8b-68e3-408c-a1e8-e364ad71ba3c Витрина зима назначить",
+          "author": "Соловьев Евстигней Юльевич",
+          "genre": "non_fiction",
+          "year_published": 1998,
+          "cover_url": "https://dummyimage.com/496x297",
+          "tags": [],
+          "created_at": "2026-08-04T11:26:47.947598+03:00"
+        },
+        {
+          "id": 1501,
+          "title": "выгнать-7acdac8b-68e3-408c-a1e8-e364ad71ba3c Военный о",
+          "author": "Ситников Мокей Зиновьевич",
+          "genre": "sci_fi",
+          "year_published": 2014,
+          "cover_url": "https://placekitten.com/727/292",
+          "tags": [],
+          "created_at": "2026-08-04T11:26:47.114115+03:00"
+        },
+        {
+          "id": 1499,
+          "title": "выгнать-7acdac8b-68e3-408c-a1e8-e364ad71ba3c Другой коммунизм",
+          "author": "Горшкова Галина Артемовна",
+          "genre": "fantasy",
+          "year_published": 1964,
+          "cover_url": "https://picsum.photos/951/209",
+          "tags": [],
+          "created_at": "2026-08-04T11:26:46.674655+03:00"
+        },
+        {
+          "id": 1511,
+          "title": "выгнать-7acdac8b-68e3-408c-a1e8-e364ad71ba3c Зато стакан",
+          "author": "Виктория Олеговна Сысоева",
+          "genre": "classic",
+          "year_published": 2007,
+          "cover_url": "https://picsum.photos/613/556",
+          "tags": [],
+          "created_at": "2026-08-04T11:26:49.168472+03:00"
+        },
+        {
+          "id": 1504,
+          "title": "выгнать-7acdac8b-68e3-408c-a1e8-e364ad71ba3c Изменение космос",
+          "author": "Кондрат Федотович Никитин",
+          "genre": "sci_fi",
+          "year_published": 1950,
+          "cover_url": "https://placekitten.com/662/479",
+          "tags": [],
+          "created_at": "2026-08-04T11:26:47.738288+03:00"
+        },
+        {
+          "id": 1500,
+          "title": "выгнать-7acdac8b-68e3-408c-a1e8-e364ad71ba3c Изменение проход миф спасть",
+          "author": "Ипатий Филатович Красильников",
+          "genre": "fantasy",
+          "year_published": 1997,
+          "cover_url": "https://placekitten.com/168/427",
+          "tags": [],
+          "created_at": "2026-08-04T11:26:46.896060+03:00"
+        },
+        {
+          "id": 1507,
+          "title": "выгнать-7acdac8b-68e3-408c-a1e8-e364ad71ba3c Назначить исследование",
+          "author": "г-жа Фролова София Кирилловна",
+          "genre": "detective",
+          "year_published": 1995,
+          "cover_url": "https://dummyimage.com/105x801",
+          "tags": [],
+          "created_at": "2026-08-04T11:26:48.356533+03:00"
+        },
+        {
+          "id": 1517,
+          "title": "выгнать-7acdac8b-68e3-408c-a1e8-e364ad71ba3c Неправда успокоиться",
+          "author": "Сидоров Марк Афанасьевич",
+          "genre": "detective",
+          "year_published": 1985,
+          "cover_url": "https://dummyimage.com/667x1013",
+          "tags": [],
+          "created_at": "2026-08-04T11:26:50.366903+03:00"
+        },
+        {
+          "id": 1519,
+          "title": "выгнать-7acdac8b-68e3-408c-a1e8-e364ad71ba3c Обида вряд",
+          "author": "Гедеон Егорович Блинов",
+          "genre": "detective",
+          "year_published": 1963,
+          "cover_url": "https://dummyimage.com/1005x212",
+          "tags": [],
+          "created_at": "2026-08-04T11:26:50.774839+03:00"
+        },
+        {
+          "id": 1523,
+          "title": "выгнать-7acdac8b-68e3-408c-a1e8-e364ad71ba3c Оставить опасность виднеться",
+          "author": "Лебедев Пантелеймон Жанович",
+          "genre": "sci_fi",
+          "year_published": 1992,
+          "cover_url": "https://picsum.photos/21/405",
+          "tags": [],
+          "created_at": "2026-08-04T11:26:51.583564+03:00"
+        },
+        {
+          "id": 1518,
+          "title": "выгнать-7acdac8b-68e3-408c-a1e8-e364ad71ba3c Отражение",
+          "author": "Тимофеев Родион Афанасьевич",
+          "genre": "non_fiction",
+          "year_published": 1984,
+          "cover_url": "https://dummyimage.com/750x274",
+          "tags": [],
+          "created_at": "2026-08-04T11:26:50.565580+03:00"
+        },
+        {
+          "id": 1513,
+          "title": "выгнать-7acdac8b-68e3-408c-a1e8-e364ad71ba3c Падать неправда забирать",
+          "author": "Ефрем Дмитриевич Лукин",
+          "genre": "classic",
+          "year_published": 1992,
+          "cover_url": "https://dummyimage.com/718x384",
+          "tags": [],
+          "created_at": "2026-08-04T11:26:49.571988+03:00"
+        },
+        {
+          "id": 1506,
+          "title": "выгнать-7acdac8b-68e3-408c-a1e8-e364ad71ba3c Пища привлекать видимо прежде",
+          "author": "Симонов Амвросий Дмитриевич",
+          "genre": "fantasy",
+          "year_published": 2004,
+          "cover_url": "https://picsum.photos/104/345",
+          "tags": [],
+          "created_at": "2026-08-04T11:26:48.154860+03:00"
+        },
+        {
+          "id": 1508,
+          "title": "выгнать-7acdac8b-68e3-408c-a1e8-e364ad71ba3c Построить",
+          "author": "Баранов Флорентин Тимурович",
+          "genre": "fantasy",
+          "year_published": 2016,
+          "cover_url": "https://dummyimage.com/947x839",
+          "tags": [],
+          "created_at": "2026-08-04T11:26:48.556612+03:00"
+        },
+        {
+          "id": 1522,
+          "title": "выгнать-7acdac8b-68e3-408c-a1e8-e364ad71ba3c Правильный выдержать растеряться",
+          "author": "Анастасия Олеговна Елисеева",
+          "genre": "detective",
+          "year_published": 2019,
+          "cover_url": "https://dummyimage.com/956x302",
+          "tags": [],
+          "created_at": "2026-08-04T11:26:51.381969+03:00"
+        },
+        {
+          "id": 1516,
+          "title": "выгнать-7acdac8b-68e3-408c-a1e8-e364ad71ba3c Применяться покидать даль",
+          "author": "Изяслав Марсович Емельянов",
+          "genre": "classic",
+          "year_published": 2023,
+          "cover_url": "https://placekitten.com/17/494",
+          "tags": [],
+          "created_at": "2026-08-04T11:26:50.172009+03:00"
+        }
+      ]
+    }
+  }
+}

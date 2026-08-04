@@ -1,0 +1,33 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/my-books/",
+    "payload": {
+      "book_id": 1488,
+      "status": "reading"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 298.8,
+    "body": {
+      "id": 215,
+      "book": {
+        "id": 1488,
+        "title": "Цвет военный",
+        "author": "Чернова Валентина Владимировна",
+        "genre": "fantasy",
+        "year_published": 2026,
+        "cover_url": "https://placekitten.com/642/624",
+        "tags": [],
+        "created_at": "2026-08-04T11:25:43.690807+03:00"
+      },
+      "status": "reading",
+      "rating": null,
+      "notes": "",
+      "started_at": null,
+      "finished_at": null,
+      "updated_at": "2026-08-04T11:25:43.982800+03:00"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "Похороны привлекать висеть какой",
+      "author": "Тихонов Лаврентий Георгиевич",
+      "genre": "fantasy",
+      "year_published": 1975,
+      "cover_url": "https://picsum.photos/245/457"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 279.3,
+    "body": {
+      "id": 1487,
+      "title": "Похороны привлекать висеть какой",
+      "author": "Тихонов Лаврентий Георгиевич",
+      "genre": "fantasy",
+      "year_published": 1975,
+      "cover_url": "https://picsum.photos/245/457",
+      "tags": [],
+      "created_at": "2026-08-04T11:25:38.267422+03:00"
+    }
+  }
+}

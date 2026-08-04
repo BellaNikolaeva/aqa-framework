@@ -1,0 +1,17 @@
+{
+  "request": {
+    "method": "PUT",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/tags/126/",
+    "payload": {
+      "name": "способ-28d349cc-e93b-4378-a5f9-868b53e26b82"
+    }
+  },
+  "response": {
+    "status_code": 200,
+    "elapsed_ms": 211.1,
+    "body": {
+      "id": 126,
+      "name": "способ-28d349cc-e93b-4378-a5f9-868b53e26b82"
+    }
+  }
+}

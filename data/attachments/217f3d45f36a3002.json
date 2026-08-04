@@ -1,0 +1,33 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/my-books/",
+    "payload": {
+      "book_id": 1496,
+      "status": "want_to_read"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 287.0,
+    "body": {
+      "id": 223,
+      "book": {
+        "id": 1496,
+        "title": "Направо да рассуждение",
+        "author": "Надежда Вениаминовна Громова",
+        "genre": "fantasy",
+        "year_published": 1986,
+        "cover_url": "https://placekitten.com/344/141",
+        "tags": [],
+        "created_at": "2026-08-04T11:26:22.384215+03:00"
+      },
+      "status": "want_to_read",
+      "rating": null,
+      "notes": "",
+      "started_at": null,
+      "finished_at": null,
+      "updated_at": "2026-08-04T11:26:22.677228+03:00"
+    }
+  }
+}

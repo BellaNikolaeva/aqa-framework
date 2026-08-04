@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "выгнать-7acdac8b-68e3-408c-a1e8-e364ad71ba3c Построить",
+      "author": "Баранов Флорентин Тимурович",
+      "genre": "fantasy",
+      "year_published": 2016,
+      "cover_url": "https://dummyimage.com/947x839"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 202.0,
+    "body": {
+      "id": 1508,
+      "title": "выгнать-7acdac8b-68e3-408c-a1e8-e364ad71ba3c Построить",
+      "author": "Баранов Флорентин Тимурович",
+      "genre": "fantasy",
+      "year_published": 2016,
+      "cover_url": "https://dummyimage.com/947x839",
+      "tags": [],
+      "created_at": "2026-08-04T11:26:48.556612+03:00"
+    }
+  }
+}

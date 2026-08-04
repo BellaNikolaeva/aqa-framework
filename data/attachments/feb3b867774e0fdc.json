@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "выгнать-7acdac8b-68e3-408c-a1e8-e364ad71ba3c Бегать",
+      "author": "Филатова Зоя Архиповна",
+      "genre": "non_fiction",
+      "year_published": 1950,
+      "cover_url": "https://dummyimage.com/746x723"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 198.7,
+    "body": {
+      "id": 1512,
+      "title": "выгнать-7acdac8b-68e3-408c-a1e8-e364ad71ba3c Бегать",
+      "author": "Филатова Зоя Архиповна",
+      "genre": "non_fiction",
+      "year_published": 1950,
+      "cover_url": "https://dummyimage.com/746x723",
+      "tags": [],
+      "created_at": "2026-08-04T11:26:49.368639+03:00"
+    }
+  }
+}

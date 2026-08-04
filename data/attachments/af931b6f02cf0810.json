@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "пробовать-45b765e6-8154-4c07-bce4-da64258a2538 Выраженный выгнать правление",
+      "author": "Дьячков Вацлав Харламович",
+      "genre": "detective",
+      "year_published": 2002,
+      "cover_url": "https://placekitten.com/771/558"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 207.7,
+    "body": {
+      "id": 1543,
+      "title": "пробовать-45b765e6-8154-4c07-bce4-da64258a2538 Выраженный выгнать правление",
+      "author": "Дьячков Вацлав Харламович",
+      "genre": "detective",
+      "year_published": 2002,
+      "cover_url": "https://placekitten.com/771/558",
+      "tags": [],
+      "created_at": "2026-08-04T11:27:05.674995+03:00"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "Бетонный палата",
+      "author": "Виктор Евсеевич Сидоров",
+      "genre": "non_fiction",
+      "year_published": 2016,
+      "cover_url": "https://dummyimage.com/356x786"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 1892.5,
+    "body": {
+      "id": 1480,
+      "title": "Бетонный палата",
+      "author": "Виктор Евсеевич Сидоров",
+      "genre": "non_fiction",
+      "year_published": 2016,
+      "cover_url": "https://dummyimage.com/356x786",
+      "tags": [],
+      "created_at": "2026-08-04T11:24:54.215955+03:00"
+    }
+  }
+}
