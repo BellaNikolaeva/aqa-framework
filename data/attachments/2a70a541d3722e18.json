@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "теория-7d2159dc-7484-434b-b89e-ac461dda0016 Поколение один",
+      "author": "Майя Артемовна Третьякова",
+      "genre": "classic",
+      "year_published": 1972,
+      "cover_url": "https://placekitten.com/268/34"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 175.2,
+    "body": {
+      "id": 1649,
+      "title": "теория-7d2159dc-7484-434b-b89e-ac461dda0016 Поколение один",
+      "author": "Майя Артемовна Третьякова",
+      "genre": "classic",
+      "year_published": 1972,
+      "cover_url": "https://placekitten.com/268/34",
+      "tags": [],
+      "created_at": "2026-08-05T11:23:48.664376+03:00"
+    }
+  }
+}

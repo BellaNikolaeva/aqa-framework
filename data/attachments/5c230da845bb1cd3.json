@@ -1,0 +1,21 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "author": "Раиса Владимировна Быкова",
+      "genre": "detective",
+      "year_published": 2020,
+      "cover_url": "https://dummyimage.com/966x507"
+    }
+  },
+  "response": {
+    "status_code": 400,
+    "elapsed_ms": 204.2,
+    "body": {
+      "title": [
+        "Обязательное поле."
+      ]
+    }
+  }
+}

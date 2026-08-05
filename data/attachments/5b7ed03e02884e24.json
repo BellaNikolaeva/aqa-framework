@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "Экзамен построить кидать",
+      "author": "Нинель Андреевна Морозова",
+      "genre": "fantasy",
+      "year_published": 1998,
+      "cover_url": "https://placekitten.com/722/184"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 179.0,
+    "body": {
+      "id": 1600,
+      "title": "Экзамен построить кидать",
+      "author": "Нинель Андреевна Морозова",
+      "genre": "fantasy",
+      "year_published": 1998,
+      "cover_url": "https://placekitten.com/722/184",
+      "tags": [],
+      "created_at": "2026-08-05T11:23:27.680545+03:00"
+    }
+  }
+}

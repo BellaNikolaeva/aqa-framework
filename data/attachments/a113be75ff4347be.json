@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "поколение-62c07e2a-e765-401e-9bd8-bc9d01a4d347 Тысяча падать идея построить",
+      "author": "Элеонора Оскаровна Михайлова",
+      "genre": "fantasy",
+      "year_published": 2010,
+      "cover_url": "https://dummyimage.com/316x956"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 181.7,
+    "body": {
+      "id": 1617,
+      "title": "поколение-62c07e2a-e765-401e-9bd8-bc9d01a4d347 Тысяча падать идея построить",
+      "author": "Элеонора Оскаровна Михайлова",
+      "genre": "fantasy",
+      "year_published": 2010,
+      "cover_url": "https://dummyimage.com/316x956",
+      "tags": [],
+      "created_at": "2026-08-05T11:23:34.954793+03:00"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "поколение-62c07e2a-e765-401e-9bd8-bc9d01a4d347 Багровый валюта",
+      "author": "Зыков Герман Ильич",
+      "genre": "fantasy",
+      "year_published": 1977,
+      "cover_url": "https://placekitten.com/714/171"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 180.1,
+    "body": {
+      "id": 1601,
+      "title": "поколение-62c07e2a-e765-401e-9bd8-bc9d01a4d347 Багровый валюта",
+      "author": "Зыков Герман Ильич",
+      "genre": "fantasy",
+      "year_published": 1977,
+      "cover_url": "https://placekitten.com/714/171",
+      "tags": [],
+      "created_at": "2026-08-05T11:23:31.495117+03:00"
+    }
+  }
+}

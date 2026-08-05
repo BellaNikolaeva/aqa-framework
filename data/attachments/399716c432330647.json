@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "поколение-62c07e2a-e765-401e-9bd8-bc9d01a4d347 Низкий июнь уточнить",
+      "author": "Лаврентьев Святослав Юльевич",
+      "genre": "sci_fi",
+      "year_published": 1977,
+      "cover_url": "https://dummyimage.com/1011x735"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 180.7,
+    "body": {
+      "id": 1618,
+      "title": "поколение-62c07e2a-e765-401e-9bd8-bc9d01a4d347 Низкий июнь уточнить",
+      "author": "Лаврентьев Святослав Юльевич",
+      "genre": "sci_fi",
+      "year_published": 1977,
+      "cover_url": "https://dummyimage.com/1011x735",
+      "tags": [],
+      "created_at": "2026-08-05T11:23:35.139678+03:00"
+    }
+  }
+}

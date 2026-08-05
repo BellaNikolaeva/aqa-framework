@@ -1,0 +1,218 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": null
+  },
+  "response": {
+    "status_code": 200,
+    "elapsed_ms": 170.7,
+    "body": {
+      "count": 25,
+      "next": "https://book-tracker-api-frnm.onrender.com/api/books/?page=2&search=%D0%BF%D0%BE%D0%BA%D0%BE%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5-62c07e2a-e765-401e-9bd8-bc9d01a4d347",
+      "previous": null,
+      "results": [
+        {
+          "id": 1601,
+          "title": "поколение-62c07e2a-e765-401e-9bd8-bc9d01a4d347 Багровый валюта",
+          "author": "Зыков Герман Ильич",
+          "genre": "fantasy",
+          "year_published": 1977,
+          "cover_url": "https://placekitten.com/714/171",
+          "tags": [],
+          "created_at": "2026-08-05T11:23:31.495117+03:00"
+        },
+        {
+          "id": 1613,
+          "title": "поколение-62c07e2a-e765-401e-9bd8-bc9d01a4d347 Близко манера",
+          "author": "Евгения Степановна Филиппова",
+          "genre": "non_fiction",
+          "year_published": 1990,
+          "cover_url": "https://placekitten.com/158/1022",
+          "tags": [],
+          "created_at": "2026-08-05T11:23:33.965535+03:00"
+        },
+        {
+          "id": 1610,
+          "title": "поколение-62c07e2a-e765-401e-9bd8-bc9d01a4d347 Бок исследование чувство",
+          "author": "Антонина Игоревна Федорова",
+          "genre": "non_fiction",
+          "year_published": 2003,
+          "cover_url": "https://dummyimage.com/829x83",
+          "tags": [],
+          "created_at": "2026-08-05T11:23:33.418712+03:00"
+        },
+        {
+          "id": 1620,
+          "title": "поколение-62c07e2a-e765-401e-9bd8-bc9d01a4d347 Ведь пища",
+          "author": "Мечислав Жоресович Нестеров",
+          "genre": "fantasy",
+          "year_published": 1992,
+          "cover_url": "https://placekitten.com/388/632",
+          "tags": [],
+          "created_at": "2026-08-05T11:23:35.479137+03:00"
+        },
+        {
+          "id": 1612,
+          "title": "поколение-62c07e2a-e765-401e-9bd8-bc9d01a4d347 Выраженный строительство",
+          "author": "Михеев Евлампий Владиленович",
+          "genre": "fantasy",
+          "year_published": 1973,
+          "cover_url": "https://placekitten.com/543/30",
+          "tags": [],
+          "created_at": "2026-08-05T11:23:33.770380+03:00"
+        },
+        {
+          "id": 1625,
+          "title": "поколение-62c07e2a-e765-401e-9bd8-bc9d01a4d347 Господь предоставить",
+          "author": "Аксенов Аким Измаилович",
+          "genre": "sci_fi",
+          "year_published": 1970,
+          "cover_url": "https://placekitten.com/885/421",
+          "tags": [],
+          "created_at": "2026-08-05T11:23:36.336712+03:00"
+        },
+        {
+          "id": 1611,
+          "title": "поколение-62c07e2a-e765-401e-9bd8-bc9d01a4d347 Запеть важный",
+          "author": "Ефимов Аристарх Филимонович",
+          "genre": "non_fiction",
+          "year_published": 2026,
+          "cover_url": "https://picsum.photos/186/623",
+          "tags": [],
+          "created_at": "2026-08-05T11:23:33.598398+03:00"
+        },
+        {
+          "id": 1603,
+          "title": "поколение-62c07e2a-e765-401e-9bd8-bc9d01a4d347 Идея крыса",
+          "author": "Юдина Татьяна Никифоровна",
+          "genre": "classic",
+          "year_published": 1959,
+          "cover_url": "https://picsum.photos/1004/132",
+          "tags": [],
+          "created_at": "2026-08-05T11:23:31.837056+03:00"
+        },
+        {
+          "id": 1622,
+          "title": "поколение-62c07e2a-e765-401e-9bd8-bc9d01a4d347 Избегать угроза термин палка",
+          "author": "Аскольд Августович Журавлев",
+          "genre": "fantasy",
+          "year_published": 1987,
+          "cover_url": "https://dummyimage.com/565x565",
+          "tags": [],
+          "created_at": "2026-08-05T11:23:35.829176+03:00"
+        },
+        {
+          "id": 1621,
+          "title": "поколение-62c07e2a-e765-401e-9bd8-bc9d01a4d347 Интернет дорогой",
+          "author": "Лобанов Кондрат Бенедиктович",
+          "genre": "sci_fi",
+          "year_published": 1953,
+          "cover_url": "https://placekitten.com/746/69",
+          "tags": [],
+          "created_at": "2026-08-05T11:23:35.653596+03:00"
+        },
+        {
+          "id": 1608,
+          "title": "поколение-62c07e2a-e765-401e-9bd8-bc9d01a4d347 Конференция грудь",
+          "author": "Шубин Онуфрий Эдгарович",
+          "genre": "non_fiction",
+          "year_published": 1993,
+          "cover_url": "https://placekitten.com/928/537",
+          "tags": [],
+          "created_at": "2026-08-05T11:23:33.075403+03:00"
+        },
+        {
+          "id": 1614,
+          "title": "поколение-62c07e2a-e765-401e-9bd8-bc9d01a4d347 Космос мера",
+          "author": "Силантий Ефремович Голубев",
+          "genre": "detective",
+          "year_published": 1989,
+          "cover_url": "https://placekitten.com/9/430",
+          "tags": [],
+          "created_at": "2026-08-05T11:23:34.428826+03:00"
+        },
+        {
+          "id": 1607,
+          "title": "поколение-62c07e2a-e765-401e-9bd8-bc9d01a4d347 Некоторый зачем счастье",
+          "author": "Михей Виленович Семенов",
+          "genre": "sci_fi",
+          "year_published": 1991,
+          "cover_url": "https://picsum.photos/65/461",
+          "tags": [],
+          "created_at": "2026-08-05T11:23:32.766884+03:00"
+        },
+        {
+          "id": 1618,
+          "title": "поколение-62c07e2a-e765-401e-9bd8-bc9d01a4d347 Низкий июнь уточнить",
+          "author": "Лаврентьев Святослав Юльевич",
+          "genre": "sci_fi",
+          "year_published": 1977,
+          "cover_url": "https://dummyimage.com/1011x735",
+          "tags": [],
+          "created_at": "2026-08-05T11:23:35.139678+03:00"
+        },
+        {
+          "id": 1606,
+          "title": "поколение-62c07e2a-e765-401e-9bd8-bc9d01a4d347 Освобождение похороны предоставить пространство",
+          "author": "Шарапов Борис Георгиевич",
+          "genre": "non_fiction",
+          "year_published": 1990,
+          "cover_url": "https://placekitten.com/472/602",
+          "tags": [],
+          "created_at": "2026-08-05T11:23:32.466006+03:00"
+        },
+        {
+          "id": 1619,
+          "title": "поколение-62c07e2a-e765-401e-9bd8-bc9d01a4d347 Полностью поговорить холодно",
+          "author": "Юдин Ян Данилович",
+          "genre": "sci_fi",
+          "year_published": 2017,
+          "cover_url": "https://placekitten.com/138/219",
+          "tags": [],
+          "created_at": "2026-08-05T11:23:35.314687+03:00"
+        },
+        {
+          "id": 1605,
+          "title": "поколение-62c07e2a-e765-401e-9bd8-bc9d01a4d347 Посидеть соответствие передо армейский",
+          "author": "Варвара Яковлевна Петрова",
+          "genre": "sci_fi",
+          "year_published": 1952,
+          "cover_url": "https://placekitten.com/228/479",
+          "tags": [],
+          "created_at": "2026-08-05T11:23:32.265495+03:00"
+        },
+        {
+          "id": 1604,
+          "title": "поколение-62c07e2a-e765-401e-9bd8-bc9d01a4d347 Пробовать трясти торговля",
+          "author": "Глафира Кирилловна Жукова",
+          "genre": "sci_fi",
+          "year_published": 2009,
+          "cover_url": "https://picsum.photos/640/707",
+          "tags": [],
+          "created_at": "2026-08-05T11:23:32.051734+03:00"
+        },
+        {
+          "id": 1623,
+          "title": "поколение-62c07e2a-e765-401e-9bd8-bc9d01a4d347 Рай виднеться посвятить",
+          "author": "Евсеева Анастасия Егоровна",
+          "genre": "sci_fi",
+          "year_published": 1968,
+          "cover_url": "https://dummyimage.com/764x545",
+          "tags": [],
+          "created_at": "2026-08-05T11:23:36.002732+03:00"
+        },
+        {
+          "id": 1609,
+          "title": "поколение-62c07e2a-e765-401e-9bd8-bc9d01a4d347 Руководитель пропадать",
+          "author": "Лихачева Алина Юрьевна",
+          "genre": "fantasy",
+          "year_published": 1990,
+          "cover_url": "https://picsum.photos/481/399",
+          "tags": [],
+          "created_at": "2026-08-05T11:23:33.248387+03:00"
+        }
+      ]
+    }
+  }
+}

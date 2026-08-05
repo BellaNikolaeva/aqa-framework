@@ -1,0 +1,17 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/tags/",
+    "payload": {
+      "name": "неправда-b35e8d7d-816e-4854-89cf-d350884d78e1"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 1713.3,
+    "body": {
+      "id": 130,
+      "name": "неправда-b35e8d7d-816e-4854-89cf-d350884d78e1"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "Хозяйка лететь сынок",
+      "author": "Мария Владиславовна Маркова",
+      "genre": "detective",
+      "year_published": 2016,
+      "cover_url": "https://dummyimage.com/135x804"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 236.8,
+    "body": {
+      "id": 1599,
+      "title": "Хозяйка лететь сынок",
+      "author": "Мария Владиславовна Маркова",
+      "genre": "detective",
+      "year_published": 2016,
+      "cover_url": "https://dummyimage.com/135x804",
+      "tags": [],
+      "created_at": "2026-08-05T11:23:20.049253+03:00"
+    }
+  }
+}

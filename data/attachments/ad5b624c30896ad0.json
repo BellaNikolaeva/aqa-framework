@@ -1,0 +1,17 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/tags/",
+    "payload": {
+      "name": "правление-1e5d6625-812a-437d-8087-dd04b38bd8a4"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 180.9,
+    "body": {
+      "id": 131,
+      "name": "правление-1e5d6625-812a-437d-8087-dd04b38bd8a4"
+    }
+  }
+}

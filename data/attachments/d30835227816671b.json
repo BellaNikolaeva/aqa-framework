@@ -1,0 +1,33 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/my-books/",
+    "payload": {
+      "book_id": 1598,
+      "status": "want_to_read"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 187.0,
+    "body": {
+      "id": 238,
+      "book": {
+        "id": 1598,
+        "title": "Виднеться печатать",
+        "author": "Ильин Потап Августович",
+        "genre": "fantasy",
+        "year_published": 1983,
+        "cover_url": "https://placekitten.com/22/687",
+        "tags": [],
+        "created_at": "2026-08-05T11:23:12.999034+03:00"
+      },
+      "status": "want_to_read",
+      "rating": null,
+      "notes": "",
+      "started_at": null,
+      "finished_at": null,
+      "updated_at": "2026-08-05T11:23:13.182457+03:00"
+    }
+  }
+}

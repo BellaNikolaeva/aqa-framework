@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "теория-7d2159dc-7484-434b-b89e-ac461dda0016 Крутой видимо",
+      "author": "Воробьева Виктория Андреевна",
+      "genre": "detective",
+      "year_published": 1970,
+      "cover_url": "https://placekitten.com/75/535"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 176.6,
+    "body": {
+      "id": 1639,
+      "title": "теория-7d2159dc-7484-434b-b89e-ac461dda0016 Крутой видимо",
+      "author": "Воробьева Виктория Андреевна",
+      "genre": "detective",
+      "year_published": 1970,
+      "cover_url": "https://placekitten.com/75/535",
+      "tags": [],
+      "created_at": "2026-08-05T11:23:46.874829+03:00"
+    }
+  }
+}

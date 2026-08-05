@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "Ночь увеличиваться",
+      "author": "Ирина Юльевна Никифорова",
+      "genre": "detective",
+      "year_published": 1971,
+      "cover_url": "https://placekitten.com/463/634"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 322.3,
+    "body": {
+      "id": 1592,
+      "title": "Ночь увеличиваться",
+      "author": "Ирина Юльевна Никифорова",
+      "genre": "detective",
+      "year_published": 1971,
+      "cover_url": "https://placekitten.com/463/634",
+      "tags": [],
+      "created_at": "2026-08-05T11:22:46.729449+03:00"
+    }
+  }
+}

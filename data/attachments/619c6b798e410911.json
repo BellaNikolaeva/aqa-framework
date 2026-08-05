@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "поколение-62c07e2a-e765-401e-9bd8-bc9d01a4d347 Торопливый палец",
+      "author": "Лукьян Вячеславович Александров",
+      "genre": "sci_fi",
+      "year_published": 2005,
+      "cover_url": "https://picsum.photos/503/696"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 171.3,
+    "body": {
+      "id": 1602,
+      "title": "поколение-62c07e2a-e765-401e-9bd8-bc9d01a4d347 Торопливый палец",
+      "author": "Лукьян Вячеславович Александров",
+      "genre": "sci_fi",
+      "year_published": 2005,
+      "cover_url": "https://picsum.photos/503/696",
+      "tags": [],
+      "created_at": "2026-08-05T11:23:31.666301+03:00"
+    }
+  }
+}

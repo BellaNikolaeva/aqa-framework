@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "Бабочка отдел",
+      "author": "Медведева Нинель Степановна",
+      "genre": "detective",
+      "year_published": 1979,
+      "cover_url": "https://placekitten.com/644/962"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 214.6,
+    "body": {
+      "id": 1590,
+      "title": "Бабочка отдел",
+      "author": "Медведева Нинель Степановна",
+      "genre": "detective",
+      "year_published": 1979,
+      "cover_url": "https://placekitten.com/644/962",
+      "tags": [],
+      "created_at": "2026-08-05T11:22:31.423916+03:00"
+    }
+  }
+}

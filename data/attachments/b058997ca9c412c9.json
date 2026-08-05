@@ -1,0 +1,37 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/my-books/",
+    "payload": null
+  },
+  "response": {
+    "status_code": 200,
+    "elapsed_ms": 177.3,
+    "body": {
+      "count": 1,
+      "next": null,
+      "previous": null,
+      "results": [
+        {
+          "id": 237,
+          "book": {
+            "id": 1597,
+            "title": "Палата редактор металл",
+            "author": "Фотий Елисеевич Лыткин",
+            "genre": "non_fiction",
+            "year_published": 1968,
+            "cover_url": "https://dummyimage.com/701x385",
+            "tags": [],
+            "created_at": "2026-08-05T11:23:08.993357+03:00"
+          },
+          "status": "reading",
+          "rating": null,
+          "notes": "",
+          "started_at": null,
+          "finished_at": null,
+          "updated_at": "2026-08-05T11:23:09.189659+03:00"
+        }
+      ]
+    }
+  }
+}

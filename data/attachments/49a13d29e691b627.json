@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "поколение-62c07e2a-e765-401e-9bd8-bc9d01a4d347 Космос мера",
+      "author": "Силантий Ефремович Голубев",
+      "genre": "detective",
+      "year_published": 1989,
+      "cover_url": "https://placekitten.com/9/430"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 467.0,
+    "body": {
+      "id": 1614,
+      "title": "поколение-62c07e2a-e765-401e-9bd8-bc9d01a4d347 Космос мера",
+      "author": "Силантий Ефремович Голубев",
+      "genre": "detective",
+      "year_published": 1989,
+      "cover_url": "https://placekitten.com/9/430",
+      "tags": [],
+      "created_at": "2026-08-05T11:23:34.428826+03:00"
+    }
+  }
+}

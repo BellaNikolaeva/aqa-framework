@@ -1,0 +1,17 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/tags/",
+    "payload": {
+      "name": "покинуть-b2288f76-d0fc-4bb5-9e87-ea168eb7359b"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 256.1,
+    "body": {
+      "id": 133,
+      "name": "покинуть-b2288f76-d0fc-4bb5-9e87-ea168eb7359b"
+    }
+  }
+}

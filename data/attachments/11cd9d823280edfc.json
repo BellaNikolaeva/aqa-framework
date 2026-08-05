@@ -1,0 +1,33 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/my-books/",
+    "payload": {
+      "book_id": 1595,
+      "status": "want_to_read"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 196.3,
+    "body": {
+      "id": 235,
+      "book": {
+        "id": 1595,
+        "title": "Пространство сопровождаться горький",
+        "author": "Сидоров Герман Андреевич",
+        "genre": "non_fiction",
+        "year_published": 1950,
+        "cover_url": "https://placekitten.com/581/381",
+        "tags": [],
+        "created_at": "2026-08-05T11:22:59.901627+03:00"
+      },
+      "status": "want_to_read",
+      "rating": null,
+      "notes": "",
+      "started_at": null,
+      "finished_at": null,
+      "updated_at": "2026-08-05T11:23:00.097753+03:00"
+    }
+  }
+}
