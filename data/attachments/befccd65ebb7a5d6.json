@@ -1,0 +1,20 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "Тревога привлекать ярко",
+      "author": "Молчанов Чеслав Викторович",
+      "genre": "sci_fi",
+      "year_published": 1990,
+      "cover_url": "https://placekitten.com/954/755"
+    }
+  },
+  "response": {
+    "status_code": 401,
+    "elapsed_ms": 355.9,
+    "body": {
+      "detail": "Учетные данные не были предоставлены."
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "слать-a7aa5728-6ef4-477d-87fc-f71a69991a86 Падаль кпсс",
+      "author": "Зыков Эдуард Игнатьевич",
+      "genre": "detective",
+      "year_published": 1973,
+      "cover_url": "https://placekitten.com/250/166"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 137.0,
+    "body": {
+      "id": 1706,
+      "title": "слать-a7aa5728-6ef4-477d-87fc-f71a69991a86 Падаль кпсс",
+      "author": "Зыков Эдуард Игнатьевич",
+      "genre": "detective",
+      "year_published": 1973,
+      "cover_url": "https://placekitten.com/250/166",
+      "tags": [],
+      "created_at": "2026-08-06T11:20:20.733266+03:00"
+    }
+  }
+}

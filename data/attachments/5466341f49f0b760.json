@@ -1,0 +1,33 @@
+{
+  "request": {
+    "method": "PATCH",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/my-books/251/",
+    "payload": {
+      "status": "finished",
+      "finished_at": "2026-02-01"
+    }
+  },
+  "response": {
+    "status_code": 200,
+    "elapsed_ms": 133.5,
+    "body": {
+      "id": 251,
+      "book": {
+        "id": 1698,
+        "title": "Нервно свежий заведение",
+        "author": "Дорофей Ярославович Баранов",
+        "genre": "classic",
+        "year_published": 1957,
+        "cover_url": "https://dummyimage.com/651x306",
+        "tags": [],
+        "created_at": "2026-08-06T11:19:52.318335+03:00"
+      },
+      "status": "finished",
+      "rating": null,
+      "notes": "",
+      "started_at": "2026-01-15",
+      "finished_at": "2026-02-01",
+      "updated_at": "2026-08-06T11:19:52.752973+03:00"
+    }
+  }
+}

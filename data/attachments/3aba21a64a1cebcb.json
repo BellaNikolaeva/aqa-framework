@@ -1,0 +1,28 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": null
+  },
+  "response": {
+    "status_code": 200,
+    "elapsed_ms": 129.0,
+    "body": {
+      "count": 1,
+      "next": null,
+      "previous": null,
+      "results": [
+        {
+          "id": 1688,
+          "title": "Страсть бегать полоска",
+          "author": "Соловьева Евпраксия Эльдаровна",
+          "genre": "non_fiction",
+          "year_published": 1951,
+          "cover_url": "https://placekitten.com/621/34",
+          "tags": [],
+          "created_at": "2026-08-06T11:18:57.115778+03:00"
+        }
+      ]
+    }
+  }
+}

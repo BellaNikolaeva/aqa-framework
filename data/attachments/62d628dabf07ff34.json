@@ -1,0 +1,21 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "Командующий скользить валюта",
+      "genre": "detective",
+      "year_published": 1957,
+      "cover_url": "https://dummyimage.com/449x204"
+    }
+  },
+  "response": {
+    "status_code": 400,
+    "elapsed_ms": 150.2,
+    "body": {
+      "author": [
+        "Обязательное поле."
+      ]
+    }
+  }
+}

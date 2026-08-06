@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "Прошептать снимать желание",
+      "author": "Ангелина Максимовна Гуляева",
+      "genre": "classic",
+      "year_published": 1957,
+      "cover_url": "https://dummyimage.com/891x878"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 143.2,
+    "body": {
+      "id": 1682,
+      "title": "Прошептать снимать желание",
+      "author": "Ангелина Максимовна Гуляева",
+      "genre": "classic",
+      "year_published": 1957,
+      "cover_url": "https://dummyimage.com/891x878",
+      "tags": [],
+      "created_at": "2026-08-06T11:18:40.105251+03:00"
+    }
+  }
+}

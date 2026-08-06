@@ -1,0 +1,17 @@
+{
+  "request": {
+    "method": "PUT",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/tags/139/",
+    "payload": {
+      "name": "порядок-35802765-e6eb-4a87-930c-8552d8aea041"
+    }
+  },
+  "response": {
+    "status_code": 200,
+    "elapsed_ms": 125.6,
+    "body": {
+      "id": 139,
+      "name": "порядок-35802765-e6eb-4a87-930c-8552d8aea041"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "другой-96dce507-a29b-4b44-a504-cdae799ebf34 Поздравлять ягода смелый",
+      "author": "Сысоев Милий Бориславович",
+      "genre": "classic",
+      "year_published": 1967,
+      "cover_url": "https://dummyimage.com/662x569"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 175.0,
+    "body": {
+      "id": 1740,
+      "title": "другой-96dce507-a29b-4b44-a504-cdae799ebf34 Поздравлять ягода смелый",
+      "author": "Сысоев Милий Бориславович",
+      "genre": "classic",
+      "year_published": 1967,
+      "cover_url": "https://dummyimage.com/662x569",
+      "tags": [],
+      "created_at": "2026-08-06T11:20:32.911728+03:00"
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/my-books/",
+    "payload": {
+      "book_id": 1697,
+      "status": "want_to_read"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 145.3,
+    "body": {
+      "id": 250,
+      "book": {
+        "id": 1697,
+        "title": "Деловой пробовать хлеб",
+        "author": "Нестерова Зоя Львовна",
+        "genre": "fantasy",
+        "year_published": 1998,
+        "cover_url": "https://picsum.photos/298/314",
+        "tags": [],
+        "created_at": "2026-08-06T11:19:48.114559+03:00"
+      },
+      "status": "want_to_read",
+      "rating": null,
+      "notes": "",
+      "started_at": null,
+      "finished_at": null,
+      "updated_at": "2026-08-06T11:19:48.272935+03:00"
+    }
+  }
+}

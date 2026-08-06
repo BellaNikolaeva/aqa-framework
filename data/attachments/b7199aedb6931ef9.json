@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "другой-96dce507-a29b-4b44-a504-cdae799ebf34 Ставить прелесть интернет",
+      "author": "Семен Евстигнеевич Григорьев",
+      "genre": "detective",
+      "year_published": 2023,
+      "cover_url": "https://picsum.photos/798/180"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 211.7,
+    "body": {
+      "id": 1752,
+      "title": "другой-96dce507-a29b-4b44-a504-cdae799ebf34 Ставить прелесть интернет",
+      "author": "Семен Евстигнеевич Григорьев",
+      "genre": "detective",
+      "year_published": 2023,
+      "cover_url": "https://picsum.photos/798/180",
+      "tags": [],
+      "created_at": "2026-08-06T11:20:34.674833+03:00"
+    }
+  }
+}

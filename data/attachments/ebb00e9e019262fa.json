@@ -1,0 +1,15 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/tags/138/",
+    "payload": null
+  },
+  "response": {
+    "status_code": 200,
+    "elapsed_ms": 125.6,
+    "body": {
+      "id": 138,
+      "name": "приятель-95e7b763-ad29-47cb-a5cd-7dfeda766f6a"
+    }
+  }
+}

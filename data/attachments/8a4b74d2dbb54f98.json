@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "слать-a7aa5728-6ef4-477d-87fc-f71a69991a86 Находить ленинград",
+      "author": "Христофор Богданович Дьячков",
+      "genre": "non_fiction",
+      "year_published": 2014,
+      "cover_url": "https://picsum.photos/215/2"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 126.8,
+    "body": {
+      "id": 1718,
+      "title": "слать-a7aa5728-6ef4-477d-87fc-f71a69991a86 Находить ленинград",
+      "author": "Христофор Богданович Дьячков",
+      "genre": "non_fiction",
+      "year_published": 2014,
+      "cover_url": "https://picsum.photos/215/2",
+      "tags": [],
+      "created_at": "2026-08-06T11:20:22.409849+03:00"
+    }
+  }
+}

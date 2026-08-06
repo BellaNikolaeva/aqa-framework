@@ -1,0 +1,33 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/my-books/",
+    "payload": {
+      "book_id": 1692,
+      "status": "reading"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 1501.8,
+    "body": {
+      "id": 245,
+      "book": {
+        "id": 1692,
+        "title": "Приятель актриса",
+        "author": "Галина Сергеевна Никифорова",
+        "genre": "non_fiction",
+        "year_published": 1974,
+        "cover_url": "https://dummyimage.com/518x1005",
+        "tags": [],
+        "created_at": "2026-08-06T11:19:22.282592+03:00"
+      },
+      "status": "reading",
+      "rating": null,
+      "notes": "",
+      "started_at": null,
+      "finished_at": null,
+      "updated_at": "2026-08-06T11:19:23.868894+03:00"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "другой-96dce507-a29b-4b44-a504-cdae799ebf34 Социалистический какой рай куча",
+      "author": "Прасковья Олеговна Семенова",
+      "genre": "fantasy",
+      "year_published": 2004,
+      "cover_url": "https://placekitten.com/562/923"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 121.4,
+    "body": {
+      "id": 1749,
+      "title": "другой-96dce507-a29b-4b44-a504-cdae799ebf34 Социалистический какой рай куча",
+      "author": "Прасковья Олеговна Семенова",
+      "genre": "fantasy",
+      "year_published": 2004,
+      "cover_url": "https://placekitten.com/562/923",
+      "tags": [],
+      "created_at": "2026-08-06T11:20:34.105059+03:00"
+    }
+  }
+}

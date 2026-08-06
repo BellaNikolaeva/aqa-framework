@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "Остановить возможно",
+      "author": "Парфен Артёмович Никифоров",
+      "genre": "sci_fi",
+      "year_published": 1984,
+      "cover_url": "https://picsum.photos/839/731"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 148.7,
+    "body": {
+      "id": 1693,
+      "title": "Остановить возможно",
+      "author": "Парфен Артёмович Никифоров",
+      "genre": "sci_fi",
+      "year_published": 1984,
+      "cover_url": "https://picsum.photos/839/731",
+      "tags": [],
+      "created_at": "2026-08-06T11:19:27.925481+03:00"
+    }
+  }
+}

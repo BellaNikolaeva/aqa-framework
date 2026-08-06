@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "другой-96dce507-a29b-4b44-a504-cdae799ebf34 Танцевать болото палец",
+      "author": "Казакова Евгения Георгиевна",
+      "genre": "classic",
+      "year_published": 1999,
+      "cover_url": "https://placekitten.com/325/116"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 125.4,
+    "body": {
+      "id": 1731,
+      "title": "другой-96dce507-a29b-4b44-a504-cdae799ebf34 Танцевать болото палец",
+      "author": "Казакова Евгения Георгиевна",
+      "genre": "classic",
+      "year_published": 1999,
+      "cover_url": "https://placekitten.com/325/116",
+      "tags": [],
+      "created_at": "2026-08-06T11:20:31.388484+03:00"
+    }
+  }
+}

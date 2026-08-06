@@ -1,0 +1,218 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": null
+  },
+  "response": {
+    "status_code": 200,
+    "elapsed_ms": 130.3,
+    "body": {
+      "count": 25,
+      "next": "https://book-tracker-api-frnm.onrender.com/api/books/?page=2&search=%D0%BE%D1%87%D1%83%D1%82%D0%B8%D1%82%D1%8C%D1%81%D1%8F-91e04d45-4c7f-46ec-9b32-a624e2f5bc0a",
+      "previous": null,
+      "results": [
+        {
+          "id": 1777,
+          "title": "очутиться-91e04d45-4c7f-46ec-9b32-a624e2f5bc0a Вариант казнь",
+          "author": "Кононова Клавдия Ждановна",
+          "genre": "non_fiction",
+          "year_published": 2023,
+          "cover_url": "https://dummyimage.com/143x774",
+          "tags": [],
+          "created_at": "2026-08-06T11:20:44.534496+03:00"
+        },
+        {
+          "id": 1756,
+          "title": "очутиться-91e04d45-4c7f-46ec-9b32-a624e2f5bc0a Девка",
+          "author": "Захаров Бажен Германович",
+          "genre": "sci_fi",
+          "year_published": 1995,
+          "cover_url": "https://placekitten.com/328/580",
+          "tags": [],
+          "created_at": "2026-08-06T11:20:41.700726+03:00"
+        },
+        {
+          "id": 1765,
+          "title": "очутиться-91e04d45-4c7f-46ec-9b32-a624e2f5bc0a Изредка неожиданно сомнительный",
+          "author": "Тарас Федосьевич Цветков",
+          "genre": "fantasy",
+          "year_published": 2007,
+          "cover_url": "https://picsum.photos/501/794",
+          "tags": [],
+          "created_at": "2026-08-06T11:20:42.967368+03:00"
+        },
+        {
+          "id": 1758,
+          "title": "очутиться-91e04d45-4c7f-46ec-9b32-a624e2f5bc0a Инвалид ручей мелочь",
+          "author": "Раиса Станиславовна Колесникова",
+          "genre": "fantasy",
+          "year_published": 2010,
+          "cover_url": "https://picsum.photos/730/85",
+          "tags": [],
+          "created_at": "2026-08-06T11:20:41.989359+03:00"
+        },
+        {
+          "id": 1768,
+          "title": "очутиться-91e04d45-4c7f-46ec-9b32-a624e2f5bc0a Инструкция",
+          "author": "Сократ Якубович Поляков",
+          "genre": "non_fiction",
+          "year_published": 1999,
+          "cover_url": "https://dummyimage.com/620x61",
+          "tags": [],
+          "created_at": "2026-08-06T11:20:43.346775+03:00"
+        },
+        {
+          "id": 1755,
+          "title": "очутиться-91e04d45-4c7f-46ec-9b32-a624e2f5bc0a Карман",
+          "author": "Блинов Денис Евстигнеевич",
+          "genre": "sci_fi",
+          "year_published": 1963,
+          "cover_url": "https://dummyimage.com/179x591",
+          "tags": [],
+          "created_at": "2026-08-06T11:20:41.575864+03:00"
+        },
+        {
+          "id": 1770,
+          "title": "очутиться-91e04d45-4c7f-46ec-9b32-a624e2f5bc0a Левый второй термин",
+          "author": "Ситникова Элеонора Харитоновна",
+          "genre": "non_fiction",
+          "year_published": 1953,
+          "cover_url": "https://placekitten.com/879/914",
+          "tags": [],
+          "created_at": "2026-08-06T11:20:43.615158+03:00"
+        },
+        {
+          "id": 1775,
+          "title": "очутиться-91e04d45-4c7f-46ec-9b32-a624e2f5bc0a Лиловый понятный ягода",
+          "author": "Одинцова Тамара Олеговна",
+          "genre": "fantasy",
+          "year_published": 2016,
+          "cover_url": "https://picsum.photos/143/379",
+          "tags": [],
+          "created_at": "2026-08-06T11:20:44.267476+03:00"
+        },
+        {
+          "id": 1766,
+          "title": "очутиться-91e04d45-4c7f-46ec-9b32-a624e2f5bc0a Народ понятный предоставить",
+          "author": "Шилова Ксения Юльевна",
+          "genre": "fantasy",
+          "year_published": 2026,
+          "cover_url": "https://dummyimage.com/1008x120",
+          "tags": [],
+          "created_at": "2026-08-06T11:20:43.093525+03:00"
+        },
+        {
+          "id": 1769,
+          "title": "очутиться-91e04d45-4c7f-46ec-9b32-a624e2f5bc0a Освобождение тюрьма советовать",
+          "author": "Дмитриев Никон Григорьевич",
+          "genre": "fantasy",
+          "year_published": 1970,
+          "cover_url": "https://picsum.photos/15/87",
+          "tags": [],
+          "created_at": "2026-08-06T11:20:43.477225+03:00"
+        },
+        {
+          "id": 1761,
+          "title": "очутиться-91e04d45-4c7f-46ec-9b32-a624e2f5bc0a Очко сопровождаться подземный",
+          "author": "Исакова Полина Феликсовна",
+          "genre": "detective",
+          "year_published": 1990,
+          "cover_url": "https://picsum.photos/357/132",
+          "tags": [],
+          "created_at": "2026-08-06T11:20:42.429438+03:00"
+        },
+        {
+          "id": 1774,
+          "title": "очутиться-91e04d45-4c7f-46ec-9b32-a624e2f5bc0a Падаль около а",
+          "author": "Белоусов Леонид Юлианович",
+          "genre": "fantasy",
+          "year_published": 1976,
+          "cover_url": "https://picsum.photos/593/777",
+          "tags": [],
+          "created_at": "2026-08-06T11:20:44.139653+03:00"
+        },
+        {
+          "id": 1764,
+          "title": "очутиться-91e04d45-4c7f-46ec-9b32-a624e2f5bc0a Полоска горький",
+          "author": "Константинов Назар Харлампьевич",
+          "genre": "classic",
+          "year_published": 1963,
+          "cover_url": "https://picsum.photos/655/676",
+          "tags": [],
+          "created_at": "2026-08-06T11:20:42.825617+03:00"
+        },
+        {
+          "id": 1767,
+          "title": "очутиться-91e04d45-4c7f-46ec-9b32-a624e2f5bc0a Порядок остановить",
+          "author": "Попов Вышеслав Жанович",
+          "genre": "sci_fi",
+          "year_published": 1953,
+          "cover_url": "https://dummyimage.com/142x587",
+          "tags": [],
+          "created_at": "2026-08-06T11:20:43.220613+03:00"
+        },
+        {
+          "id": 1757,
+          "title": "очутиться-91e04d45-4c7f-46ec-9b32-a624e2f5bc0a Солнце стакан",
+          "author": "Глафира Феликсовна Кузьмина",
+          "genre": "detective",
+          "year_published": 1987,
+          "cover_url": "https://picsum.photos/595/311",
+          "tags": [],
+          "created_at": "2026-08-06T11:20:41.825845+03:00"
+        },
+        {
+          "id": 1762,
+          "title": "очутиться-91e04d45-4c7f-46ec-9b32-a624e2f5bc0a Сомнительный пятеро кольцо карандаш",
+          "author": "Твердислав Бориславович Королев",
+          "genre": "detective",
+          "year_published": 1976,
+          "cover_url": "https://placekitten.com/873/462",
+          "tags": [],
+          "created_at": "2026-08-06T11:20:42.558420+03:00"
+        },
+        {
+          "id": 1759,
+          "title": "очутиться-91e04d45-4c7f-46ec-9b32-a624e2f5bc0a Сравнение самостоятельно руководитель",
+          "author": "Валентин Аксёнович Авдеев",
+          "genre": "detective",
+          "year_published": 2008,
+          "cover_url": "https://picsum.photos/645/320",
+          "tags": [],
+          "created_at": "2026-08-06T11:20:42.174056+03:00"
+        },
+        {
+          "id": 1771,
+          "title": "очутиться-91e04d45-4c7f-46ec-9b32-a624e2f5bc0a Стакан сынок",
+          "author": "Аксенов Фрол Харламович",
+          "genre": "classic",
+          "year_published": 2012,
+          "cover_url": "https://picsum.photos/38/948",
+          "tags": [],
+          "created_at": "2026-08-06T11:20:43.749779+03:00"
+        },
+        {
+          "id": 1760,
+          "title": "очутиться-91e04d45-4c7f-46ec-9b32-a624e2f5bc0a Строительство",
+          "author": "Тихонова Кира Владиславовна",
+          "genre": "classic",
+          "year_published": 2023,
+          "cover_url": "https://placekitten.com/540/70",
+          "tags": [],
+          "created_at": "2026-08-06T11:20:42.304567+03:00"
+        },
+        {
+          "id": 1773,
+          "title": "очутиться-91e04d45-4c7f-46ec-9b32-a624e2f5bc0a Тюрьма запеть похороны",
+          "author": "Моисеев Ипат Георгиевич",
+          "genre": "non_fiction",
+          "year_published": 2012,
+          "cover_url": "https://dummyimage.com/805x999",
+          "tags": [],
+          "created_at": "2026-08-06T11:20:44.012944+03:00"
+        }
+      ]
+    }
+  }
+}

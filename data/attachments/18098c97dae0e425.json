@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "слать-a7aa5728-6ef4-477d-87fc-f71a69991a86 Уточнить экзамен что",
+      "author": "Тарасова Елена Вадимовна",
+      "genre": "fantasy",
+      "year_published": 1964,
+      "cover_url": "https://dummyimage.com/812x41"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 131.9,
+    "body": {
+      "id": 1712,
+      "title": "слать-a7aa5728-6ef4-477d-87fc-f71a69991a86 Уточнить экзамен что",
+      "author": "Тарасова Елена Вадимовна",
+      "genre": "fantasy",
+      "year_published": 1964,
+      "cover_url": "https://dummyimage.com/812x41",
+      "tags": [],
+      "created_at": "2026-08-06T11:20:21.518278+03:00"
+    }
+  }
+}

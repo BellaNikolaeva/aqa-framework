@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "другой-96dce507-a29b-4b44-a504-cdae799ebf34 Тюрьма",
+      "author": "Суханов Исай Федосеевич",
+      "genre": "non_fiction",
+      "year_published": 1956,
+      "cover_url": "https://dummyimage.com/450x1022"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 128.0,
+    "body": {
+      "id": 1729,
+      "title": "другой-96dce507-a29b-4b44-a504-cdae799ebf34 Тюрьма",
+      "author": "Суханов Исай Федосеевич",
+      "genre": "non_fiction",
+      "year_published": 1956,
+      "cover_url": "https://dummyimage.com/450x1022",
+      "tags": [],
+      "created_at": "2026-08-06T11:20:31.129495+03:00"
+    }
+  }
+}

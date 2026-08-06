@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "Достоинство",
+      "author": "Кондратьева Ульяна Мироновна",
+      "genre": "non_fiction",
+      "year_published": 1994,
+      "cover_url": "https://dummyimage.com/603x948"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 146.9,
+    "body": {
+      "id": 1700,
+      "title": "Достоинство",
+      "author": "Кондратьева Ульяна Мироновна",
+      "genre": "non_fiction",
+      "year_published": 1994,
+      "cover_url": "https://dummyimage.com/603x948",
+      "tags": [],
+      "created_at": "2026-08-06T11:20:01.315179+03:00"
+    }
+  }
+}

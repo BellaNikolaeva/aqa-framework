@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "другой-96dce507-a29b-4b44-a504-cdae799ebf34 Лететь тута расстегнуть",
+      "author": "Дарья Николаевна Самойлова",
+      "genre": "detective",
+      "year_published": 1989,
+      "cover_url": "https://placekitten.com/458/198"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 124.3,
+    "body": {
+      "id": 1747,
+      "title": "другой-96dce507-a29b-4b44-a504-cdae799ebf34 Лететь тута расстегнуть",
+      "author": "Дарья Николаевна Самойлова",
+      "genre": "detective",
+      "year_published": 1989,
+      "cover_url": "https://placekitten.com/458/198",
+      "tags": [],
+      "created_at": "2026-08-06T11:20:33.857455+03:00"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "очутиться-91e04d45-4c7f-46ec-9b32-a624e2f5bc0a Вариант казнь",
+      "author": "Кононова Клавдия Ждановна",
+      "genre": "non_fiction",
+      "year_published": 2023,
+      "cover_url": "https://dummyimage.com/143x774"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 130.3,
+    "body": {
+      "id": 1777,
+      "title": "очутиться-91e04d45-4c7f-46ec-9b32-a624e2f5bc0a Вариант казнь",
+      "author": "Кононова Клавдия Ждановна",
+      "genre": "non_fiction",
+      "year_published": 2023,
+      "cover_url": "https://dummyimage.com/143x774",
+      "tags": [],
+      "created_at": "2026-08-06T11:20:44.534496+03:00"
+    }
+  }
+}
