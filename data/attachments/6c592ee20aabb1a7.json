@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "танцевать-cb71f770-43d9-45fb-b260-9b650036ef9b Висеть князь",
+      "author": "Капустин Лазарь Дорофеевич",
+      "genre": "classic",
+      "year_published": 2017,
+      "cover_url": "https://picsum.photos/736/91"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 158.4,
+    "body": {
+      "id": 1849,
+      "title": "танцевать-cb71f770-43d9-45fb-b260-9b650036ef9b Висеть князь",
+      "author": "Капустин Лазарь Дорофеевич",
+      "genre": "classic",
+      "year_published": 2017,
+      "cover_url": "https://picsum.photos/736/91",
+      "tags": [],
+      "created_at": "2026-08-07T10:04:41.974032+03:00"
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "request": {
+    "method": "DELETE",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/1797/",
+    "payload": null
+  },
+  "response": {
+    "status_code": 204,
+    "elapsed_ms": 210.9,
+    "body": ""
+  }
+}

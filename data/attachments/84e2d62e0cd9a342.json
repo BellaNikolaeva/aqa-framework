@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "танцевать-cb71f770-43d9-45fb-b260-9b650036ef9b Кожа заявление",
+      "author": "Исаев Фрол Вилорович",
+      "genre": "sci_fi",
+      "year_published": 1998,
+      "cover_url": "https://dummyimage.com/232x202"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 153.3,
+    "body": {
+      "id": 1853,
+      "title": "танцевать-cb71f770-43d9-45fb-b260-9b650036ef9b Кожа заявление",
+      "author": "Исаев Фрол Вилорович",
+      "genre": "sci_fi",
+      "year_published": 1998,
+      "cover_url": "https://dummyimage.com/232x202",
+      "tags": [],
+      "created_at": "2026-08-07T10:04:42.634068+03:00"
+    }
+  }
+}

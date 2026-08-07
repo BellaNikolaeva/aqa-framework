@@ -1,0 +1,20 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "Сынок плавно",
+      "author": "Ксения Львовна Мартынова",
+      "genre": "non_fiction",
+      "year_published": 1997,
+      "cover_url": "https://dummyimage.com/235x384"
+    }
+  },
+  "response": {
+    "status_code": 401,
+    "elapsed_ms": 199.7,
+    "body": {
+      "detail": "Учетные данные не были предоставлены."
+    }
+  }
+}

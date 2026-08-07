@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "пересечь-5d26c9c1-7950-4465-a19e-23a877840661 Выражение пастух порода",
+      "author": "Зайцев Иван Викторович",
+      "genre": "non_fiction",
+      "year_published": 2007,
+      "cover_url": "https://placekitten.com/768/600"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 170.3,
+    "body": {
+      "id": 1826,
+      "title": "пересечь-5d26c9c1-7950-4465-a19e-23a877840661 Выражение пастух порода",
+      "author": "Зайцев Иван Викторович",
+      "genre": "non_fiction",
+      "year_published": 2007,
+      "cover_url": "https://placekitten.com/768/600",
+      "tags": [],
+      "created_at": "2026-08-07T10:04:29.778880+03:00"
+    }
+  }
+}

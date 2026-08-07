@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "Правление дорогой",
+      "author": "Епифан Ермолаевич Сидоров",
+      "genre": "fantasy",
+      "year_published": 2010,
+      "cover_url": "https://dummyimage.com/135x804"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 479.0,
+    "body": {
+      "id": 1880,
+      "title": "Правление дорогой",
+      "author": "Епифан Ермолаевич Сидоров",
+      "genre": "fantasy",
+      "year_published": 2010,
+      "cover_url": "https://dummyimage.com/135x804",
+      "tags": [],
+      "created_at": "2026-08-07T10:05:06.742599+03:00"
+    }
+  }
+}

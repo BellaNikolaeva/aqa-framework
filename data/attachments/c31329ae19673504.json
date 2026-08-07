@@ -1,0 +1,33 @@
+{
+  "request": {
+    "method": "PATCH",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/my-books/266/",
+    "payload": {
+      "status": "finished",
+      "finished_at": "2026-02-01"
+    }
+  },
+  "response": {
+    "status_code": 200,
+    "elapsed_ms": 155.7,
+    "body": {
+      "id": 266,
+      "book": {
+        "id": 1800,
+        "title": "Академик левый",
+        "author": "Ия Рудольфовна Зуева",
+        "genre": "fantasy",
+        "year_published": 2014,
+        "cover_url": "https://dummyimage.com/761x338",
+        "tags": [],
+        "created_at": "2026-08-07T10:03:57.681938+03:00"
+      },
+      "status": "finished",
+      "rating": null,
+      "notes": "",
+      "started_at": "2026-01-15",
+      "finished_at": "2026-02-01",
+      "updated_at": "2026-08-07T10:03:58.226057+03:00"
+    }
+  }
+}

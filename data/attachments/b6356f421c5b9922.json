@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "пересечь-5d26c9c1-7950-4465-a19e-23a877840661 Угол единый запретить",
+      "author": "Романова Лора Владиславовна",
+      "genre": "detective",
+      "year_published": 2004,
+      "cover_url": "https://dummyimage.com/1017x216"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 183.3,
+    "body": {
+      "id": 1808,
+      "title": "пересечь-5d26c9c1-7950-4465-a19e-23a877840661 Угол единый запретить",
+      "author": "Романова Лора Владиславовна",
+      "genre": "detective",
+      "year_published": 2004,
+      "cover_url": "https://dummyimage.com/1017x216",
+      "tags": [],
+      "created_at": "2026-08-07T10:04:26.618102+03:00"
+    }
+  }
+}

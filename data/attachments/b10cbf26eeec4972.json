@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "Сынок кидать",
+      "author": "Куликов Радим Фокич",
+      "genre": "detective",
+      "year_published": 1994,
+      "cover_url": "https://picsum.photos/105/236"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 175.2,
+    "body": {
+      "id": 1803,
+      "title": "Сынок кидать",
+      "author": "Куликов Радим Фокич",
+      "genre": "detective",
+      "year_published": 1994,
+      "cover_url": "https://picsum.photos/105/236",
+      "tags": [],
+      "created_at": "2026-08-07T10:04:13.550308+03:00"
+    }
+  }
+}

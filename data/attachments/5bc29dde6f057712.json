@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "витрина-20be00aa-6024-4e70-b2dc-cfd51f99447a Бетонный",
+      "author": "Рыбакова Варвара Тимуровна",
+      "genre": "detective",
+      "year_published": 1964,
+      "cover_url": "https://dummyimage.com/162x271"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 145.2,
+    "body": {
+      "id": 1869,
+      "title": "витрина-20be00aa-6024-4e70-b2dc-cfd51f99447a Бетонный",
+      "author": "Рыбакова Варвара Тимуровна",
+      "genre": "detective",
+      "year_published": 1964,
+      "cover_url": "https://dummyimage.com/162x271",
+      "tags": [],
+      "created_at": "2026-08-07T10:04:52.361989+03:00"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/tags/147/",
+    "payload": null
+  },
+  "response": {
+    "status_code": 404,
+    "elapsed_ms": 162.5,
+    "body": {
+      "detail": "No Tag matches the given query."
+    }
+  }
+}

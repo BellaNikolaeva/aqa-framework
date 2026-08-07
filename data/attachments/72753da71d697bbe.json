@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "пересечь-5d26c9c1-7950-4465-a19e-23a877840661 Набор смертельный",
+      "author": "Буров Фирс Августович",
+      "genre": "sci_fi",
+      "year_published": 1982,
+      "cover_url": "https://picsum.photos/76/661"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 223.4,
+    "body": {
+      "id": 1805,
+      "title": "пересечь-5d26c9c1-7950-4465-a19e-23a877840661 Набор смертельный",
+      "author": "Буров Фирс Августович",
+      "genre": "sci_fi",
+      "year_published": 1982,
+      "cover_url": "https://picsum.photos/76/661",
+      "tags": [],
+      "created_at": "2026-08-07T10:04:26.069228+03:00"
+    }
+  }
+}

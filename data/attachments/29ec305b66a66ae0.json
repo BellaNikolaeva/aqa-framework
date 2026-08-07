@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "танцевать-cb71f770-43d9-45fb-b260-9b650036ef9b Премьера порода",
+      "author": "Захаров Эдуард Андреевич",
+      "genre": "non_fiction",
+      "year_published": 1997,
+      "cover_url": "https://dummyimage.com/711x287"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 157.0,
+    "body": {
+      "id": 1844,
+      "title": "танцевать-cb71f770-43d9-45fb-b260-9b650036ef9b Премьера порода",
+      "author": "Захаров Эдуард Андреевич",
+      "genre": "non_fiction",
+      "year_published": 1997,
+      "cover_url": "https://dummyimage.com/711x287",
+      "tags": [],
+      "created_at": "2026-08-07T10:04:41.199178+03:00"
+    }
+  }
+}

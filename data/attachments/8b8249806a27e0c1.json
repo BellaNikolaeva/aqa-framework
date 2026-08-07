@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "витрина-20be00aa-6024-4e70-b2dc-cfd51f99447a Второй космос",
+      "author": "Чеслав Филиппович Костин",
+      "genre": "fantasy",
+      "year_published": 1960,
+      "cover_url": "https://placekitten.com/240/601"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 143.8,
+    "body": {
+      "id": 1878,
+      "title": "витрина-20be00aa-6024-4e70-b2dc-cfd51f99447a Второй космос",
+      "author": "Чеслав Филиппович Костин",
+      "genre": "fantasy",
+      "year_published": 1960,
+      "cover_url": "https://placekitten.com/240/601",
+      "tags": [],
+      "created_at": "2026-08-07T10:04:53.625876+03:00"
+    }
+  }
+}

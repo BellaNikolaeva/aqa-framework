@@ -1,0 +1,32 @@
+{
+  "request": {
+    "method": "PATCH",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/my-books/265/",
+    "payload": {
+      "notes": "Перечитать вторую главу"
+    }
+  },
+  "response": {
+    "status_code": 200,
+    "elapsed_ms": 295.3,
+    "body": {
+      "id": 265,
+      "book": {
+        "id": 1799,
+        "title": "Кпсс сходить кожа",
+        "author": "Калашникова Марфа Рудольфовна",
+        "genre": "sci_fi",
+        "year_published": 1962,
+        "cover_url": "https://dummyimage.com/726x782",
+        "tags": [],
+        "created_at": "2026-08-07T10:03:53.381823+03:00"
+      },
+      "status": "want_to_read",
+      "rating": null,
+      "notes": "Перечитать вторую главу",
+      "started_at": null,
+      "finished_at": null,
+      "updated_at": "2026-08-07T10:03:54.124422+03:00"
+    }
+  }
+}

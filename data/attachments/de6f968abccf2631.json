@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "пересечь-5d26c9c1-7950-4465-a19e-23a877840661 Умирать о слать бабочка",
+      "author": "Таисия Евгеньевна Федосеева",
+      "genre": "fantasy",
+      "year_published": 1993,
+      "cover_url": "https://dummyimage.com/42x885"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 174.3,
+    "body": {
+      "id": 1810,
+      "title": "пересечь-5d26c9c1-7950-4465-a19e-23a877840661 Умирать о слать бабочка",
+      "author": "Таисия Евгеньевна Федосеева",
+      "genre": "fantasy",
+      "year_published": 1993,
+      "cover_url": "https://dummyimage.com/42x885",
+      "tags": [],
+      "created_at": "2026-08-07T10:04:26.984905+03:00"
+    }
+  }
+}

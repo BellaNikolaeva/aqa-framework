@@ -1,0 +1,33 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/my-books/",
+    "payload": {
+      "book_id": 1798,
+      "status": "want_to_read"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 223.8,
+    "body": {
+      "id": 264,
+      "book": {
+        "id": 1798,
+        "title": "Основание растеряться грустный засунуть",
+        "author": "Олимпиада Руслановна Семенова",
+        "genre": "detective",
+        "year_published": 2001,
+        "cover_url": "https://picsum.photos/592/189",
+        "tags": [],
+        "created_at": "2026-08-07T10:03:49.454108+03:00"
+      },
+      "status": "want_to_read",
+      "rating": null,
+      "notes": "",
+      "started_at": null,
+      "finished_at": null,
+      "updated_at": "2026-08-07T10:03:49.682951+03:00"
+    }
+  }
+}

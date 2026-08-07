@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "витрина-20be00aa-6024-4e70-b2dc-cfd51f99447a Пол пропаганда",
+      "author": "Петрова Акулина Тимофеевна",
+      "genre": "sci_fi",
+      "year_published": 1991,
+      "cover_url": "https://picsum.photos/502/979"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 156.8,
+    "body": {
+      "id": 1863,
+      "title": "витрина-20be00aa-6024-4e70-b2dc-cfd51f99447a Пол пропаганда",
+      "author": "Петрова Акулина Тимофеевна",
+      "genre": "sci_fi",
+      "year_published": 1991,
+      "cover_url": "https://picsum.photos/502/979",
+      "tags": [],
+      "created_at": "2026-08-07T10:04:51.421997+03:00"
+    }
+  }
+}

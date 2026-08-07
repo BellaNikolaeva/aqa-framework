@@ -1,0 +1,21 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "Шлем райком",
+      "genre": "sci_fi",
+      "year_published": 2011,
+      "cover_url": "https://placekitten.com/575/153"
+    }
+  },
+  "response": {
+    "status_code": 400,
+    "elapsed_ms": 1507.2,
+    "body": {
+      "author": [
+        "Обязательное поле."
+      ]
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "витрина-20be00aa-6024-4e70-b2dc-cfd51f99447a Научить факультет мимо",
+      "author": "Авксентий Устинович Владимиров",
+      "genre": "sci_fi",
+      "year_published": 2002,
+      "cover_url": "https://dummyimage.com/813x793"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 145.5,
+    "body": {
+      "id": 1868,
+      "title": "витрина-20be00aa-6024-4e70-b2dc-cfd51f99447a Научить факультет мимо",
+      "author": "Авксентий Устинович Владимиров",
+      "genre": "sci_fi",
+      "year_published": 2002,
+      "cover_url": "https://dummyimage.com/813x793",
+      "tags": [],
+      "created_at": "2026-08-07T10:04:52.213730+03:00"
+    }
+  }
+}

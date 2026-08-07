@@ -1,0 +1,68 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": null
+  },
+  "response": {
+    "status_code": 200,
+    "elapsed_ms": 158.0,
+    "body": {
+      "count": 25,
+      "next": null,
+      "previous": "https://book-tracker-api-frnm.onrender.com/api/books/?search=%D1%82%D0%B0%D0%BD%D1%86%D0%B5%D0%B2%D0%B0%D1%82%D1%8C-cb71f770-43d9-45fb-b260-9b650036ef9b",
+      "results": [
+        {
+          "id": 1831,
+          "title": "танцевать-cb71f770-43d9-45fb-b260-9b650036ef9b Свежий тревога",
+          "author": "Фёкла Алексеевна Королева",
+          "genre": "classic",
+          "year_published": 2003,
+          "cover_url": "https://placekitten.com/660/236",
+          "tags": [],
+          "created_at": "2026-08-07T10:04:39.120086+03:00"
+        },
+        {
+          "id": 1830,
+          "title": "танцевать-cb71f770-43d9-45fb-b260-9b650036ef9b Сомнительный блин",
+          "author": "Игнатьев Константин Феодосьевич",
+          "genre": "non_fiction",
+          "year_published": 2019,
+          "cover_url": "https://dummyimage.com/162x596",
+          "tags": [],
+          "created_at": "2026-08-07T10:04:38.959712+03:00"
+        },
+        {
+          "id": 1851,
+          "title": "танцевать-cb71f770-43d9-45fb-b260-9b650036ef9b Успокоиться еврейский забирать",
+          "author": "Григорьева Акулина Михайловна",
+          "genre": "fantasy",
+          "year_published": 2016,
+          "cover_url": "https://dummyimage.com/891x336",
+          "tags": [],
+          "created_at": "2026-08-07T10:04:42.316769+03:00"
+        },
+        {
+          "id": 1839,
+          "title": "танцевать-cb71f770-43d9-45fb-b260-9b650036ef9b Что вывести адвокат спорт",
+          "author": "Эммануил Захарьевич Стрелков",
+          "genre": "sci_fi",
+          "year_published": 1951,
+          "cover_url": "https://placekitten.com/455/130",
+          "tags": [],
+          "created_at": "2026-08-07T10:04:40.381452+03:00"
+        },
+        {
+          "id": 1843,
+          "title": "танцевать-cb71f770-43d9-45fb-b260-9b650036ef9b Ягода недостаток затянуться изредка",
+          "author": "Евдокия Натановна Власова",
+          "genre": "classic",
+          "year_published": 1961,
+          "cover_url": "https://dummyimage.com/465x225",
+          "tags": [],
+          "created_at": "2026-08-07T10:04:41.041247+03:00"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": null
+  },
+  "response": {
+    "status_code": 200,
+    "elapsed_ms": 163.0,
+    "body": {
+      "count": 1,
+      "next": null,
+      "previous": null,
+      "results": [
+        {
+          "id": 1789,
+          "title": "Ночь полоска советовать",
+          "author": "Фадеева Наина Алексеевна",
+          "genre": "detective",
+          "year_published": 1984,
+          "cover_url": "https://picsum.photos/309/198",
+          "tags": [],
+          "created_at": "2026-08-07T10:03:01.345389+03:00"
+        }
+      ]
+    }
+  }
+}

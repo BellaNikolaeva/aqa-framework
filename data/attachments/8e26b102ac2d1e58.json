@@ -1,0 +1,16 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/tags/",
+    "payload": {
+      "name": "экзамен-62fe63ef-81de-4ebd-af4d-dd54fa5f72f3"
+    }
+  },
+  "response": {
+    "status_code": 401,
+    "elapsed_ms": 437.3,
+    "body": {
+      "detail": "Учетные данные не были предоставлены."
+    }
+  }
+}

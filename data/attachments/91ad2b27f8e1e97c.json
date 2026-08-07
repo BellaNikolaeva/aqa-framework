@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "пересечь-5d26c9c1-7950-4465-a19e-23a877840661 Запретить крыса радость",
+      "author": "Надежда Александровна Веселова",
+      "genre": "fantasy",
+      "year_published": 1961,
+      "cover_url": "https://placekitten.com/273/884"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 175.2,
+    "body": {
+      "id": 1818,
+      "title": "пересечь-5d26c9c1-7950-4465-a19e-23a877840661 Запретить крыса радость",
+      "author": "Надежда Александровна Веселова",
+      "genre": "fantasy",
+      "year_published": 1961,
+      "cover_url": "https://placekitten.com/273/884",
+      "tags": [],
+      "created_at": "2026-08-07T10:04:28.382545+03:00"
+    }
+  }
+}

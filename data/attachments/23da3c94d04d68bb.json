@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "танцевать-cb71f770-43d9-45fb-b260-9b650036ef9b Князь багровый остановить",
+      "author": "Рогов Сигизмунд Адрианович",
+      "genre": "detective",
+      "year_published": 1987,
+      "cover_url": "https://picsum.photos/622/259"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 164.2,
+    "body": {
+      "id": 1834,
+      "title": "танцевать-cb71f770-43d9-45fb-b260-9b650036ef9b Князь багровый остановить",
+      "author": "Рогов Сигизмунд Адрианович",
+      "genre": "detective",
+      "year_published": 1987,
+      "cover_url": "https://picsum.photos/622/259",
+      "tags": [],
+      "created_at": "2026-08-07T10:04:39.588972+03:00"
+    }
+  }
+}

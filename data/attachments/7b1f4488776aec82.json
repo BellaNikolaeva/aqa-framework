@@ -1,0 +1,17 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/tags/",
+    "payload": {
+      "name": "потрясти-fcb490e7-2a63-4e9a-b21c-91e7e1116b3d"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 1789.4,
+    "body": {
+      "id": 143,
+      "name": "потрясти-fcb490e7-2a63-4e9a-b21c-91e7e1116b3d"
+    }
+  }
+}

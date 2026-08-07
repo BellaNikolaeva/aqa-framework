@@ -1,0 +1,18 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/tags/",
+    "payload": {
+      "name": "результат-ba75ffc5-ca6b-4f02-b557-48dbdb5ac611"
+    }
+  },
+  "response": {
+    "status_code": 400,
+    "elapsed_ms": 168.7,
+    "body": {
+      "name": [
+        "tag с таким name уже существует."
+      ]
+    }
+  }
+}

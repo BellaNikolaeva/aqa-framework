@@ -1,0 +1,33 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/my-books/",
+    "payload": {
+      "book_id": 1795,
+      "status": "finished"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 198.7,
+    "body": {
+      "id": 261,
+      "book": {
+        "id": 1795,
+        "title": "Расстегнуть граница",
+        "author": "Артем Фадеевич Фокин",
+        "genre": "detective",
+        "year_published": 1983,
+        "cover_url": "https://picsum.photos/453/649",
+        "tags": [],
+        "created_at": "2026-08-07T10:03:36.458737+03:00"
+      },
+      "status": "finished",
+      "rating": null,
+      "notes": "",
+      "started_at": null,
+      "finished_at": null,
+      "updated_at": "2026-08-07T10:03:36.655634+03:00"
+    }
+  }
+}

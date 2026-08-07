@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "пересечь-5d26c9c1-7950-4465-a19e-23a877840661 Ложиться",
+      "author": "Анастасия Юльевна Лихачева",
+      "genre": "detective",
+      "year_published": 2010,
+      "cover_url": "https://placekitten.com/146/728"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 173.2,
+    "body": {
+      "id": 1807,
+      "title": "пересечь-5d26c9c1-7950-4465-a19e-23a877840661 Ложиться",
+      "author": "Анастасия Юльевна Лихачева",
+      "genre": "detective",
+      "year_published": 2010,
+      "cover_url": "https://placekitten.com/146/728",
+      "tags": [],
+      "created_at": "2026-08-07T10:04:26.438829+03:00"
+    }
+  }
+}

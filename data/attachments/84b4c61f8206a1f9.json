@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "танцевать-cb71f770-43d9-45fb-b260-9b650036ef9b Разводить изучить аж",
+      "author": "Конон Фадеевич Наумов",
+      "genre": "fantasy",
+      "year_published": 1960,
+      "cover_url": "https://dummyimage.com/63x22"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 174.8,
+    "body": {
+      "id": 1840,
+      "title": "танцевать-cb71f770-43d9-45fb-b260-9b650036ef9b Разводить изучить аж",
+      "author": "Конон Фадеевич Наумов",
+      "genre": "fantasy",
+      "year_published": 1960,
+      "cover_url": "https://dummyimage.com/63x22",
+      "tags": [],
+      "created_at": "2026-08-07T10:04:40.547366+03:00"
+    }
+  }
+}

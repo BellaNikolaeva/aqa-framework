@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "пересечь-5d26c9c1-7950-4465-a19e-23a877840661 Мгновение ленинград решение",
+      "author": "Никитина Нинель Артемовна",
+      "genre": "classic",
+      "year_published": 2025,
+      "cover_url": "https://picsum.photos/133/117"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 172.4,
+    "body": {
+      "id": 1820,
+      "title": "пересечь-5d26c9c1-7950-4465-a19e-23a877840661 Мгновение ленинград решение",
+      "author": "Никитина Нинель Артемовна",
+      "genre": "classic",
+      "year_published": 2025,
+      "cover_url": "https://picsum.photos/133/117",
+      "tags": [],
+      "created_at": "2026-08-07T10:04:28.738139+03:00"
+    }
+  }
+}
