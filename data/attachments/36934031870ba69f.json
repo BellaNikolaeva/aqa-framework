@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "вперед-bbdd41f8-ee5e-4205-a99d-4417e503c58c Господь космос при",
+      "author": "Власова Марфа Борисовна",
+      "genre": "sci_fi",
+      "year_published": 2024,
+      "cover_url": "https://dummyimage.com/408x805"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 114.4,
+    "body": {
+      "id": 1925,
+      "title": "вперед-bbdd41f8-ee5e-4205-a99d-4417e503c58c Господь космос при",
+      "author": "Власова Марфа Борисовна",
+      "genre": "sci_fi",
+      "year_published": 2024,
+      "cover_url": "https://dummyimage.com/408x805",
+      "tags": [],
+      "created_at": "2026-08-08T09:38:57.372639+03:00"
+    }
+  }
+}

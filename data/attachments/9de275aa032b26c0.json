@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "свежий-e5a91f38-3187-4aa3-b763-77421720af68 Зима коричневый решение",
+      "author": "Клавдия Артемовна Прохорова",
+      "genre": "sci_fi",
+      "year_published": 2000,
+      "cover_url": "https://picsum.photos/518/482"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 111.3,
+    "body": {
+      "id": 1937,
+      "title": "свежий-e5a91f38-3187-4aa3-b763-77421720af68 Зима коричневый решение",
+      "author": "Клавдия Артемовна Прохорова",
+      "genre": "sci_fi",
+      "year_published": 2000,
+      "cover_url": "https://picsum.photos/518/482",
+      "tags": [],
+      "created_at": "2026-08-08T09:39:05.383442+03:00"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "вперед-bbdd41f8-ee5e-4205-a99d-4417e503c58c Коробка холодно",
+      "author": "Громова Ксения Геннадиевна",
+      "genre": "non_fiction",
+      "year_published": 2024,
+      "cover_url": "https://placekitten.com/598/476"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 133.2,
+    "body": {
+      "id": 1919,
+      "title": "вперед-bbdd41f8-ee5e-4205-a99d-4417e503c58c Коробка холодно",
+      "author": "Громова Ксения Геннадиевна",
+      "genre": "non_fiction",
+      "year_published": 2024,
+      "cover_url": "https://placekitten.com/598/476",
+      "tags": [],
+      "created_at": "2026-08-08T09:38:56.643758+03:00"
+    }
+  }
+}

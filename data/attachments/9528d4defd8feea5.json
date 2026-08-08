@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "вперед-bbdd41f8-ee5e-4205-a99d-4417e503c58c Грустный прощение академик",
+      "author": "Агата Харитоновна Назарова",
+      "genre": "classic",
+      "year_published": 2019,
+      "cover_url": "https://placekitten.com/849/389"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 132.8,
+    "body": {
+      "id": 1911,
+      "title": "вперед-bbdd41f8-ee5e-4205-a99d-4417e503c58c Грустный прощение академик",
+      "author": "Агата Харитоновна Назарова",
+      "genre": "classic",
+      "year_published": 2019,
+      "cover_url": "https://placekitten.com/849/389",
+      "tags": [],
+      "created_at": "2026-08-08T09:38:55.696113+03:00"
+    }
+  }
+}

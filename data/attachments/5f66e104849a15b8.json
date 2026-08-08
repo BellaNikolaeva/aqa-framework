@@ -1,0 +1,21 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "Анализ дорогой",
+      "genre": "classic",
+      "year_published": 1985,
+      "cover_url": "https://dummyimage.com/718x141"
+    }
+  },
+  "response": {
+    "status_code": 400,
+    "elapsed_ms": 1497.7,
+    "body": {
+      "author": [
+        "Обязательное поле."
+      ]
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/tags/",
+    "payload": {
+      "name": "витрина-7e978600-01e8-4859-a64b-16a73470a2e1"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 125.8,
+    "body": {
+      "id": 152,
+      "name": "витрина-7e978600-01e8-4859-a64b-16a73470a2e1"
+    }
+  }
+}

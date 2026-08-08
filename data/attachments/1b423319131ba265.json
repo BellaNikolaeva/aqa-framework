@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "свежий-e5a91f38-3187-4aa3-b763-77421720af68 Пересечь триста",
+      "author": "Савельев Автоном Анатольевич",
+      "genre": "non_fiction",
+      "year_published": 2005,
+      "cover_url": "https://dummyimage.com/158x307"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 110.0,
+    "body": {
+      "id": 1938,
+      "title": "свежий-e5a91f38-3187-4aa3-b763-77421720af68 Пересечь триста",
+      "author": "Савельев Автоном Анатольевич",
+      "genre": "non_fiction",
+      "year_published": 2005,
+      "cover_url": "https://dummyimage.com/158x307",
+      "tags": [],
+      "created_at": "2026-08-08T09:39:05.494704+03:00"
+    }
+  }
+}

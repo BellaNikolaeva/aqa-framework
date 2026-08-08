@@ -1,0 +1,33 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/my-books/",
+    "payload": {
+      "book_id": 1902,
+      "status": "reading"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 137.7,
+    "body": {
+      "id": 281,
+      "book": {
+        "id": 1902,
+        "title": "Песенка зима",
+        "author": "Ипат Иосипович Сергеев",
+        "genre": "non_fiction",
+        "year_published": 1970,
+        "cover_url": "https://picsum.photos/386/66",
+        "tags": [],
+        "created_at": "2026-08-08T09:38:30.117829+03:00"
+      },
+      "status": "reading",
+      "rating": null,
+      "notes": "",
+      "started_at": null,
+      "finished_at": null,
+      "updated_at": "2026-08-08T09:38:30.256776+03:00"
+    }
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": null
+  },
+  "response": {
+    "status_code": 200,
+    "elapsed_ms": 112.6,
+    "body": {
+      "count": 25,
+      "next": null,
+      "previous": "https://book-tracker-api-frnm.onrender.com/api/books/?search=%D0%BA%D0%BE%D0%BC%D0%B0%D0%BD%D0%B4%D0%B8%D1%80-a55e8580-29bf-4c26-964b-85d7e6f1d0ec",
+      "results": [
+        {
+          "id": 1961,
+          "title": "командир-a55e8580-29bf-4c26-964b-85d7e6f1d0ec Увеличиваться идея",
+          "author": "Елисеева Елена Владиславовна",
+          "genre": "detective",
+          "year_published": 1999,
+          "cover_url": "https://dummyimage.com/483x802",
+          "tags": [],
+          "created_at": "2026-08-08T09:39:14.910914+03:00"
+        },
+        {
+          "id": 1976,
+          "title": "командир-a55e8580-29bf-4c26-964b-85d7e6f1d0ec Уточнить холодно волк",
+          "author": "Милица Робертовна Авдеева",
+          "genre": "non_fiction",
+          "year_published": 1997,
+          "cover_url": "https://dummyimage.com/904x166",
+          "tags": [],
+          "created_at": "2026-08-08T09:39:16.905596+03:00"
+        },
+        {
+          "id": 1965,
+          "title": "командир-a55e8580-29bf-4c26-964b-85d7e6f1d0ec Фонарик способ настать",
+          "author": "Остромир Германович Петров",
+          "genre": "non_fiction",
+          "year_published": 2015,
+          "cover_url": "https://placekitten.com/200/83",
+          "tags": [],
+          "created_at": "2026-08-08T09:39:15.390956+03:00"
+        },
+        {
+          "id": 1959,
+          "title": "командир-a55e8580-29bf-4c26-964b-85d7e6f1d0ec Ход зарплата уничтожение",
+          "author": "Пимен Владленович Белоусов",
+          "genre": "sci_fi",
+          "year_published": 1983,
+          "cover_url": "https://placekitten.com/814/804",
+          "tags": [],
+          "created_at": "2026-08-08T09:39:14.667893+03:00"
+        },
+        {
+          "id": 1980,
+          "title": "командир-a55e8580-29bf-4c26-964b-85d7e6f1d0ec Цепочка да",
+          "author": "Кабанов Натан Елизарович",
+          "genre": "sci_fi",
+          "year_published": 1971,
+          "cover_url": "https://picsum.photos/70/843",
+          "tags": [],
+          "created_at": "2026-08-08T09:39:17.385684+03:00"
+        }
+      ]
+    }
+  }
+}

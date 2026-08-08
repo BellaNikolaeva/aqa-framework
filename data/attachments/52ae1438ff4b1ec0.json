@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "командир-a55e8580-29bf-4c26-964b-85d7e6f1d0ec Увеличиваться идея",
+      "author": "Елисеева Елена Владиславовна",
+      "genre": "detective",
+      "year_published": 1999,
+      "cover_url": "https://dummyimage.com/483x802"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 115.5,
+    "body": {
+      "id": 1961,
+      "title": "командир-a55e8580-29bf-4c26-964b-85d7e6f1d0ec Увеличиваться идея",
+      "author": "Елисеева Елена Владиславовна",
+      "genre": "detective",
+      "year_published": 1999,
+      "cover_url": "https://dummyimage.com/483x802",
+      "tags": [],
+      "created_at": "2026-08-08T09:39:14.910914+03:00"
+    }
+  }
+}

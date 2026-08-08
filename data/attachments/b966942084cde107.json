@@ -1,0 +1,21 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "author": "Юлия Михайловна Шубина",
+      "genre": "classic",
+      "year_published": 2001,
+      "cover_url": "https://placekitten.com/740/809"
+    }
+  },
+  "response": {
+    "status_code": 400,
+    "elapsed_ms": 138.8,
+    "body": {
+      "title": [
+        "Обязательное поле."
+      ]
+    }
+  }
+}

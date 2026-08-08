@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "Около около кольцо точно",
+      "author": "Крылов Ратмир Валерьянович",
+      "genre": "classic",
+      "year_published": 1999,
+      "cover_url": "https://placekitten.com/642/432"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 122.9,
+    "body": {
+      "id": 1903,
+      "title": "Около около кольцо точно",
+      "author": "Крылов Ратмир Валерьянович",
+      "genre": "classic",
+      "year_published": 1999,
+      "cover_url": "https://placekitten.com/642/432",
+      "tags": [],
+      "created_at": "2026-08-08T09:38:34.314041+03:00"
+    }
+  }
+}

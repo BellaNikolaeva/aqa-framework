@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "командир-a55e8580-29bf-4c26-964b-85d7e6f1d0ec Редактор вряд пятеро",
+      "author": "Любосмысл Матвеевич Мясников",
+      "genre": "classic",
+      "year_published": 2014,
+      "cover_url": "https://placekitten.com/348/947"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 133.4,
+    "body": {
+      "id": 1957,
+      "title": "командир-a55e8580-29bf-4c26-964b-85d7e6f1d0ec Редактор вряд пятеро",
+      "author": "Любосмысл Матвеевич Мясников",
+      "genre": "classic",
+      "year_published": 2014,
+      "cover_url": "https://placekitten.com/348/947",
+      "tags": [],
+      "created_at": "2026-08-08T09:39:14.422107+03:00"
+    }
+  }
+}

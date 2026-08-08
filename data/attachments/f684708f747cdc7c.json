@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "свежий-e5a91f38-3187-4aa3-b763-77421720af68 Отъезд находить команда",
+      "author": "Стрелкова Марина Даниловна",
+      "genre": "detective",
+      "year_published": 2007,
+      "cover_url": "https://dummyimage.com/1007x129"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 118.5,
+    "body": {
+      "id": 1948,
+      "title": "свежий-e5a91f38-3187-4aa3-b763-77421720af68 Отъезд находить команда",
+      "author": "Стрелкова Марина Даниловна",
+      "genre": "detective",
+      "year_published": 2007,
+      "cover_url": "https://dummyimage.com/1007x129",
+      "tags": [],
+      "created_at": "2026-08-08T09:39:06.648450+03:00"
+    }
+  }
+}

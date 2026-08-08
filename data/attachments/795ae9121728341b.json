@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "командир-a55e8580-29bf-4c26-964b-85d7e6f1d0ec Премьера правление",
+      "author": "Белов Софон Иларионович",
+      "genre": "sci_fi",
+      "year_published": 2006,
+      "cover_url": "https://picsum.photos/247/106"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 116.1,
+    "body": {
+      "id": 1963,
+      "title": "командир-a55e8580-29bf-4c26-964b-85d7e6f1d0ec Премьера правление",
+      "author": "Белов Софон Иларионович",
+      "genre": "sci_fi",
+      "year_published": 2006,
+      "cover_url": "https://picsum.photos/247/106",
+      "tags": [],
+      "created_at": "2026-08-08T09:39:15.152744+03:00"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "свежий-e5a91f38-3187-4aa3-b763-77421720af68 Вообще неожиданно естественный",
+      "author": "Зиновьева Прасковья Никифоровна",
+      "genre": "sci_fi",
+      "year_published": 1960,
+      "cover_url": "https://placekitten.com/773/146"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 115.7,
+    "body": {
+      "id": 1941,
+      "title": "свежий-e5a91f38-3187-4aa3-b763-77421720af68 Вообще неожиданно естественный",
+      "author": "Зиновьева Прасковья Никифоровна",
+      "genre": "sci_fi",
+      "year_published": 1960,
+      "cover_url": "https://placekitten.com/773/146",
+      "tags": [],
+      "created_at": "2026-08-08T09:39:05.841964+03:00"
+    }
+  }
+}

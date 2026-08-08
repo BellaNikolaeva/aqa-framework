@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "свежий-e5a91f38-3187-4aa3-b763-77421720af68 Вчера кузнец темнеть",
+      "author": "Артемий Ефремович Сергеев",
+      "genre": "fantasy",
+      "year_published": 2002,
+      "cover_url": "https://picsum.photos/540/745"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 111.2,
+    "body": {
+      "id": 1946,
+      "title": "свежий-e5a91f38-3187-4aa3-b763-77421720af68 Вчера кузнец темнеть",
+      "author": "Артемий Ефремович Сергеев",
+      "genre": "fantasy",
+      "year_published": 2002,
+      "cover_url": "https://picsum.photos/540/745",
+      "tags": [],
+      "created_at": "2026-08-08T09:39:06.422001+03:00"
+    }
+  }
+}

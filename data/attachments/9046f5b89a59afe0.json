@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "свежий-e5a91f38-3187-4aa3-b763-77421720af68 Назначить налоговый пространство ломать",
+      "author": "Семенова Наталья Леонидовна",
+      "genre": "sci_fi",
+      "year_published": 1961,
+      "cover_url": "https://placekitten.com/945/293"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 118.5,
+    "body": {
+      "id": 1934,
+      "title": "свежий-e5a91f38-3187-4aa3-b763-77421720af68 Назначить налоговый пространство ломать",
+      "author": "Семенова Наталья Леонидовна",
+      "genre": "sci_fi",
+      "year_published": 1961,
+      "cover_url": "https://placekitten.com/945/293",
+      "tags": [],
+      "created_at": "2026-08-08T09:39:05.040594+03:00"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "командир-a55e8580-29bf-4c26-964b-85d7e6f1d0ec Правильный бровь",
+      "author": "Артемьев Будимир Юлианович",
+      "genre": "non_fiction",
+      "year_published": 2013,
+      "cover_url": "https://dummyimage.com/189x737"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 111.4,
+    "body": {
+      "id": 1975,
+      "title": "командир-a55e8580-29bf-4c26-964b-85d7e6f1d0ec Правильный бровь",
+      "author": "Артемьев Будимир Юлианович",
+      "genre": "non_fiction",
+      "year_published": 2013,
+      "cover_url": "https://dummyimage.com/189x737",
+      "tags": [],
+      "created_at": "2026-08-08T09:39:16.790773+03:00"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "вперед-bbdd41f8-ee5e-4205-a99d-4417e503c58c Холодно поставить",
+      "author": "Пелагея Аркадьевна Гордеева",
+      "genre": "sci_fi",
+      "year_published": 1962,
+      "cover_url": "https://picsum.photos/324/486"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 124.5,
+    "body": {
+      "id": 1908,
+      "title": "вперед-bbdd41f8-ee5e-4205-a99d-4417e503c58c Холодно поставить",
+      "author": "Пелагея Аркадьевна Гордеева",
+      "genre": "sci_fi",
+      "year_published": 1962,
+      "cover_url": "https://picsum.photos/324/486",
+      "tags": [],
+      "created_at": "2026-08-08T09:38:55.325823+03:00"
+    }
+  }
+}

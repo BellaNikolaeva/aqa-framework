@@ -1,0 +1,20 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "Решетка медицина",
+      "author": "Наум Дмитриевич Карпов",
+      "genre": "classic",
+      "year_published": 2017,
+      "cover_url": "https://picsum.photos/115/840"
+    }
+  },
+  "response": {
+    "status_code": 401,
+    "elapsed_ms": 121.1,
+    "body": {
+      "detail": "Учетные данные не были предоставлены."
+    }
+  }
+}

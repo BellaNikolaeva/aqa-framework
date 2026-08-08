@@ -1,0 +1,17 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/tags/",
+    "payload": {
+      "name": "боец-e083b15b-db1b-4bdb-958b-a9c7869e57db"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 129.9,
+    "body": {
+      "id": 154,
+      "name": "боец-e083b15b-db1b-4bdb-958b-a9c7869e57db"
+    }
+  }
+}

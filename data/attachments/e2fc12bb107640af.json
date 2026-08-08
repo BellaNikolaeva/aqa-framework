@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "свежий-e5a91f38-3187-4aa3-b763-77421720af68 Домашний дальний",
+      "author": "Адам Матвеевич Беляев",
+      "genre": "detective",
+      "year_published": 2015,
+      "cover_url": "https://picsum.photos/544/642"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 109.1,
+    "body": {
+      "id": 1947,
+      "title": "свежий-e5a91f38-3187-4aa3-b763-77421720af68 Домашний дальний",
+      "author": "Адам Матвеевич Беляев",
+      "genre": "detective",
+      "year_published": 2015,
+      "cover_url": "https://picsum.photos/544/642",
+      "tags": [],
+      "created_at": "2026-08-08T09:39:06.530795+03:00"
+    }
+  }
+}
