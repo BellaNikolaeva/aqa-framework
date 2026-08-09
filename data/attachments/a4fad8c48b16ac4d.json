@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "налоговый-5c76327d-715f-4547-af77-5e845ee7b465 Банда понятный магазин",
+      "author": "Мишин Валерий Эдгардович",
+      "genre": "sci_fi",
+      "year_published": 1999,
+      "cover_url": "https://picsum.photos/119/964"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 176.4,
+    "body": {
+      "id": 2021,
+      "title": "налоговый-5c76327d-715f-4547-af77-5e845ee7b465 Банда понятный магазин",
+      "author": "Мишин Валерий Эдгардович",
+      "genre": "sci_fi",
+      "year_published": 1999,
+      "cover_url": "https://picsum.photos/119/964",
+      "tags": [],
+      "created_at": "2026-08-09T09:42:52.428294+03:00"
+    }
+  }
+}

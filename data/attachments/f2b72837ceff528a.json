@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "Около уничтожение",
+      "author": "Никонов Андрон Филиппович",
+      "genre": "sci_fi",
+      "year_published": 1977,
+      "cover_url": "https://placekitten.com/145/731"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 212.6,
+    "body": {
+      "id": 2085,
+      "title": "Около уничтожение",
+      "author": "Никонов Андрон Филиппович",
+      "genre": "sci_fi",
+      "year_published": 1977,
+      "cover_url": "https://placekitten.com/145/731",
+      "tags": [],
+      "created_at": "2026-08-09T09:43:41.966802+03:00"
+    }
+  }
+}

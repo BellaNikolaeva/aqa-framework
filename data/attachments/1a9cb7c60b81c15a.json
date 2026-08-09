@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "Сравнение запретить банда",
+      "author": "Сильвестр Ермолаевич Королев",
+      "genre": "fantasy",
+      "year_published": 1953,
+      "cover_url": "https://placekitten.com/119/740"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 203.6,
+    "body": {
+      "id": 2000,
+      "title": "Сравнение запретить банда",
+      "author": "Сильвестр Ермолаевич Королев",
+      "genre": "fantasy",
+      "year_published": 1953,
+      "cover_url": "https://placekitten.com/119/740",
+      "tags": [],
+      "created_at": "2026-08-09T09:42:02.168792+03:00"
+    }
+  }
+}

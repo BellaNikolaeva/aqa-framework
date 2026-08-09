@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "скрытый-60400c33-1137-4f61-a2eb-a2fa0d683d4e Аж низкий мальчишка",
+      "author": "Пелагея Никифоровна Щукина",
+      "genre": "non_fiction",
+      "year_published": 1958,
+      "cover_url": "https://picsum.photos/823/284"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 176.6,
+    "body": {
+      "id": 2054,
+      "title": "скрытый-60400c33-1137-4f61-a2eb-a2fa0d683d4e Аж низкий мальчишка",
+      "author": "Пелагея Никифоровна Щукина",
+      "genre": "non_fiction",
+      "year_published": 1958,
+      "cover_url": "https://picsum.photos/823/284",
+      "tags": [],
+      "created_at": "2026-08-09T09:43:07.651748+03:00"
+    }
+  }
+}

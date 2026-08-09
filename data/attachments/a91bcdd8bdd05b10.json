@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "налоговый-5c76327d-715f-4547-af77-5e845ee7b465 Мальчишка июнь правление",
+      "author": "Кузьма Ефимович Данилов",
+      "genre": "non_fiction",
+      "year_published": 1981,
+      "cover_url": "https://placekitten.com/531/126"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 202.0,
+    "body": {
+      "id": 2022,
+      "title": "налоговый-5c76327d-715f-4547-af77-5e845ee7b465 Мальчишка июнь правление",
+      "author": "Кузьма Ефимович Данилов",
+      "genre": "non_fiction",
+      "year_published": 1981,
+      "cover_url": "https://placekitten.com/531/126",
+      "tags": [],
+      "created_at": "2026-08-09T09:42:52.610718+03:00"
+    }
+  }
+}

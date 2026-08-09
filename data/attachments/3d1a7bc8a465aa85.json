@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "Пересечь житель",
+      "author": "Кудрявцев Ярополк Елисеевич",
+      "genre": "detective",
+      "year_published": 2021,
+      "cover_url": "https://picsum.photos/649/472"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 202.0,
+    "body": {
+      "id": 1991,
+      "title": "Пересечь житель",
+      "author": "Кудрявцев Ярополк Елисеевич",
+      "genre": "detective",
+      "year_published": 2021,
+      "cover_url": "https://picsum.photos/649/472",
+      "tags": [],
+      "created_at": "2026-08-09T09:41:14.562430+03:00"
+    }
+  }
+}

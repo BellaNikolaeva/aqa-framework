@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "следовательно-aa6f2acd-7952-4ddb-ab61-8a85e5ba22a8 Да постоянный парень",
+      "author": "Рогов Прокл Яковлевич",
+      "genre": "fantasy",
+      "year_published": 1958,
+      "cover_url": "https://dummyimage.com/899x153"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 189.7,
+    "body": {
+      "id": 2070,
+      "title": "следовательно-aa6f2acd-7952-4ddb-ab61-8a85e5ba22a8 Да постоянный парень",
+      "author": "Рогов Прокл Яковлевич",
+      "genre": "fantasy",
+      "year_published": 1958,
+      "cover_url": "https://dummyimage.com/899x153",
+      "tags": [],
+      "created_at": "2026-08-09T09:43:19.727701+03:00"
+    }
+  }
+}

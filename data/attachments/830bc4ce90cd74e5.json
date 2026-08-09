@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "налоговый-5c76327d-715f-4547-af77-5e845ee7b465 Человечек",
+      "author": "Анисимова Олимпиада Рубеновна",
+      "genre": "sci_fi",
+      "year_published": 1953,
+      "cover_url": "https://picsum.photos/853/121"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 195.2,
+    "body": {
+      "id": 2028,
+      "title": "налоговый-5c76327d-715f-4547-af77-5e845ee7b465 Человечек",
+      "author": "Анисимова Олимпиада Рубеновна",
+      "genre": "sci_fi",
+      "year_published": 1953,
+      "cover_url": "https://picsum.photos/853/121",
+      "tags": [],
+      "created_at": "2026-08-09T09:42:53.764172+03:00"
+    }
+  }
+}

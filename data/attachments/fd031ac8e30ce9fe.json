@@ -1,0 +1,17 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/tags/",
+    "payload": {
+      "name": "солнце-3637ddbc-7ca6-4e7d-b5d0-14daf0988171"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 1600.4,
+    "body": {
+      "id": 157,
+      "name": "солнце-3637ddbc-7ca6-4e7d-b5d0-14daf0988171"
+    }
+  }
+}

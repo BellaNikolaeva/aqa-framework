@@ -1,0 +1,18 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/tags/",
+    "payload": {
+      "name": "командование-48d09147-8f2a-4965-8ef9-ed2a6b5d38bc"
+    }
+  },
+  "response": {
+    "status_code": 400,
+    "elapsed_ms": 197.2,
+    "body": {
+      "name": [
+        "tag с таким name уже существует."
+      ]
+    }
+  }
+}

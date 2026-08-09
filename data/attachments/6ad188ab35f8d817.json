@@ -1,0 +1,17 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/tags/",
+    "payload": {
+      "name": "тюрьма-5ed818e5-b0da-44df-81e8-cae15c899ddb"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 225.1,
+    "body": {
+      "id": 159,
+      "name": "тюрьма-5ed818e5-b0da-44df-81e8-cae15c899ddb"
+    }
+  }
+}

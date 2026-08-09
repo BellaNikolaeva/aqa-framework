@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "скрытый-60400c33-1137-4f61-a2eb-a2fa0d683d4e Провал провал палка",
+      "author": "Синклитикия Аркадьевна Новикова",
+      "genre": "non_fiction",
+      "year_published": 1976,
+      "cover_url": "https://picsum.photos/677/879"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 178.1,
+    "body": {
+      "id": 2058,
+      "title": "скрытый-60400c33-1137-4f61-a2eb-a2fa0d683d4e Провал провал палка",
+      "author": "Синклитикия Аркадьевна Новикова",
+      "genre": "non_fiction",
+      "year_published": 1976,
+      "cover_url": "https://picsum.photos/677/879",
+      "tags": [],
+      "created_at": "2026-08-09T09:43:08.395020+03:00"
+    }
+  }
+}

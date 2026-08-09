@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "следовательно-aa6f2acd-7952-4ddb-ab61-8a85e5ba22a8 Совет анализ полевой",
+      "author": "Агафья Ильинична Фомина",
+      "genre": "non_fiction",
+      "year_published": 2003,
+      "cover_url": "https://picsum.photos/973/925"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 181.9,
+    "body": {
+      "id": 2071,
+      "title": "следовательно-aa6f2acd-7952-4ddb-ab61-8a85e5ba22a8 Совет анализ полевой",
+      "author": "Агафья Ильинична Фомина",
+      "genre": "non_fiction",
+      "year_published": 2003,
+      "cover_url": "https://picsum.photos/973/925",
+      "tags": [],
+      "created_at": "2026-08-09T09:43:19.920047+03:00"
+    }
+  }
+}

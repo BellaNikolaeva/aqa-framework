@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "Да приятель",
+      "author": "Ангелина Сергеевна Костина",
+      "genre": "classic",
+      "year_published": 1985,
+      "cover_url": "https://dummyimage.com/758x239"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 208.0,
+    "body": {
+      "id": 1999,
+      "title": "Да приятель",
+      "author": "Ангелина Сергеевна Костина",
+      "genre": "classic",
+      "year_published": 1985,
+      "cover_url": "https://dummyimage.com/758x239",
+      "tags": [],
+      "created_at": "2026-08-09T09:41:58.082075+03:00"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "Граница новый доставать",
+      "author": "Мефодий Харлампьевич Гордеев",
+      "genre": "detective",
+      "year_published": 1997,
+      "cover_url": "https://dummyimage.com/385x988"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 213.8,
+    "body": {
+      "id": 2004,
+      "title": "Граница новый доставать",
+      "author": "Мефодий Харлампьевич Гордеев",
+      "genre": "detective",
+      "year_published": 1997,
+      "cover_url": "https://dummyimage.com/385x988",
+      "tags": [],
+      "created_at": "2026-08-09T09:42:19.378536+03:00"
+    }
+  }
+}

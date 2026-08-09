@@ -1,0 +1,23 @@
+{
+  "request": {
+    "method": "PATCH",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/1989/",
+    "payload": {
+      "title": "Обновлённое название"
+    }
+  },
+  "response": {
+    "status_code": 200,
+    "elapsed_ms": 183.4,
+    "body": {
+      "id": 1989,
+      "title": "Обновлённое название",
+      "author": "Рыбаков Всеволод Харитонович",
+      "genre": "classic",
+      "year_published": 1997,
+      "cover_url": "https://picsum.photos/184/612",
+      "tags": [],
+      "created_at": "2026-08-09T09:41:06.783053+03:00"
+    }
+  }
+}

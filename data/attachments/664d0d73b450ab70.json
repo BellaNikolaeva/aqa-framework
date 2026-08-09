@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "скрытый-60400c33-1137-4f61-a2eb-a2fa0d683d4e Жидкий пропаганда плод",
+      "author": "Богданов Кондратий Викторович",
+      "genre": "classic",
+      "year_published": 2015,
+      "cover_url": "https://picsum.photos/308/991"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 183.6,
+    "body": {
+      "id": 2041,
+      "title": "скрытый-60400c33-1137-4f61-a2eb-a2fa0d683d4e Жидкий пропаганда плод",
+      "author": "Богданов Кондратий Викторович",
+      "genre": "classic",
+      "year_published": 2015,
+      "cover_url": "https://picsum.photos/308/991",
+      "tags": [],
+      "created_at": "2026-08-09T09:43:05.210283+03:00"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "request": {
+    "method": "PUT",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/tags/160/",
+    "payload": {
+      "name": "бровь-9ebba884-81ad-4d57-ab44-886357469fe1"
+    }
+  },
+  "response": {
+    "status_code": 200,
+    "elapsed_ms": 179.5,
+    "body": {
+      "id": 160,
+      "name": "бровь-9ebba884-81ad-4d57-ab44-886357469fe1"
+    }
+  }
+}

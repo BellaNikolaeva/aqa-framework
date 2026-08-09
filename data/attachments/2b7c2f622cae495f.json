@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "налоговый-5c76327d-715f-4547-af77-5e845ee7b465 Сбросить выражаться командование",
+      "author": "Осипова Вероника Матвеевна",
+      "genre": "sci_fi",
+      "year_published": 2013,
+      "cover_url": "https://picsum.photos/99/187"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 174.0,
+    "body": {
+      "id": 2026,
+      "title": "налоговый-5c76327d-715f-4547-af77-5e845ee7b465 Сбросить выражаться командование",
+      "author": "Осипова Вероника Матвеевна",
+      "genre": "sci_fi",
+      "year_published": 2013,
+      "cover_url": "https://picsum.photos/99/187",
+      "tags": [],
+      "created_at": "2026-08-09T09:42:53.382348+03:00"
+    }
+  }
+}

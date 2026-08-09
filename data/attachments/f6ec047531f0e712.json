@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "следовательно-aa6f2acd-7952-4ddb-ab61-8a85e5ba22a8 Прелесть мотоцикл",
+      "author": "Кузьма Ильясович Игнатьев",
+      "genre": "classic",
+      "year_published": 1960,
+      "cover_url": "https://placekitten.com/1014/475"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 180.5,
+    "body": {
+      "id": 2064,
+      "title": "следовательно-aa6f2acd-7952-4ddb-ab61-8a85e5ba22a8 Прелесть мотоцикл",
+      "author": "Кузьма Ильясович Игнатьев",
+      "genre": "classic",
+      "year_published": 1960,
+      "cover_url": "https://placekitten.com/1014/475",
+      "tags": [],
+      "created_at": "2026-08-09T09:43:18.613026+03:00"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "следовательно-aa6f2acd-7952-4ddb-ab61-8a85e5ba22a8 Спалить тута",
+      "author": "Попов Евдоким Изотович",
+      "genre": "sci_fi",
+      "year_published": 2015,
+      "cover_url": "https://dummyimage.com/201x409"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 185.7,
+    "body": {
+      "id": 2068,
+      "title": "следовательно-aa6f2acd-7952-4ddb-ab61-8a85e5ba22a8 Спалить тута",
+      "author": "Попов Евдоким Изотович",
+      "genre": "sci_fi",
+      "year_published": 2015,
+      "cover_url": "https://dummyimage.com/201x409",
+      "tags": [],
+      "created_at": "2026-08-09T09:43:19.356784+03:00"
+    }
+  }
+}

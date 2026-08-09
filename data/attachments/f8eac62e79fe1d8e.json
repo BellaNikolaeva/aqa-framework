@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "следовательно-aa6f2acd-7952-4ddb-ab61-8a85e5ba22a8 Жить через выдержать",
+      "author": "Адриан Георгиевич Дементьев",
+      "genre": "fantasy",
+      "year_published": 2000,
+      "cover_url": "https://dummyimage.com/639x789"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 188.5,
+    "body": {
+      "id": 2083,
+      "title": "следовательно-aa6f2acd-7952-4ddb-ab61-8a85e5ba22a8 Жить через выдержать",
+      "author": "Адриан Георгиевич Дементьев",
+      "genre": "fantasy",
+      "year_published": 2000,
+      "cover_url": "https://dummyimage.com/639x789",
+      "tags": [],
+      "created_at": "2026-08-09T09:43:22.168100+03:00"
+    }
+  }
+}

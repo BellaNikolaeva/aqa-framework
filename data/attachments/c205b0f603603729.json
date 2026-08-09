@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "налоговый-5c76327d-715f-4547-af77-5e845ee7b465 Тяжелый призыв ребятишки",
+      "author": "Белозерова Мария Валериевна",
+      "genre": "detective",
+      "year_published": 2000,
+      "cover_url": "https://dummyimage.com/566x661"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 179.2,
+    "body": {
+      "id": 2011,
+      "title": "налоговый-5c76327d-715f-4547-af77-5e845ee7b465 Тяжелый призыв ребятишки",
+      "author": "Белозерова Мария Валериевна",
+      "genre": "detective",
+      "year_published": 2000,
+      "cover_url": "https://dummyimage.com/566x661",
+      "tags": [],
+      "created_at": "2026-08-09T09:42:50.537047+03:00"
+    }
+  }
+}

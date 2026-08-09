@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "налоговый-5c76327d-715f-4547-af77-5e845ee7b465 Мотоцикл миф лапа",
+      "author": "Алла Евгеньевна Жданова",
+      "genre": "non_fiction",
+      "year_published": 1971,
+      "cover_url": "https://dummyimage.com/574x132"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 186.0,
+    "body": {
+      "id": 2025,
+      "title": "налоговый-5c76327d-715f-4547-af77-5e845ee7b465 Мотоцикл миф лапа",
+      "author": "Алла Евгеньевна Жданова",
+      "genre": "non_fiction",
+      "year_published": 1971,
+      "cover_url": "https://dummyimage.com/574x132",
+      "tags": [],
+      "created_at": "2026-08-09T09:42:53.198057+03:00"
+    }
+  }
+}

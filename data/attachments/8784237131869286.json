@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "следовательно-aa6f2acd-7952-4ddb-ab61-8a85e5ba22a8 Командир похороны устройство",
+      "author": "Фомичева София Станиславовна",
+      "genre": "sci_fi",
+      "year_published": 1958,
+      "cover_url": "https://picsum.photos/191/264"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 186.8,
+    "body": {
+      "id": 2080,
+      "title": "следовательно-aa6f2acd-7952-4ddb-ab61-8a85e5ba22a8 Командир похороны устройство",
+      "author": "Фомичева София Станиславовна",
+      "genre": "sci_fi",
+      "year_published": 1958,
+      "cover_url": "https://picsum.photos/191/264",
+      "tags": [],
+      "created_at": "2026-08-09T09:43:21.592377+03:00"
+    }
+  }
+}

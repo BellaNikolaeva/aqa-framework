@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "следовательно-aa6f2acd-7952-4ddb-ab61-8a85e5ba22a8 Прощение спешить",
+      "author": "Данилов Григорий Ерофеевич",
+      "genre": "detective",
+      "year_published": 1994,
+      "cover_url": "https://placekitten.com/656/939"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 197.5,
+    "body": {
+      "id": 2062,
+      "title": "следовательно-aa6f2acd-7952-4ddb-ab61-8a85e5ba22a8 Прощение спешить",
+      "author": "Данилов Григорий Ерофеевич",
+      "genre": "detective",
+      "year_published": 1994,
+      "cover_url": "https://placekitten.com/656/939",
+      "tags": [],
+      "created_at": "2026-08-09T09:43:18.226810+03:00"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "налоговый-5c76327d-715f-4547-af77-5e845ee7b465 Дальний выраженный",
+      "author": "г-жа Кудряшова Виктория Кузьминична",
+      "genre": "non_fiction",
+      "year_published": 1965,
+      "cover_url": "https://placekitten.com/45/702"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 174.4,
+    "body": {
+      "id": 2020,
+      "title": "налоговый-5c76327d-715f-4547-af77-5e845ee7b465 Дальний выраженный",
+      "author": "г-жа Кудряшова Виктория Кузьминична",
+      "genre": "non_fiction",
+      "year_published": 1965,
+      "cover_url": "https://placekitten.com/45/702",
+      "tags": [],
+      "created_at": "2026-08-09T09:42:52.252135+03:00"
+    }
+  }
+}

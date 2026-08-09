@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "налоговый-5c76327d-715f-4547-af77-5e845ee7b465 Хотеть прошептать постоянный",
+      "author": "Мясников Вячеслав Артурович",
+      "genre": "sci_fi",
+      "year_published": 1997,
+      "cover_url": "https://placekitten.com/826/620"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 190.6,
+    "body": {
+      "id": 2012,
+      "title": "налоговый-5c76327d-715f-4547-af77-5e845ee7b465 Хотеть прошептать постоянный",
+      "author": "Мясников Вячеслав Артурович",
+      "genre": "sci_fi",
+      "year_published": 1997,
+      "cover_url": "https://placekitten.com/826/620",
+      "tags": [],
+      "created_at": "2026-08-09T09:42:50.716330+03:00"
+    }
+  }
+}
