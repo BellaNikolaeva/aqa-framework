@@ -1,0 +1,14 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/2092/",
+    "payload": null
+  },
+  "response": {
+    "status_code": 404,
+    "elapsed_ms": 1607.7,
+    "body": {
+      "detail": "No Book matches the given query."
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/my-books/316/",
+    "payload": null
+  },
+  "response": {
+    "status_code": 200,
+    "elapsed_ms": 120.0,
+    "body": {
+      "id": 316,
+      "book": {
+        "id": 2188,
+        "title": "Остановить уронить",
+        "author": "Родионов Валерий Якубович",
+        "genre": "detective",
+        "year_published": 2003,
+        "cover_url": "https://placekitten.com/161/556",
+        "tags": [],
+        "created_at": "2026-08-10T10:16:59.624361+03:00"
+      },
+      "status": "want_to_read",
+      "rating": null,
+      "notes": "",
+      "started_at": null,
+      "finished_at": null,
+      "updated_at": "2026-08-10T10:16:59.800100+03:00"
+    }
+  }
+}

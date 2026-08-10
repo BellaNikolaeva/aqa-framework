@@ -1,0 +1,17 @@
+{
+  "request": {
+    "method": "PUT",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/tags/167/",
+    "payload": {
+      "name": "адвокат-eda5be48-0b15-4660-801c-b6a485248891"
+    }
+  },
+  "response": {
+    "status_code": 200,
+    "elapsed_ms": 132.8,
+    "body": {
+      "id": 167,
+      "name": "адвокат-eda5be48-0b15-4660-801c-b6a485248891"
+    }
+  }
+}

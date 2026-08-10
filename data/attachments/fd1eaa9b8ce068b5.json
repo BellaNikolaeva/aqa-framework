@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "вытаскивать-04720a67-906f-47ae-af26-a08983203a41 Находить роса девка",
+      "author": "Илья Артемьевич Евдокимов",
+      "genre": "non_fiction",
+      "year_published": 1960,
+      "cover_url": "https://dummyimage.com/546x716"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 121.3,
+    "body": {
+      "id": 2113,
+      "title": "вытаскивать-04720a67-906f-47ae-af26-a08983203a41 Находить роса девка",
+      "author": "Илья Артемьевич Евдокимов",
+      "genre": "non_fiction",
+      "year_published": 1960,
+      "cover_url": "https://dummyimage.com/546x716",
+      "tags": [],
+      "created_at": "2026-08-10T10:16:15.516175+03:00"
+    }
+  }
+}

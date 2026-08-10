@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "близко-d74fee19-8053-41af-a8d2-17dba613e7cb Бригада указанный",
+      "author": "Жданов Филимон Гертрудович",
+      "genre": "classic",
+      "year_published": 2024,
+      "cover_url": "https://placekitten.com/191/129"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 118.0,
+    "body": {
+      "id": 2181,
+      "title": "близко-d74fee19-8053-41af-a8d2-17dba613e7cb Бригада указанный",
+      "author": "Жданов Филимон Гертрудович",
+      "genre": "classic",
+      "year_published": 2024,
+      "cover_url": "https://placekitten.com/191/129",
+      "tags": [],
+      "created_at": "2026-08-10T10:16:38.392631+03:00"
+    }
+  }
+}

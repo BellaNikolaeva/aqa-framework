@@ -1,0 +1,17 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/tags/",
+    "payload": {
+      "name": "трясти-4ab57c26-5829-4215-9323-0b3140b81906"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 145.7,
+    "body": {
+      "id": 168,
+      "name": "трясти-4ab57c26-5829-4215-9323-0b3140b81906"
+    }
+  }
+}

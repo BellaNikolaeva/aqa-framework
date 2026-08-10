@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "вытаскивать-04720a67-906f-47ae-af26-a08983203a41 Отметить да задержать",
+      "author": "Святослав Ефимович Щукин",
+      "genre": "sci_fi",
+      "year_published": 1979,
+      "cover_url": "https://dummyimage.com/973x30"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 112.9,
+    "body": {
+      "id": 2133,
+      "title": "вытаскивать-04720a67-906f-47ae-af26-a08983203a41 Отметить да задержать",
+      "author": "Святослав Ефимович Щукин",
+      "genre": "sci_fi",
+      "year_published": 1979,
+      "cover_url": "https://dummyimage.com/973x30",
+      "tags": [],
+      "created_at": "2026-08-10T10:16:17.918588+03:00"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "боец-36578f7b-4031-4f8f-9f30-125b810603da Командование угодный актриса",
+      "author": "Зинаида Ждановна Ермакова",
+      "genre": "sci_fi",
+      "year_published": 2000,
+      "cover_url": "https://picsum.photos/816/84"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 115.6,
+    "body": {
+      "id": 2150,
+      "title": "боец-36578f7b-4031-4f8f-9f30-125b810603da Командование угодный актриса",
+      "author": "Зинаида Ждановна Ермакова",
+      "genre": "sci_fi",
+      "year_published": 2000,
+      "cover_url": "https://picsum.photos/816/84",
+      "tags": [],
+      "created_at": "2026-08-10T10:16:27.173598+03:00"
+    }
+  }
+}

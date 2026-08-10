@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "Слать табак новый",
+      "author": "Синклитикия Мироновна Емельянова",
+      "genre": "detective",
+      "year_published": 2006,
+      "cover_url": "https://placekitten.com/6/314"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 162.7,
+    "body": {
+      "id": 2092,
+      "title": "Слать табак новый",
+      "author": "Синклитикия Мироновна Емельянова",
+      "genre": "detective",
+      "year_published": 2006,
+      "cover_url": "https://placekitten.com/6/314",
+      "tags": [],
+      "created_at": "2026-08-10T10:14:37.416968+03:00"
+    }
+  }
+}

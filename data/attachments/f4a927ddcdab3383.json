@@ -1,0 +1,33 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/my-books/",
+    "payload": {
+      "book_id": 2102,
+      "status": "finished"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 151.5,
+    "body": {
+      "id": 306,
+      "book": {
+        "id": 2102,
+        "title": "Головной применяться близко",
+        "author": "Куликов Прокл Валерьевич",
+        "genre": "sci_fi",
+        "year_published": 1978,
+        "cover_url": "https://dummyimage.com/252x563",
+        "tags": [],
+        "created_at": "2026-08-10T10:15:26.397924+03:00"
+      },
+      "status": "finished",
+      "rating": null,
+      "notes": "",
+      "started_at": null,
+      "finished_at": null,
+      "updated_at": "2026-08-10T10:15:26.545544+03:00"
+    }
+  }
+}

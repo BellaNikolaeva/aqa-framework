@@ -1,0 +1,218 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": null
+  },
+  "response": {
+    "status_code": 200,
+    "elapsed_ms": 130.0,
+    "body": {
+      "count": 25,
+      "next": "https://book-tracker-api-frnm.onrender.com/api/books/?page=2&search=%D0%B1%D0%BB%D0%B8%D0%B7%D0%BA%D0%BE-d74fee19-8053-41af-a8d2-17dba613e7cb",
+      "previous": null,
+      "results": [
+        {
+          "id": 2185,
+          "title": "близко-d74fee19-8053-41af-a8d2-17dba613e7cb Актриса ставить",
+          "author": "Екатерина Руслановна Иванова",
+          "genre": "classic",
+          "year_published": 2020,
+          "cover_url": "https://dummyimage.com/608x358",
+          "tags": [],
+          "created_at": "2026-08-10T10:16:38.892206+03:00"
+        },
+        {
+          "id": 2166,
+          "title": "близко-d74fee19-8053-41af-a8d2-17dba613e7cb Беспомощный трясти результат",
+          "author": "Костин Карп Ефимьевич",
+          "genre": "fantasy",
+          "year_published": 2005,
+          "cover_url": "https://picsum.photos/970/262",
+          "tags": [],
+          "created_at": "2026-08-10T10:16:36.274904+03:00"
+        },
+        {
+          "id": 2168,
+          "title": "близко-d74fee19-8053-41af-a8d2-17dba613e7cb Ботинок светило приличный",
+          "author": "Орлова Ангелина Рудольфовна",
+          "genre": "sci_fi",
+          "year_published": 2013,
+          "cover_url": "https://placekitten.com/254/693",
+          "tags": [],
+          "created_at": "2026-08-10T10:16:36.519130+03:00"
+        },
+        {
+          "id": 2181,
+          "title": "близко-d74fee19-8053-41af-a8d2-17dba613e7cb Бригада указанный",
+          "author": "Жданов Филимон Гертрудович",
+          "genre": "classic",
+          "year_published": 2024,
+          "cover_url": "https://placekitten.com/191/129",
+          "tags": [],
+          "created_at": "2026-08-10T10:16:38.392631+03:00"
+        },
+        {
+          "id": 2171,
+          "title": "близко-d74fee19-8053-41af-a8d2-17dba613e7cb Возникновение смертельный исполнять",
+          "author": "Журавлева Марфа Артемовна",
+          "genre": "fantasy",
+          "year_published": 2006,
+          "cover_url": "https://picsum.photos/758/848",
+          "tags": [],
+          "created_at": "2026-08-10T10:16:36.957785+03:00"
+        },
+        {
+          "id": 2182,
+          "title": "близко-d74fee19-8053-41af-a8d2-17dba613e7cb Доставать заведение непривычный",
+          "author": "Александра Робертовна Зыкова",
+          "genre": "non_fiction",
+          "year_published": 1982,
+          "cover_url": "https://picsum.photos/448/1012",
+          "tags": [],
+          "created_at": "2026-08-10T10:16:38.518032+03:00"
+        },
+        {
+          "id": 2162,
+          "title": "близко-d74fee19-8053-41af-a8d2-17dba613e7cb Дурацкий угол задержать",
+          "author": "Вера Кирилловна Савельева",
+          "genre": "sci_fi",
+          "year_published": 2005,
+          "cover_url": "https://placekitten.com/177/919",
+          "tags": [],
+          "created_at": "2026-08-10T10:16:35.797024+03:00"
+        },
+        {
+          "id": 2176,
+          "title": "близко-d74fee19-8053-41af-a8d2-17dba613e7cb Зима счастье советовать",
+          "author": "Варфоломей Фадеевич Нестеров",
+          "genre": "classic",
+          "year_published": 2000,
+          "cover_url": "https://dummyimage.com/761x161",
+          "tags": [],
+          "created_at": "2026-08-10T10:16:37.762080+03:00"
+        },
+        {
+          "id": 2184,
+          "title": "близко-d74fee19-8053-41af-a8d2-17dba613e7cb Ленинград руководитель приятель",
+          "author": "Парамон Игоревич Муравьев",
+          "genre": "detective",
+          "year_published": 1968,
+          "cover_url": "https://dummyimage.com/218x489",
+          "tags": [],
+          "created_at": "2026-08-10T10:16:38.771764+03:00"
+        },
+        {
+          "id": 2167,
+          "title": "близко-d74fee19-8053-41af-a8d2-17dba613e7cb Налоговый возможно",
+          "author": "Данилов Лавр Ефстафьевич",
+          "genre": "non_fiction",
+          "year_published": 1961,
+          "cover_url": "https://placekitten.com/916/718",
+          "tags": [],
+          "created_at": "2026-08-10T10:16:36.396598+03:00"
+        },
+        {
+          "id": 2170,
+          "title": "близко-d74fee19-8053-41af-a8d2-17dba613e7cb Народ монета",
+          "author": "Борислав Артемьевич Гурьев",
+          "genre": "detective",
+          "year_published": 1952,
+          "cover_url": "https://placekitten.com/837/165",
+          "tags": [],
+          "created_at": "2026-08-10T10:16:36.841035+03:00"
+        },
+        {
+          "id": 2164,
+          "title": "близко-d74fee19-8053-41af-a8d2-17dba613e7cb Наткнуться голубчик",
+          "author": "Марков Григорий Ануфриевич",
+          "genre": "fantasy",
+          "year_published": 2025,
+          "cover_url": "https://dummyimage.com/956x856",
+          "tags": [],
+          "created_at": "2026-08-10T10:16:36.037768+03:00"
+        },
+        {
+          "id": 2186,
+          "title": "близко-d74fee19-8053-41af-a8d2-17dba613e7cb Неправда привлекать",
+          "author": "Родионов Лучезар Федосеевич",
+          "genre": "detective",
+          "year_published": 1956,
+          "cover_url": "https://picsum.photos/78/656",
+          "tags": [],
+          "created_at": "2026-08-10T10:16:39.015416+03:00"
+        },
+        {
+          "id": 2180,
+          "title": "близко-d74fee19-8053-41af-a8d2-17dba613e7cb Один",
+          "author": "Акулина Михайловна Горшкова",
+          "genre": "non_fiction",
+          "year_published": 1992,
+          "cover_url": "https://placekitten.com/359/800",
+          "tags": [],
+          "created_at": "2026-08-10T10:16:38.271210+03:00"
+        },
+        {
+          "id": 2174,
+          "title": "близко-d74fee19-8053-41af-a8d2-17dba613e7cb Песенка пламя возмутиться",
+          "author": "Екатерина Кирилловна Авдеева",
+          "genre": "detective",
+          "year_published": 1963,
+          "cover_url": "https://picsum.photos/403/589",
+          "tags": [],
+          "created_at": "2026-08-10T10:16:37.517166+03:00"
+        },
+        {
+          "id": 2178,
+          "title": "близко-d74fee19-8053-41af-a8d2-17dba613e7cb Пламя господь мягкий",
+          "author": "Кулагин Мартьян Эдуардович",
+          "genre": "sci_fi",
+          "year_published": 1975,
+          "cover_url": "https://picsum.photos/742/868",
+          "tags": [],
+          "created_at": "2026-08-10T10:16:38.014100+03:00"
+        },
+        {
+          "id": 2165,
+          "title": "близко-d74fee19-8053-41af-a8d2-17dba613e7cb Порядок салон поколение",
+          "author": "Анастасия Болеславовна Беляева",
+          "genre": "detective",
+          "year_published": 1980,
+          "cover_url": "https://dummyimage.com/916x145",
+          "tags": [],
+          "created_at": "2026-08-10T10:16:36.156620+03:00"
+        },
+        {
+          "id": 2179,
+          "title": "близко-d74fee19-8053-41af-a8d2-17dba613e7cb Природа слишком",
+          "author": "Лаврентий Федосеевич Моисеев",
+          "genre": "fantasy",
+          "year_published": 1970,
+          "cover_url": "https://picsum.photos/172/762",
+          "tags": [],
+          "created_at": "2026-08-10T10:16:38.144937+03:00"
+        },
+        {
+          "id": 2169,
+          "title": "близко-d74fee19-8053-41af-a8d2-17dba613e7cb Протягивать район",
+          "author": "Галина Тарасовна Харитонова",
+          "genre": "classic",
+          "year_published": 2025,
+          "cover_url": "https://placekitten.com/812/818",
+          "tags": [],
+          "created_at": "2026-08-10T10:16:36.720046+03:00"
+        },
+        {
+          "id": 2163,
+          "title": "близко-d74fee19-8053-41af-a8d2-17dba613e7cb Светило сустав",
+          "author": "Ульяна Геннадиевна Суворова",
+          "genre": "sci_fi",
+          "year_published": 2019,
+          "cover_url": "https://picsum.photos/587/320",
+          "tags": [],
+          "created_at": "2026-08-10T10:16:35.918869+03:00"
+        }
+      ]
+    }
+  }
+}

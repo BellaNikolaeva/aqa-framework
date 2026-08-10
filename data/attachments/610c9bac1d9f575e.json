@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "Грустный мелочь",
+      "author": "Кошелев Потап Авдеевич",
+      "genre": "sci_fi",
+      "year_published": 2012,
+      "cover_url": "https://picsum.photos/534/130"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 2183.2,
+    "body": {
+      "id": 2101,
+      "title": "Грустный мелочь",
+      "author": "Кошелев Потап Авдеевич",
+      "genre": "sci_fi",
+      "year_published": 2012,
+      "cover_url": "https://picsum.photos/534/130",
+      "tags": [],
+      "created_at": "2026-08-10T10:15:18.255186+03:00"
+    }
+  }
+}

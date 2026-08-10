@@ -1,0 +1,17 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/tags/",
+    "payload": {
+      "name": "инструкция-eab92295-000f-4036-89d2-a5c43200e072"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 348.7,
+    "body": {
+      "id": 167,
+      "name": "инструкция-eab92295-000f-4036-89d2-a5c43200e072"
+    }
+  }
+}

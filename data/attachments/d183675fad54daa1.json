@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "Домашний виднеться ныне",
+      "author": "Дементьева Жанна Григорьевна",
+      "genre": "fantasy",
+      "year_published": 1991,
+      "cover_url": "https://placekitten.com/785/753"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 156.6,
+    "body": {
+      "id": 2105,
+      "title": "Домашний виднеться ныне",
+      "author": "Дементьева Жанна Григорьевна",
+      "genre": "fantasy",
+      "year_published": 1991,
+      "cover_url": "https://placekitten.com/785/753",
+      "tags": [],
+      "created_at": "2026-08-10T10:15:38.516915+03:00"
+    }
+  }
+}

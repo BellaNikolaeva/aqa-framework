@@ -1,0 +1,38 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": null
+  },
+  "response": {
+    "status_code": 200,
+    "elapsed_ms": 1653.7,
+    "body": {
+      "count": 2,
+      "next": null,
+      "previous": null,
+      "results": [
+        {
+          "id": 2100,
+          "title": "Войти",
+          "author": "Савелий Арсеньевич Кузьмин",
+          "genre": "classic",
+          "year_published": 1975,
+          "cover_url": "https://dummyimage.com/527x34",
+          "tags": [],
+          "created_at": "2026-08-10T10:15:08.405852+03:00"
+        },
+        {
+          "id": 2099,
+          "title": "Райком очередной уточнить",
+          "author": "Колобова Татьяна Владиславовна",
+          "genre": "classic",
+          "year_published": 1975,
+          "cover_url": "https://dummyimage.com/417x694",
+          "tags": [],
+          "created_at": "2026-08-10T10:15:06.358514+03:00"
+        }
+      ]
+    }
+  }
+}

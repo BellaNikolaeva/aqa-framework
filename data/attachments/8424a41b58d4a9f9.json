@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "вытаскивать-04720a67-906f-47ae-af26-a08983203a41 Интернет налоговый",
+      "author": "Феофан Артемьевич Осипов",
+      "genre": "detective",
+      "year_published": 1955,
+      "cover_url": "https://placekitten.com/765/28"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 151.2,
+    "body": {
+      "id": 2114,
+      "title": "вытаскивать-04720a67-906f-47ae-af26-a08983203a41 Интернет налоговый",
+      "author": "Феофан Артемьевич Осипов",
+      "genre": "detective",
+      "year_published": 1955,
+      "cover_url": "https://placekitten.com/765/28",
+      "tags": [],
+      "created_at": "2026-08-10T10:16:15.662492+03:00"
+    }
+  }
+}

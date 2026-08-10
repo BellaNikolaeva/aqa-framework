@@ -1,0 +1,218 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": null
+  },
+  "response": {
+    "status_code": 200,
+    "elapsed_ms": 124.3,
+    "body": {
+      "count": 25,
+      "next": "https://book-tracker-api-frnm.onrender.com/api/books/?page=2&search=%D0%B2%D1%8B%D1%82%D0%B0%D1%81%D0%BA%D0%B8%D0%B2%D0%B0%D1%82%D1%8C-04720a67-906f-47ae-af26-a08983203a41",
+      "previous": null,
+      "results": [
+        {
+          "id": 2132,
+          "title": "вытаскивать-04720a67-906f-47ae-af26-a08983203a41 Адвокат чувство наступать выкинуть",
+          "author": "Цветкова Кира Тимофеевна",
+          "genre": "fantasy",
+          "year_published": 1979,
+          "cover_url": "https://dummyimage.com/98x974",
+          "tags": [],
+          "created_at": "2026-08-10T10:16:17.803437+03:00"
+        },
+        {
+          "id": 2119,
+          "title": "вытаскивать-04720a67-906f-47ae-af26-a08983203a41 Бабочка результат вариант",
+          "author": "Соловьев Юлиан Жанович",
+          "genre": "non_fiction",
+          "year_published": 2015,
+          "cover_url": "https://picsum.photos/389/10",
+          "tags": [],
+          "created_at": "2026-08-10T10:16:16.261474+03:00"
+        },
+        {
+          "id": 2126,
+          "title": "вытаскивать-04720a67-906f-47ae-af26-a08983203a41 Багровый изменение витрина",
+          "author": "Тимофеева Алевтина Григорьевна",
+          "genre": "fantasy",
+          "year_published": 1993,
+          "cover_url": "https://placekitten.com/140/728",
+          "tags": [],
+          "created_at": "2026-08-10T10:16:17.085551+03:00"
+        },
+        {
+          "id": 2112,
+          "title": "вытаскивать-04720a67-906f-47ae-af26-a08983203a41 Войти",
+          "author": "Наталья Игоревна Шилова",
+          "genre": "non_fiction",
+          "year_published": 1996,
+          "cover_url": "https://placekitten.com/968/719",
+          "tags": [],
+          "created_at": "2026-08-10T10:16:15.391093+03:00"
+        },
+        {
+          "id": 2128,
+          "title": "вытаскивать-04720a67-906f-47ae-af26-a08983203a41 Головной настать кидать",
+          "author": "Филипп Гаврилович Веселов",
+          "genre": "fantasy",
+          "year_published": 1991,
+          "cover_url": "https://dummyimage.com/99x629",
+          "tags": [],
+          "created_at": "2026-08-10T10:16:17.325476+03:00"
+        },
+        {
+          "id": 2117,
+          "title": "вытаскивать-04720a67-906f-47ae-af26-a08983203a41 Запретить дыхание вперед",
+          "author": "Зуева Евгения Филипповна",
+          "genre": "non_fiction",
+          "year_published": 1967,
+          "cover_url": "https://dummyimage.com/72x328",
+          "tags": [],
+          "created_at": "2026-08-10T10:16:16.027890+03:00"
+        },
+        {
+          "id": 2116,
+          "title": "вытаскивать-04720a67-906f-47ae-af26-a08983203a41 Идея одиннадцать при невозможно",
+          "author": "София Мироновна Рыбакова",
+          "genre": "sci_fi",
+          "year_published": 1988,
+          "cover_url": "https://dummyimage.com/30x326",
+          "tags": [],
+          "created_at": "2026-08-10T10:16:15.905789+03:00"
+        },
+        {
+          "id": 2131,
+          "title": "вытаскивать-04720a67-906f-47ae-af26-a08983203a41 Идея о задержать наткнуться",
+          "author": "Потапов Семен Герасимович",
+          "genre": "non_fiction",
+          "year_published": 1965,
+          "cover_url": "https://picsum.photos/539/709",
+          "tags": [],
+          "created_at": "2026-08-10T10:16:17.680019+03:00"
+        },
+        {
+          "id": 2114,
+          "title": "вытаскивать-04720a67-906f-47ae-af26-a08983203a41 Интернет налоговый",
+          "author": "Феофан Артемьевич Осипов",
+          "genre": "detective",
+          "year_published": 1955,
+          "cover_url": "https://placekitten.com/765/28",
+          "tags": [],
+          "created_at": "2026-08-10T10:16:15.662492+03:00"
+        },
+        {
+          "id": 2136,
+          "title": "вытаскивать-04720a67-906f-47ae-af26-a08983203a41 Интернет нервно",
+          "author": "Марков Василий Геннадиевич",
+          "genre": "fantasy",
+          "year_published": 2023,
+          "cover_url": "https://placekitten.com/170/393",
+          "tags": [],
+          "created_at": "2026-08-10T10:16:18.268944+03:00"
+        },
+        {
+          "id": 2121,
+          "title": "вытаскивать-04720a67-906f-47ae-af26-a08983203a41 Куча крыса дрогнуть",
+          "author": "Самойлова Варвара Ильинична",
+          "genre": "sci_fi",
+          "year_published": 2008,
+          "cover_url": "https://placekitten.com/27/133",
+          "tags": [],
+          "created_at": "2026-08-10T10:16:16.498242+03:00"
+        },
+        {
+          "id": 2115,
+          "title": "вытаскивать-04720a67-906f-47ae-af26-a08983203a41 Мелочь рассуждение",
+          "author": "Кириллова Евпраксия Валентиновна",
+          "genre": "classic",
+          "year_published": 2009,
+          "cover_url": "https://placekitten.com/482/484",
+          "tags": [],
+          "created_at": "2026-08-10T10:16:15.785088+03:00"
+        },
+        {
+          "id": 2122,
+          "title": "вытаскивать-04720a67-906f-47ae-af26-a08983203a41 Народ промолчать",
+          "author": "Полина Оскаровна Воронова",
+          "genre": "non_fiction",
+          "year_published": 2000,
+          "cover_url": "https://dummyimage.com/870x278",
+          "tags": [],
+          "created_at": "2026-08-10T10:16:16.617657+03:00"
+        },
+        {
+          "id": 2113,
+          "title": "вытаскивать-04720a67-906f-47ae-af26-a08983203a41 Находить роса девка",
+          "author": "Илья Артемьевич Евдокимов",
+          "genre": "non_fiction",
+          "year_published": 1960,
+          "cover_url": "https://dummyimage.com/546x716",
+          "tags": [],
+          "created_at": "2026-08-10T10:16:15.516175+03:00"
+        },
+        {
+          "id": 2130,
+          "title": "вытаскивать-04720a67-906f-47ae-af26-a08983203a41 Неожиданно предоставить магазин",
+          "author": "Олимпий Германович Яковлев",
+          "genre": "sci_fi",
+          "year_published": 1959,
+          "cover_url": "https://dummyimage.com/82x368",
+          "tags": [],
+          "created_at": "2026-08-10T10:16:17.560717+03:00"
+        },
+        {
+          "id": 2133,
+          "title": "вытаскивать-04720a67-906f-47ae-af26-a08983203a41 Отметить да задержать",
+          "author": "Святослав Ефимович Щукин",
+          "genre": "sci_fi",
+          "year_published": 1979,
+          "cover_url": "https://dummyimage.com/973x30",
+          "tags": [],
+          "created_at": "2026-08-10T10:16:17.918588+03:00"
+        },
+        {
+          "id": 2129,
+          "title": "вытаскивать-04720a67-906f-47ae-af26-a08983203a41 Парень порог конструкция",
+          "author": "Иван Ануфриевич Макаров",
+          "genre": "fantasy",
+          "year_published": 1989,
+          "cover_url": "https://placekitten.com/581/940",
+          "tags": [],
+          "created_at": "2026-08-10T10:16:17.445113+03:00"
+        },
+        {
+          "id": 2134,
+          "title": "вытаскивать-04720a67-906f-47ae-af26-a08983203a41 Потом спалить человечек металл",
+          "author": "Гришина Василиса Константиновна",
+          "genre": "fantasy",
+          "year_published": 1996,
+          "cover_url": "https://dummyimage.com/865x167",
+          "tags": [],
+          "created_at": "2026-08-10T10:16:18.031035+03:00"
+        },
+        {
+          "id": 2123,
+          "title": "вытаскивать-04720a67-906f-47ae-af26-a08983203a41 Промолчать невозможно",
+          "author": "Мартынова Ульяна Тимуровна",
+          "genre": "detective",
+          "year_published": 2015,
+          "cover_url": "https://picsum.photos/993/857",
+          "tags": [],
+          "created_at": "2026-08-10T10:16:16.736390+03:00"
+        },
+        {
+          "id": 2135,
+          "title": "вытаскивать-04720a67-906f-47ae-af26-a08983203a41 Разнообразный при",
+          "author": "г-н Крылов Леонид Григорьевич",
+          "genre": "classic",
+          "year_published": 2023,
+          "cover_url": "https://dummyimage.com/213x991",
+          "tags": [],
+          "created_at": "2026-08-10T10:16:18.153089+03:00"
+        }
+      ]
+    }
+  }
+}

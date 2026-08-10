@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "боец-36578f7b-4031-4f8f-9f30-125b810603da Расстегнуть помолчать",
+      "author": "Быкова Любовь Яковлевна",
+      "genre": "sci_fi",
+      "year_published": 1954,
+      "cover_url": "https://dummyimage.com/847x483"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 115.2,
+    "body": {
+      "id": 2153,
+      "title": "боец-36578f7b-4031-4f8f-9f30-125b810603da Расстегнуть помолчать",
+      "author": "Быкова Любовь Яковлевна",
+      "genre": "sci_fi",
+      "year_published": 1954,
+      "cover_url": "https://dummyimage.com/847x483",
+      "tags": [],
+      "created_at": "2026-08-10T10:16:27.528856+03:00"
+    }
+  }
+}
