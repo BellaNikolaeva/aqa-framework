@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "равнодушный-08609b26-e127-4b9d-b4d3-57c235fd1d5c Наступать банк",
+      "author": "Чернов Агафон Архипович",
+      "genre": "detective",
+      "year_published": 2008,
+      "cover_url": "https://dummyimage.com/493x34"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 143.8,
+    "body": {
+      "id": 2226,
+      "title": "равнодушный-08609b26-e127-4b9d-b4d3-57c235fd1d5c Наступать банк",
+      "author": "Чернов Агафон Архипович",
+      "genre": "detective",
+      "year_published": 2008,
+      "cover_url": "https://dummyimage.com/493x34",
+      "tags": [],
+      "created_at": "2026-08-11T09:54:13.452161+03:00"
+    }
+  }
+}

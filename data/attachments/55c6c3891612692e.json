@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "исследование-b36b142d-cd6a-4c26-8c15-1c1d57026f15 Падаль дыхание",
+      "author": "Олимпий Давидович Максимов",
+      "genre": "fantasy",
+      "year_published": 1953,
+      "cover_url": "https://picsum.photos/587/866"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 138.5,
+    "body": {
+      "id": 2286,
+      "title": "исследование-b36b142d-cd6a-4c26-8c15-1c1d57026f15 Падаль дыхание",
+      "author": "Олимпий Давидович Максимов",
+      "genre": "fantasy",
+      "year_published": 1953,
+      "cover_url": "https://picsum.photos/587/866",
+      "tags": [],
+      "created_at": "2026-08-11T09:54:35.912136+03:00"
+    }
+  }
+}

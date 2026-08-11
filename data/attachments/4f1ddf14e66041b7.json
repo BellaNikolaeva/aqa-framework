@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "Провинция пламя торговля",
+      "author": "Петрова Галина Альбертовна",
+      "genre": "fantasy",
+      "year_published": 1982,
+      "cover_url": "https://dummyimage.com/168x509"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 166.0,
+    "body": {
+      "id": 2207,
+      "title": "Провинция пламя торговля",
+      "author": "Петрова Галина Альбертовна",
+      "genre": "fantasy",
+      "year_published": 1982,
+      "cover_url": "https://dummyimage.com/168x509",
+      "tags": [],
+      "created_at": "2026-08-11T09:53:36.658161+03:00"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "равнодушный-08609b26-e127-4b9d-b4d3-57c235fd1d5c Вывести запустить намерение",
+      "author": "Овчинникова Василиса Альбертовна",
+      "genre": "detective",
+      "year_published": 2000,
+      "cover_url": "https://placekitten.com/409/6"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 159.1,
+    "body": {
+      "id": 2237,
+      "title": "равнодушный-08609b26-e127-4b9d-b4d3-57c235fd1d5c Вывести запустить намерение",
+      "author": "Овчинникова Василиса Альбертовна",
+      "genre": "detective",
+      "year_published": 2000,
+      "cover_url": "https://placekitten.com/409/6",
+      "tags": [],
+      "created_at": "2026-08-11T09:54:15.065255+03:00"
+    }
+  }
+}

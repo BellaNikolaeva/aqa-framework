@@ -1,0 +1,21 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "Тесно порядок мягкий",
+      "genre": "sci_fi",
+      "year_published": 1967,
+      "cover_url": "https://dummyimage.com/702x549"
+    }
+  },
+  "response": {
+    "status_code": 400,
+    "elapsed_ms": 1402.8,
+    "body": {
+      "author": [
+        "Обязательное поле."
+      ]
+    }
+  }
+}

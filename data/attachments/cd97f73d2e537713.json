@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "равнодушный-08609b26-e127-4b9d-b4d3-57c235fd1d5c Прошептать госпожа а",
+      "author": "Чернова Виктория Георгиевна",
+      "genre": "fantasy",
+      "year_published": 2011,
+      "cover_url": "https://dummyimage.com/538x365"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 155.5,
+    "body": {
+      "id": 2216,
+      "title": "равнодушный-08609b26-e127-4b9d-b4d3-57c235fd1d5c Прошептать госпожа а",
+      "author": "Чернова Виктория Георгиевна",
+      "genre": "fantasy",
+      "year_published": 2011,
+      "cover_url": "https://dummyimage.com/538x365",
+      "tags": [],
+      "created_at": "2026-08-11T09:54:11.925530+03:00"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "торговля-40cc55d9-b38d-454c-b901-a4d1a5f86bef Интернет изредка",
+      "author": "Поликарп Жоресович Фролов",
+      "genre": "detective",
+      "year_published": 1967,
+      "cover_url": "https://picsum.photos/502/996"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 144.7,
+    "body": {
+      "id": 2254,
+      "title": "торговля-40cc55d9-b38d-454c-b901-a4d1a5f86bef Интернет изредка",
+      "author": "Поликарп Жоресович Фролов",
+      "genre": "detective",
+      "year_published": 1967,
+      "cover_url": "https://picsum.photos/502/996",
+      "tags": [],
+      "created_at": "2026-08-11T09:54:24.374742+03:00"
+    }
+  }
+}

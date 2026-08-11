@@ -1,0 +1,23 @@
+{
+  "request": {
+    "method": "PATCH",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/2193/",
+    "payload": {
+      "title": "Обновлённое название"
+    }
+  },
+  "response": {
+    "status_code": 200,
+    "elapsed_ms": 138.7,
+    "body": {
+      "id": 2193,
+      "title": "Обновлённое название",
+      "author": "Адам Артёмович Александров",
+      "genre": "non_fiction",
+      "year_published": 1988,
+      "cover_url": "https://dummyimage.com/168x97",
+      "tags": [],
+      "created_at": "2026-08-11T09:52:36.764592+03:00"
+    }
+  }
+}

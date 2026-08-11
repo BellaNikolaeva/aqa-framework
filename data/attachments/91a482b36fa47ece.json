@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "исследование-b36b142d-cd6a-4c26-8c15-1c1d57026f15 Виднеться предоставить",
+      "author": "Крюков Степан Григорьевич",
+      "genre": "sci_fi",
+      "year_published": 1965,
+      "cover_url": "https://dummyimage.com/921x693"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 151.9,
+    "body": {
+      "id": 2288,
+      "title": "исследование-b36b142d-cd6a-4c26-8c15-1c1d57026f15 Виднеться предоставить",
+      "author": "Крюков Степан Григорьевич",
+      "genre": "sci_fi",
+      "year_published": 1965,
+      "cover_url": "https://dummyimage.com/921x693",
+      "tags": [],
+      "created_at": "2026-08-11T09:54:36.189593+03:00"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "Вперед научить умолять",
+      "author": "Анжела Феликсовна Козлова",
+      "genre": "non_fiction",
+      "year_published": 1982,
+      "cover_url": "https://picsum.photos/277/311"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 162.2,
+    "body": {
+      "id": 2203,
+      "title": "Вперед научить умолять",
+      "author": "Анжела Феликсовна Козлова",
+      "genre": "non_fiction",
+      "year_published": 1982,
+      "cover_url": "https://picsum.photos/277/311",
+      "tags": [],
+      "created_at": "2026-08-11T09:53:21.149462+03:00"
+    }
+  }
+}

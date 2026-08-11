@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "равнодушный-08609b26-e127-4b9d-b4d3-57c235fd1d5c Ход ведь прежний",
+      "author": "Зимина Ангелина Вениаминовна",
+      "genre": "classic",
+      "year_published": 1957,
+      "cover_url": "https://placekitten.com/57/9"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 145.3,
+    "body": {
+      "id": 2225,
+      "title": "равнодушный-08609b26-e127-4b9d-b4d3-57c235fd1d5c Ход ведь прежний",
+      "author": "Зимина Ангелина Вениаминовна",
+      "genre": "classic",
+      "year_published": 1957,
+      "cover_url": "https://placekitten.com/57/9",
+      "tags": [],
+      "created_at": "2026-08-11T09:54:13.305092+03:00"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "торговля-40cc55d9-b38d-454c-b901-a4d1a5f86bef Разнообразный кпсс",
+      "author": "Филатов Арсений Эдгарович",
+      "genre": "classic",
+      "year_published": 1983,
+      "cover_url": "https://picsum.photos/262/96"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 141.2,
+    "body": {
+      "id": 2252,
+      "title": "торговля-40cc55d9-b38d-454c-b901-a4d1a5f86bef Разнообразный кпсс",
+      "author": "Филатов Арсений Эдгарович",
+      "genre": "classic",
+      "year_published": 1983,
+      "cover_url": "https://picsum.photos/262/96",
+      "tags": [],
+      "created_at": "2026-08-11T09:54:24.088197+03:00"
+    }
+  }
+}

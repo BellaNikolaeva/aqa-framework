@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "торговля-40cc55d9-b38d-454c-b901-a4d1a5f86bef Девка трубка граница",
+      "author": "тов. Фадеева Нинель Дмитриевна",
+      "genre": "fantasy",
+      "year_published": 2012,
+      "cover_url": "https://dummyimage.com/59x734"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 153.2,
+    "body": {
+      "id": 2256,
+      "title": "торговля-40cc55d9-b38d-454c-b901-a4d1a5f86bef Девка трубка граница",
+      "author": "тов. Фадеева Нинель Дмитриевна",
+      "genre": "fantasy",
+      "year_published": 2012,
+      "cover_url": "https://dummyimage.com/59x734",
+      "tags": [],
+      "created_at": "2026-08-11T09:54:24.666752+03:00"
+    }
+  }
+}

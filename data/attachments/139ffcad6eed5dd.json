@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "исследование-b36b142d-cd6a-4c26-8c15-1c1d57026f15 Наступать рассуждение багровый",
+      "author": "Пров Денисович Кириллов",
+      "genre": "non_fiction",
+      "year_published": 2026,
+      "cover_url": "https://placekitten.com/652/134"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 180.2,
+    "body": {
+      "id": 2264,
+      "title": "исследование-b36b142d-cd6a-4c26-8c15-1c1d57026f15 Наступать рассуждение багровый",
+      "author": "Пров Денисович Кириллов",
+      "genre": "non_fiction",
+      "year_published": 2026,
+      "cover_url": "https://placekitten.com/652/134",
+      "tags": [],
+      "created_at": "2026-08-11T09:54:32.765884+03:00"
+    }
+  }
+}

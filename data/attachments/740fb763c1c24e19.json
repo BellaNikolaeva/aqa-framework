@@ -1,0 +1,17 @@
+{
+  "request": {
+    "method": "PUT",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/tags/174/",
+    "payload": {
+      "name": "пропадать-c3d1ad91-1c1d-4880-822e-c7628086253f"
+    }
+  },
+  "response": {
+    "status_code": 200,
+    "elapsed_ms": 145.6,
+    "body": {
+      "id": 174,
+      "name": "пропадать-c3d1ad91-1c1d-4880-822e-c7628086253f"
+    }
+  }
+}

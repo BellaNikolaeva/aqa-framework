@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "равнодушный-08609b26-e127-4b9d-b4d3-57c235fd1d5c Полевой пятеро ученый протягивать",
+      "author": "Егорова Майя Матвеевна",
+      "genre": "classic",
+      "year_published": 1993,
+      "cover_url": "https://placekitten.com/725/29"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 151.3,
+    "body": {
+      "id": 2219,
+      "title": "равнодушный-08609b26-e127-4b9d-b4d3-57c235fd1d5c Полевой пятеро ученый протягивать",
+      "author": "Егорова Майя Матвеевна",
+      "genre": "classic",
+      "year_published": 1993,
+      "cover_url": "https://placekitten.com/725/29",
+      "tags": [],
+      "created_at": "2026-08-11T09:54:12.431070+03:00"
+    }
+  }
+}

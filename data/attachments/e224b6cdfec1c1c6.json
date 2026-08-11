@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "равнодушный-08609b26-e127-4b9d-b4d3-57c235fd1d5c Сверкать дьявол",
+      "author": "Маркова Клавдия Павловна",
+      "genre": "fantasy",
+      "year_published": 1971,
+      "cover_url": "https://picsum.photos/459/725"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 147.7,
+    "body": {
+      "id": 2221,
+      "title": "равнодушный-08609b26-e127-4b9d-b4d3-57c235fd1d5c Сверкать дьявол",
+      "author": "Маркова Клавдия Павловна",
+      "genre": "fantasy",
+      "year_published": 1971,
+      "cover_url": "https://picsum.photos/459/725",
+      "tags": [],
+      "created_at": "2026-08-11T09:54:12.720273+03:00"
+    }
+  }
+}

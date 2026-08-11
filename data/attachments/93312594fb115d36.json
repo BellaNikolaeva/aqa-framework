@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "исследование-b36b142d-cd6a-4c26-8c15-1c1d57026f15 Дружно зеленый",
+      "author": "Шарапова София Михайловна",
+      "genre": "detective",
+      "year_published": 1989,
+      "cover_url": "https://picsum.photos/321/638"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 138.0,
+    "body": {
+      "id": 2269,
+      "title": "исследование-b36b142d-cd6a-4c26-8c15-1c1d57026f15 Дружно зеленый",
+      "author": "Шарапова София Михайловна",
+      "genre": "detective",
+      "year_published": 1989,
+      "cover_url": "https://picsum.photos/321/638",
+      "tags": [],
+      "created_at": "2026-08-11T09:54:33.471256+03:00"
+    }
+  }
+}

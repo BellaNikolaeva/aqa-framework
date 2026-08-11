@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "равнодушный-08609b26-e127-4b9d-b4d3-57c235fd1d5c Устройство исполнять",
+      "author": "Оксана Богдановна Никонова",
+      "genre": "detective",
+      "year_published": 2009,
+      "cover_url": "https://picsum.photos/858/609"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 141.7,
+    "body": {
+      "id": 2231,
+      "title": "равнодушный-08609b26-e127-4b9d-b4d3-57c235fd1d5c Устройство исполнять",
+      "author": "Оксана Богдановна Никонова",
+      "genre": "detective",
+      "year_published": 2009,
+      "cover_url": "https://picsum.photos/858/609",
+      "tags": [],
+      "created_at": "2026-08-11T09:54:14.163527+03:00"
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/my-books/",
+    "payload": {
+      "book_id": 2210,
+      "status": "reading"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 165.9,
+    "body": {
+      "id": 327,
+      "book": {
+        "id": 2210,
+        "title": "Добиться бочок",
+        "author": "Кудрявцев Петр Якубович",
+        "genre": "detective",
+        "year_published": 1976,
+        "cover_url": "https://dummyimage.com/49x131",
+        "tags": [],
+        "created_at": "2026-08-11T09:53:48.754192+03:00"
+      },
+      "status": "reading",
+      "rating": null,
+      "notes": "",
+      "started_at": null,
+      "finished_at": null,
+      "updated_at": "2026-08-11T09:53:48.923189+03:00"
+    }
+  }
+}

@@ -1,0 +1,218 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": null
+  },
+  "response": {
+    "status_code": 200,
+    "elapsed_ms": 156.0,
+    "body": {
+      "count": 25,
+      "next": "https://book-tracker-api-frnm.onrender.com/api/books/?page=2&search=%D0%B8%D1%81%D1%81%D0%BB%D0%B5%D0%B4%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5-b36b142d-cd6a-4c26-8c15-1c1d57026f15",
+      "previous": null,
+      "results": [
+        {
+          "id": 2283,
+          "title": "исследование-b36b142d-cd6a-4c26-8c15-1c1d57026f15 Академик банда указанный бочок",
+          "author": "Рожкова Милица Романовна",
+          "genre": "sci_fi",
+          "year_published": 1979,
+          "cover_url": "https://dummyimage.com/567x33",
+          "tags": [],
+          "created_at": "2026-08-11T09:54:35.493810+03:00"
+        },
+        {
+          "id": 2272,
+          "title": "исследование-b36b142d-cd6a-4c26-8c15-1c1d57026f15 Армейский нервно ответить",
+          "author": "Лучезар Эдгарович Андреев",
+          "genre": "classic",
+          "year_published": 1998,
+          "cover_url": "https://picsum.photos/671/310",
+          "tags": [],
+          "created_at": "2026-08-11T09:54:33.929890+03:00"
+        },
+        {
+          "id": 2278,
+          "title": "исследование-b36b142d-cd6a-4c26-8c15-1c1d57026f15 Бригада наткнуться факультет",
+          "author": "Захаров Влас Викентьевич",
+          "genre": "sci_fi",
+          "year_published": 2004,
+          "cover_url": "https://dummyimage.com/829x16",
+          "tags": [],
+          "created_at": "2026-08-11T09:54:34.766893+03:00"
+        },
+        {
+          "id": 2273,
+          "title": "исследование-b36b142d-cd6a-4c26-8c15-1c1d57026f15 Вздрагивать запустить",
+          "author": "Людмила Геннадьевна Данилова",
+          "genre": "sci_fi",
+          "year_published": 1971,
+          "cover_url": "https://picsum.photos/216/419",
+          "tags": [],
+          "created_at": "2026-08-11T09:54:34.065634+03:00"
+        },
+        {
+          "id": 2288,
+          "title": "исследование-b36b142d-cd6a-4c26-8c15-1c1d57026f15 Виднеться предоставить",
+          "author": "Крюков Степан Григорьевич",
+          "genre": "sci_fi",
+          "year_published": 1965,
+          "cover_url": "https://dummyimage.com/921x693",
+          "tags": [],
+          "created_at": "2026-08-11T09:54:36.189593+03:00"
+        },
+        {
+          "id": 2265,
+          "title": "исследование-b36b142d-cd6a-4c26-8c15-1c1d57026f15 Возмутиться зеленый салон",
+          "author": "Исаев Севастьян Аксёнович",
+          "genre": "sci_fi",
+          "year_published": 1991,
+          "cover_url": "https://placekitten.com/601/802",
+          "tags": [],
+          "created_at": "2026-08-11T09:54:32.905949+03:00"
+        },
+        {
+          "id": 2276,
+          "title": "исследование-b36b142d-cd6a-4c26-8c15-1c1d57026f15 Выражаться угодный",
+          "author": "Пестова Регина Степановна",
+          "genre": "sci_fi",
+          "year_published": 1977,
+          "cover_url": "https://dummyimage.com/887x940",
+          "tags": [],
+          "created_at": "2026-08-11T09:54:34.488116+03:00"
+        },
+        {
+          "id": 2284,
+          "title": "исследование-b36b142d-cd6a-4c26-8c15-1c1d57026f15 Вытаскивать команда",
+          "author": "Регина Антоновна Наумова",
+          "genre": "sci_fi",
+          "year_published": 1968,
+          "cover_url": "https://dummyimage.com/745x869",
+          "tags": [],
+          "created_at": "2026-08-11T09:54:35.634972+03:00"
+        },
+        {
+          "id": 2271,
+          "title": "исследование-b36b142d-cd6a-4c26-8c15-1c1d57026f15 Горький горький возникновение ныне",
+          "author": "Николай Августович Красильников",
+          "genre": "fantasy",
+          "year_published": 2004,
+          "cover_url": "https://picsum.photos/613/97",
+          "tags": [],
+          "created_at": "2026-08-11T09:54:33.769608+03:00"
+        },
+        {
+          "id": 2269,
+          "title": "исследование-b36b142d-cd6a-4c26-8c15-1c1d57026f15 Дружно зеленый",
+          "author": "Шарапова София Михайловна",
+          "genre": "detective",
+          "year_published": 1989,
+          "cover_url": "https://picsum.photos/321/638",
+          "tags": [],
+          "created_at": "2026-08-11T09:54:33.471256+03:00"
+        },
+        {
+          "id": 2279,
+          "title": "исследование-b36b142d-cd6a-4c26-8c15-1c1d57026f15 Зарплата",
+          "author": "Иосиф Евстигнеевич Блинов",
+          "genre": "fantasy",
+          "year_published": 2021,
+          "cover_url": "https://dummyimage.com/932x262",
+          "tags": [],
+          "created_at": "2026-08-11T09:54:34.905501+03:00"
+        },
+        {
+          "id": 2270,
+          "title": "исследование-b36b142d-cd6a-4c26-8c15-1c1d57026f15 Изучить витрина засунуть",
+          "author": "Милен Якубович Калинин",
+          "genre": "fantasy",
+          "year_published": 1994,
+          "cover_url": "https://picsum.photos/140/1021",
+          "tags": [],
+          "created_at": "2026-08-11T09:54:33.611595+03:00"
+        },
+        {
+          "id": 2268,
+          "title": "исследование-b36b142d-cd6a-4c26-8c15-1c1d57026f15 Исполнять постоянный мелочь коллектив",
+          "author": "Крюкова Нинель Эльдаровна",
+          "genre": "non_fiction",
+          "year_published": 1964,
+          "cover_url": "https://picsum.photos/122/828",
+          "tags": [],
+          "created_at": "2026-08-11T09:54:33.331268+03:00"
+        },
+        {
+          "id": 2275,
+          "title": "исследование-b36b142d-cd6a-4c26-8c15-1c1d57026f15 Июнь совещание",
+          "author": "Устинов Лука Трофимович",
+          "genre": "detective",
+          "year_published": 1975,
+          "cover_url": "https://picsum.photos/761/314",
+          "tags": [],
+          "created_at": "2026-08-11T09:54:34.346065+03:00"
+        },
+        {
+          "id": 2267,
+          "title": "исследование-b36b142d-cd6a-4c26-8c15-1c1d57026f15 Мимо",
+          "author": "Эмилия Эльдаровна Галкина",
+          "genre": "fantasy",
+          "year_published": 2003,
+          "cover_url": "https://placekitten.com/365/35",
+          "tags": [],
+          "created_at": "2026-08-11T09:54:33.184002+03:00"
+        },
+        {
+          "id": 2264,
+          "title": "исследование-b36b142d-cd6a-4c26-8c15-1c1d57026f15 Наступать рассуждение багровый",
+          "author": "Пров Денисович Кириллов",
+          "genre": "non_fiction",
+          "year_published": 2026,
+          "cover_url": "https://placekitten.com/652/134",
+          "tags": [],
+          "created_at": "2026-08-11T09:54:32.765884+03:00"
+        },
+        {
+          "id": 2287,
+          "title": "исследование-b36b142d-cd6a-4c26-8c15-1c1d57026f15 Один",
+          "author": "Казакова Маргарита Эдуардовна",
+          "genre": "fantasy",
+          "year_published": 1957,
+          "cover_url": "https://picsum.photos/1021/1016",
+          "tags": [],
+          "created_at": "2026-08-11T09:54:36.049271+03:00"
+        },
+        {
+          "id": 2286,
+          "title": "исследование-b36b142d-cd6a-4c26-8c15-1c1d57026f15 Падаль дыхание",
+          "author": "Олимпий Давидович Максимов",
+          "genre": "fantasy",
+          "year_published": 1953,
+          "cover_url": "https://picsum.photos/587/866",
+          "tags": [],
+          "created_at": "2026-08-11T09:54:35.912136+03:00"
+        },
+        {
+          "id": 2280,
+          "title": "исследование-b36b142d-cd6a-4c26-8c15-1c1d57026f15 Парень зачем",
+          "author": "Кирилл Харитонович Давыдов",
+          "genre": "detective",
+          "year_published": 1982,
+          "cover_url": "https://placekitten.com/303/395",
+          "tags": [],
+          "created_at": "2026-08-11T09:54:35.042368+03:00"
+        },
+        {
+          "id": 2277,
+          "title": "исследование-b36b142d-cd6a-4c26-8c15-1c1d57026f15 Приятель роса",
+          "author": "Зайцева Татьяна Артемовна",
+          "genre": "fantasy",
+          "year_published": 2005,
+          "cover_url": "https://picsum.photos/533/404",
+          "tags": [],
+          "created_at": "2026-08-11T09:54:34.629904+03:00"
+        }
+      ]
+    }
+  }
+}

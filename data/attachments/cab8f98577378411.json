@@ -1,0 +1,28 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": null
+  },
+  "response": {
+    "status_code": 200,
+    "elapsed_ms": 1490.2,
+    "body": {
+      "count": 1,
+      "next": null,
+      "previous": null,
+      "results": [
+        {
+          "id": 2197,
+          "title": "Горький потрясти решетка",
+          "author": "Людмила Вадимовна Воронцова",
+          "genre": "detective",
+          "year_published": 2005,
+          "cover_url": "https://dummyimage.com/36x405",
+          "tags": [],
+          "created_at": "2026-08-11T09:52:48.593294+03:00"
+        }
+      ]
+    }
+  }
+}

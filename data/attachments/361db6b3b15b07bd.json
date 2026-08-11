@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "исследование-b36b142d-cd6a-4c26-8c15-1c1d57026f15 Изучить витрина засунуть",
+      "author": "Милен Якубович Калинин",
+      "genre": "fantasy",
+      "year_published": 1994,
+      "cover_url": "https://picsum.photos/140/1021"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 154.5,
+    "body": {
+      "id": 2270,
+      "title": "исследование-b36b142d-cd6a-4c26-8c15-1c1d57026f15 Изучить витрина засунуть",
+      "author": "Милен Якубович Калинин",
+      "genre": "fantasy",
+      "year_published": 1994,
+      "cover_url": "https://picsum.photos/140/1021",
+      "tags": [],
+      "created_at": "2026-08-11T09:54:33.611595+03:00"
+    }
+  }
+}

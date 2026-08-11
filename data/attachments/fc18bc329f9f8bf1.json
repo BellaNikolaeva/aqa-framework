@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "Монета тесно заложить",
+      "author": "Елена Борисовна Белякова",
+      "genre": "classic",
+      "year_published": 1975,
+      "cover_url": "https://picsum.photos/461/72"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 1899.3,
+    "body": {
+      "id": 2202,
+      "title": "Монета тесно заложить",
+      "author": "Елена Борисовна Белякова",
+      "genre": "classic",
+      "year_published": 1975,
+      "cover_url": "https://picsum.photos/461/72",
+      "tags": [],
+      "created_at": "2026-08-11T09:53:12.590597+03:00"
+    }
+  }
+}

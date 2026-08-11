@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "торговля-40cc55d9-b38d-454c-b901-a4d1a5f86bef Редактор четыре",
+      "author": "Евгения Рубеновна Медведева",
+      "genre": "classic",
+      "year_published": 1987,
+      "cover_url": "https://dummyimage.com/218x797"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 135.1,
+    "body": {
+      "id": 2258,
+      "title": "торговля-40cc55d9-b38d-454c-b901-a4d1a5f86bef Редактор четыре",
+      "author": "Евгения Рубеновна Медведева",
+      "genre": "classic",
+      "year_published": 1987,
+      "cover_url": "https://dummyimage.com/218x797",
+      "tags": [],
+      "created_at": "2026-08-11T09:54:24.958861+03:00"
+    }
+  }
+}

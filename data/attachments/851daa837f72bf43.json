@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "торговля-40cc55d9-b38d-454c-b901-a4d1a5f86bef Дальний фонарик изображать",
+      "author": "Куликов Адам Федотович",
+      "genre": "non_fiction",
+      "year_published": 2014,
+      "cover_url": "https://dummyimage.com/673x274"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 141.9,
+    "body": {
+      "id": 2241,
+      "title": "торговля-40cc55d9-b38d-454c-b901-a4d1a5f86bef Дальний фонарик изображать",
+      "author": "Куликов Адам Федотович",
+      "genre": "non_fiction",
+      "year_published": 2014,
+      "cover_url": "https://dummyimage.com/673x274",
+      "tags": [],
+      "created_at": "2026-08-11T09:54:22.539657+03:00"
+    }
+  }
+}
