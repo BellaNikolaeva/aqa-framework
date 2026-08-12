@@ -1,0 +1,218 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": null
+  },
+  "response": {
+    "status_code": 200,
+    "elapsed_ms": 116.3,
+    "body": {
+      "count": 25,
+      "next": "https://book-tracker-api-frnm.onrender.com/api/books/?page=2&search=%D1%81%D0%BC%D0%B5%D1%80%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9-7eb67e26-2245-45da-9686-1756b8d15e16",
+      "previous": null,
+      "results": [
+        {
+          "id": 2377,
+          "title": "смертельный-7eb67e26-2245-45da-9686-1756b8d15e16 Аж",
+          "author": "Ангелина Ждановна Фадеева",
+          "genre": "fantasy",
+          "year_published": 1991,
+          "cover_url": "https://placekitten.com/199/106",
+          "tags": [],
+          "created_at": "2026-08-12T10:13:55.203070+03:00"
+        },
+        {
+          "id": 2366,
+          "title": "смертельный-7eb67e26-2245-45da-9686-1756b8d15e16 Академик сохранять",
+          "author": "Рябова Тамара Мироновна",
+          "genre": "detective",
+          "year_published": 2017,
+          "cover_url": "https://dummyimage.com/677x504",
+          "tags": [],
+          "created_at": "2026-08-12T10:13:53.921435+03:00"
+        },
+        {
+          "id": 2367,
+          "title": "смертельный-7eb67e26-2245-45da-9686-1756b8d15e16 Ведь зарплата",
+          "author": "Анисимова Лариса Леонидовна",
+          "genre": "non_fiction",
+          "year_published": 2013,
+          "cover_url": "https://picsum.photos/429/389",
+          "tags": [],
+          "created_at": "2026-08-12T10:13:54.041823+03:00"
+        },
+        {
+          "id": 2381,
+          "title": "смертельный-7eb67e26-2245-45da-9686-1756b8d15e16 Виднеться",
+          "author": "Спиридон Фролович Игнатьев",
+          "genre": "sci_fi",
+          "year_published": 1990,
+          "cover_url": "https://placekitten.com/402/293",
+          "tags": [],
+          "created_at": "2026-08-12T10:13:55.826357+03:00"
+        },
+        {
+          "id": 2374,
+          "title": "смертельный-7eb67e26-2245-45da-9686-1756b8d15e16 Вообще развернуться",
+          "author": "Назар Гурьевич Блинов",
+          "genre": "fantasy",
+          "year_published": 1952,
+          "cover_url": "https://dummyimage.com/1017x471",
+          "tags": [],
+          "created_at": "2026-08-12T10:13:54.854757+03:00"
+        },
+        {
+          "id": 2388,
+          "title": "смертельный-7eb67e26-2245-45da-9686-1756b8d15e16 Деньги рота лапа",
+          "author": "Ширяева Светлана Рубеновна",
+          "genre": "classic",
+          "year_published": 1981,
+          "cover_url": "https://placekitten.com/696/877",
+          "tags": [],
+          "created_at": "2026-08-12T10:13:56.797974+03:00"
+        },
+        {
+          "id": 2382,
+          "title": "смертельный-7eb67e26-2245-45da-9686-1756b8d15e16 Задержать увеличиваться",
+          "author": "Трифон Харлампович Комаров",
+          "genre": "detective",
+          "year_published": 1988,
+          "cover_url": "https://placekitten.com/914/318",
+          "tags": [],
+          "created_at": "2026-08-12T10:13:55.941017+03:00"
+        },
+        {
+          "id": 2372,
+          "title": "смертельный-7eb67e26-2245-45da-9686-1756b8d15e16 Ленинград",
+          "author": "Евстигней Тихонович Некрасов",
+          "genre": "classic",
+          "year_published": 1980,
+          "cover_url": "https://picsum.photos/969/259",
+          "tags": [],
+          "created_at": "2026-08-12T10:13:54.626094+03:00"
+        },
+        {
+          "id": 2390,
+          "title": "смертельный-7eb67e26-2245-45da-9686-1756b8d15e16 Ложиться промолчать",
+          "author": "Константинов Глеб Валерьянович",
+          "genre": "sci_fi",
+          "year_published": 1969,
+          "cover_url": "https://picsum.photos/944/36",
+          "tags": [],
+          "created_at": "2026-08-12T10:13:57.032965+03:00"
+        },
+        {
+          "id": 2375,
+          "title": "смертельный-7eb67e26-2245-45da-9686-1756b8d15e16 Металл полюбить запеть",
+          "author": "Соловьев Радован Евстигнеевич",
+          "genre": "sci_fi",
+          "year_published": 1996,
+          "cover_url": "https://placekitten.com/179/789",
+          "tags": [],
+          "created_at": "2026-08-12T10:13:54.978119+03:00"
+        },
+        {
+          "id": 2389,
+          "title": "смертельный-7eb67e26-2245-45da-9686-1756b8d15e16 Набор",
+          "author": "Прасковья Валериевна Наумова",
+          "genre": "non_fiction",
+          "year_published": 1955,
+          "cover_url": "https://dummyimage.com/492x296",
+          "tags": [],
+          "created_at": "2026-08-12T10:13:56.910866+03:00"
+        },
+        {
+          "id": 2379,
+          "title": "смертельный-7eb67e26-2245-45da-9686-1756b8d15e16 Настать написать лапа",
+          "author": "Горшкова Милица Алексеевна",
+          "genre": "non_fiction",
+          "year_published": 1956,
+          "cover_url": "https://placekitten.com/577/656",
+          "tags": [],
+          "created_at": "2026-08-12T10:13:55.431157+03:00"
+        },
+        {
+          "id": 2371,
+          "title": "смертельный-7eb67e26-2245-45da-9686-1756b8d15e16 Очко салон бок",
+          "author": "Гущина Октябрина Игоревна",
+          "genre": "non_fiction",
+          "year_published": 2005,
+          "cover_url": "https://picsum.photos/232/994",
+          "tags": [],
+          "created_at": "2026-08-12T10:13:54.512015+03:00"
+        },
+        {
+          "id": 2385,
+          "title": "смертельный-7eb67e26-2245-45da-9686-1756b8d15e16 Пасть рота командующий пропаганда",
+          "author": "Таисия Натановна Юдина",
+          "genre": "classic",
+          "year_published": 2025,
+          "cover_url": "https://placekitten.com/104/92",
+          "tags": [],
+          "created_at": "2026-08-12T10:13:56.457378+03:00"
+        },
+        {
+          "id": 2373,
+          "title": "смертельный-7eb67e26-2245-45da-9686-1756b8d15e16 Понятный пробовать",
+          "author": "Андрон Ильясович Силин",
+          "genre": "classic",
+          "year_published": 1984,
+          "cover_url": "https://placekitten.com/451/26",
+          "tags": [],
+          "created_at": "2026-08-12T10:13:54.739272+03:00"
+        },
+        {
+          "id": 2384,
+          "title": "смертельный-7eb67e26-2245-45da-9686-1756b8d15e16 Пробовать трясти",
+          "author": "Фомин Афиноген Архипович",
+          "genre": "sci_fi",
+          "year_published": 1980,
+          "cover_url": "https://picsum.photos/804/916",
+          "tags": [],
+          "created_at": "2026-08-12T10:13:56.344174+03:00"
+        },
+        {
+          "id": 2380,
+          "title": "смертельный-7eb67e26-2245-45da-9686-1756b8d15e16 Разводить единый похороны",
+          "author": "Тимофей Гертрудович Марков",
+          "genre": "non_fiction",
+          "year_published": 1955,
+          "cover_url": "https://picsum.photos/35/497",
+          "tags": [],
+          "created_at": "2026-08-12T10:13:55.716231+03:00"
+        },
+        {
+          "id": 2376,
+          "title": "смертельный-7eb67e26-2245-45da-9686-1756b8d15e16 Самостоятельно функция",
+          "author": "Антонина Дмитриевна Веселова",
+          "genre": "fantasy",
+          "year_published": 2009,
+          "cover_url": "https://placekitten.com/822/574",
+          "tags": [],
+          "created_at": "2026-08-12T10:13:55.092132+03:00"
+        },
+        {
+          "id": 2368,
+          "title": "смертельный-7eb67e26-2245-45da-9686-1756b8d15e16 Скрытый район поставить",
+          "author": "Конон Виленович Королев",
+          "genre": "detective",
+          "year_published": 1960,
+          "cover_url": "https://picsum.photos/79/545",
+          "tags": [],
+          "created_at": "2026-08-12T10:13:54.165425+03:00"
+        },
+        {
+          "id": 2378,
+          "title": "смертельный-7eb67e26-2245-45da-9686-1756b8d15e16 Совет вывести затянуться",
+          "author": "Соболева Пелагея Дмитриевна",
+          "genre": "non_fiction",
+          "year_published": 2022,
+          "cover_url": "https://placekitten.com/933/777",
+          "tags": [],
+          "created_at": "2026-08-12T10:13:55.318228+03:00"
+        }
+      ]
+    }
+  }
+}

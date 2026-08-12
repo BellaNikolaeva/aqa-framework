@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "наткнуться-1d5f1149-1954-472d-8a75-05d09a054c03 Секунда",
+      "author": "Родион Владленович Михеев",
+      "genre": "sci_fi",
+      "year_published": 1966,
+      "cover_url": "https://dummyimage.com/741x579"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 116.1,
+    "body": {
+      "id": 2359,
+      "title": "наткнуться-1d5f1149-1954-472d-8a75-05d09a054c03 Секунда",
+      "author": "Родион Владленович Михеев",
+      "genre": "sci_fi",
+      "year_published": 1966,
+      "cover_url": "https://dummyimage.com/741x579",
+      "tags": [],
+      "created_at": "2026-08-12T10:13:46.850908+03:00"
+    }
+  }
+}

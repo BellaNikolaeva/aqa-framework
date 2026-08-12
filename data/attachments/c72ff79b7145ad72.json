@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "наткнуться-1d5f1149-1954-472d-8a75-05d09a054c03 Сынок девка основание",
+      "author": "Шубин Тимур Аксёнович",
+      "genre": "sci_fi",
+      "year_published": 2017,
+      "cover_url": "https://placekitten.com/273/960"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 122.9,
+    "body": {
+      "id": 2354,
+      "title": "наткнуться-1d5f1149-1954-472d-8a75-05d09a054c03 Сынок девка основание",
+      "author": "Шубин Тимур Аксёнович",
+      "genre": "sci_fi",
+      "year_published": 2017,
+      "cover_url": "https://placekitten.com/273/960",
+      "tags": [],
+      "created_at": "2026-08-12T10:13:46.257641+03:00"
+    }
+  }
+}

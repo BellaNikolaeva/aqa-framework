@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "наткнуться-1d5f1149-1954-472d-8a75-05d09a054c03 Неправда применяться угол",
+      "author": "Савельева Ангелина Рудольфовна",
+      "genre": "detective",
+      "year_published": 1958,
+      "cover_url": "https://picsum.photos/306/579"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 112.4,
+    "body": {
+      "id": 2342,
+      "title": "наткнуться-1d5f1149-1954-472d-8a75-05d09a054c03 Неправда применяться угол",
+      "author": "Савельева Ангелина Рудольфовна",
+      "genre": "detective",
+      "year_published": 1958,
+      "cover_url": "https://picsum.photos/306/579",
+      "tags": [],
+      "created_at": "2026-08-12T10:13:44.224971+03:00"
+    }
+  }
+}

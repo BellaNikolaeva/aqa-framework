@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "Другой присесть художественный пространство",
+      "author": "Таисия Ждановна Кудряшова",
+      "genre": "sci_fi",
+      "year_published": 2006,
+      "cover_url": "https://placekitten.com/667/219"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 1902.3,
+    "body": {
+      "id": 2297,
+      "title": "Другой присесть художественный пространство",
+      "author": "Таисия Ждановна Кудряшова",
+      "genre": "sci_fi",
+      "year_published": 2006,
+      "cover_url": "https://placekitten.com/667/219",
+      "tags": [],
+      "created_at": "2026-08-12T10:12:01.902203+03:00"
+    }
+  }
+}

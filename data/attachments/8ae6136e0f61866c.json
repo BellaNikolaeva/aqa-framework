@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "выдержать-2b57adc3-5395-4086-b656-aabb60e95e87 Эпоха госпожа",
+      "author": "Русаков Будимир Харлампьевич",
+      "genre": "classic",
+      "year_published": 1994,
+      "cover_url": "https://placekitten.com/736/127"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 118.5,
+    "body": {
+      "id": 2338,
+      "title": "выдержать-2b57adc3-5395-4086-b656-aabb60e95e87 Эпоха госпожа",
+      "author": "Русаков Будимир Харлампьевич",
+      "genre": "classic",
+      "year_published": 1994,
+      "cover_url": "https://placekitten.com/736/127",
+      "tags": [],
+      "created_at": "2026-08-12T10:13:36.661966+03:00"
+    }
+  }
+}

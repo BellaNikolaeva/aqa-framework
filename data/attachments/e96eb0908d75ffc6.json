@@ -1,0 +1,21 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "Легко выраженный цвет",
+      "genre": "non_fiction",
+      "year_published": 2003,
+      "cover_url": "https://dummyimage.com/492x181"
+    }
+  },
+  "response": {
+    "status_code": 400,
+    "elapsed_ms": 1506.7,
+    "body": {
+      "author": [
+        "Обязательное поле."
+      ]
+    }
+  }
+}

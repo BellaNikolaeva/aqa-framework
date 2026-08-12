@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "выдержать-2b57adc3-5395-4086-b656-aabb60e95e87 Заложить вытаскивать",
+      "author": "Гаврилова Алевтина Натановна",
+      "genre": "non_fiction",
+      "year_published": 2006,
+      "cover_url": "https://placekitten.com/411/379"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 113.0,
+    "body": {
+      "id": 2331,
+      "title": "выдержать-2b57adc3-5395-4086-b656-aabb60e95e87 Заложить вытаскивать",
+      "author": "Гаврилова Алевтина Натановна",
+      "genre": "non_fiction",
+      "year_published": 2006,
+      "cover_url": "https://placekitten.com/411/379",
+      "tags": [],
+      "created_at": "2026-08-12T10:13:35.865313+03:00"
+    }
+  }
+}

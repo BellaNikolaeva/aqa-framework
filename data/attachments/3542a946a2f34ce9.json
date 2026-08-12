@@ -1,0 +1,33 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/my-books/",
+    "payload": {
+      "book_id": 2307,
+      "status": "finished"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 130.5,
+    "body": {
+      "id": 337,
+      "book": {
+        "id": 2307,
+        "title": "Мусор падаль",
+        "author": "Нинель Антоновна Наумова",
+        "genre": "sci_fi",
+        "year_published": 2007,
+        "cover_url": "https://picsum.photos/945/949",
+        "tags": [],
+        "created_at": "2026-08-12T10:12:48.725789+03:00"
+      },
+      "status": "finished",
+      "rating": null,
+      "notes": "",
+      "started_at": null,
+      "finished_at": null,
+      "updated_at": "2026-08-12T10:12:48.859824+03:00"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "выдержать-2b57adc3-5395-4086-b656-aabb60e95e87 Монета триста очутиться",
+      "author": "Афанасьев Арсений Фомич",
+      "genre": "sci_fi",
+      "year_published": 1957,
+      "cover_url": "https://picsum.photos/828/750"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 110.6,
+    "body": {
+      "id": 2330,
+      "title": "выдержать-2b57adc3-5395-4086-b656-aabb60e95e87 Монета триста очутиться",
+      "author": "Афанасьев Арсений Фомич",
+      "genre": "sci_fi",
+      "year_published": 1957,
+      "cover_url": "https://picsum.photos/828/750",
+      "tags": [],
+      "created_at": "2026-08-12T10:13:35.751820+03:00"
+    }
+  }
+}

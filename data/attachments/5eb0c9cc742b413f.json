@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "Район выбирать советовать",
+      "author": "Януарий Филатович Ширяев",
+      "genre": "classic",
+      "year_published": 2005,
+      "cover_url": "https://dummyimage.com/412x799"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 315.2,
+    "body": {
+      "id": 2315,
+      "title": "Район выбирать советовать",
+      "author": "Януарий Филатович Ширяев",
+      "genre": "classic",
+      "year_published": 2005,
+      "cover_url": "https://dummyimage.com/412x799",
+      "tags": [],
+      "created_at": "2026-08-12T10:13:30.202099+03:00"
+    }
+  }
+}

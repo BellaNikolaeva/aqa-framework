@@ -1,0 +1,33 @@
+{
+  "request": {
+    "method": "PATCH",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/my-books/341/",
+    "payload": {
+      "status": "finished",
+      "finished_at": "2026-02-01"
+    }
+  },
+  "response": {
+    "status_code": 200,
+    "elapsed_ms": 117.1,
+    "body": {
+      "id": 341,
+      "book": {
+        "id": 2311,
+        "title": "Ремень сомнительный полюбить",
+        "author": "Емельянова Антонина Владимировна",
+        "genre": "sci_fi",
+        "year_published": 1966,
+        "cover_url": "https://picsum.photos/653/669",
+        "tags": [],
+        "created_at": "2026-08-12T10:13:05.121410+03:00"
+      },
+      "status": "finished",
+      "rating": null,
+      "notes": "",
+      "started_at": "2026-01-15",
+      "finished_at": "2026-02-01",
+      "updated_at": "2026-08-12T10:13:05.514134+03:00"
+    }
+  }
+}

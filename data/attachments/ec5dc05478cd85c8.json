@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "смертельный-7eb67e26-2245-45da-9686-1756b8d15e16 Вообще развернуться",
+      "author": "Назар Гурьевич Блинов",
+      "genre": "fantasy",
+      "year_published": 1952,
+      "cover_url": "https://dummyimage.com/1017x471"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 122.3,
+    "body": {
+      "id": 2374,
+      "title": "смертельный-7eb67e26-2245-45da-9686-1756b8d15e16 Вообще развернуться",
+      "author": "Назар Гурьевич Блинов",
+      "genre": "fantasy",
+      "year_published": 1952,
+      "cover_url": "https://dummyimage.com/1017x471",
+      "tags": [],
+      "created_at": "2026-08-12T10:13:54.854757+03:00"
+    }
+  }
+}

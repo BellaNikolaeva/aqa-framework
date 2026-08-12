@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "наткнуться-1d5f1149-1954-472d-8a75-05d09a054c03 Засунуть скрытый",
+      "author": "Власов Осип Иосипович",
+      "genre": "sci_fi",
+      "year_published": 1952,
+      "cover_url": "https://placekitten.com/840/283"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 119.7,
+    "body": {
+      "id": 2344,
+      "title": "наткнуться-1d5f1149-1954-472d-8a75-05d09a054c03 Засунуть скрытый",
+      "author": "Власов Осип Иосипович",
+      "genre": "sci_fi",
+      "year_published": 1952,
+      "cover_url": "https://placekitten.com/840/283",
+      "tags": [],
+      "created_at": "2026-08-12T10:13:44.456275+03:00"
+    }
+  }
+}

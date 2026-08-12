@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "Горький доставать",
+      "author": "Брагин Болеслав Феофанович",
+      "genre": "sci_fi",
+      "year_published": 2019,
+      "cover_url": "https://placekitten.com/33/359"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 128.1,
+    "body": {
+      "id": 2392,
+      "title": "Горький доставать",
+      "author": "Брагин Болеслав Феофанович",
+      "genre": "sci_fi",
+      "year_published": 2019,
+      "cover_url": "https://placekitten.com/33/359",
+      "tags": [],
+      "created_at": "2026-08-12T10:14:15.623916+03:00"
+    }
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": null
+  },
+  "response": {
+    "status_code": 200,
+    "elapsed_ms": 122.0,
+    "body": {
+      "count": 25,
+      "next": null,
+      "previous": "https://book-tracker-api-frnm.onrender.com/api/books/?search=%D1%81%D0%BC%D0%B5%D1%80%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9-7eb67e26-2245-45da-9686-1756b8d15e16",
+      "results": [
+        {
+          "id": 2386,
+          "title": "смертельный-7eb67e26-2245-45da-9686-1756b8d15e16 Ставить",
+          "author": "Сорокина Анна Егоровна",
+          "genre": "detective",
+          "year_published": 1975,
+          "cover_url": "https://placekitten.com/667/988",
+          "tags": [],
+          "created_at": "2026-08-12T10:13:56.570966+03:00"
+        },
+        {
+          "id": 2387,
+          "title": "смертельный-7eb67e26-2245-45da-9686-1756b8d15e16 Страсть вариант покинуть",
+          "author": "Лазарев Пров Антонович",
+          "genre": "sci_fi",
+          "year_published": 1956,
+          "cover_url": "https://picsum.photos/971/141",
+          "tags": [],
+          "created_at": "2026-08-12T10:13:56.687172+03:00"
+        },
+        {
+          "id": 2383,
+          "title": "смертельный-7eb67e26-2245-45da-9686-1756b8d15e16 Сустав приходить",
+          "author": "Варфоломей Дмитриевич Зиновьев",
+          "genre": "detective",
+          "year_published": 1981,
+          "cover_url": "https://placekitten.com/458/106",
+          "tags": [],
+          "created_at": "2026-08-12T10:13:56.054366+03:00"
+        },
+        {
+          "id": 2370,
+          "title": "смертельный-7eb67e26-2245-45da-9686-1756b8d15e16 Человечек тесно",
+          "author": "Гусев Эммануил Виленович",
+          "genre": "fantasy",
+          "year_published": 1960,
+          "cover_url": "https://placekitten.com/886/926",
+          "tags": [],
+          "created_at": "2026-08-12T10:13:54.396782+03:00"
+        },
+        {
+          "id": 2369,
+          "title": "смертельный-7eb67e26-2245-45da-9686-1756b8d15e16 Чувство пропасть волк",
+          "author": "Моисеева Полина Юльевна",
+          "genre": "detective",
+          "year_published": 2022,
+          "cover_url": "https://dummyimage.com/1015x844",
+          "tags": [],
+          "created_at": "2026-08-12T10:13:54.281419+03:00"
+        }
+      ]
+    }
+  }
+}

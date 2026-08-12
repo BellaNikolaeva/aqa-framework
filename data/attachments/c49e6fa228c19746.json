@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "Команда анализ",
+      "author": "Емельянов Иван Фомич",
+      "genre": "sci_fi",
+      "year_published": 1979,
+      "cover_url": "https://picsum.photos/685/947"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 135.1,
+    "body": {
+      "id": 2310,
+      "title": "Команда анализ",
+      "author": "Емельянов Иван Фомич",
+      "genre": "sci_fi",
+      "year_published": 1979,
+      "cover_url": "https://picsum.photos/685/947",
+      "tags": [],
+      "created_at": "2026-08-12T10:13:00.823219+03:00"
+    }
+  }
+}

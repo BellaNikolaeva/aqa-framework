@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "выдержать-2b57adc3-5395-4086-b656-aabb60e95e87 Ломать при монета",
+      "author": "Прохор Устинович Селиверстов",
+      "genre": "fantasy",
+      "year_published": 1979,
+      "cover_url": "https://placekitten.com/905/446"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 118.3,
+    "body": {
+      "id": 2322,
+      "title": "выдержать-2b57adc3-5395-4086-b656-aabb60e95e87 Ломать при монета",
+      "author": "Прохор Устинович Селиверстов",
+      "genre": "fantasy",
+      "year_published": 1979,
+      "cover_url": "https://placekitten.com/905/446",
+      "tags": [],
+      "created_at": "2026-08-12T10:13:34.834087+03:00"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "выдержать-2b57adc3-5395-4086-b656-aabb60e95e87 Светило предоставить",
+      "author": "Кабанов Феликс Фадеевич",
+      "genre": "detective",
+      "year_published": 1996,
+      "cover_url": "https://picsum.photos/597/449"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 118.0,
+    "body": {
+      "id": 2339,
+      "title": "выдержать-2b57adc3-5395-4086-b656-aabb60e95e87 Светило предоставить",
+      "author": "Кабанов Феликс Фадеевич",
+      "genre": "detective",
+      "year_published": 1996,
+      "cover_url": "https://picsum.photos/597/449",
+      "tags": [],
+      "created_at": "2026-08-12T10:13:36.780023+03:00"
+    }
+  }
+}

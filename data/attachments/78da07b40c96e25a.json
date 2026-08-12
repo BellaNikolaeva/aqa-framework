@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "смертельный-7eb67e26-2245-45da-9686-1756b8d15e16 Разводить единый похороны",
+      "author": "Тимофей Гертрудович Марков",
+      "genre": "non_fiction",
+      "year_published": 1955,
+      "cover_url": "https://picsum.photos/35/497"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 284.4,
+    "body": {
+      "id": 2380,
+      "title": "смертельный-7eb67e26-2245-45da-9686-1756b8d15e16 Разводить единый похороны",
+      "author": "Тимофей Гертрудович Марков",
+      "genre": "non_fiction",
+      "year_published": 1955,
+      "cover_url": "https://picsum.photos/35/497",
+      "tags": [],
+      "created_at": "2026-08-12T10:13:55.716231+03:00"
+    }
+  }
+}

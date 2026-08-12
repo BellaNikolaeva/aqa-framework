@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "смертельный-7eb67e26-2245-45da-9686-1756b8d15e16 Виднеться",
+      "author": "Спиридон Фролович Игнатьев",
+      "genre": "sci_fi",
+      "year_published": 1990,
+      "cover_url": "https://placekitten.com/402/293"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 111.2,
+    "body": {
+      "id": 2381,
+      "title": "смертельный-7eb67e26-2245-45da-9686-1756b8d15e16 Виднеться",
+      "author": "Спиридон Фролович Игнатьев",
+      "genre": "sci_fi",
+      "year_published": 1990,
+      "cover_url": "https://placekitten.com/402/293",
+      "tags": [],
+      "created_at": "2026-08-12T10:13:55.826357+03:00"
+    }
+  }
+}

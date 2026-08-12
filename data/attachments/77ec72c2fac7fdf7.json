@@ -1,0 +1,17 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/tags/",
+    "payload": {
+      "name": "лететь-1d3cd7b7-f648-4b23-853a-2836c293b305"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 128.3,
+    "body": {
+      "id": 181,
+      "name": "лететь-1d3cd7b7-f648-4b23-853a-2836c293b305"
+    }
+  }
+}

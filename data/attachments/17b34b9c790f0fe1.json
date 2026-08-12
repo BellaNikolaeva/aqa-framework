@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "наткнуться-1d5f1149-1954-472d-8a75-05d09a054c03 Скрытый некоторый",
+      "author": "тов. Филиппов Пров Александрович",
+      "genre": "non_fiction",
+      "year_published": 1966,
+      "cover_url": "https://picsum.photos/695/515"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 286.4,
+    "body": {
+      "id": 2347,
+      "title": "наткнуться-1d5f1149-1954-472d-8a75-05d09a054c03 Скрытый некоторый",
+      "author": "тов. Филиппов Пров Александрович",
+      "genre": "non_fiction",
+      "year_published": 1966,
+      "cover_url": "https://picsum.photos/695/515",
+      "tags": [],
+      "created_at": "2026-08-12T10:13:45.159634+03:00"
+    }
+  }
+}

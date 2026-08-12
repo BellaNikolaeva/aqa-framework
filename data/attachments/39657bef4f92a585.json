@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "Премьера встать",
+      "author": "Дроздов Семен Евстигнеевич",
+      "genre": "sci_fi",
+      "year_published": 1975,
+      "cover_url": "https://picsum.photos/546/746"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 127.5,
+    "body": {
+      "id": 2304,
+      "title": "Премьера встать",
+      "author": "Дроздов Семен Евстигнеевич",
+      "genre": "sci_fi",
+      "year_published": 1975,
+      "cover_url": "https://picsum.photos/546/746",
+      "tags": [],
+      "created_at": "2026-08-12T10:12:27.816980+03:00"
+    }
+  }
+}

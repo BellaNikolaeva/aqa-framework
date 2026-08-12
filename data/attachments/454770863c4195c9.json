@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "наткнуться-1d5f1149-1954-472d-8a75-05d09a054c03 Неправда анализ аллея пища",
+      "author": "Бурова Акулина Архиповна",
+      "genre": "non_fiction",
+      "year_published": 1982,
+      "cover_url": "https://placekitten.com/558/734"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 196.5,
+    "body": {
+      "id": 2350,
+      "title": "наткнуться-1d5f1149-1954-472d-8a75-05d09a054c03 Неправда анализ аллея пища",
+      "author": "Бурова Акулина Архиповна",
+      "genre": "non_fiction",
+      "year_published": 1982,
+      "cover_url": "https://placekitten.com/558/734",
+      "tags": [],
+      "created_at": "2026-08-12T10:13:45.768721+03:00"
+    }
+  }
+}

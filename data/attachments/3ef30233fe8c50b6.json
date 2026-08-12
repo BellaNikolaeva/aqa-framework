@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "выдержать-2b57adc3-5395-4086-b656-aabb60e95e87 Песенка табак",
+      "author": "Чеслав Брониславович Никонов",
+      "genre": "sci_fi",
+      "year_published": 1968,
+      "cover_url": "https://dummyimage.com/672x699"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 112.9,
+    "body": {
+      "id": 2327,
+      "title": "выдержать-2b57adc3-5395-4086-b656-aabb60e95e87 Песенка табак",
+      "author": "Чеслав Брониславович Никонов",
+      "genre": "sci_fi",
+      "year_published": 1968,
+      "cover_url": "https://dummyimage.com/672x699",
+      "tags": [],
+      "created_at": "2026-08-12T10:13:35.410446+03:00"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "смертельный-7eb67e26-2245-45da-9686-1756b8d15e16 Человечек тесно",
+      "author": "Гусев Эммануил Виленович",
+      "genre": "fantasy",
+      "year_published": 1960,
+      "cover_url": "https://placekitten.com/886/926"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 114.0,
+    "body": {
+      "id": 2370,
+      "title": "смертельный-7eb67e26-2245-45da-9686-1756b8d15e16 Человечек тесно",
+      "author": "Гусев Эммануил Виленович",
+      "genre": "fantasy",
+      "year_published": 1960,
+      "cover_url": "https://placekitten.com/886/926",
+      "tags": [],
+      "created_at": "2026-08-12T10:13:54.396782+03:00"
+    }
+  }
+}

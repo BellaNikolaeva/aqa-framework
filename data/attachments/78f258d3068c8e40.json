@@ -1,0 +1,17 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/tags/",
+    "payload": {
+      "name": "разнообразный-3201c389-fe56-4ba3-9edc-6ef55e682eab"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 130.6,
+    "body": {
+      "id": 182,
+      "name": "разнообразный-3201c389-fe56-4ba3-9edc-6ef55e682eab"
+    }
+  }
+}

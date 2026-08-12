@@ -1,0 +1,68 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": null
+  },
+  "response": {
+    "status_code": 200,
+    "elapsed_ms": 120.1,
+    "body": {
+      "count": 25,
+      "next": null,
+      "previous": "https://book-tracker-api-frnm.onrender.com/api/books/?search=%D0%BD%D0%B0%D1%82%D0%BA%D0%BD%D1%83%D1%82%D1%8C%D1%81%D1%8F-1d5f1149-1954-472d-8a75-05d09a054c03",
+      "results": [
+        {
+          "id": 2343,
+          "title": "наткнуться-1d5f1149-1954-472d-8a75-05d09a054c03 Способ точно важный",
+          "author": "Захар Григорьевич Виноградов",
+          "genre": "classic",
+          "year_published": 2013,
+          "cover_url": "https://picsum.photos/785/156",
+          "tags": [],
+          "created_at": "2026-08-12T10:13:44.338706+03:00"
+        },
+        {
+          "id": 2365,
+          "title": "наткнуться-1d5f1149-1954-472d-8a75-05d09a054c03 Степь засунуть устройство",
+          "author": "Алексеева Алевтина Максимовна",
+          "genre": "sci_fi",
+          "year_published": 1983,
+          "cover_url": "https://picsum.photos/579/397",
+          "tags": [],
+          "created_at": "2026-08-12T10:13:47.570275+03:00"
+        },
+        {
+          "id": 2354,
+          "title": "наткнуться-1d5f1149-1954-472d-8a75-05d09a054c03 Сынок девка основание",
+          "author": "Шубин Тимур Аксёнович",
+          "genre": "sci_fi",
+          "year_published": 2017,
+          "cover_url": "https://placekitten.com/273/960",
+          "tags": [],
+          "created_at": "2026-08-12T10:13:46.257641+03:00"
+        },
+        {
+          "id": 2356,
+          "title": "наткнуться-1d5f1149-1954-472d-8a75-05d09a054c03 Сынок услать",
+          "author": "Щербакова Ираида Михайловна",
+          "genre": "non_fiction",
+          "year_published": 1994,
+          "cover_url": "https://placekitten.com/822/322",
+          "tags": [],
+          "created_at": "2026-08-12T10:13:46.503367+03:00"
+        },
+        {
+          "id": 2351,
+          "title": "наткнуться-1d5f1149-1954-472d-8a75-05d09a054c03 Угроза",
+          "author": "Орехова Акулина Леоновна",
+          "genre": "non_fiction",
+          "year_published": 1954,
+          "cover_url": "https://picsum.photos/23/532",
+          "tags": [],
+          "created_at": "2026-08-12T10:13:45.886678+03:00"
+        }
+      ]
+    }
+  }
+}

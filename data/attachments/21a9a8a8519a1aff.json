@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "выдержать-2b57adc3-5395-4086-b656-aabb60e95e87 Космос триста анализ вытаскивать",
+      "author": "Варвара Наумовна Пономарева",
+      "genre": "sci_fi",
+      "year_published": 1996,
+      "cover_url": "https://placekitten.com/793/1010"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 114.8,
+    "body": {
+      "id": 2336,
+      "title": "выдержать-2b57adc3-5395-4086-b656-aabb60e95e87 Космос триста анализ вытаскивать",
+      "author": "Варвара Наумовна Пономарева",
+      "genre": "sci_fi",
+      "year_published": 1996,
+      "cover_url": "https://placekitten.com/793/1010",
+      "tags": [],
+      "created_at": "2026-08-12T10:13:36.432123+03:00"
+    }
+  }
+}

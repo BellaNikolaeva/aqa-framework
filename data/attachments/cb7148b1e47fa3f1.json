@@ -1,0 +1,35 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "Пламя тесно спорт",
+      "author": "Святополк Архипович Мельников",
+      "genre": "classic",
+      "year_published": 1965,
+      "cover_url": "https://picsum.photos/412/919",
+      "tag_ids": [
+        178
+      ]
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 134.5,
+    "body": {
+      "id": 2302,
+      "title": "Пламя тесно спорт",
+      "author": "Святополк Архипович Мельников",
+      "genre": "classic",
+      "year_published": 1965,
+      "cover_url": "https://picsum.photos/412/919",
+      "tags": [
+        {
+          "id": 178,
+          "name": "конструкция-d9f4cd37-12d5-4ea7-8001-1ffce904ca74"
+        }
+      ],
+      "created_at": "2026-08-12T10:12:21.130371+03:00"
+    }
+  }
+}

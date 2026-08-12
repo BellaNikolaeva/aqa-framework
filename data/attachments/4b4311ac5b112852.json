@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "смертельный-7eb67e26-2245-45da-9686-1756b8d15e16 Металл полюбить запеть",
+      "author": "Соловьев Радован Евстигнеевич",
+      "genre": "sci_fi",
+      "year_published": 1996,
+      "cover_url": "https://placekitten.com/179/789"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 118.4,
+    "body": {
+      "id": 2375,
+      "title": "смертельный-7eb67e26-2245-45da-9686-1756b8d15e16 Металл полюбить запеть",
+      "author": "Соловьев Радован Евстигнеевич",
+      "genre": "sci_fi",
+      "year_published": 1996,
+      "cover_url": "https://placekitten.com/179/789",
+      "tags": [],
+      "created_at": "2026-08-12T10:13:54.978119+03:00"
+    }
+  }
+}
