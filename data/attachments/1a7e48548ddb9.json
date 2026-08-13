@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "головной-00abea93-b849-4596-9844-3e002faeb49a Миф точно",
+      "author": "Наталья Харитоновна Маслова",
+      "genre": "classic",
+      "year_published": 1991,
+      "cover_url": "https://placekitten.com/576/983"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 112.7,
+    "body": {
+      "id": 2492,
+      "title": "головной-00abea93-b849-4596-9844-3e002faeb49a Миф точно",
+      "author": "Наталья Харитоновна Маслова",
+      "genre": "classic",
+      "year_published": 1991,
+      "cover_url": "https://placekitten.com/576/983",
+      "tags": [],
+      "created_at": "2026-08-13T10:17:36.533302+03:00"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "очко-a1e1483e-8981-4ffb-a95b-12d817ac8b13 Точно спорт кидать место",
+      "author": "Соболева Василиса Ильинична",
+      "genre": "fantasy",
+      "year_published": 2001,
+      "cover_url": "https://dummyimage.com/146x101"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 113.7,
+    "body": {
+      "id": 2423,
+      "title": "очко-a1e1483e-8981-4ffb-a95b-12d817ac8b13 Точно спорт кидать место",
+      "author": "Соболева Василиса Ильинична",
+      "genre": "fantasy",
+      "year_published": 2001,
+      "cover_url": "https://dummyimage.com/146x101",
+      "tags": [],
+      "created_at": "2026-08-13T10:17:14.590799+03:00"
+    }
+  }
+}

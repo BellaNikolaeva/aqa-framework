@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "художественный-902e7a61-001c-4fe6-8f5e-3e9374a130d7 Монета точно",
+      "author": "Гурий Геннадиевич Емельянов",
+      "genre": "sci_fi",
+      "year_published": 2008,
+      "cover_url": "https://dummyimage.com/223x845"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 119.9,
+    "body": {
+      "id": 2453,
+      "title": "художественный-902e7a61-001c-4fe6-8f5e-3e9374a130d7 Монета точно",
+      "author": "Гурий Геннадиевич Емельянов",
+      "genre": "sci_fi",
+      "year_published": 2008,
+      "cover_url": "https://dummyimage.com/223x845",
+      "tags": [],
+      "created_at": "2026-08-13T10:17:25.520826+03:00"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "головной-00abea93-b849-4596-9844-3e002faeb49a Госпожа дальний рис",
+      "author": "Владимир Абрамович Носов",
+      "genre": "sci_fi",
+      "year_published": 1970,
+      "cover_url": "https://placekitten.com/108/877"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 115.3,
+    "body": {
+      "id": 2473,
+      "title": "головной-00abea93-b849-4596-9844-3e002faeb49a Госпожа дальний рис",
+      "author": "Владимир Абрамович Носов",
+      "genre": "sci_fi",
+      "year_published": 1970,
+      "cover_url": "https://placekitten.com/108/877",
+      "tags": [],
+      "created_at": "2026-08-13T10:17:34.315061+03:00"
+    }
+  }
+}

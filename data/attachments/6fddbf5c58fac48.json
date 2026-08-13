@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "Ломать набор",
+      "author": "Блинова Маргарита Валериевна",
+      "genre": "sci_fi",
+      "year_published": 2014,
+      "cover_url": "https://placekitten.com/423/730"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 126.1,
+    "body": {
+      "id": 2493,
+      "title": "Ломать набор",
+      "author": "Блинова Маргарита Валериевна",
+      "genre": "sci_fi",
+      "year_published": 2014,
+      "cover_url": "https://placekitten.com/423/730",
+      "tags": [],
+      "created_at": "2026-08-13T10:17:46.836161+03:00"
+    }
+  }
+}

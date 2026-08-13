@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "головной-00abea93-b849-4596-9844-3e002faeb49a Академик рай",
+      "author": "Евгений Ильясович Федоров",
+      "genre": "classic",
+      "year_published": 2004,
+      "cover_url": "https://dummyimage.com/631x799"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 115.9,
+    "body": {
+      "id": 2477,
+      "title": "головной-00abea93-b849-4596-9844-3e002faeb49a Академик рай",
+      "author": "Евгений Ильясович Федоров",
+      "genre": "classic",
+      "year_published": 2004,
+      "cover_url": "https://dummyimage.com/631x799",
+      "tags": [],
+      "created_at": "2026-08-13T10:17:34.786167+03:00"
+    }
+  }
+}

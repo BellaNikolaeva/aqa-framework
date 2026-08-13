@@ -1,0 +1,17 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/tags/",
+    "payload": {
+      "name": "неожиданный-451d4256-84f7-4900-b605-a62e3fa8e875"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 253.7,
+    "body": {
+      "id": 188,
+      "name": "неожиданный-451d4256-84f7-4900-b605-a62e3fa8e875"
+    }
+  }
+}

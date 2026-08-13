@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "очко-a1e1483e-8981-4ffb-a95b-12d817ac8b13 Эпоха командование",
+      "author": "Калашников Ладислав Григорьевич",
+      "genre": "sci_fi",
+      "year_published": 1997,
+      "cover_url": "https://placekitten.com/724/300"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 113.2,
+    "body": {
+      "id": 2440,
+      "title": "очко-a1e1483e-8981-4ffb-a95b-12d817ac8b13 Эпоха командование",
+      "author": "Калашников Ладислав Григорьевич",
+      "genre": "sci_fi",
+      "year_published": 1997,
+      "cover_url": "https://placekitten.com/724/300",
+      "tags": [],
+      "created_at": "2026-08-13T10:17:16.727644+03:00"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "художественный-902e7a61-001c-4fe6-8f5e-3e9374a130d7 Холодно князь появление холодно",
+      "author": "Антонина Егоровна Некрасова",
+      "genre": "detective",
+      "year_published": 2018,
+      "cover_url": "https://dummyimage.com/1013x1016"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 114.6,
+    "body": {
+      "id": 2462,
+      "title": "художественный-902e7a61-001c-4fe6-8f5e-3e9374a130d7 Холодно князь появление холодно",
+      "author": "Антонина Егоровна Некрасова",
+      "genre": "detective",
+      "year_published": 2018,
+      "cover_url": "https://dummyimage.com/1013x1016",
+      "tags": [],
+      "created_at": "2026-08-13T10:17:26.604847+03:00"
+    }
+  }
+}

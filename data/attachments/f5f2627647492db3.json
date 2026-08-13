@@ -1,0 +1,16 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/tags/",
+    "payload": {
+      "name": "природа-358934d0-efd4-4f6c-8425-177a2dea71e5"
+    }
+  },
+  "response": {
+    "status_code": 401,
+    "elapsed_ms": 109.4,
+    "body": {
+      "detail": "Учетные данные не были предоставлены."
+    }
+  }
+}

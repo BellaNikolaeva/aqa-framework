@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "головной-00abea93-b849-4596-9844-3e002faeb49a Тесно",
+      "author": "Чернова Анжела Робертовна",
+      "genre": "sci_fi",
+      "year_published": 1960,
+      "cover_url": "https://picsum.photos/984/1010"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 120.7,
+    "body": {
+      "id": 2476,
+      "title": "головной-00abea93-b849-4596-9844-3e002faeb49a Тесно",
+      "author": "Чернова Анжела Робертовна",
+      "genre": "sci_fi",
+      "year_published": 1960,
+      "cover_url": "https://picsum.photos/984/1010",
+      "tags": [],
+      "created_at": "2026-08-13T10:17:34.665289+03:00"
+    }
+  }
+}

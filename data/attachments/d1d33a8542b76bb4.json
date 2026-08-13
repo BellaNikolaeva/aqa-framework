@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "Сверкающий грудь",
+      "author": "Софрон Евстигнеевич Щукин",
+      "genre": "detective",
+      "year_published": 2020,
+      "cover_url": "https://dummyimage.com/159x461"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 133.5,
+    "body": {
+      "id": 2411,
+      "title": "Сверкающий грудь",
+      "author": "Софрон Евстигнеевич Щукин",
+      "genre": "detective",
+      "year_published": 2020,
+      "cover_url": "https://dummyimage.com/159x461",
+      "tags": [],
+      "created_at": "2026-08-13T10:16:35.532008+03:00"
+    }
+  }
+}

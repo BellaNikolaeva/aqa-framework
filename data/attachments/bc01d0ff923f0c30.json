@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "очко-a1e1483e-8981-4ffb-a95b-12d817ac8b13 Войти ведь житель",
+      "author": "Мишина Нина Яковлевна",
+      "genre": "classic",
+      "year_published": 2022,
+      "cover_url": "https://placekitten.com/206/36"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 117.5,
+    "body": {
+      "id": 2428,
+      "title": "очко-a1e1483e-8981-4ffb-a95b-12d817ac8b13 Войти ведь житель",
+      "author": "Мишина Нина Яковлевна",
+      "genre": "classic",
+      "year_published": 2022,
+      "cover_url": "https://placekitten.com/206/36",
+      "tags": [],
+      "created_at": "2026-08-13T10:17:15.178134+03:00"
+    }
+  }
+}

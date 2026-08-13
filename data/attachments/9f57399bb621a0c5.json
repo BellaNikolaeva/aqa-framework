@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "головной-00abea93-b849-4596-9844-3e002faeb49a Господь трубка",
+      "author": "Крылов Сильвестр Антонович",
+      "genre": "detective",
+      "year_published": 1996,
+      "cover_url": "https://picsum.photos/61/400"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 117.5,
+    "body": {
+      "id": 2487,
+      "title": "головной-00abea93-b849-4596-9844-3e002faeb49a Господь трубка",
+      "author": "Крылов Сильвестр Антонович",
+      "genre": "detective",
+      "year_published": 1996,
+      "cover_url": "https://picsum.photos/61/400",
+      "tags": [],
+      "created_at": "2026-08-13T10:17:35.947234+03:00"
+    }
+  }
+}

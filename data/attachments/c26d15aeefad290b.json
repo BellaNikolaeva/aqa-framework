@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "головной-00abea93-b849-4596-9844-3e002faeb49a Рабочий помолчать порог",
+      "author": "Степанова Екатерина Тарасовна",
+      "genre": "sci_fi",
+      "year_published": 2026,
+      "cover_url": "https://picsum.photos/881/733"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 116.2,
+    "body": {
+      "id": 2490,
+      "title": "головной-00abea93-b849-4596-9844-3e002faeb49a Рабочий помолчать порог",
+      "author": "Степанова Екатерина Тарасовна",
+      "genre": "sci_fi",
+      "year_published": 2026,
+      "cover_url": "https://picsum.photos/881/733",
+      "tags": [],
+      "created_at": "2026-08-13T10:17:36.299580+03:00"
+    }
+  }
+}

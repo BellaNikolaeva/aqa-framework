@@ -1,0 +1,15 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/tags/187/",
+    "payload": null
+  },
+  "response": {
+    "status_code": 200,
+    "elapsed_ms": 111.3,
+    "body": {
+      "id": 187,
+      "name": "научить-b7208465-b0f6-4cda-915a-f44e13106875"
+    }
+  }
+}

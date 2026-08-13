@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "головной-00abea93-b849-4596-9844-3e002faeb49a Аж пересечь девка",
+      "author": "Софон Гертрудович Лобанов",
+      "genre": "fantasy",
+      "year_published": 1998,
+      "cover_url": "https://dummyimage.com/638x635"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 115.0,
+    "body": {
+      "id": 2472,
+      "title": "головной-00abea93-b849-4596-9844-3e002faeb49a Аж пересечь девка",
+      "author": "Софон Гертрудович Лобанов",
+      "genre": "fantasy",
+      "year_published": 1998,
+      "cover_url": "https://dummyimage.com/638x635",
+      "tags": [],
+      "created_at": "2026-08-13T10:17:34.199795+03:00"
+    }
+  }
+}

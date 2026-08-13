@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "очко-a1e1483e-8981-4ffb-a95b-12d817ac8b13 Песня изредка сопровождаться",
+      "author": "тов. Кулагин Тимофей Изотович",
+      "genre": "fantasy",
+      "year_published": 1987,
+      "cover_url": "https://placekitten.com/383/949"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 118.9,
+    "body": {
+      "id": 2420,
+      "title": "очко-a1e1483e-8981-4ffb-a95b-12d817ac8b13 Песня изредка сопровождаться",
+      "author": "тов. Кулагин Тимофей Изотович",
+      "genre": "fantasy",
+      "year_published": 1987,
+      "cover_url": "https://placekitten.com/383/949",
+      "tags": [],
+      "created_at": "2026-08-13T10:17:14.256545+03:00"
+    }
+  }
+}

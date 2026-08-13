@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "головной-00abea93-b849-4596-9844-3e002faeb49a Полностью набор появление",
+      "author": "Татьяна Тимуровна Симонова",
+      "genre": "non_fiction",
+      "year_published": 2025,
+      "cover_url": "https://dummyimage.com/121x376"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 129.1,
+    "body": {
+      "id": 2468,
+      "title": "головной-00abea93-b849-4596-9844-3e002faeb49a Полностью набор появление",
+      "author": "Татьяна Тимуровна Симонова",
+      "genre": "non_fiction",
+      "year_published": 2025,
+      "cover_url": "https://dummyimage.com/121x376",
+      "tags": [],
+      "created_at": "2026-08-13T10:17:33.732723+03:00"
+    }
+  }
+}

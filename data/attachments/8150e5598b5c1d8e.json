@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "очко-a1e1483e-8981-4ffb-a95b-12d817ac8b13 Мусор кпсс",
+      "author": "Добромысл Ефстафьевич Никонов",
+      "genre": "detective",
+      "year_published": 2011,
+      "cover_url": "https://picsum.photos/857/665"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 111.8,
+    "body": {
+      "id": 2438,
+      "title": "очко-a1e1483e-8981-4ffb-a95b-12d817ac8b13 Мусор кпсс",
+      "author": "Добромысл Ефстафьевич Никонов",
+      "genre": "detective",
+      "year_published": 2011,
+      "cover_url": "https://picsum.photos/857/665",
+      "tags": [],
+      "created_at": "2026-08-13T10:17:16.495974+03:00"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/tags/",
+    "payload": {
+      "name": "вариант-d54d421e-e4a9-4025-8fec-def419eb8707"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 124.8,
+    "body": {
+      "id": 190,
+      "name": "вариант-d54d421e-e4a9-4025-8fec-def419eb8707"
+    }
+  }
+}

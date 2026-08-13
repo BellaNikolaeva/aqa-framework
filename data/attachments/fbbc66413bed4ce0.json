@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "Интеллектуальный дьявол район",
+      "author": "Титов Евстафий Артёмович",
+      "genre": "sci_fi",
+      "year_published": 1986,
+      "cover_url": "https://dummyimage.com/440x469"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 129.6,
+    "body": {
+      "id": 2397,
+      "title": "Интеллектуальный дьявол район",
+      "author": "Титов Евстафий Артёмович",
+      "genre": "sci_fi",
+      "year_published": 1986,
+      "cover_url": "https://dummyimage.com/440x469",
+      "tags": [],
+      "created_at": "2026-08-13T10:15:29.728453+03:00"
+    }
+  }
+}

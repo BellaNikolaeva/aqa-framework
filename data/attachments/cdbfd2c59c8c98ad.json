@@ -1,0 +1,33 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/my-books/",
+    "payload": {
+      "book_id": 2415,
+      "status": "want_to_read"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 124.5,
+    "body": {
+      "id": 358,
+      "book": {
+        "id": 2415,
+        "title": "Возмутиться",
+        "author": "Марфа Евгеньевна Ермакова",
+        "genre": "fantasy",
+        "year_published": 1977,
+        "cover_url": "https://dummyimage.com/988x864",
+        "tags": [],
+        "created_at": "2026-08-13T10:16:53.641555+03:00"
+      },
+      "status": "want_to_read",
+      "rating": null,
+      "notes": "",
+      "started_at": null,
+      "finished_at": null,
+      "updated_at": "2026-08-13T10:16:53.766642+03:00"
+    }
+  }
+}

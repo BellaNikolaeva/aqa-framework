@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "Прежний четко опасность",
+      "author": "Леонтий Гертрудович Елисеев",
+      "genre": "classic",
+      "year_published": 2014,
+      "cover_url": "https://placekitten.com/757/943"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 340.6,
+    "body": {
+      "id": 2494,
+      "title": "Прежний четко опасность",
+      "author": "Леонтий Гертрудович Елисеев",
+      "genre": "classic",
+      "year_published": 2014,
+      "cover_url": "https://placekitten.com/757/943",
+      "tags": [],
+      "created_at": "2026-08-13T10:17:54.006785+03:00"
+    }
+  }
+}

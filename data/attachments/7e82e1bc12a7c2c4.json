@@ -1,0 +1,33 @@
+{
+  "request": {
+    "method": "PATCH",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/my-books/356/",
+    "payload": {
+      "status": "finished",
+      "finished_at": "2026-02-01"
+    }
+  },
+  "response": {
+    "status_code": 200,
+    "elapsed_ms": 125.7,
+    "body": {
+      "id": 356,
+      "book": {
+        "id": 2413,
+        "title": "Неожиданно угодный проход",
+        "author": "Виктория Степановна Никонова",
+        "genre": "sci_fi",
+        "year_published": 2009,
+        "cover_url": "https://picsum.photos/557/43",
+        "tags": [],
+        "created_at": "2026-08-13T10:16:45.127299+03:00"
+      },
+      "status": "finished",
+      "rating": null,
+      "notes": "",
+      "started_at": "2026-01-15",
+      "finished_at": "2026-02-01",
+      "updated_at": "2026-08-13T10:16:45.513070+03:00"
+    }
+  }
+}

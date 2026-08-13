@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "головной-00abea93-b849-4596-9844-3e002faeb49a Валюта боец",
+      "author": "Виктория Матвеевна Рожкова",
+      "genre": "classic",
+      "year_published": 1974,
+      "cover_url": "https://picsum.photos/942/903"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 113.5,
+    "body": {
+      "id": 2483,
+      "title": "головной-00abea93-b849-4596-9844-3e002faeb49a Валюта боец",
+      "author": "Виктория Матвеевна Рожкова",
+      "genre": "classic",
+      "year_published": 1974,
+      "cover_url": "https://picsum.photos/942/903",
+      "tags": [],
+      "created_at": "2026-08-13T10:17:35.485366+03:00"
+    }
+  }
+}

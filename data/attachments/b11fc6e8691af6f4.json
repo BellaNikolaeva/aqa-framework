@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "головной-00abea93-b849-4596-9844-3e002faeb49a Решетка один",
+      "author": "Громов Эдуард Харламович",
+      "genre": "non_fiction",
+      "year_published": 1988,
+      "cover_url": "https://picsum.photos/21/455"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 118.9,
+    "body": {
+      "id": 2491,
+      "title": "головной-00abea93-b849-4596-9844-3e002faeb49a Решетка один",
+      "author": "Громов Эдуард Харламович",
+      "genre": "non_fiction",
+      "year_published": 1988,
+      "cover_url": "https://picsum.photos/21/455",
+      "tags": [],
+      "created_at": "2026-08-13T10:17:36.417072+03:00"
+    }
+  }
+}

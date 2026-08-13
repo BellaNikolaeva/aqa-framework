@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "художественный-902e7a61-001c-4fe6-8f5e-3e9374a130d7 Порода четко палец",
+      "author": "Кононова Феврония Романовна",
+      "genre": "detective",
+      "year_published": 1968,
+      "cover_url": "https://placekitten.com/225/64"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 115.1,
+    "body": {
+      "id": 2465,
+      "title": "художественный-902e7a61-001c-4fe6-8f5e-3e9374a130d7 Порода четко палец",
+      "author": "Кононова Феврония Романовна",
+      "genre": "detective",
+      "year_published": 1968,
+      "cover_url": "https://placekitten.com/225/64",
+      "tags": [],
+      "created_at": "2026-08-13T10:17:26.948620+03:00"
+    }
+  }
+}

@@ -1,0 +1,218 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": null
+  },
+  "response": {
+    "status_code": 200,
+    "elapsed_ms": 113.6,
+    "body": {
+      "count": 25,
+      "next": "https://book-tracker-api-frnm.onrender.com/api/books/?page=2&search=%D0%B3%D0%BE%D0%BB%D0%BE%D0%B2%D0%BD%D0%BE%D0%B9-00abea93-b849-4596-9844-3e002faeb49a",
+      "previous": null,
+      "results": [
+        {
+          "id": 2472,
+          "title": "головной-00abea93-b849-4596-9844-3e002faeb49a Аж пересечь девка",
+          "author": "Софон Гертрудович Лобанов",
+          "genre": "fantasy",
+          "year_published": 1998,
+          "cover_url": "https://dummyimage.com/638x635",
+          "tags": [],
+          "created_at": "2026-08-13T10:17:34.199795+03:00"
+        },
+        {
+          "id": 2477,
+          "title": "головной-00abea93-b849-4596-9844-3e002faeb49a Академик рай",
+          "author": "Евгений Ильясович Федоров",
+          "genre": "classic",
+          "year_published": 2004,
+          "cover_url": "https://dummyimage.com/631x799",
+          "tags": [],
+          "created_at": "2026-08-13T10:17:34.786167+03:00"
+        },
+        {
+          "id": 2480,
+          "title": "головной-00abea93-b849-4596-9844-3e002faeb49a Бак исполнять падать",
+          "author": "Гордеев Виссарион Тихонович",
+          "genre": "fantasy",
+          "year_published": 1961,
+          "cover_url": "https://picsum.photos/773/218",
+          "tags": [],
+          "created_at": "2026-08-13T10:17:35.138072+03:00"
+        },
+        {
+          "id": 2483,
+          "title": "головной-00abea93-b849-4596-9844-3e002faeb49a Валюта боец",
+          "author": "Виктория Матвеевна Рожкова",
+          "genre": "classic",
+          "year_published": 1974,
+          "cover_url": "https://picsum.photos/942/903",
+          "tags": [],
+          "created_at": "2026-08-13T10:17:35.485366+03:00"
+        },
+        {
+          "id": 2471,
+          "title": "головной-00abea93-b849-4596-9844-3e002faeb49a Войти командир",
+          "author": "Ольга Ефимовна Ситникова",
+          "genre": "fantasy",
+          "year_published": 1992,
+          "cover_url": "https://picsum.photos/208/6",
+          "tags": [],
+          "created_at": "2026-08-13T10:17:34.084019+03:00"
+        },
+        {
+          "id": 2487,
+          "title": "головной-00abea93-b849-4596-9844-3e002faeb49a Господь трубка",
+          "author": "Крылов Сильвестр Антонович",
+          "genre": "detective",
+          "year_published": 1996,
+          "cover_url": "https://picsum.photos/61/400",
+          "tags": [],
+          "created_at": "2026-08-13T10:17:35.947234+03:00"
+        },
+        {
+          "id": 2473,
+          "title": "головной-00abea93-b849-4596-9844-3e002faeb49a Госпожа дальний рис",
+          "author": "Владимир Абрамович Носов",
+          "genre": "sci_fi",
+          "year_published": 1970,
+          "cover_url": "https://placekitten.com/108/877",
+          "tags": [],
+          "created_at": "2026-08-13T10:17:34.315061+03:00"
+        },
+        {
+          "id": 2474,
+          "title": "головной-00abea93-b849-4596-9844-3e002faeb49a Житель зима налоговый",
+          "author": "Александра Рубеновна Дементьева",
+          "genre": "detective",
+          "year_published": 2009,
+          "cover_url": "https://placekitten.com/427/953",
+          "tags": [],
+          "created_at": "2026-08-13T10:17:34.430783+03:00"
+        },
+        {
+          "id": 2486,
+          "title": "головной-00abea93-b849-4596-9844-3e002faeb49a Засунуть эффект",
+          "author": "Шашков Изяслав Юлианович",
+          "genre": "detective",
+          "year_published": 2020,
+          "cover_url": "https://placekitten.com/683/182",
+          "tags": [],
+          "created_at": "2026-08-13T10:17:35.828737+03:00"
+        },
+        {
+          "id": 2484,
+          "title": "головной-00abea93-b849-4596-9844-3e002faeb49a Кожа художественный",
+          "author": "Якуб Ильич Калашников",
+          "genre": "classic",
+          "year_published": 2015,
+          "cover_url": "https://placekitten.com/203/352",
+          "tags": [],
+          "created_at": "2026-08-13T10:17:35.599613+03:00"
+        },
+        {
+          "id": 2492,
+          "title": "головной-00abea93-b849-4596-9844-3e002faeb49a Миф точно",
+          "author": "Наталья Харитоновна Маслова",
+          "genre": "classic",
+          "year_published": 1991,
+          "cover_url": "https://placekitten.com/576/983",
+          "tags": [],
+          "created_at": "2026-08-13T10:17:36.533302+03:00"
+        },
+        {
+          "id": 2481,
+          "title": "головной-00abea93-b849-4596-9844-3e002faeb49a Намерение актриса увеличиваться",
+          "author": "Амос Евсеевич Ильин",
+          "genre": "classic",
+          "year_published": 2004,
+          "cover_url": "https://placekitten.com/611/938",
+          "tags": [],
+          "created_at": "2026-08-13T10:17:35.255063+03:00"
+        },
+        {
+          "id": 2488,
+          "title": "головной-00abea93-b849-4596-9844-3e002faeb49a Песенка пространство мрачно",
+          "author": "Исакова Агата Ефимовна",
+          "genre": "sci_fi",
+          "year_published": 2000,
+          "cover_url": "https://placekitten.com/857/106",
+          "tags": [],
+          "created_at": "2026-08-13T10:17:36.061422+03:00"
+        },
+        {
+          "id": 2470,
+          "title": "головной-00abea93-b849-4596-9844-3e002faeb49a Покидать необычный разводить",
+          "author": "Савельев Ермолай Артемьевич",
+          "genre": "sci_fi",
+          "year_published": 1971,
+          "cover_url": "https://picsum.photos/943/350",
+          "tags": [],
+          "created_at": "2026-08-13T10:17:33.965865+03:00"
+        },
+        {
+          "id": 2468,
+          "title": "головной-00abea93-b849-4596-9844-3e002faeb49a Полностью набор появление",
+          "author": "Татьяна Тимуровна Симонова",
+          "genre": "non_fiction",
+          "year_published": 2025,
+          "cover_url": "https://dummyimage.com/121x376",
+          "tags": [],
+          "created_at": "2026-08-13T10:17:33.732723+03:00"
+        },
+        {
+          "id": 2478,
+          "title": "головной-00abea93-b849-4596-9844-3e002faeb49a Порода мелькнуть мусор",
+          "author": "Харитонова Фёкла Захаровна",
+          "genre": "detective",
+          "year_published": 1985,
+          "cover_url": "https://placekitten.com/573/596",
+          "tags": [],
+          "created_at": "2026-08-13T10:17:34.902321+03:00"
+        },
+        {
+          "id": 2479,
+          "title": "головной-00abea93-b849-4596-9844-3e002faeb49a Правление",
+          "author": "Регина Макаровна Григорьева",
+          "genre": "sci_fi",
+          "year_published": 1961,
+          "cover_url": "https://placekitten.com/613/261",
+          "tags": [],
+          "created_at": "2026-08-13T10:17:35.017209+03:00"
+        },
+        {
+          "id": 2482,
+          "title": "головной-00abea93-b849-4596-9844-3e002faeb49a Привлекать солнце",
+          "author": "Жданова Ольга Семеновна",
+          "genre": "non_fiction",
+          "year_published": 1978,
+          "cover_url": "https://placekitten.com/993/1004",
+          "tags": [],
+          "created_at": "2026-08-13T10:17:35.371876+03:00"
+        },
+        {
+          "id": 2490,
+          "title": "головной-00abea93-b849-4596-9844-3e002faeb49a Рабочий помолчать порог",
+          "author": "Степанова Екатерина Тарасовна",
+          "genre": "sci_fi",
+          "year_published": 2026,
+          "cover_url": "https://picsum.photos/881/733",
+          "tags": [],
+          "created_at": "2026-08-13T10:17:36.299580+03:00"
+        },
+        {
+          "id": 2491,
+          "title": "головной-00abea93-b849-4596-9844-3e002faeb49a Решетка один",
+          "author": "Громов Эдуард Харламович",
+          "genre": "non_fiction",
+          "year_published": 1988,
+          "cover_url": "https://picsum.photos/21/455",
+          "tags": [],
+          "created_at": "2026-08-13T10:17:36.417072+03:00"
+        }
+      ]
+    }
+  }
+}

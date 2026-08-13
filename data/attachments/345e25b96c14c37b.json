@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "головной-00abea93-b849-4596-9844-3e002faeb49a Привлекать солнце",
+      "author": "Жданова Ольга Семеновна",
+      "genre": "non_fiction",
+      "year_published": 1978,
+      "cover_url": "https://placekitten.com/993/1004"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 115.5,
+    "body": {
+      "id": 2482,
+      "title": "головной-00abea93-b849-4596-9844-3e002faeb49a Привлекать солнце",
+      "author": "Жданова Ольга Семеновна",
+      "genre": "non_fiction",
+      "year_published": 1978,
+      "cover_url": "https://placekitten.com/993/1004",
+      "tags": [],
+      "created_at": "2026-08-13T10:17:35.371876+03:00"
+    }
+  }
+}

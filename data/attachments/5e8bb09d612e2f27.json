@@ -1,0 +1,68 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": null
+  },
+  "response": {
+    "status_code": 200,
+    "elapsed_ms": 117.7,
+    "body": {
+      "count": 25,
+      "next": null,
+      "previous": "https://book-tracker-api-frnm.onrender.com/api/books/?search=%D0%B3%D0%BE%D0%BB%D0%BE%D0%B2%D0%BD%D0%BE%D0%B9-00abea93-b849-4596-9844-3e002faeb49a",
+      "results": [
+        {
+          "id": 2475,
+          "title": "головной-00abea93-b849-4596-9844-3e002faeb49a Слишком",
+          "author": "Горшков Гремислав Эдуардович",
+          "genre": "detective",
+          "year_published": 1988,
+          "cover_url": "https://picsum.photos/830/73",
+          "tags": [],
+          "created_at": "2026-08-13T10:17:34.548254+03:00"
+        },
+        {
+          "id": 2469,
+          "title": "головной-00abea93-b849-4596-9844-3e002faeb49a Сохранять неправда граница",
+          "author": "Порфирий Игнатович Князев",
+          "genre": "classic",
+          "year_published": 1986,
+          "cover_url": "https://picsum.photos/869/244",
+          "tags": [],
+          "created_at": "2026-08-13T10:17:33.848219+03:00"
+        },
+        {
+          "id": 2476,
+          "title": "головной-00abea93-b849-4596-9844-3e002faeb49a Тесно",
+          "author": "Чернова Анжела Робертовна",
+          "genre": "sci_fi",
+          "year_published": 1960,
+          "cover_url": "https://picsum.photos/984/1010",
+          "tags": [],
+          "created_at": "2026-08-13T10:17:34.665289+03:00"
+        },
+        {
+          "id": 2489,
+          "title": "головной-00abea93-b849-4596-9844-3e002faeb49a Указанный наткнуться монета",
+          "author": "Анастасия Олеговна Нестерова",
+          "genre": "classic",
+          "year_published": 1969,
+          "cover_url": "https://picsum.photos/458/236",
+          "tags": [],
+          "created_at": "2026-08-13T10:17:36.182981+03:00"
+        },
+        {
+          "id": 2485,
+          "title": "головной-00abea93-b849-4596-9844-3e002faeb49a Штаб уничтожение",
+          "author": "Прокофий Жоресович Шарапов",
+          "genre": "non_fiction",
+          "year_published": 1962,
+          "cover_url": "https://picsum.photos/990/749",
+          "tags": [],
+          "created_at": "2026-08-13T10:17:35.713136+03:00"
+        }
+      ]
+    }
+  }
+}

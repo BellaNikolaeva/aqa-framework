@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "очко-a1e1483e-8981-4ffb-a95b-12d817ac8b13 Дурацкий счастье",
+      "author": "Муравьев Ферапонт Владиславович",
+      "genre": "fantasy",
+      "year_published": 2013,
+      "cover_url": "https://dummyimage.com/107x423"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 116.0,
+    "body": {
+      "id": 2435,
+      "title": "очко-a1e1483e-8981-4ffb-a95b-12d817ac8b13 Дурацкий счастье",
+      "author": "Муравьев Ферапонт Владиславович",
+      "genre": "fantasy",
+      "year_published": 2013,
+      "cover_url": "https://dummyimage.com/107x423",
+      "tags": [],
+      "created_at": "2026-08-13T10:17:16.152459+03:00"
+    }
+  }
+}
