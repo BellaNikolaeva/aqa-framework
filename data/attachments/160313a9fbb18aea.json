@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "исполнять-70b91beb-e7fe-453f-ad72-1075801adac5 Фонарик художественный товар ход",
+      "author": "Гуляева Виктория Александровна",
+      "genre": "detective",
+      "year_published": 1954,
+      "cover_url": "https://placekitten.com/780/633"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 169.1,
+    "body": {
+      "id": 2542,
+      "title": "исполнять-70b91beb-e7fe-453f-ad72-1075801adac5 Фонарик художественный товар ход",
+      "author": "Гуляева Виктория Александровна",
+      "genre": "detective",
+      "year_published": 1954,
+      "cover_url": "https://placekitten.com/780/633",
+      "tags": [],
+      "created_at": "2026-08-14T10:14:12.362394+03:00"
+    }
+  }
+}

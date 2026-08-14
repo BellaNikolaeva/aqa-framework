@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "исполнять-70b91beb-e7fe-453f-ad72-1075801adac5 Манера ремень головной",
+      "author": "Ия Егоровна Лазарева",
+      "genre": "detective",
+      "year_published": 1984,
+      "cover_url": "https://dummyimage.com/933x618"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 165.7,
+    "body": {
+      "id": 2528,
+      "title": "исполнять-70b91beb-e7fe-453f-ad72-1075801adac5 Манера ремень головной",
+      "author": "Ия Егоровна Лазарева",
+      "genre": "detective",
+      "year_published": 1984,
+      "cover_url": "https://dummyimage.com/933x618",
+      "tags": [],
+      "created_at": "2026-08-14T10:14:09.989445+03:00"
+    }
+  }
+}

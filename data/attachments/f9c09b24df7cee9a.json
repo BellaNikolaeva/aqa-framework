@@ -1,0 +1,20 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "Присесть вывести",
+      "author": "Кира Валентиновна Кулакова",
+      "genre": "sci_fi",
+      "year_published": 1966,
+      "cover_url": "https://picsum.photos/601/659"
+    }
+  },
+  "response": {
+    "status_code": 401,
+    "elapsed_ms": 176.0,
+    "body": {
+      "detail": "Учетные данные не были предоставлены."
+    }
+  }
+}

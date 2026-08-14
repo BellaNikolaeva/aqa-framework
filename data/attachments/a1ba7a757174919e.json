@@ -1,0 +1,218 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": null
+  },
+  "response": {
+    "status_code": 200,
+    "elapsed_ms": 184.3,
+    "body": {
+      "count": 25,
+      "next": "https://book-tracker-api-frnm.onrender.com/api/books/?page=2&search=%D0%BF%D1%80%D0%B5%D0%BB%D0%B5%D1%81%D1%82%D1%8C-62d27c81-898c-4a74-bacb-71d715afc868",
+      "previous": null,
+      "results": [
+        {
+          "id": 2580,
+          "title": "прелесть-62d27c81-898c-4a74-bacb-71d715afc868 А забирать",
+          "author": "Гусев Максим Виленович",
+          "genre": "non_fiction",
+          "year_published": 2006,
+          "cover_url": "https://dummyimage.com/653x129",
+          "tags": [],
+          "created_at": "2026-08-14T10:14:36.111241+03:00"
+        },
+        {
+          "id": 2570,
+          "title": "прелесть-62d27c81-898c-4a74-bacb-71d715afc868 Болото разнообразный художественный",
+          "author": "Кулагин Пахом Тарасович",
+          "genre": "sci_fi",
+          "year_published": 2014,
+          "cover_url": "https://dummyimage.com/254x486",
+          "tags": [],
+          "created_at": "2026-08-14T10:14:33.828313+03:00"
+        },
+        {
+          "id": 2594,
+          "title": "прелесть-62d27c81-898c-4a74-bacb-71d715afc868 Вперед коллектив июнь",
+          "author": "Дьячкова Ольга Макаровна",
+          "genre": "classic",
+          "year_published": 1983,
+          "cover_url": "https://picsum.photos/171/930",
+          "tags": [],
+          "created_at": "2026-08-14T10:14:38.530364+03:00"
+        },
+        {
+          "id": 2593,
+          "title": "прелесть-62d27c81-898c-4a74-bacb-71d715afc868 Вперед пасть",
+          "author": "Кабанов Гордей Аксёнович",
+          "genre": "fantasy",
+          "year_published": 1963,
+          "cover_url": "https://placekitten.com/308/231",
+          "tags": [],
+          "created_at": "2026-08-14T10:14:38.357157+03:00"
+        },
+        {
+          "id": 2575,
+          "title": "прелесть-62d27c81-898c-4a74-bacb-71d715afc868 Головной парень",
+          "author": "г-н Давыдов Кондрат Валентинович",
+          "genre": "non_fiction",
+          "year_published": 1961,
+          "cover_url": "https://placekitten.com/414/139",
+          "tags": [],
+          "created_at": "2026-08-14T10:14:34.813668+03:00"
+        },
+        {
+          "id": 2589,
+          "title": "прелесть-62d27c81-898c-4a74-bacb-71d715afc868 Горький изображать",
+          "author": "Евсей Евстигнеевич Виноградов",
+          "genre": "sci_fi",
+          "year_published": 1965,
+          "cover_url": "https://placekitten.com/353/276",
+          "tags": [],
+          "created_at": "2026-08-14T10:14:37.662082+03:00"
+        },
+        {
+          "id": 2577,
+          "title": "прелесть-62d27c81-898c-4a74-bacb-71d715afc868 Гулять выразить",
+          "author": "Викентий Всеволодович Фомин",
+          "genre": "sci_fi",
+          "year_published": 2006,
+          "cover_url": "https://picsum.photos/796/916",
+          "tags": [],
+          "created_at": "2026-08-14T10:14:35.257590+03:00"
+        },
+        {
+          "id": 2581,
+          "title": "прелесть-62d27c81-898c-4a74-bacb-71d715afc868 Князь военный сынок",
+          "author": "Марина Кузьминична Федорова",
+          "genre": "classic",
+          "year_published": 1956,
+          "cover_url": "https://dummyimage.com/867x356",
+          "tags": [],
+          "created_at": "2026-08-14T10:14:36.290337+03:00"
+        },
+        {
+          "id": 2583,
+          "title": "прелесть-62d27c81-898c-4a74-bacb-71d715afc868 Мера миллиард",
+          "author": "Тамара Юльевна Рыбакова",
+          "genre": "fantasy",
+          "year_published": 2011,
+          "cover_url": "https://placekitten.com/684/203",
+          "tags": [],
+          "created_at": "2026-08-14T10:14:36.635166+03:00"
+        },
+        {
+          "id": 2592,
+          "title": "прелесть-62d27c81-898c-4a74-bacb-71d715afc868 Миг мягкий лететь",
+          "author": "Филатова Евпраксия Анатольевна",
+          "genre": "non_fiction",
+          "year_published": 2018,
+          "cover_url": "https://placekitten.com/754/972",
+          "tags": [],
+          "created_at": "2026-08-14T10:14:38.184877+03:00"
+        },
+        {
+          "id": 2578,
+          "title": "прелесть-62d27c81-898c-4a74-bacb-71d715afc868 Находить триста",
+          "author": "Селиверст Борисович Афанасьев",
+          "genre": "sci_fi",
+          "year_published": 1990,
+          "cover_url": "https://dummyimage.com/764x685",
+          "tags": [],
+          "created_at": "2026-08-14T10:14:35.434827+03:00"
+        },
+        {
+          "id": 2588,
+          "title": "прелесть-62d27c81-898c-4a74-bacb-71d715afc868 Неожиданный жить холодно",
+          "author": "Иосиф Ефстафьевич Зыков",
+          "genre": "sci_fi",
+          "year_published": 2015,
+          "cover_url": "https://placekitten.com/19/157",
+          "tags": [],
+          "created_at": "2026-08-14T10:14:37.493565+03:00"
+        },
+        {
+          "id": 2574,
+          "title": "прелесть-62d27c81-898c-4a74-bacb-71d715afc868 Один пропасть основание",
+          "author": "Шаров Илья Афанасьевич",
+          "genre": "sci_fi",
+          "year_published": 1981,
+          "cover_url": "https://picsum.photos/902/28",
+          "tags": [],
+          "created_at": "2026-08-14T10:14:34.635966+03:00"
+        },
+        {
+          "id": 2587,
+          "title": "прелесть-62d27c81-898c-4a74-bacb-71d715afc868 Палец девка мрачно",
+          "author": "Алевтина Эдуардовна Третьякова",
+          "genre": "non_fiction",
+          "year_published": 1970,
+          "cover_url": "https://dummyimage.com/739x705",
+          "tags": [],
+          "created_at": "2026-08-14T10:14:37.321048+03:00"
+        },
+        {
+          "id": 2582,
+          "title": "прелесть-62d27c81-898c-4a74-bacb-71d715afc868 Плод соответствие ягода",
+          "author": "Орехова Нонна Оскаровна",
+          "genre": "non_fiction",
+          "year_published": 2019,
+          "cover_url": "https://dummyimage.com/697x662",
+          "tags": [],
+          "created_at": "2026-08-14T10:14:36.467241+03:00"
+        },
+        {
+          "id": 2579,
+          "title": "прелесть-62d27c81-898c-4a74-bacb-71d715afc868 Постоянный",
+          "author": "Пахомов Викторин Марсович",
+          "genre": "detective",
+          "year_published": 1965,
+          "cover_url": "https://placekitten.com/752/937",
+          "tags": [],
+          "created_at": "2026-08-14T10:14:35.613020+03:00"
+        },
+        {
+          "id": 2585,
+          "title": "прелесть-62d27c81-898c-4a74-bacb-71d715afc868 Построить поколение мера",
+          "author": "Светлана Федоровна Волкова",
+          "genre": "non_fiction",
+          "year_published": 1982,
+          "cover_url": "https://picsum.photos/241/785",
+          "tags": [],
+          "created_at": "2026-08-14T10:14:36.975211+03:00"
+        },
+        {
+          "id": 2571,
+          "title": "прелесть-62d27c81-898c-4a74-bacb-71d715afc868 Присесть процесс банда",
+          "author": "Щербаков Андрон Елисеевич",
+          "genre": "non_fiction",
+          "year_published": 1995,
+          "cover_url": "https://placekitten.com/606/252",
+          "tags": [],
+          "created_at": "2026-08-14T10:14:34.008561+03:00"
+        },
+        {
+          "id": 2576,
+          "title": "прелесть-62d27c81-898c-4a74-bacb-71d715afc868 Развернуться увеличиваться",
+          "author": "Быков Адам Ярославович",
+          "genre": "sci_fi",
+          "year_published": 1998,
+          "cover_url": "https://dummyimage.com/652x962",
+          "tags": [],
+          "created_at": "2026-08-14T10:14:35.078072+03:00"
+        },
+        {
+          "id": 2590,
+          "title": "прелесть-62d27c81-898c-4a74-bacb-71d715afc868 Рассуждение разуметься",
+          "author": "Карпова Акулина Юльевна",
+          "genre": "non_fiction",
+          "year_published": 1958,
+          "cover_url": "https://picsum.photos/359/317",
+          "tags": [],
+          "created_at": "2026-08-14T10:14:37.830975+03:00"
+        }
+      ]
+    }
+  }
+}

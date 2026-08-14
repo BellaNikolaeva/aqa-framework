@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "прелесть-62d27c81-898c-4a74-bacb-71d715afc868 Болото разнообразный художественный",
+      "author": "Кулагин Пахом Тарасович",
+      "genre": "sci_fi",
+      "year_published": 2014,
+      "cover_url": "https://dummyimage.com/254x486"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 186.7,
+    "body": {
+      "id": 2570,
+      "title": "прелесть-62d27c81-898c-4a74-bacb-71d715afc868 Болото разнообразный художественный",
+      "author": "Кулагин Пахом Тарасович",
+      "genre": "sci_fi",
+      "year_published": 2014,
+      "cover_url": "https://dummyimage.com/254x486",
+      "tags": [],
+      "created_at": "2026-08-14T10:14:33.828313+03:00"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "исполнять-70b91beb-e7fe-453f-ad72-1075801adac5 Соответствие секунда",
+      "author": "Петров Мир Афанасьевич",
+      "genre": "sci_fi",
+      "year_published": 2020,
+      "cover_url": "https://dummyimage.com/69x994"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 171.1,
+    "body": {
+      "id": 2544,
+      "title": "исполнять-70b91beb-e7fe-453f-ad72-1075801adac5 Соответствие секунда",
+      "author": "Петров Мир Афанасьевич",
+      "genre": "sci_fi",
+      "year_published": 2020,
+      "cover_url": "https://dummyimage.com/69x994",
+      "tags": [],
+      "created_at": "2026-08-14T10:14:12.702335+03:00"
+    }
+  }
+}

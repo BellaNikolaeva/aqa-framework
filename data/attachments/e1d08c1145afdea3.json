@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "Помолчать командир",
+      "author": "Ольга Львовна Зимина",
+      "genre": "sci_fi",
+      "year_published": 1982,
+      "cover_url": "https://placekitten.com/799/169"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 178.0,
+    "body": {
+      "id": 2502,
+      "title": "Помолчать командир",
+      "author": "Ольга Львовна Зимина",
+      "genre": "sci_fi",
+      "year_published": 1982,
+      "cover_url": "https://placekitten.com/799/169",
+      "tags": [],
+      "created_at": "2026-08-14T10:12:35.129069+03:00"
+    }
+  }
+}

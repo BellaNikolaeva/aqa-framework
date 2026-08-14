@@ -1,0 +1,33 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/my-books/",
+    "payload": {
+      "book_id": 2513,
+      "status": "want_to_read"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 191.2,
+    "body": {
+      "id": 369,
+      "book": {
+        "id": 2513,
+        "title": "Белье ярко",
+        "author": "Элеонора Станиславовна Ильина",
+        "genre": "sci_fi",
+        "year_published": 1988,
+        "cover_url": "https://picsum.photos/193/942",
+        "tags": [],
+        "created_at": "2026-08-14T10:13:33.338020+03:00"
+      },
+      "status": "want_to_read",
+      "rating": null,
+      "notes": "",
+      "started_at": null,
+      "finished_at": null,
+      "updated_at": "2026-08-14T10:13:33.528206+03:00"
+    }
+  }
+}

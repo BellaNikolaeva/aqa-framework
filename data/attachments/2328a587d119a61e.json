@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "прелесть-62d27c81-898c-4a74-bacb-71d715afc868 Один пропасть основание",
+      "author": "Шаров Илья Афанасьевич",
+      "genre": "sci_fi",
+      "year_published": 1981,
+      "cover_url": "https://picsum.photos/902/28"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 183.6,
+    "body": {
+      "id": 2574,
+      "title": "прелесть-62d27c81-898c-4a74-bacb-71d715afc868 Один пропасть основание",
+      "author": "Шаров Илья Афанасьевич",
+      "genre": "sci_fi",
+      "year_published": 1981,
+      "cover_url": "https://picsum.photos/902/28",
+      "tags": [],
+      "created_at": "2026-08-14T10:14:34.635966+03:00"
+    }
+  }
+}

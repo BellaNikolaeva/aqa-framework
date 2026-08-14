@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "Упор прелесть",
+      "author": "Андрон Марсович Козлов",
+      "genre": "non_fiction",
+      "year_published": 1981,
+      "cover_url": "https://placekitten.com/37/599"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 179.2,
+    "body": {
+      "id": 2596,
+      "title": "Упор прелесть",
+      "author": "Андрон Марсович Козлов",
+      "genre": "non_fiction",
+      "year_published": 1981,
+      "cover_url": "https://placekitten.com/37/599",
+      "tags": [],
+      "created_at": "2026-08-14T10:14:59.837556+03:00"
+    }
+  }
+}

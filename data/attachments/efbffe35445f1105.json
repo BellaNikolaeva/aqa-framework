@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "исполнять-70b91beb-e7fe-453f-ad72-1075801adac5 Означать",
+      "author": "Осип Дмитриевич Крюков",
+      "genre": "detective",
+      "year_published": 1961,
+      "cover_url": "https://dummyimage.com/1012x890"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 172.7,
+    "body": {
+      "id": 2541,
+      "title": "исполнять-70b91beb-e7fe-453f-ad72-1075801adac5 Означать",
+      "author": "Осип Дмитриевич Крюков",
+      "genre": "detective",
+      "year_published": 1961,
+      "cover_url": "https://dummyimage.com/1012x890",
+      "tags": [],
+      "created_at": "2026-08-14T10:14:12.189087+03:00"
+    }
+  }
+}

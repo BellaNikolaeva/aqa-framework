@@ -1,0 +1,33 @@
+{
+  "request": {
+    "method": "PATCH",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/my-books/371/",
+    "payload": {
+      "status": "finished",
+      "finished_at": "2026-02-01"
+    }
+  },
+  "response": {
+    "status_code": 200,
+    "elapsed_ms": 166.6,
+    "body": {
+      "id": 371,
+      "book": {
+        "id": 2515,
+        "title": "Зато направо",
+        "author": "Раиса Богдановна Муравьева",
+        "genre": "classic",
+        "year_published": 1981,
+        "cover_url": "https://picsum.photos/677/935",
+        "tags": [],
+        "created_at": "2026-08-14T10:13:41.132815+03:00"
+      },
+      "status": "finished",
+      "rating": null,
+      "notes": "",
+      "started_at": "2026-01-15",
+      "finished_at": "2026-02-01",
+      "updated_at": "2026-08-14T10:13:41.775032+03:00"
+    }
+  }
+}

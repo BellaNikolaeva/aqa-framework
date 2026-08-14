@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "устройство-4bb398ae-c0c0-4e8c-9fd1-e9741e4b39f9 Бак факультет добиться",
+      "author": "Мамонтов Аполлон Фёдорович",
+      "genre": "classic",
+      "year_published": 1964,
+      "cover_url": "https://placekitten.com/966/540"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 200.8,
+    "body": {
+      "id": 2545,
+      "title": "устройство-4bb398ae-c0c0-4e8c-9fd1-e9741e4b39f9 Бак факультет добиться",
+      "author": "Мамонтов Аполлон Фёдорович",
+      "genre": "classic",
+      "year_published": 1964,
+      "cover_url": "https://placekitten.com/966/540",
+      "tags": [],
+      "created_at": "2026-08-14T10:14:20.748689+03:00"
+    }
+  }
+}

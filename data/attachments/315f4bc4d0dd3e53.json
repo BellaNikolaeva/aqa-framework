@@ -1,0 +1,17 @@
+{
+  "request": {
+    "method": "PUT",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/tags/195/",
+    "payload": {
+      "name": "покидать-d275ee1e-5e8e-422e-98ec-4daafb04b32e"
+    }
+  },
+  "response": {
+    "status_code": 200,
+    "elapsed_ms": 179.6,
+    "body": {
+      "id": 195,
+      "name": "покидать-d275ee1e-5e8e-422e-98ec-4daafb04b32e"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/tags/",
+    "payload": {
+      "name": "эффект-5d48376e-a9c5-41bc-b1f2-19784906bc07"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 181.7,
+    "body": {
+      "id": 194,
+      "name": "эффект-5d48376e-a9c5-41bc-b1f2-19784906bc07"
+    }
+  }
+}

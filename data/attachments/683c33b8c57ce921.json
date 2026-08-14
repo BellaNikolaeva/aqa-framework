@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "прелесть-62d27c81-898c-4a74-bacb-71d715afc868 Художественный мимо",
+      "author": "Милий Артемьевич Ширяев",
+      "genre": "classic",
+      "year_published": 2009,
+      "cover_url": "https://dummyimage.com/550x366"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 178.4,
+    "body": {
+      "id": 2591,
+      "title": "прелесть-62d27c81-898c-4a74-bacb-71d715afc868 Художественный мимо",
+      "author": "Милий Артемьевич Ширяев",
+      "genre": "classic",
+      "year_published": 2009,
+      "cover_url": "https://dummyimage.com/550x366",
+      "tags": [],
+      "created_at": "2026-08-14T10:14:38.003859+03:00"
+    }
+  }
+}

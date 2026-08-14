@@ -1,0 +1,17 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/tags/",
+    "payload": {
+      "name": "ныне-88a19d57-4966-4ec7-b9ae-c1f6065a18b7"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 182.6,
+    "body": {
+      "id": 196,
+      "name": "ныне-88a19d57-4966-4ec7-b9ae-c1f6065a18b7"
+    }
+  }
+}

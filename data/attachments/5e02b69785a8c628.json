@@ -1,0 +1,20 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "Идея ответить",
+      "author": "Остап Федосьевич Молчанов",
+      "genre": "sci_fi",
+      "year_published": 1962,
+      "cover_url": "https://dummyimage.com/97x645"
+    }
+  },
+  "response": {
+    "status_code": 401,
+    "elapsed_ms": 1446.3,
+    "body": {
+      "detail": "Учетные данные не были предоставлены."
+    }
+  }
+}

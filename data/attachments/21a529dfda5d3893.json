@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "устройство-4bb398ae-c0c0-4e8c-9fd1-e9741e4b39f9 Интеллектуальный прежний налоговый",
+      "author": "тов. Анисимов Касьян Валерианович",
+      "genre": "detective",
+      "year_published": 1966,
+      "cover_url": "https://dummyimage.com/617x239"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 309.2,
+    "body": {
+      "id": 2555,
+      "title": "устройство-4bb398ae-c0c0-4e8c-9fd1-e9741e4b39f9 Интеллектуальный прежний налоговый",
+      "author": "тов. Анисимов Касьян Валерианович",
+      "genre": "detective",
+      "year_published": 1966,
+      "cover_url": "https://dummyimage.com/617x239",
+      "tags": [],
+      "created_at": "2026-08-14T10:14:22.674560+03:00"
+    }
+  }
+}

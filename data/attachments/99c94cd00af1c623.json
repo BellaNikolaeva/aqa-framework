@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "исполнять-70b91beb-e7fe-453f-ad72-1075801adac5 Тысяча растеряться",
+      "author": "Пелагея Богдановна Наумова",
+      "genre": "detective",
+      "year_published": 1962,
+      "cover_url": "https://dummyimage.com/728x72"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 168.9,
+    "body": {
+      "id": 2523,
+      "title": "исполнять-70b91beb-e7fe-453f-ad72-1075801adac5 Тысяча растеряться",
+      "author": "Пелагея Богдановна Наумова",
+      "genre": "detective",
+      "year_published": 1962,
+      "cover_url": "https://dummyimage.com/728x72",
+      "tags": [],
+      "created_at": "2026-08-14T10:14:09.133580+03:00"
+    }
+  }
+}

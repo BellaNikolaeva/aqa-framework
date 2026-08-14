@@ -1,0 +1,22 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/my-books/stats/",
+    "payload": null
+  },
+  "response": {
+    "status_code": 200,
+    "elapsed_ms": 169.2,
+    "body": {
+      "total_books": 1,
+      "by_status": {
+        "want_to_read": 0,
+        "reading": 0,
+        "finished": 1,
+        "dropped": 0
+      },
+      "average_rating": 4.0,
+      "rated_books_count": 1
+    }
+  }
+}

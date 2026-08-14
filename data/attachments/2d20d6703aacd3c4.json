@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "устройство-4bb398ae-c0c0-4e8c-9fd1-e9741e4b39f9 Вытаскивать умолять",
+      "author": "Емельян Валерьянович Горшков",
+      "genre": "sci_fi",
+      "year_published": 2009,
+      "cover_url": "https://dummyimage.com/211x105"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 185.1,
+    "body": {
+      "id": 2550,
+      "title": "устройство-4bb398ae-c0c0-4e8c-9fd1-e9741e4b39f9 Вытаскивать умолять",
+      "author": "Емельян Валерьянович Горшков",
+      "genre": "sci_fi",
+      "year_published": 2009,
+      "cover_url": "https://dummyimage.com/211x105",
+      "tags": [],
+      "created_at": "2026-08-14T10:14:21.779405+03:00"
+    }
+  }
+}

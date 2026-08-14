@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "исполнять-70b91beb-e7fe-453f-ad72-1075801adac5 Жестокий зеленый коллектив",
+      "author": "Михеев Аполлон Эдгардович",
+      "genre": "fantasy",
+      "year_published": 1963,
+      "cover_url": "https://picsum.photos/216/323"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 166.1,
+    "body": {
+      "id": 2543,
+      "title": "исполнять-70b91beb-e7fe-453f-ad72-1075801adac5 Жестокий зеленый коллектив",
+      "author": "Михеев Аполлон Эдгардович",
+      "genre": "fantasy",
+      "year_published": 1963,
+      "cover_url": "https://picsum.photos/216/323",
+      "tags": [],
+      "created_at": "2026-08-14T10:14:12.530389+03:00"
+    }
+  }
+}

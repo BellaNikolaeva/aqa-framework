@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "исполнять-70b91beb-e7fe-453f-ad72-1075801adac5 Прошептать построить мальчишка",
+      "author": "Ковалев Наркис Виленович",
+      "genre": "detective",
+      "year_published": 2015,
+      "cover_url": "https://picsum.photos/161/495"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 176.1,
+    "body": {
+      "id": 2531,
+      "title": "исполнять-70b91beb-e7fe-453f-ad72-1075801adac5 Прошептать построить мальчишка",
+      "author": "Ковалев Наркис Виленович",
+      "genre": "detective",
+      "year_published": 2015,
+      "cover_url": "https://picsum.photos/161/495",
+      "tags": [],
+      "created_at": "2026-08-14T10:14:10.501366+03:00"
+    }
+  }
+}

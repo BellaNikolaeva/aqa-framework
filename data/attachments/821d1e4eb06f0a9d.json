@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "устройство-4bb398ae-c0c0-4e8c-9fd1-e9741e4b39f9 Ярко помолчать зеленый",
+      "author": "Варвара Натановна Гордеева",
+      "genre": "detective",
+      "year_published": 1968,
+      "cover_url": "https://picsum.photos/830/742"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 183.1,
+    "body": {
+      "id": 2553,
+      "title": "устройство-4bb398ae-c0c0-4e8c-9fd1-e9741e4b39f9 Ярко помолчать зеленый",
+      "author": "Варвара Натановна Гордеева",
+      "genre": "detective",
+      "year_published": 1968,
+      "cover_url": "https://picsum.photos/830/742",
+      "tags": [],
+      "created_at": "2026-08-14T10:14:22.324355+03:00"
+    }
+  }
+}

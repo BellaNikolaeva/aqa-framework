@@ -1,0 +1,21 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "Выразить",
+      "author": "Автоном Аверьянович Зыков",
+      "genre": "classic",
+      "year_published": 1975,
+      "cover_url": "https://picsum.photos/203/422"
+    }
+  },
+  "response": {
+    "status_code": 401,
+    "elapsed_ms": 182.1,
+    "body": {
+      "detail": "Заголовок авторизации должен содержать два значения, разделенных пробелом",
+      "code": "bad_authorization_header"
+    }
+  }
+}

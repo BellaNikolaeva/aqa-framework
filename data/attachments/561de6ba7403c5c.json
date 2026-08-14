@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "исполнять-70b91beb-e7fe-453f-ad72-1075801adac5 Фонарик карандаш поезд",
+      "author": "Наталья Владиславовна Медведева",
+      "genre": "non_fiction",
+      "year_published": 2009,
+      "cover_url": "https://dummyimage.com/576x620"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 168.2,
+    "body": {
+      "id": 2532,
+      "title": "исполнять-70b91beb-e7fe-453f-ad72-1075801adac5 Фонарик карандаш поезд",
+      "author": "Наталья Владиславовна Медведева",
+      "genre": "non_fiction",
+      "year_published": 2009,
+      "cover_url": "https://dummyimage.com/576x620",
+      "tags": [],
+      "created_at": "2026-08-14T10:14:10.670891+03:00"
+    }
+  }
+}

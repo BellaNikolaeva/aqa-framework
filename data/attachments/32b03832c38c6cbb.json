@@ -1,0 +1,33 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": null
+  },
+  "response": {
+    "status_code": 200,
+    "elapsed_ms": 206.4,
+    "body": {
+      "count": 1,
+      "next": null,
+      "previous": null,
+      "results": [
+        {
+          "id": 2507,
+          "title": "Висеть изредка",
+          "author": "Гордеев Трофим Феоктистович",
+          "genre": "detective",
+          "year_published": 1978,
+          "cover_url": "https://picsum.photos/106/242",
+          "tags": [
+            {
+              "id": 192,
+              "name": "рис-fbe7a781-0ad2-48df-b550-2a6a5fa6d468"
+            }
+          ],
+          "created_at": "2026-08-14T10:12:59.953011+03:00"
+        }
+      ]
+    }
+  }
+}
