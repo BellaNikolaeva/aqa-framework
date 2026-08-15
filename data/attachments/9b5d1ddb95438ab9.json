@@ -1,0 +1,68 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": null
+  },
+  "response": {
+    "status_code": 200,
+    "elapsed_ms": 233.6,
+    "body": {
+      "count": 25,
+      "next": null,
+      "previous": "https://book-tracker-api-frnm.onrender.com/api/books/?search=%D0%BF%D0%BE%D1%81%D0%B8%D0%B4%D0%B5%D1%82%D1%8C-139ad842-54ab-403d-a4c8-e4dfb200813f",
+      "results": [
+        {
+          "id": 2687,
+          "title": "посидеть-139ad842-54ab-403d-a4c8-e4dfb200813f Танцевать госпожа",
+          "author": "г-жа Носова Анжела Захаровна",
+          "genre": "classic",
+          "year_published": 1991,
+          "cover_url": "https://placekitten.com/181/122",
+          "tags": [],
+          "created_at": "2026-08-15T09:25:23.623416+03:00"
+        },
+        {
+          "id": 2677,
+          "title": "посидеть-139ad842-54ab-403d-a4c8-e4dfb200813f Угроза витрина вздрагивать",
+          "author": "Автоном Игнатович Беляев",
+          "genre": "fantasy",
+          "year_published": 2021,
+          "cover_url": "https://picsum.photos/130/689",
+          "tags": [],
+          "created_at": "2026-08-15T09:25:21.637599+03:00"
+        },
+        {
+          "id": 2692,
+          "title": "посидеть-139ad842-54ab-403d-a4c8-e4dfb200813f Ученый",
+          "author": "Одинцова Анжела Степановна",
+          "genre": "fantasy",
+          "year_published": 1983,
+          "cover_url": "https://placekitten.com/628/562",
+          "tags": [],
+          "created_at": "2026-08-15T09:25:24.494353+03:00"
+        },
+        {
+          "id": 2674,
+          "title": "посидеть-139ad842-54ab-403d-a4c8-e4dfb200813f Чувство увеличиваться",
+          "author": "Милица Тарасовна Филатова",
+          "genre": "non_fiction",
+          "year_published": 2000,
+          "cover_url": "https://placekitten.com/411/543",
+          "tags": [],
+          "created_at": "2026-08-15T09:25:21.066681+03:00"
+        },
+        {
+          "id": 2680,
+          "title": "посидеть-139ad842-54ab-403d-a4c8-e4dfb200813f Экзамен отъезд дыхание",
+          "author": "Зиновьев Тимур Федосеевич",
+          "genre": "fantasy",
+          "year_published": 2023,
+          "cover_url": "https://dummyimage.com/572x176",
+          "tags": [],
+          "created_at": "2026-08-15T09:25:22.173985+03:00"
+        }
+      ]
+    }
+  }
+}

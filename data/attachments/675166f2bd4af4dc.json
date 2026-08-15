@@ -1,0 +1,17 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/tags/",
+    "payload": {
+      "name": "прощение-ac3efeec-f1dc-40f8-b5ce-9f031c91100b"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 214.5,
+    "body": {
+      "id": 202,
+      "name": "прощение-ac3efeec-f1dc-40f8-b5ce-9f031c91100b"
+    }
+  }
+}

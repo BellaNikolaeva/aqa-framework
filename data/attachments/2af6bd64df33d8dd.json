@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "Заложить правление",
+      "author": "Милан Марсович Костин",
+      "genre": "detective",
+      "year_published": 2003,
+      "cover_url": "https://picsum.photos/973/854"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 332.9,
+    "body": {
+      "id": 2616,
+      "title": "Заложить правление",
+      "author": "Милан Марсович Костин",
+      "genre": "detective",
+      "year_published": 2003,
+      "cover_url": "https://picsum.photos/973/854",
+      "tags": [],
+      "created_at": "2026-08-15T09:24:22.729637+03:00"
+    }
+  }
+}

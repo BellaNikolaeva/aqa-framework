@@ -1,0 +1,17 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/tags/",
+    "payload": {
+      "name": "гулять-d314022a-db41-4c47-8969-0ccd97bd979b"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 202.5,
+    "body": {
+      "id": 203,
+      "name": "гулять-d314022a-db41-4c47-8969-0ccd97bd979b"
+    }
+  }
+}

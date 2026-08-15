@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "манера-83aa825f-f4ef-464c-b757-02669295c271 Естественный",
+      "author": "Крылова Таисия Ефимовна",
+      "genre": "non_fiction",
+      "year_published": 1976,
+      "cover_url": "https://dummyimage.com/637x279"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 164.1,
+    "body": {
+      "id": 2669,
+      "title": "манера-83aa825f-f4ef-464c-b757-02669295c271 Естественный",
+      "author": "Крылова Таисия Ефимовна",
+      "genre": "non_fiction",
+      "year_published": 1976,
+      "cover_url": "https://dummyimage.com/637x279",
+      "tags": [],
+      "created_at": "2026-08-15T09:25:11.667632+03:00"
+    }
+  }
+}

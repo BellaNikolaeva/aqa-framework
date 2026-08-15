@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "посидеть-139ad842-54ab-403d-a4c8-e4dfb200813f Возбуждение",
+      "author": "Эмиль Фёдорович Миронов",
+      "genre": "fantasy",
+      "year_published": 1987,
+      "cover_url": "https://dummyimage.com/635x833"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 218.8,
+    "body": {
+      "id": 2691,
+      "title": "посидеть-139ad842-54ab-403d-a4c8-e4dfb200813f Возбуждение",
+      "author": "Эмиль Фёдорович Миронов",
+      "genre": "fantasy",
+      "year_published": 1987,
+      "cover_url": "https://dummyimage.com/635x833",
+      "tags": [],
+      "created_at": "2026-08-15T09:25:24.329371+03:00"
+    }
+  }
+}

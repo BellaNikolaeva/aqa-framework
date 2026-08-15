@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "Перебивать пол",
+      "author": "Евгения Евгеньевна Фокина",
+      "genre": "fantasy",
+      "year_published": 1998,
+      "cover_url": "https://picsum.photos/119/218"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 200.2,
+    "body": {
+      "id": 2606,
+      "title": "Перебивать пол",
+      "author": "Евгения Евгеньевна Фокина",
+      "genre": "fantasy",
+      "year_published": 1998,
+      "cover_url": "https://picsum.photos/119/218",
+      "tags": [],
+      "created_at": "2026-08-15T09:23:28.180818+03:00"
+    }
+  }
+}

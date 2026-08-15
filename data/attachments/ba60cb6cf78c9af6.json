@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "посидеть-139ad842-54ab-403d-a4c8-e4dfb200813f Появление бетонный сынок",
+      "author": "Милий Устинович Шашков",
+      "genre": "sci_fi",
+      "year_published": 2008,
+      "cover_url": "https://dummyimage.com/575x993"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 159.5,
+    "body": {
+      "id": 2690,
+      "title": "посидеть-139ad842-54ab-403d-a4c8-e4dfb200813f Появление бетонный сынок",
+      "author": "Милий Устинович Шашков",
+      "genre": "sci_fi",
+      "year_published": 2008,
+      "cover_url": "https://dummyimage.com/575x993",
+      "tags": [],
+      "created_at": "2026-08-15T09:25:24.110281+03:00"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "манера-83aa825f-f4ef-464c-b757-02669295c271 Угодный холодно банда",
+      "author": "Ираида Антоновна Родионова",
+      "genre": "fantasy",
+      "year_published": 1967,
+      "cover_url": "https://picsum.photos/541/109"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 188.3,
+    "body": {
+      "id": 2655,
+      "title": "манера-83aa825f-f4ef-464c-b757-02669295c271 Угодный холодно банда",
+      "author": "Ираида Антоновна Родионова",
+      "genre": "fantasy",
+      "year_published": 1967,
+      "cover_url": "https://picsum.photos/541/109",
+      "tags": [],
+      "created_at": "2026-08-15T09:25:09.379765+03:00"
+    }
+  }
+}

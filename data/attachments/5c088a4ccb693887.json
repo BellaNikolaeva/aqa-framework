@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "посидеть-139ad842-54ab-403d-a4c8-e4dfb200813f Налево сверкать",
+      "author": "Виктор Игнатович Матвеев",
+      "genre": "detective",
+      "year_published": 1991,
+      "cover_url": "https://placekitten.com/955/983"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 205.8,
+    "body": {
+      "id": 2675,
+      "title": "посидеть-139ad842-54ab-403d-a4c8-e4dfb200813f Налево сверкать",
+      "author": "Виктор Игнатович Матвеев",
+      "genre": "detective",
+      "year_published": 1991,
+      "cover_url": "https://placekitten.com/955/983",
+      "tags": [],
+      "created_at": "2026-08-15T09:25:21.274118+03:00"
+    }
+  }
+}

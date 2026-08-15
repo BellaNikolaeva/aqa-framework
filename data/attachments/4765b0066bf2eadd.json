@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "Один",
+      "author": "Титова Маргарита Оскаровна",
+      "genre": "non_fiction",
+      "year_published": 2019,
+      "cover_url": "https://picsum.photos/83/574"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 1889.6,
+    "body": {
+      "id": 2611,
+      "title": "Один",
+      "author": "Титова Маргарита Оскаровна",
+      "genre": "non_fiction",
+      "year_published": 2019,
+      "cover_url": "https://picsum.photos/83/574",
+      "tags": [],
+      "created_at": "2026-08-15T09:24:01.475057+03:00"
+    }
+  }
+}

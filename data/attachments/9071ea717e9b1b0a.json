@@ -1,0 +1,17 @@
+{
+  "request": {
+    "method": "PUT",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/tags/202/",
+    "payload": {
+      "name": "кидать-5707e26a-170c-4d9d-ad48-b39458b1d865"
+    }
+  },
+  "response": {
+    "status_code": 200,
+    "elapsed_ms": 162.3,
+    "body": {
+      "id": 202,
+      "name": "кидать-5707e26a-170c-4d9d-ad48-b39458b1d865"
+    }
+  }
+}

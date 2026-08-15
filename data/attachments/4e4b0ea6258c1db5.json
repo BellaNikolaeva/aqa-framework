@@ -1,0 +1,17 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/auth/login/",
+    "payload": {
+      "username": "aqa_8a12f6cd",
+      "password": "WrongPassword123!"
+    }
+  },
+  "response": {
+    "status_code": 401,
+    "elapsed_ms": 3375.6,
+    "body": {
+      "detail": "Не найдено активной учетной записи с указанными данными"
+    }
+  }
+}

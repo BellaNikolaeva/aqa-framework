@@ -1,0 +1,18 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/auth/login/",
+    "payload": {
+      "username": "aqa_7e6289bb",
+      "password": "StrongPass123!"
+    }
+  },
+  "response": {
+    "status_code": 200,
+    "elapsed_ms": 1397.2,
+    "body": {
+      "refresh": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc4NzM3OTk4OSwiaWF0IjoxNzg2Nzc1MTg5LCJqdGkiOiJhNjhkYzg3MTA4Zjg0MzJhYmJiZDAxYzlhYTdkNWYzOSIsInVzZXJfaWQiOiIxNTU5In0.ephobVDLAmjT00ueLwrG9QW1TaQ2xUO3aGsDGlVJTmc",
+      "access": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzg2Nzc4Nzg5LCJpYXQiOjE3ODY3NzUxODksImp0aSI6IjQ1ZjZkMmQ3NjQ5NzQ3NDI5MmM5Y2JmZWI3N2VkNDM0IiwidXNlcl9pZCI6IjE1NTkifQ.zPjJDOgnxEPivh_f0ffdTJ-BUaay5_GFBDYOuJpLeD4"
+    }
+  }
+}

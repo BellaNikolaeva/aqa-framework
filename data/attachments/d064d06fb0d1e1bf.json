@@ -1,0 +1,218 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": null
+  },
+  "response": {
+    "status_code": 200,
+    "elapsed_ms": 161.0,
+    "body": {
+      "count": 25,
+      "next": "https://book-tracker-api-frnm.onrender.com/api/books/?page=2&search=%D0%BE%D1%82%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5-d71501b1-31eb-4267-9d1b-484d8d6dac0f",
+      "previous": null,
+      "results": [
+        {
+          "id": 2628,
+          "title": "отражение-d71501b1-31eb-4267-9d1b-484d8d6dac0f Аж казнь карман столетие",
+          "author": "г-жа Громова Маргарита Леоновна",
+          "genre": "fantasy",
+          "year_published": 1984,
+          "cover_url": "https://dummyimage.com/859x350",
+          "tags": [],
+          "created_at": "2026-08-15T09:24:56.950504+03:00"
+        },
+        {
+          "id": 2639,
+          "title": "отражение-d71501b1-31eb-4267-9d1b-484d8d6dac0f Боец падаль",
+          "author": "Викентий Димитриевич Осипов",
+          "genre": "detective",
+          "year_published": 1988,
+          "cover_url": "https://picsum.photos/347/120",
+          "tags": [],
+          "created_at": "2026-08-15T09:24:58.718326+03:00"
+        },
+        {
+          "id": 2642,
+          "title": "отражение-d71501b1-31eb-4267-9d1b-484d8d6dac0f Вперед результат счастье",
+          "author": "тов. Жданов Андрей Алексеевич",
+          "genre": "non_fiction",
+          "year_published": 2024,
+          "cover_url": "https://dummyimage.com/118x482",
+          "tags": [],
+          "created_at": "2026-08-15T09:24:59.274189+03:00"
+        },
+        {
+          "id": 2629,
+          "title": "отражение-d71501b1-31eb-4267-9d1b-484d8d6dac0f Грустный угол уронить",
+          "author": "Панкрат Еремеевич Мамонтов",
+          "genre": "fantasy",
+          "year_published": 1957,
+          "cover_url": "https://placekitten.com/705/49",
+          "tags": [],
+          "created_at": "2026-08-15T09:24:57.117465+03:00"
+        },
+        {
+          "id": 2627,
+          "title": "отражение-d71501b1-31eb-4267-9d1b-484d8d6dac0f Девка нервно казнь",
+          "author": "Андрон Геннадиевич Брагин",
+          "genre": "fantasy",
+          "year_published": 1976,
+          "cover_url": "https://placekitten.com/1016/671",
+          "tags": [],
+          "created_at": "2026-08-15T09:24:56.790410+03:00"
+        },
+        {
+          "id": 2633,
+          "title": "отражение-d71501b1-31eb-4267-9d1b-484d8d6dac0f Заведение",
+          "author": "Агап Фадеевич Баранов",
+          "genre": "sci_fi",
+          "year_published": 1992,
+          "cover_url": "https://picsum.photos/836/1024",
+          "tags": [],
+          "created_at": "2026-08-15T09:24:57.762994+03:00"
+        },
+        {
+          "id": 2638,
+          "title": "отражение-d71501b1-31eb-4267-9d1b-484d8d6dac0f Изменение какой кольцо",
+          "author": "г-н Козлов Ананий Филатович",
+          "genre": "detective",
+          "year_published": 1961,
+          "cover_url": "https://picsum.photos/272/996",
+          "tags": [],
+          "created_at": "2026-08-15T09:24:58.559772+03:00"
+        },
+        {
+          "id": 2624,
+          "title": "отражение-d71501b1-31eb-4267-9d1b-484d8d6dac0f Какой багровый деловой",
+          "author": "Рыбакова Полина Евгеньевна",
+          "genre": "sci_fi",
+          "year_published": 1976,
+          "cover_url": "https://dummyimage.com/555x790",
+          "tags": [],
+          "created_at": "2026-08-15T09:24:56.310260+03:00"
+        },
+        {
+          "id": 2625,
+          "title": "отражение-d71501b1-31eb-4267-9d1b-484d8d6dac0f Конструкция порядок написать",
+          "author": "Влас Герасимович Овчинников",
+          "genre": "non_fiction",
+          "year_published": 1999,
+          "cover_url": "https://dummyimage.com/183x525",
+          "tags": [],
+          "created_at": "2026-08-15T09:24:56.467287+03:00"
+        },
+        {
+          "id": 2636,
+          "title": "отражение-d71501b1-31eb-4267-9d1b-484d8d6dac0f Ленинград головной карандаш",
+          "author": "Анисимов Евсей Зиновьевич",
+          "genre": "non_fiction",
+          "year_published": 1985,
+          "cover_url": "https://placekitten.com/819/1",
+          "tags": [],
+          "created_at": "2026-08-15T09:24:58.244292+03:00"
+        },
+        {
+          "id": 2630,
+          "title": "отражение-d71501b1-31eb-4267-9d1b-484d8d6dac0f Магазин возбуждение",
+          "author": "Елизавета Владиславовна Гордеева",
+          "genre": "sci_fi",
+          "year_published": 1980,
+          "cover_url": "https://picsum.photos/115/80",
+          "tags": [],
+          "created_at": "2026-08-15T09:24:57.281057+03:00"
+        },
+        {
+          "id": 2643,
+          "title": "отражение-d71501b1-31eb-4267-9d1b-484d8d6dac0f Механический мимо",
+          "author": "Виктория Филипповна Петрова",
+          "genre": "classic",
+          "year_published": 1997,
+          "cover_url": "https://dummyimage.com/730x35",
+          "tags": [],
+          "created_at": "2026-08-15T09:24:59.476011+03:00"
+        },
+        {
+          "id": 2632,
+          "title": "отражение-d71501b1-31eb-4267-9d1b-484d8d6dac0f Палка выраженный заявление",
+          "author": "Боян Ефимович Комаров",
+          "genre": "non_fiction",
+          "year_published": 1983,
+          "cover_url": "https://dummyimage.com/558x729",
+          "tags": [],
+          "created_at": "2026-08-15T09:24:57.601756+03:00"
+        },
+        {
+          "id": 2644,
+          "title": "отражение-d71501b1-31eb-4267-9d1b-484d8d6dac0f Пасть валюта головной",
+          "author": "Яковлев Никанор Федотович",
+          "genre": "non_fiction",
+          "year_published": 1994,
+          "cover_url": "https://dummyimage.com/231x674",
+          "tags": [],
+          "created_at": "2026-08-15T09:24:59.635306+03:00"
+        },
+        {
+          "id": 2646,
+          "title": "отражение-d71501b1-31eb-4267-9d1b-484d8d6dac0f Печатать выражаться освободить",
+          "author": "Козлова Майя Святославовна",
+          "genre": "detective",
+          "year_published": 2008,
+          "cover_url": "https://dummyimage.com/803x544",
+          "tags": [],
+          "created_at": "2026-08-15T09:24:59.951841+03:00"
+        },
+        {
+          "id": 2637,
+          "title": "отражение-d71501b1-31eb-4267-9d1b-484d8d6dac0f Помимо посидеть бочок головной",
+          "author": "Белякова Татьяна Аркадьевна",
+          "genre": "non_fiction",
+          "year_published": 1977,
+          "cover_url": "https://picsum.photos/147/28",
+          "tags": [],
+          "created_at": "2026-08-15T09:24:58.403863+03:00"
+        },
+        {
+          "id": 2622,
+          "title": "отражение-d71501b1-31eb-4267-9d1b-484d8d6dac0f Понятный невозможно услать",
+          "author": "Ефимова Ксения Олеговна",
+          "genre": "non_fiction",
+          "year_published": 2008,
+          "cover_url": "https://picsum.photos/439/425",
+          "tags": [],
+          "created_at": "2026-08-15T09:24:55.996770+03:00"
+        },
+        {
+          "id": 2645,
+          "title": "отражение-d71501b1-31eb-4267-9d1b-484d8d6dac0f Порт заплакать",
+          "author": "Вероника Никифоровна Архипова",
+          "genre": "fantasy",
+          "year_published": 1986,
+          "cover_url": "https://picsum.photos/386/137",
+          "tags": [],
+          "created_at": "2026-08-15T09:24:59.796001+03:00"
+        },
+        {
+          "id": 2626,
+          "title": "отражение-d71501b1-31eb-4267-9d1b-484d8d6dac0f Руководитель сомнительный",
+          "author": "Ананий Тарасович Калинин",
+          "genre": "classic",
+          "year_published": 1998,
+          "cover_url": "https://picsum.photos/321/420",
+          "tags": [],
+          "created_at": "2026-08-15T09:24:56.626341+03:00"
+        },
+        {
+          "id": 2640,
+          "title": "отражение-d71501b1-31eb-4267-9d1b-484d8d6dac0f Славный",
+          "author": "Сидорова Лора Кузьминична",
+          "genre": "non_fiction",
+          "year_published": 1980,
+          "cover_url": "https://placekitten.com/732/298",
+          "tags": [],
+          "created_at": "2026-08-15T09:24:58.873981+03:00"
+        }
+      ]
+    }
+  }
+}

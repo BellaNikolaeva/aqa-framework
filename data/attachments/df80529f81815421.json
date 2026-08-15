@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "отражение-d71501b1-31eb-4267-9d1b-484d8d6dac0f Какой багровый деловой",
+      "author": "Рыбакова Полина Евгеньевна",
+      "genre": "sci_fi",
+      "year_published": 1976,
+      "cover_url": "https://dummyimage.com/555x790"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 161.2,
+    "body": {
+      "id": 2624,
+      "title": "отражение-d71501b1-31eb-4267-9d1b-484d8d6dac0f Какой багровый деловой",
+      "author": "Рыбакова Полина Евгеньевна",
+      "genre": "sci_fi",
+      "year_published": 1976,
+      "cover_url": "https://dummyimage.com/555x790",
+      "tags": [],
+      "created_at": "2026-08-15T09:24:56.310260+03:00"
+    }
+  }
+}

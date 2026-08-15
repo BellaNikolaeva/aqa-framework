@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "Применяться нож выраженный",
+      "author": "Романова Ираида Вадимовна",
+      "genre": "non_fiction",
+      "year_published": 1980,
+      "cover_url": "https://dummyimage.com/719x99"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 218.6,
+    "body": {
+      "id": 2614,
+      "title": "Применяться нож выраженный",
+      "author": "Романова Ираида Вадимовна",
+      "genre": "non_fiction",
+      "year_published": 1980,
+      "cover_url": "https://dummyimage.com/719x99",
+      "tags": [],
+      "created_at": "2026-08-15T09:24:14.603321+03:00"
+    }
+  }
+}

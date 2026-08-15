@@ -1,0 +1,21 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "Ночь применяться",
+      "author": "Куликов Ростислав Харитонович",
+      "genre": "detective",
+      "year_published": 2005,
+      "cover_url": "https://placekitten.com/470/361"
+    }
+  },
+  "response": {
+    "status_code": 401,
+    "elapsed_ms": 202.5,
+    "body": {
+      "detail": "Заголовок авторизации должен содержать два значения, разделенных пробелом",
+      "code": "bad_authorization_header"
+    }
+  }
+}

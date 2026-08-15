@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "отражение-d71501b1-31eb-4267-9d1b-484d8d6dac0f Уничтожение налоговый",
+      "author": "Ия Богдановна Козлова",
+      "genre": "non_fiction",
+      "year_published": 1960,
+      "cover_url": "https://placekitten.com/723/74"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 154.2,
+    "body": {
+      "id": 2623,
+      "title": "отражение-d71501b1-31eb-4267-9d1b-484d8d6dac0f Уничтожение налоговый",
+      "author": "Ия Богдановна Козлова",
+      "genre": "non_fiction",
+      "year_published": 1960,
+      "cover_url": "https://placekitten.com/723/74",
+      "tags": [],
+      "created_at": "2026-08-15T09:24:56.151812+03:00"
+    }
+  }
+}

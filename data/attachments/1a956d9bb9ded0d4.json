@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "посидеть-139ad842-54ab-403d-a4c8-e4dfb200813f Бровь",
+      "author": "Дмитрий Артурович Филатов",
+      "genre": "classic",
+      "year_published": 1976,
+      "cover_url": "https://placekitten.com/34/530"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 200.2,
+    "body": {
+      "id": 2676,
+      "title": "посидеть-139ad842-54ab-403d-a4c8-e4dfb200813f Бровь",
+      "author": "Дмитрий Артурович Филатов",
+      "genre": "classic",
+      "year_published": 1976,
+      "cover_url": "https://placekitten.com/34/530",
+      "tags": [],
+      "created_at": "2026-08-15T09:25:21.474923+03:00"
+    }
+  }
+}

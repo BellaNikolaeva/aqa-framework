@@ -1,0 +1,21 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "author": "Романов Дементий Устинович",
+      "genre": "detective",
+      "year_published": 1970,
+      "cover_url": "https://picsum.photos/956/85"
+    }
+  },
+  "response": {
+    "status_code": 400,
+    "elapsed_ms": 219.2,
+    "body": {
+      "title": [
+        "Обязательное поле."
+      ]
+    }
+  }
+}

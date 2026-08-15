@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "посидеть-139ad842-54ab-403d-a4c8-e4dfb200813f Жидкий командующий",
+      "author": "Нонна Афанасьевна Пахомова",
+      "genre": "detective",
+      "year_published": 1950,
+      "cover_url": "https://placekitten.com/115/837"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 160.8,
+    "body": {
+      "id": 2686,
+      "title": "посидеть-139ad842-54ab-403d-a4c8-e4dfb200813f Жидкий командующий",
+      "author": "Нонна Афанасьевна Пахомова",
+      "genre": "detective",
+      "year_published": 1950,
+      "cover_url": "https://placekitten.com/115/837",
+      "tags": [],
+      "created_at": "2026-08-15T09:25:23.458349+03:00"
+    }
+  }
+}

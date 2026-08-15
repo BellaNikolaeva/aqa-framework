@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "манера-83aa825f-f4ef-464c-b757-02669295c271 Потом слать заработать",
+      "author": "Анисим Ермолаевич Назаров",
+      "genre": "non_fiction",
+      "year_published": 1968,
+      "cover_url": "https://placekitten.com/435/982"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 183.4,
+    "body": {
+      "id": 2648,
+      "title": "манера-83aa825f-f4ef-464c-b757-02669295c271 Потом слать заработать",
+      "author": "Анисим Ермолаевич Назаров",
+      "genre": "non_fiction",
+      "year_published": 1968,
+      "cover_url": "https://placekitten.com/435/982",
+      "tags": [],
+      "created_at": "2026-08-15T09:25:08.106186+03:00"
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "Приятель забирать",
+      "author": "Фаина Михайловна Бирюкова",
+      "genre": "fantasy",
+      "year_published": 1953,
+      "cover_url": "https://placekitten.com/594/48",
+      "tag_ids": [
+        199
+      ]
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 286.4,
+    "body": {
+      "id": 2609,
+      "title": "Приятель забирать",
+      "author": "Фаина Михайловна Бирюкова",
+      "genre": "fantasy",
+      "year_published": 1953,
+      "cover_url": "https://placekitten.com/594/48",
+      "tags": [
+        {
+          "id": 199,
+          "name": "очередной-29a15fe6-f6db-42a6-b789-0ce72cf39fa0"
+        }
+      ],
+      "created_at": "2026-08-15T09:23:42.676308+03:00"
+    }
+  }
+}

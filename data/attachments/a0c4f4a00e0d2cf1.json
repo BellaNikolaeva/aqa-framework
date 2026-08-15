@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "отражение-d71501b1-31eb-4267-9d1b-484d8d6dac0f Слать магазин госпожа",
+      "author": "Коновалова Валентина Валентиновна",
+      "genre": "fantasy",
+      "year_published": 1967,
+      "cover_url": "https://dummyimage.com/442x187"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 155.5,
+    "body": {
+      "id": 2631,
+      "title": "отражение-d71501b1-31eb-4267-9d1b-484d8d6dac0f Слать магазин госпожа",
+      "author": "Коновалова Валентина Валентиновна",
+      "genre": "fantasy",
+      "year_published": 1967,
+      "cover_url": "https://dummyimage.com/442x187",
+      "tags": [],
+      "created_at": "2026-08-15T09:24:57.438936+03:00"
+    }
+  }
+}

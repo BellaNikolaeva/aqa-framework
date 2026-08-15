@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "посидеть-139ad842-54ab-403d-a4c8-e4dfb200813f Степь выбирать",
+      "author": "Васильев Евсей Игнатьевич",
+      "genre": "classic",
+      "year_published": 1960,
+      "cover_url": "https://placekitten.com/167/817"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 161.3,
+    "body": {
+      "id": 2683,
+      "title": "посидеть-139ad842-54ab-403d-a4c8-e4dfb200813f Степь выбирать",
+      "author": "Васильев Евсей Игнатьевич",
+      "genre": "classic",
+      "year_published": 1960,
+      "cover_url": "https://placekitten.com/167/817",
+      "tags": [],
+      "created_at": "2026-08-15T09:25:22.887026+03:00"
+    }
+  }
+}

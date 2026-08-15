@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "посидеть-139ad842-54ab-403d-a4c8-e4dfb200813f Проход очередной один чувство",
+      "author": "Аполлинарий Яковлевич Устинов",
+      "genre": "sci_fi",
+      "year_published": 2003,
+      "cover_url": "https://placekitten.com/404/66"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 245.7,
+    "body": {
+      "id": 2681,
+      "title": "посидеть-139ad842-54ab-403d-a4c8-e4dfb200813f Проход очередной один чувство",
+      "author": "Аполлинарий Яковлевич Устинов",
+      "genre": "sci_fi",
+      "year_published": 2003,
+      "cover_url": "https://placekitten.com/404/66",
+      "tags": [],
+      "created_at": "2026-08-15T09:25:22.344348+03:00"
+    }
+  }
+}
