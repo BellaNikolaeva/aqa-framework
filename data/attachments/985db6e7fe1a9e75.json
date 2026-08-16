@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "полоска-793f8bff-5bd9-4e4e-adeb-69c9eddddf96 Дыхание ведь палка",
+      "author": "Сорокина Вера Олеговна",
+      "genre": "non_fiction",
+      "year_published": 1982,
+      "cover_url": "https://placekitten.com/319/183"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 177.4,
+    "body": {
+      "id": 2739,
+      "title": "полоска-793f8bff-5bd9-4e4e-adeb-69c9eddddf96 Дыхание ведь палка",
+      "author": "Сорокина Вера Олеговна",
+      "genre": "non_fiction",
+      "year_published": 1982,
+      "cover_url": "https://placekitten.com/319/183",
+      "tags": [],
+      "created_at": "2026-08-16T09:26:37.947861+03:00"
+    }
+  }
+}

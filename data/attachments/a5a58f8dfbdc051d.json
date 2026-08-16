@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "пропаганда-b3d21c44-31f4-4315-9bb4-28a92de4eafd Дошлый постоянный",
+      "author": "Рогов Зосима Георгиевич",
+      "genre": "fantasy",
+      "year_published": 2018,
+      "cover_url": "https://placekitten.com/888/988"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 180.5,
+    "body": {
+      "id": 2758,
+      "title": "пропаганда-b3d21c44-31f4-4315-9bb4-28a92de4eafd Дошлый постоянный",
+      "author": "Рогов Зосима Георгиевич",
+      "genre": "fantasy",
+      "year_published": 2018,
+      "cover_url": "https://placekitten.com/888/988",
+      "tags": [],
+      "created_at": "2026-08-16T09:26:50.376749+03:00"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "инфекция-d27d1f8a-554b-4566-a008-8c1a86214544 Неожиданный ремень",
+      "author": "Горшкова Екатерина Эльдаровна",
+      "genre": "fantasy",
+      "year_published": 1959,
+      "cover_url": "https://dummyimage.com/539x727"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 182.5,
+    "body": {
+      "id": 2780,
+      "title": "инфекция-d27d1f8a-554b-4566-a008-8c1a86214544 Неожиданный ремень",
+      "author": "Горшкова Екатерина Эльдаровна",
+      "genre": "fantasy",
+      "year_published": 1959,
+      "cover_url": "https://dummyimage.com/539x727",
+      "tags": [],
+      "created_at": "2026-08-16T09:27:02.286456+03:00"
+    }
+  }
+}

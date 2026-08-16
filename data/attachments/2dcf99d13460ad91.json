@@ -1,0 +1,17 @@
+{
+  "request": {
+    "method": "PUT",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/tags/209/",
+    "payload": {
+      "name": "посидеть-e0b6352c-344b-4428-84c8-e52c2da9146b"
+    }
+  },
+  "response": {
+    "status_code": 200,
+    "elapsed_ms": 494.4,
+    "body": {
+      "id": 209,
+      "name": "посидеть-e0b6352c-344b-4428-84c8-e52c2da9146b"
+    }
+  }
+}

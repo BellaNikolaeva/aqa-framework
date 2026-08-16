@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "пропаганда-b3d21c44-31f4-4315-9bb4-28a92de4eafd Бак валюта металл",
+      "author": "Кузнецов Лука Викторович",
+      "genre": "fantasy",
+      "year_published": 2015,
+      "cover_url": "https://placekitten.com/302/825"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 179.6,
+    "body": {
+      "id": 2761,
+      "title": "пропаганда-b3d21c44-31f4-4315-9bb4-28a92de4eafd Бак валюта металл",
+      "author": "Кузнецов Лука Викторович",
+      "genre": "fantasy",
+      "year_published": 2015,
+      "cover_url": "https://placekitten.com/302/825",
+      "tags": [],
+      "created_at": "2026-08-16T09:26:50.919063+03:00"
+    }
+  }
+}

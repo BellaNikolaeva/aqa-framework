@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "полоска-793f8bff-5bd9-4e4e-adeb-69c9eddddf96 Зарплата правление",
+      "author": "Ангелина Олеговна Лаврентьева",
+      "genre": "detective",
+      "year_published": 2014,
+      "cover_url": "https://dummyimage.com/361x996"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 177.1,
+    "body": {
+      "id": 2748,
+      "title": "полоска-793f8bff-5bd9-4e4e-adeb-69c9eddddf96 Зарплата правление",
+      "author": "Ангелина Олеговна Лаврентьева",
+      "genre": "detective",
+      "year_published": 2014,
+      "cover_url": "https://dummyimage.com/361x996",
+      "tags": [],
+      "created_at": "2026-08-16T09:26:39.569439+03:00"
+    }
+  }
+}

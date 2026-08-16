@@ -1,0 +1,17 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/tags/",
+    "payload": {
+      "name": "тревога-8ee3988b-ef45-4af9-a783-42237715e812"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 216.1,
+    "body": {
+      "id": 207,
+      "name": "тревога-8ee3988b-ef45-4af9-a783-42237715e812"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "Издали заявление",
+      "author": "Оксана Леонидовна Соловьева",
+      "genre": "classic",
+      "year_published": 2004,
+      "cover_url": "https://dummyimage.com/53x546"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 2089.2,
+    "body": {
+      "id": 2709,
+      "title": "Издали заявление",
+      "author": "Оксана Леонидовна Соловьева",
+      "genre": "classic",
+      "year_published": 2004,
+      "cover_url": "https://dummyimage.com/53x546",
+      "tags": [],
+      "created_at": "2026-08-16T09:25:15.186320+03:00"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "инфекция-d27d1f8a-554b-4566-a008-8c1a86214544 Ныне холодно четыре падать",
+      "author": "Федорова София Ниловна",
+      "genre": "sci_fi",
+      "year_published": 1997,
+      "cover_url": "https://picsum.photos/789/340"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 222.1,
+    "body": {
+      "id": 2774,
+      "title": "инфекция-d27d1f8a-554b-4566-a008-8c1a86214544 Ныне холодно четыре падать",
+      "author": "Федорова София Ниловна",
+      "genre": "sci_fi",
+      "year_published": 1997,
+      "cover_url": "https://picsum.photos/789/340",
+      "tags": [],
+      "created_at": "2026-08-16T09:27:01.192493+03:00"
+    }
+  }
+}

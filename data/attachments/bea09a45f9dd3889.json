@@ -1,0 +1,33 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/my-books/",
+    "payload": {
+      "book_id": 2718,
+      "status": "want_to_read"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 212.6,
+    "body": {
+      "id": 400,
+      "book": {
+        "id": 2718,
+        "title": "Ведь присесть степь",
+        "author": "Мария Максимовна Сысоева",
+        "genre": "detective",
+        "year_published": 1979,
+        "cover_url": "https://dummyimage.com/290x447",
+        "tags": [],
+        "created_at": "2026-08-16T09:26:01.180696+03:00"
+      },
+      "status": "want_to_read",
+      "rating": null,
+      "notes": "",
+      "started_at": null,
+      "finished_at": null,
+      "updated_at": "2026-08-16T09:26:01.396906+03:00"
+    }
+  }
+}

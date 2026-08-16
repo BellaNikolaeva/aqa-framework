@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "пропаганда-b3d21c44-31f4-4315-9bb4-28a92de4eafd Коричневый адвокат",
+      "author": "Мясников Велимир Васильевич",
+      "genre": "detective",
+      "year_published": 2013,
+      "cover_url": "https://picsum.photos/1/157"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 172.3,
+    "body": {
+      "id": 2765,
+      "title": "пропаганда-b3d21c44-31f4-4315-9bb4-28a92de4eafd Коричневый адвокат",
+      "author": "Мясников Велимир Васильевич",
+      "genre": "detective",
+      "year_published": 2013,
+      "cover_url": "https://picsum.photos/1/157",
+      "tags": [],
+      "created_at": "2026-08-16T09:26:51.623616+03:00"
+    }
+  }
+}

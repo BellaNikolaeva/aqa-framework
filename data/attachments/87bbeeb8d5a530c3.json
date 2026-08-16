@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "пропаганда-b3d21c44-31f4-4315-9bb4-28a92de4eafd Карман столетие подробность грудь",
+      "author": "Синклитикия Вениаминовна Симонова",
+      "genre": "non_fiction",
+      "year_published": 2019,
+      "cover_url": "https://placekitten.com/5/944"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 179.5,
+    "body": {
+      "id": 2757,
+      "title": "пропаганда-b3d21c44-31f4-4315-9bb4-28a92de4eafd Карман столетие подробность грудь",
+      "author": "Синклитикия Вениаминовна Симонова",
+      "genre": "non_fiction",
+      "year_published": 2019,
+      "cover_url": "https://placekitten.com/5/944",
+      "tags": [],
+      "created_at": "2026-08-16T09:26:50.193503+03:00"
+    }
+  }
+}

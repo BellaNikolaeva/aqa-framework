@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "пропаганда-b3d21c44-31f4-4315-9bb4-28a92de4eafd Товар означать костер",
+      "author": "Аполлон Авдеевич Баранов",
+      "genre": "non_fiction",
+      "year_published": 1961,
+      "cover_url": "https://dummyimage.com/274x619"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 183.1,
+    "body": {
+      "id": 2764,
+      "title": "пропаганда-b3d21c44-31f4-4315-9bb4-28a92de4eafd Товар означать костер",
+      "author": "Аполлон Авдеевич Баранов",
+      "genre": "non_fiction",
+      "year_published": 1961,
+      "cover_url": "https://dummyimage.com/274x619",
+      "tags": [],
+      "created_at": "2026-08-16T09:26:51.444045+03:00"
+    }
+  }
+}

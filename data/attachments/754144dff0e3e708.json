@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "пропаганда-b3d21c44-31f4-4315-9bb4-28a92de4eafd Домашний реклама сутки",
+      "author": "Моисей Ефремович Горбунов",
+      "genre": "detective",
+      "year_published": 1994,
+      "cover_url": "https://placekitten.com/587/39"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 211.7,
+    "body": {
+      "id": 2769,
+      "title": "пропаганда-b3d21c44-31f4-4315-9bb4-28a92de4eafd Домашний реклама сутки",
+      "author": "Моисей Ефремович Горбунов",
+      "genre": "detective",
+      "year_published": 1994,
+      "cover_url": "https://placekitten.com/587/39",
+      "tags": [],
+      "created_at": "2026-08-16T09:26:52.363825+03:00"
+    }
+  }
+}

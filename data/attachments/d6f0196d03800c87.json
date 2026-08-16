@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "пропаганда-b3d21c44-31f4-4315-9bb4-28a92de4eafd Освободить заявление демократия решетка",
+      "author": "Лора Руслановна Никонова",
+      "genre": "classic",
+      "year_published": 1960,
+      "cover_url": "https://picsum.photos/280/703"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 173.5,
+    "body": {
+      "id": 2767,
+      "title": "пропаганда-b3d21c44-31f4-4315-9bb4-28a92de4eafd Освободить заявление демократия решетка",
+      "author": "Лора Руслановна Никонова",
+      "genre": "classic",
+      "year_published": 1960,
+      "cover_url": "https://picsum.photos/280/703",
+      "tags": [],
+      "created_at": "2026-08-16T09:26:51.971399+03:00"
+    }
+  }
+}

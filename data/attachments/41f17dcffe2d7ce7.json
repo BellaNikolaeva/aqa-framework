@@ -1,0 +1,21 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "Вздрогнуть кузнец ленинград",
+      "genre": "sci_fi",
+      "year_published": 1994,
+      "cover_url": "https://dummyimage.com/486x460"
+    }
+  },
+  "response": {
+    "status_code": 400,
+    "elapsed_ms": 213.3,
+    "body": {
+      "author": [
+        "Обязательное поле."
+      ]
+    }
+  }
+}

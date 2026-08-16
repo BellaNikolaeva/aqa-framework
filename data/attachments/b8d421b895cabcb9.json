@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "Видимо невыносимый",
+      "author": "Ермил Адрианович Логинов",
+      "genre": "fantasy",
+      "year_published": 1986,
+      "cover_url": "https://dummyimage.com/750x307"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 219.4,
+    "body": {
+      "id": 2722,
+      "title": "Видимо невыносимый",
+      "author": "Ермил Адрианович Логинов",
+      "genre": "fantasy",
+      "year_published": 1986,
+      "cover_url": "https://dummyimage.com/750x307",
+      "tags": [],
+      "created_at": "2026-08-16T09:26:21.891123+03:00"
+    }
+  }
+}

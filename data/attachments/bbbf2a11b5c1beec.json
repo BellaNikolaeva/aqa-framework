@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "Вскакивать скрытый деловой",
+      "author": "Панфилова Феврония Альбертовна",
+      "genre": "detective",
+      "year_published": 2023,
+      "cover_url": "https://placekitten.com/727/982"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 208.8,
+    "body": {
+      "id": 2714,
+      "title": "Вскакивать скрытый деловой",
+      "author": "Панфилова Феврония Альбертовна",
+      "genre": "detective",
+      "year_published": 2023,
+      "cover_url": "https://placekitten.com/727/982",
+      "tags": [],
+      "created_at": "2026-08-16T09:25:44.486616+03:00"
+    }
+  }
+}

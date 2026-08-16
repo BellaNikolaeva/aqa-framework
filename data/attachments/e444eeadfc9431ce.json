@@ -1,0 +1,68 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": null
+  },
+  "response": {
+    "status_code": 200,
+    "elapsed_ms": 176.1,
+    "body": {
+      "count": 25,
+      "next": null,
+      "previous": "https://book-tracker-api-frnm.onrender.com/api/books/?search=%D0%BF%D1%80%D0%BE%D0%BF%D0%B0%D0%B3%D0%B0%D0%BD%D0%B4%D0%B0-b3d21c44-31f4-4315-9bb4-28a92de4eafd",
+      "results": [
+        {
+          "id": 2764,
+          "title": "пропаганда-b3d21c44-31f4-4315-9bb4-28a92de4eafd Товар означать костер",
+          "author": "Аполлон Авдеевич Баранов",
+          "genre": "non_fiction",
+          "year_published": 1961,
+          "cover_url": "https://dummyimage.com/274x619",
+          "tags": [],
+          "created_at": "2026-08-16T09:26:51.444045+03:00"
+        },
+        {
+          "id": 2750,
+          "title": "пропаганда-b3d21c44-31f4-4315-9bb4-28a92de4eafd Торопливый наслаждение",
+          "author": "Горшкова Ксения Филипповна",
+          "genre": "classic",
+          "year_published": 1973,
+          "cover_url": "https://placekitten.com/275/720",
+          "tags": [],
+          "created_at": "2026-08-16T09:26:48.903491+03:00"
+        },
+        {
+          "id": 2771,
+          "title": "пропаганда-b3d21c44-31f4-4315-9bb4-28a92de4eafd Тысяча бригада художественный",
+          "author": "Кулаков Борис Гаврилович",
+          "genre": "fantasy",
+          "year_published": 1965,
+          "cover_url": "https://placekitten.com/26/269",
+          "tags": [],
+          "created_at": "2026-08-16T09:26:52.716989+03:00"
+        },
+        {
+          "id": 2762,
+          "title": "пропаганда-b3d21c44-31f4-4315-9bb4-28a92de4eafd Упорно",
+          "author": "Воронова Анжела Федоровна",
+          "genre": "non_fiction",
+          "year_published": 1988,
+          "cover_url": "https://dummyimage.com/863x427",
+          "tags": [],
+          "created_at": "2026-08-16T09:26:51.094452+03:00"
+        },
+        {
+          "id": 2763,
+          "title": "пропаганда-b3d21c44-31f4-4315-9bb4-28a92de4eafd Чем процесс задрать видимо",
+          "author": "Колобов Аристарх Виленович",
+          "genre": "classic",
+          "year_published": 2009,
+          "cover_url": "https://dummyimage.com/891x82",
+          "tags": [],
+          "created_at": "2026-08-16T09:26:51.266585+03:00"
+        }
+      ]
+    }
+  }
+}

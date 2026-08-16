@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "инфекция-d27d1f8a-554b-4566-a008-8c1a86214544 Приятель коллектив",
+      "author": "Денисова Наталья Петровна",
+      "genre": "classic",
+      "year_published": 2014,
+      "cover_url": "https://placekitten.com/402/159"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 187.5,
+    "body": {
+      "id": 2786,
+      "title": "инфекция-d27d1f8a-554b-4566-a008-8c1a86214544 Приятель коллектив",
+      "author": "Денисова Наталья Петровна",
+      "genre": "classic",
+      "year_published": 2014,
+      "cover_url": "https://placekitten.com/402/159",
+      "tags": [],
+      "created_at": "2026-08-16T09:27:03.377819+03:00"
+    }
+  }
+}

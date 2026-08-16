@@ -1,0 +1,33 @@
+{
+  "request": {
+    "method": "PATCH",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/my-books/401/",
+    "payload": {
+      "status": "finished",
+      "finished_at": "2026-02-01"
+    }
+  },
+  "response": {
+    "status_code": 200,
+    "elapsed_ms": 184.3,
+    "body": {
+      "id": 401,
+      "book": {
+        "id": 2719,
+        "title": "Остановить прошептать смелый гулять",
+        "author": "Денис Адамович Самсонов",
+        "genre": "detective",
+        "year_published": 1977,
+        "cover_url": "https://dummyimage.com/858x1016",
+        "tags": [],
+        "created_at": "2026-08-16T09:26:05.579109+03:00"
+      },
+      "status": "finished",
+      "rating": null,
+      "notes": "",
+      "started_at": "2026-01-15",
+      "finished_at": "2026-02-01",
+      "updated_at": "2026-08-16T09:26:06.173151+03:00"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "инфекция-d27d1f8a-554b-4566-a008-8c1a86214544 Болото роскошный выраженный",
+      "author": "Дорофей Гаврилович Пестов",
+      "genre": "sci_fi",
+      "year_published": 1989,
+      "cover_url": "https://picsum.photos/193/703"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 186.8,
+    "body": {
+      "id": 2787,
+      "title": "инфекция-d27d1f8a-554b-4566-a008-8c1a86214544 Болото роскошный выраженный",
+      "author": "Дорофей Гаврилович Пестов",
+      "genre": "sci_fi",
+      "year_published": 1989,
+      "cover_url": "https://picsum.photos/193/703",
+      "tags": [],
+      "created_at": "2026-08-16T09:27:03.565143+03:00"
+    }
+  }
+}

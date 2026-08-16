@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "Зарплата",
+      "author": "Лебедева Александра Егоровна",
+      "genre": "non_fiction",
+      "year_published": 2005,
+      "cover_url": "https://dummyimage.com/372x826"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 203.4,
+    "body": {
+      "id": 2723,
+      "title": "Зарплата",
+      "author": "Лебедева Александра Егоровна",
+      "genre": "non_fiction",
+      "year_published": 2005,
+      "cover_url": "https://dummyimage.com/372x826",
+      "tags": [],
+      "created_at": "2026-08-16T09:26:30.785948+03:00"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "Возникновение изредка понятный",
+      "author": "Зинаида Валериевна Уварова",
+      "genre": "non_fiction",
+      "year_published": 1963,
+      "cover_url": "https://placekitten.com/151/800"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 2295.5,
+    "body": {
+      "id": 2705,
+      "title": "Возникновение изредка понятный",
+      "author": "Зинаида Валериевна Уварова",
+      "genre": "non_fiction",
+      "year_published": 1963,
+      "cover_url": "https://placekitten.com/151/800",
+      "tags": [],
+      "created_at": "2026-08-16T09:24:56.186356+03:00"
+    }
+  }
+}

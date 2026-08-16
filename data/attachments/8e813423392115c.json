@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "пропаганда-b3d21c44-31f4-4315-9bb4-28a92de4eafd Собеседник металл",
+      "author": "Исидор Афанасьевич Сысоев",
+      "genre": "detective",
+      "year_published": 1990,
+      "cover_url": "https://dummyimage.com/662x276"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 174.6,
+    "body": {
+      "id": 2752,
+      "title": "пропаганда-b3d21c44-31f4-4315-9bb4-28a92de4eafd Собеседник металл",
+      "author": "Исидор Афанасьевич Сысоев",
+      "genre": "detective",
+      "year_published": 1990,
+      "cover_url": "https://dummyimage.com/662x276",
+      "tags": [],
+      "created_at": "2026-08-16T09:26:49.258982+03:00"
+    }
+  }
+}

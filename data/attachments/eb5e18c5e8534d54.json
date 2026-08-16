@@ -1,0 +1,21 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "author": "Исакова Иванна Артемовна",
+      "genre": "fantasy",
+      "year_published": 1955,
+      "cover_url": "https://placekitten.com/716/971"
+    }
+  },
+  "response": {
+    "status_code": 400,
+    "elapsed_ms": 1905.0,
+    "body": {
+      "title": [
+        "Обязательное поле."
+      ]
+    }
+  }
+}

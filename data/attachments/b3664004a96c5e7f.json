@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "полоска-793f8bff-5bd9-4e4e-adeb-69c9eddddf96 Выразить",
+      "author": "Филимон Валерианович Беспалов",
+      "genre": "detective",
+      "year_published": 2020,
+      "cover_url": "https://dummyimage.com/659x633"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 176.0,
+    "body": {
+      "id": 2738,
+      "title": "полоска-793f8bff-5bd9-4e4e-adeb-69c9eddddf96 Выразить",
+      "author": "Филимон Валерианович Беспалов",
+      "genre": "detective",
+      "year_published": 2020,
+      "cover_url": "https://dummyimage.com/659x633",
+      "tags": [],
+      "created_at": "2026-08-16T09:26:37.766089+03:00"
+    }
+  }
+}

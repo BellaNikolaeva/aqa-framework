@@ -1,0 +1,18 @@
+{
+  "request": {
+    "method": "PATCH",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/my-books/397/",
+    "payload": {
+      "rating": 6
+    }
+  },
+  "response": {
+    "status_code": 400,
+    "elapsed_ms": 499.9,
+    "body": {
+      "rating": [
+        "Убедитесь, что это значение меньше либо равно 5."
+      ]
+    }
+  }
+}

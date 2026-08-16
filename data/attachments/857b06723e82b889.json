@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "пропаганда-b3d21c44-31f4-4315-9bb4-28a92de4eafd Июнь желание домашний",
+      "author": "тов. Фомичева Октябрина Владимировна",
+      "genre": "sci_fi",
+      "year_published": 1962,
+      "cover_url": "https://dummyimage.com/658x80"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 178.6,
+    "body": {
+      "id": 2759,
+      "title": "пропаганда-b3d21c44-31f4-4315-9bb4-28a92de4eafd Июнь желание домашний",
+      "author": "тов. Фомичева Октябрина Владимировна",
+      "genre": "sci_fi",
+      "year_published": 1962,
+      "cover_url": "https://dummyimage.com/658x80",
+      "tags": [],
+      "created_at": "2026-08-16T09:26:50.558944+03:00"
+    }
+  }
+}
