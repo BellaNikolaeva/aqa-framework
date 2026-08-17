@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "валюта-9316b1d4-4bee-4195-92fc-6037df2204e8 Мусор",
+      "author": "Дроздов Прокофий Авдеевич",
+      "genre": "detective",
+      "year_published": 1996,
+      "cover_url": "https://picsum.photos/273/575"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 188.9,
+    "body": {
+      "id": 2889,
+      "title": "валюта-9316b1d4-4bee-4195-92fc-6037df2204e8 Мусор",
+      "author": "Дроздов Прокофий Авдеевич",
+      "genre": "detective",
+      "year_published": 1996,
+      "cover_url": "https://picsum.photos/273/575",
+      "tags": [],
+      "created_at": "2026-08-17T09:39:14.229030+03:00"
+    }
+  }
+}

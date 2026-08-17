@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "валюта-9316b1d4-4bee-4195-92fc-6037df2204e8 Похороны дошлый школьный солнце",
+      "author": "Гаврилова Анастасия Егоровна",
+      "genre": "classic",
+      "year_published": 2013,
+      "cover_url": "https://placekitten.com/447/147"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 158.6,
+    "body": {
+      "id": 2880,
+      "title": "валюта-9316b1d4-4bee-4195-92fc-6037df2204e8 Похороны дошлый школьный солнце",
+      "author": "Гаврилова Анастасия Егоровна",
+      "genre": "classic",
+      "year_published": 2013,
+      "cover_url": "https://placekitten.com/447/147",
+      "tags": [],
+      "created_at": "2026-08-17T09:39:12.772963+03:00"
+    }
+  }
+}

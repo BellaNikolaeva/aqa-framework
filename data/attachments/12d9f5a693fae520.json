@@ -1,0 +1,33 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/my-books/",
+    "payload": {
+      "book_id": 2823,
+      "status": "want_to_read"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 205.9,
+    "body": {
+      "id": 418,
+      "book": {
+        "id": 2823,
+        "title": "Недостаток поймать добиться",
+        "author": "Марина Архиповна Овчинникова",
+        "genre": "classic",
+        "year_published": 1994,
+        "cover_url": "https://dummyimage.com/516x841",
+        "tags": [],
+        "created_at": "2026-08-17T09:38:26.747297+03:00"
+      },
+      "status": "want_to_read",
+      "rating": null,
+      "notes": "",
+      "started_at": null,
+      "finished_at": null,
+      "updated_at": "2026-08-17T09:38:27.030484+03:00"
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "Слишком роса мрачно",
+      "author": "Вероника Сергеевна Голубева",
+      "genre": "sci_fi",
+      "year_published": 2006,
+      "cover_url": "https://picsum.photos/781/599"
+    }
+  },
+  "response": {
+    "status_code": 401,
+    "elapsed_ms": 201.4,
+    "body": {
+      "detail": "Учетные данные не были предоставлены."
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "левый-8ed41cc9-8307-483e-9507-3bb5e7dd0e8c Наслаждение казнь стакан демократия",
+      "author": "Элеонора Эльдаровна Федотова",
+      "genre": "classic",
+      "year_published": 2024,
+      "cover_url": "https://placekitten.com/792/421"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 159.6,
+    "body": {
+      "id": 2873,
+      "title": "левый-8ed41cc9-8307-483e-9507-3bb5e7dd0e8c Наслаждение казнь стакан демократия",
+      "author": "Элеонора Эльдаровна Федотова",
+      "genre": "classic",
+      "year_published": 2024,
+      "cover_url": "https://placekitten.com/792/421",
+      "tags": [],
+      "created_at": "2026-08-17T09:39:03.602187+03:00"
+    }
+  }
+}

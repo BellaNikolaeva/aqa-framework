@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "валюта-9316b1d4-4bee-4195-92fc-6037df2204e8 Факультет песенка исследование",
+      "author": "Любим Афанасьевич Андреев",
+      "genre": "fantasy",
+      "year_published": 1988,
+      "cover_url": "https://placekitten.com/738/927"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 171.2,
+    "body": {
+      "id": 2892,
+      "title": "валюта-9316b1d4-4bee-4195-92fc-6037df2204e8 Факультет песенка исследование",
+      "author": "Любим Афанасьевич Андреев",
+      "genre": "fantasy",
+      "year_published": 1988,
+      "cover_url": "https://placekitten.com/738/927",
+      "tags": [],
+      "created_at": "2026-08-17T09:39:14.725003+03:00"
+    }
+  }
+}

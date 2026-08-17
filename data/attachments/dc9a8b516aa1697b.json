@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "валюта-9316b1d4-4bee-4195-92fc-6037df2204e8 Место низкий вытаскивать",
+      "author": "Петр Димитриевич Туров",
+      "genre": "non_fiction",
+      "year_published": 1971,
+      "cover_url": "https://picsum.photos/240/346"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 155.2,
+    "body": {
+      "id": 2887,
+      "title": "валюта-9316b1d4-4bee-4195-92fc-6037df2204e8 Место низкий вытаскивать",
+      "author": "Петр Димитриевич Туров",
+      "genre": "non_fiction",
+      "year_published": 1971,
+      "cover_url": "https://picsum.photos/240/346",
+      "tags": [],
+      "created_at": "2026-08-17T09:39:13.877206+03:00"
+    }
+  }
+}

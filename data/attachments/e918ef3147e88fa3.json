@@ -1,0 +1,16 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/auth/refresh/",
+    "payload": {
+      "refresh": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc4NzU1MzQwMSwiaWF0IjoxNzg2OTQ4NjAxLCJqdGkiOiI4YjE0ZmI3M2QzMTU0NTQzYjZhMzM3MTdiZTM0YTVhMSIsInVzZXJfaWQiOiIxNjIzIn0.i-ppvtVYJ_1qUCx27mPqn_psDsj-WcR7XEUY9YsQuJw"
+    }
+  },
+  "response": {
+    "status_code": 200,
+    "elapsed_ms": 1988.8,
+    "body": {
+      "access": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzg2OTUyMjAzLCJpYXQiOjE3ODY5NDg2MDMsImp0aSI6Ijg5YzE2Nzc2OWQxZTRmMTM5ZWE2ZDI5OWY2OTdmMGNiIiwidXNlcl9pZCI6IjE2MjMifQ.US_iIki95hSucLWAPfoAOtbj9DG8NneL5pbS9qYD3B4"
+    }
+  }
+}

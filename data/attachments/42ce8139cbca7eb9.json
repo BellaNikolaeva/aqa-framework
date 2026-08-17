@@ -1,0 +1,33 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/my-books/",
+    "payload": {
+      "book_id": 2902,
+      "status": "want_to_read"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 233.5,
+    "body": {
+      "id": 421,
+      "book": {
+        "id": 2902,
+        "title": "Радость серьезный",
+        "author": "Евсей Абрамович Давыдов",
+        "genre": "sci_fi",
+        "year_published": 1956,
+        "cover_url": "https://picsum.photos/688/136",
+        "tags": [],
+        "created_at": "2026-08-17T09:39:36.148752+03:00"
+      },
+      "status": "want_to_read",
+      "rating": null,
+      "notes": "",
+      "started_at": null,
+      "finished_at": null,
+      "updated_at": "2026-08-17T09:39:36.385933+03:00"
+    }
+  }
+}

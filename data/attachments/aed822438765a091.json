@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "левый-8ed41cc9-8307-483e-9507-3bb5e7dd0e8c Аллея задержать",
+      "author": "Ермил Юльевич Громов",
+      "genre": "classic",
+      "year_published": 2000,
+      "cover_url": "https://picsum.photos/1009/66"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 169.4,
+    "body": {
+      "id": 2863,
+      "title": "левый-8ed41cc9-8307-483e-9507-3bb5e7dd0e8c Аллея задержать",
+      "author": "Ермил Юльевич Громов",
+      "genre": "classic",
+      "year_published": 2000,
+      "cover_url": "https://picsum.photos/1009/66",
+      "tags": [],
+      "created_at": "2026-08-17T09:39:01.972360+03:00"
+    }
+  }
+}

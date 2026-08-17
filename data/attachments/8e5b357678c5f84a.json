@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "валюта-9316b1d4-4bee-4195-92fc-6037df2204e8 Слишком болото",
+      "author": "Варвара Вадимовна Пахомова",
+      "genre": "detective",
+      "year_published": 2007,
+      "cover_url": "https://placekitten.com/912/17"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 200.6,
+    "body": {
+      "id": 2876,
+      "title": "валюта-9316b1d4-4bee-4195-92fc-6037df2204e8 Слишком болото",
+      "author": "Варвара Вадимовна Пахомова",
+      "genre": "detective",
+      "year_published": 2007,
+      "cover_url": "https://placekitten.com/912/17",
+      "tags": [],
+      "created_at": "2026-08-17T09:39:12.142838+03:00"
+    }
+  }
+}

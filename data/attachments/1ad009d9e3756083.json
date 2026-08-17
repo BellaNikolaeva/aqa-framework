@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "левый-8ed41cc9-8307-483e-9507-3bb5e7dd0e8c Теория",
+      "author": "Евграф Гавриилович Алексеев",
+      "genre": "sci_fi",
+      "year_published": 2015,
+      "cover_url": "https://dummyimage.com/771x175"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 159.5,
+    "body": {
+      "id": 2858,
+      "title": "левый-8ed41cc9-8307-483e-9507-3bb5e7dd0e8c Теория",
+      "author": "Евграф Гавриилович Алексеев",
+      "genre": "sci_fi",
+      "year_published": 2015,
+      "cover_url": "https://dummyimage.com/771x175",
+      "tags": [],
+      "created_at": "2026-08-17T09:39:01.159092+03:00"
+    }
+  }
+}

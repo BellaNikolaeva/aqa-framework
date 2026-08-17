@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "левый-8ed41cc9-8307-483e-9507-3bb5e7dd0e8c Близко монета угроза труп",
+      "author": "Тарасов Милован Германович",
+      "genre": "fantasy",
+      "year_published": 2000,
+      "cover_url": "https://placekitten.com/303/421"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 156.5,
+    "body": {
+      "id": 2864,
+      "title": "левый-8ed41cc9-8307-483e-9507-3bb5e7dd0e8c Близко монета угроза труп",
+      "author": "Тарасов Милован Германович",
+      "genre": "fantasy",
+      "year_published": 2000,
+      "cover_url": "https://placekitten.com/303/421",
+      "tags": [],
+      "created_at": "2026-08-17T09:39:02.139633+03:00"
+    }
+  }
+}

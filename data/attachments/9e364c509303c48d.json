@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "валюта-9316b1d4-4bee-4195-92fc-6037df2204e8 Решение вообще",
+      "author": "Бронислав Афанасьевич Гущин",
+      "genre": "detective",
+      "year_published": 2023,
+      "cover_url": "https://dummyimage.com/802x520"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 159.4,
+    "body": {
+      "id": 2894,
+      "title": "валюта-9316b1d4-4bee-4195-92fc-6037df2204e8 Решение вообще",
+      "author": "Бронислав Афанасьевич Гущин",
+      "genre": "detective",
+      "year_published": 2023,
+      "cover_url": "https://dummyimage.com/802x520",
+      "tags": [],
+      "created_at": "2026-08-17T09:39:15.044088+03:00"
+    }
+  }
+}

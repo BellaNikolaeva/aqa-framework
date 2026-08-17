@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "Реклама уничтожение дошлый",
+      "author": "Нестеров Тихон Григорьевич",
+      "genre": "sci_fi",
+      "year_published": 2015,
+      "cover_url": "https://placekitten.com/345/949"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 221.3,
+    "body": {
+      "id": 2818,
+      "title": "Реклама уничтожение дошлый",
+      "author": "Нестеров Тихон Григорьевич",
+      "genre": "sci_fi",
+      "year_published": 2015,
+      "cover_url": "https://placekitten.com/345/949",
+      "tags": [],
+      "created_at": "2026-08-17T09:38:04.465400+03:00"
+    }
+  }
+}

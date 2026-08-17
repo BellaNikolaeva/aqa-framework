@@ -1,0 +1,17 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/tags/",
+    "payload": {
+      "name": "роскошный-91ffd0fa-424a-41d4-a52c-d38ed44bf172"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 204.8,
+    "body": {
+      "id": 215,
+      "name": "роскошный-91ffd0fa-424a-41d4-a52c-d38ed44bf172"
+    }
+  }
+}

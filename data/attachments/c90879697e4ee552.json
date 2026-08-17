@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "левый-8ed41cc9-8307-483e-9507-3bb5e7dd0e8c Засунуть картинка",
+      "author": "Тетерина Октябрина Никифоровна",
+      "genre": "non_fiction",
+      "year_published": 1979,
+      "cover_url": "https://picsum.photos/496/122"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 162.2,
+    "body": {
+      "id": 2854,
+      "title": "левый-8ed41cc9-8307-483e-9507-3bb5e7dd0e8c Засунуть картинка",
+      "author": "Тетерина Октябрина Никифоровна",
+      "genre": "non_fiction",
+      "year_published": 1979,
+      "cover_url": "https://picsum.photos/496/122",
+      "tags": [],
+      "created_at": "2026-08-17T09:39:00.505032+03:00"
+    }
+  }
+}

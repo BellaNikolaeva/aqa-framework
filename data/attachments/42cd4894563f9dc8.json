@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "валюта-9316b1d4-4bee-4195-92fc-6037df2204e8 Палка металл",
+      "author": "Оксана Петровна Дорофеева",
+      "genre": "detective",
+      "year_published": 1967,
+      "cover_url": "https://dummyimage.com/497x629"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 156.1,
+    "body": {
+      "id": 2879,
+      "title": "валюта-9316b1d4-4bee-4195-92fc-6037df2204e8 Палка металл",
+      "author": "Оксана Петровна Дорофеева",
+      "genre": "detective",
+      "year_published": 1967,
+      "cover_url": "https://dummyimage.com/497x629",
+      "tags": [],
+      "created_at": "2026-08-17T09:39:12.613642+03:00"
+    }
+  }
+}

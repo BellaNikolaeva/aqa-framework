@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "валюта-9316b1d4-4bee-4195-92fc-6037df2204e8 Медицина",
+      "author": "Ситников Егор Герасимович",
+      "genre": "fantasy",
+      "year_published": 1992,
+      "cover_url": "https://dummyimage.com/627x3"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 158.4,
+    "body": {
+      "id": 2900,
+      "title": "валюта-9316b1d4-4bee-4195-92fc-6037df2204e8 Медицина",
+      "author": "Ситников Егор Герасимович",
+      "genre": "fantasy",
+      "year_published": 1992,
+      "cover_url": "https://dummyimage.com/627x3",
+      "tags": [],
+      "created_at": "2026-08-17T09:39:15.996152+03:00"
+    }
+  }
+}

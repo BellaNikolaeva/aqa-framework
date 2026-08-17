@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "Изучить интернет совещание",
+      "author": "Жукова Пелагея Ивановна",
+      "genre": "sci_fi",
+      "year_published": 1985,
+      "cover_url": "https://placekitten.com/272/337"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 204.2,
+    "body": {
+      "id": 2817,
+      "title": "Изучить интернет совещание",
+      "author": "Жукова Пелагея Ивановна",
+      "genre": "sci_fi",
+      "year_published": 1985,
+      "cover_url": "https://placekitten.com/272/337",
+      "tags": [],
+      "created_at": "2026-08-17T09:37:59.761322+03:00"
+    }
+  }
+}

@@ -1,0 +1,218 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": null
+  },
+  "response": {
+    "status_code": 200,
+    "elapsed_ms": 173.0,
+    "body": {
+      "count": 25,
+      "next": "https://book-tracker-api-frnm.onrender.com/api/books/?page=2&search=%D0%B2%D0%B0%D0%BB%D1%8E%D1%82%D0%B0-9316b1d4-4bee-4195-92fc-6037df2204e8",
+      "previous": null,
+      "results": [
+        {
+          "id": 2881,
+          "title": "валюта-9316b1d4-4bee-4195-92fc-6037df2204e8 Видимо",
+          "author": "Зоя Оскаровна Фролова",
+          "genre": "fantasy",
+          "year_published": 1973,
+          "cover_url": "https://placekitten.com/1014/595",
+          "tags": [],
+          "created_at": "2026-08-17T09:39:12.930532+03:00"
+        },
+        {
+          "id": 2893,
+          "title": "валюта-9316b1d4-4bee-4195-92fc-6037df2204e8 Вскакивать космос",
+          "author": "Ратмир Трифонович Куликов",
+          "genre": "sci_fi",
+          "year_published": 1960,
+          "cover_url": "https://placekitten.com/741/402",
+          "tags": [],
+          "created_at": "2026-08-17T09:39:14.882963+03:00"
+        },
+        {
+          "id": 2899,
+          "title": "валюта-9316b1d4-4bee-4195-92fc-6037df2204e8 Выгнать пол эпоха",
+          "author": "Октябрина Сергеевна Шарапова",
+          "genre": "non_fiction",
+          "year_published": 2010,
+          "cover_url": "https://picsum.photos/872/724",
+          "tags": [],
+          "created_at": "2026-08-17T09:39:15.837538+03:00"
+        },
+        {
+          "id": 2886,
+          "title": "валюта-9316b1d4-4bee-4195-92fc-6037df2204e8 Граница вряд более",
+          "author": "Ефремов Лонгин Владиславович",
+          "genre": "classic",
+          "year_published": 2004,
+          "cover_url": "https://placekitten.com/265/240",
+          "tags": [],
+          "created_at": "2026-08-17T09:39:13.722021+03:00"
+        },
+        {
+          "id": 2888,
+          "title": "валюта-9316b1d4-4bee-4195-92fc-6037df2204e8 Заведение зачем неожиданный",
+          "author": "Селезнев Кирилл Валерианович",
+          "genre": "fantasy",
+          "year_published": 2003,
+          "cover_url": "https://picsum.photos/634/410",
+          "tags": [],
+          "created_at": "2026-08-17T09:39:14.038138+03:00"
+        },
+        {
+          "id": 2883,
+          "title": "валюта-9316b1d4-4bee-4195-92fc-6037df2204e8 Избегать наткнуться упор",
+          "author": "Кузнецова Екатерина Богдановна",
+          "genre": "sci_fi",
+          "year_published": 2001,
+          "cover_url": "https://dummyimage.com/240x963",
+          "tags": [],
+          "created_at": "2026-08-17T09:39:13.246580+03:00"
+        },
+        {
+          "id": 2890,
+          "title": "валюта-9316b1d4-4bee-4195-92fc-6037df2204e8 Карандаш",
+          "author": "Максим Терентьевич Русаков",
+          "genre": "fantasy",
+          "year_published": 1957,
+          "cover_url": "https://dummyimage.com/299x990",
+          "tags": [],
+          "created_at": "2026-08-17T09:39:14.386476+03:00"
+        },
+        {
+          "id": 2900,
+          "title": "валюта-9316b1d4-4bee-4195-92fc-6037df2204e8 Медицина",
+          "author": "Ситников Егор Герасимович",
+          "genre": "fantasy",
+          "year_published": 1992,
+          "cover_url": "https://dummyimage.com/627x3",
+          "tags": [],
+          "created_at": "2026-08-17T09:39:15.996152+03:00"
+        },
+        {
+          "id": 2887,
+          "title": "валюта-9316b1d4-4bee-4195-92fc-6037df2204e8 Место низкий вытаскивать",
+          "author": "Петр Димитриевич Туров",
+          "genre": "non_fiction",
+          "year_published": 1971,
+          "cover_url": "https://picsum.photos/240/346",
+          "tags": [],
+          "created_at": "2026-08-17T09:39:13.877206+03:00"
+        },
+        {
+          "id": 2889,
+          "title": "валюта-9316b1d4-4bee-4195-92fc-6037df2204e8 Мусор",
+          "author": "Дроздов Прокофий Авдеевич",
+          "genre": "detective",
+          "year_published": 1996,
+          "cover_url": "https://picsum.photos/273/575",
+          "tags": [],
+          "created_at": "2026-08-17T09:39:14.229030+03:00"
+        },
+        {
+          "id": 2895,
+          "title": "валюта-9316b1d4-4bee-4195-92fc-6037df2204e8 Означать магазин счастье",
+          "author": "Колобов Эрнст Георгиевич",
+          "genre": "non_fiction",
+          "year_published": 1960,
+          "cover_url": "https://placekitten.com/94/189",
+          "tags": [],
+          "created_at": "2026-08-17T09:39:15.199406+03:00"
+        },
+        {
+          "id": 2879,
+          "title": "валюта-9316b1d4-4bee-4195-92fc-6037df2204e8 Палка металл",
+          "author": "Оксана Петровна Дорофеева",
+          "genre": "detective",
+          "year_published": 1967,
+          "cover_url": "https://dummyimage.com/497x629",
+          "tags": [],
+          "created_at": "2026-08-17T09:39:12.613642+03:00"
+        },
+        {
+          "id": 2898,
+          "title": "валюта-9316b1d4-4bee-4195-92fc-6037df2204e8 Передо поколение",
+          "author": "Игорь Денисович Сафонов",
+          "genre": "fantasy",
+          "year_published": 2014,
+          "cover_url": "https://placekitten.com/220/621",
+          "tags": [],
+          "created_at": "2026-08-17T09:39:15.682552+03:00"
+        },
+        {
+          "id": 2877,
+          "title": "валюта-9316b1d4-4bee-4195-92fc-6037df2204e8 Плод близко",
+          "author": "Жанна Валентиновна Кондратьева",
+          "genre": "non_fiction",
+          "year_published": 1998,
+          "cover_url": "https://placekitten.com/802/760",
+          "tags": [],
+          "created_at": "2026-08-17T09:39:12.299885+03:00"
+        },
+        {
+          "id": 2897,
+          "title": "валюта-9316b1d4-4bee-4195-92fc-6037df2204e8 Поймать",
+          "author": "Влас Федосьевич Голубев",
+          "genre": "detective",
+          "year_published": 1972,
+          "cover_url": "https://picsum.photos/901/614",
+          "tags": [],
+          "created_at": "2026-08-17T09:39:15.528170+03:00"
+        },
+        {
+          "id": 2884,
+          "title": "валюта-9316b1d4-4bee-4195-92fc-6037df2204e8 Полюбить ягода ведь",
+          "author": "Лазарева Иванна Константиновна",
+          "genre": "detective",
+          "year_published": 2024,
+          "cover_url": "https://dummyimage.com/734x202",
+          "tags": [],
+          "created_at": "2026-08-17T09:39:13.406552+03:00"
+        },
+        {
+          "id": 2880,
+          "title": "валюта-9316b1d4-4bee-4195-92fc-6037df2204e8 Похороны дошлый школьный солнце",
+          "author": "Гаврилова Анастасия Егоровна",
+          "genre": "classic",
+          "year_published": 2013,
+          "cover_url": "https://placekitten.com/447/147",
+          "tags": [],
+          "created_at": "2026-08-17T09:39:12.772963+03:00"
+        },
+        {
+          "id": 2878,
+          "title": "валюта-9316b1d4-4bee-4195-92fc-6037df2204e8 Расстегнуть помолчать",
+          "author": "Исаева Татьяна Николаевна",
+          "genre": "sci_fi",
+          "year_published": 2025,
+          "cover_url": "https://placekitten.com/516/627",
+          "tags": [],
+          "created_at": "2026-08-17T09:39:12.456663+03:00"
+        },
+        {
+          "id": 2894,
+          "title": "валюта-9316b1d4-4bee-4195-92fc-6037df2204e8 Решение вообще",
+          "author": "Бронислав Афанасьевич Гущин",
+          "genre": "detective",
+          "year_published": 2023,
+          "cover_url": "https://dummyimage.com/802x520",
+          "tags": [],
+          "created_at": "2026-08-17T09:39:15.044088+03:00"
+        },
+        {
+          "id": 2876,
+          "title": "валюта-9316b1d4-4bee-4195-92fc-6037df2204e8 Слишком болото",
+          "author": "Варвара Вадимовна Пахомова",
+          "genre": "detective",
+          "year_published": 2007,
+          "cover_url": "https://placekitten.com/912/17",
+          "tags": [],
+          "created_at": "2026-08-17T09:39:12.142838+03:00"
+        }
+      ]
+    }
+  }
+}

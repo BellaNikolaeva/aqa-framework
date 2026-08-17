@@ -1,0 +1,68 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": null
+  },
+  "response": {
+    "status_code": 200,
+    "elapsed_ms": 206.5,
+    "body": {
+      "count": 25,
+      "next": null,
+      "previous": "https://book-tracker-api-frnm.onrender.com/api/books/?search=%D0%BB%D0%B5%D0%B2%D1%8B%D0%B9-8ed41cc9-8307-483e-9507-3bb5e7dd0e8c",
+      "results": [
+        {
+          "id": 2866,
+          "title": "левый-8ed41cc9-8307-483e-9507-3bb5e7dd0e8c Ставить головка неудобно",
+          "author": "Мария Антоновна Панова",
+          "genre": "sci_fi",
+          "year_published": 1957,
+          "cover_url": "https://placekitten.com/768/716",
+          "tags": [],
+          "created_at": "2026-08-17T09:39:02.473743+03:00"
+        },
+        {
+          "id": 2861,
+          "title": "левый-8ed41cc9-8307-483e-9507-3bb5e7dd0e8c Ставить очко",
+          "author": "Большакова Тамара Кузьминична",
+          "genre": "non_fiction",
+          "year_published": 1997,
+          "cover_url": "https://dummyimage.com/622x966",
+          "tags": [],
+          "created_at": "2026-08-17T09:39:01.655845+03:00"
+        },
+        {
+          "id": 2874,
+          "title": "левый-8ed41cc9-8307-483e-9507-3bb5e7dd0e8c Страсть бетонный",
+          "author": "Крылов Зиновий Даниилович",
+          "genre": "non_fiction",
+          "year_published": 2005,
+          "cover_url": "https://dummyimage.com/943x882",
+          "tags": [],
+          "created_at": "2026-08-17T09:39:03.765232+03:00"
+        },
+        {
+          "id": 2875,
+          "title": "левый-8ed41cc9-8307-483e-9507-3bb5e7dd0e8c Сынок даль",
+          "author": "Логинов Павел Филимонович",
+          "genre": "classic",
+          "year_published": 2004,
+          "cover_url": "https://picsum.photos/200/1009",
+          "tags": [],
+          "created_at": "2026-08-17T09:39:03.923836+03:00"
+        },
+        {
+          "id": 2858,
+          "title": "левый-8ed41cc9-8307-483e-9507-3bb5e7dd0e8c Теория",
+          "author": "Евграф Гавриилович Алексеев",
+          "genre": "sci_fi",
+          "year_published": 2015,
+          "cover_url": "https://dummyimage.com/771x175",
+          "tags": [],
+          "created_at": "2026-08-17T09:39:01.159092+03:00"
+        }
+      ]
+    }
+  }
+}

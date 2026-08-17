@@ -1,0 +1,25 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "<script>alert('xss')</script>",
+      "author": "Test Author",
+      "genre": "test"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 209.1,
+    "body": {
+      "id": 2903,
+      "title": "<script>alert('xss')</script>",
+      "author": "Test Author",
+      "genre": "test",
+      "year_published": null,
+      "cover_url": "",
+      "tags": [],
+      "created_at": "2026-08-17T09:39:58.458259+03:00"
+    }
+  }
+}

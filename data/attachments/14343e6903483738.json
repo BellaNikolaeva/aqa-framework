@@ -1,0 +1,17 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/tags/",
+    "payload": {
+      "name": "поговорить-dbfc3a2d-61ef-48e2-ac1a-b4e431f43716"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 208.5,
+    "body": {
+      "id": 217,
+      "name": "поговорить-dbfc3a2d-61ef-48e2-ac1a-b4e431f43716"
+    }
+  }
+}
