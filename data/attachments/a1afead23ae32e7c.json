@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "неправда-1074cb45-9d0f-472d-b15f-b12bccffc13f Светило понятный",
+      "author": "Демид Харламович Силин",
+      "genre": "fantasy",
+      "year_published": 2018,
+      "cover_url": "https://picsum.photos/87/714"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 125.3,
+    "body": {
+      "id": 2950,
+      "title": "неправда-1074cb45-9d0f-472d-b15f-b12bccffc13f Светило понятный",
+      "author": "Демид Харламович Силин",
+      "genre": "fantasy",
+      "year_published": 2018,
+      "cover_url": "https://picsum.photos/87/714",
+      "tags": [],
+      "created_at": "2026-08-18T09:30:39.090057+03:00"
+    }
+  }
+}

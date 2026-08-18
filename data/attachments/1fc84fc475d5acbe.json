@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "неправда-1074cb45-9d0f-472d-b15f-b12bccffc13f Жидкий мгновение желание",
+      "author": "Назар Гордеевич Ершов",
+      "genre": "detective",
+      "year_published": 1964,
+      "cover_url": "https://dummyimage.com/424x931"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 128.2,
+    "body": {
+      "id": 2931,
+      "title": "неправда-1074cb45-9d0f-472d-b15f-b12bccffc13f Жидкий мгновение желание",
+      "author": "Назар Гордеевич Ершов",
+      "genre": "detective",
+      "year_published": 1964,
+      "cover_url": "https://dummyimage.com/424x931",
+      "tags": [],
+      "created_at": "2026-08-18T09:30:36.630319+03:00"
+    }
+  }
+}

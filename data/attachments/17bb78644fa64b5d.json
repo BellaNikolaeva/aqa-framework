@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "неправда-1074cb45-9d0f-472d-b15f-b12bccffc13f Бабочка ремень ставить",
+      "author": "Фадей Абрамович Громов",
+      "genre": "classic",
+      "year_published": 1984,
+      "cover_url": "https://dummyimage.com/653x828"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 127.4,
+    "body": {
+      "id": 2945,
+      "title": "неправда-1074cb45-9d0f-472d-b15f-b12bccffc13f Бабочка ремень ставить",
+      "author": "Фадей Абрамович Громов",
+      "genre": "classic",
+      "year_published": 1984,
+      "cover_url": "https://dummyimage.com/653x828",
+      "tags": [],
+      "created_at": "2026-08-18T09:30:38.449445+03:00"
+    }
+  }
+}

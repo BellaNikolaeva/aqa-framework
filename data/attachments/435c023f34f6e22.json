@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "неправда-1074cb45-9d0f-472d-b15f-b12bccffc13f Песенка социалистический",
+      "author": "Лукин Агап Денисович",
+      "genre": "fantasy",
+      "year_published": 1974,
+      "cover_url": "https://dummyimage.com/217x355"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 130.5,
+    "body": {
+      "id": 2932,
+      "title": "неправда-1074cb45-9d0f-472d-b15f-b12bccffc13f Песенка социалистический",
+      "author": "Лукин Агап Денисович",
+      "genre": "fantasy",
+      "year_published": 1974,
+      "cover_url": "https://dummyimage.com/217x355",
+      "tags": [],
+      "created_at": "2026-08-18T09:30:36.759013+03:00"
+    }
+  }
+}

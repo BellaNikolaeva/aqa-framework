@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "Плавно вчера",
+      "author": "Зуев Владлен Валерьевич",
+      "genre": "non_fiction",
+      "year_published": 1981,
+      "cover_url": "https://placekitten.com/404/708"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 144.0,
+    "body": {
+      "id": 2912,
+      "title": "Плавно вчера",
+      "author": "Зуев Владлен Валерьевич",
+      "genre": "non_fiction",
+      "year_published": 1981,
+      "cover_url": "https://placekitten.com/404/708",
+      "tags": [],
+      "created_at": "2026-08-18T09:29:15.583630+03:00"
+    }
+  }
+}

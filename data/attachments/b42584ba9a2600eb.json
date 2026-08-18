@@ -1,0 +1,218 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": null
+  },
+  "response": {
+    "status_code": 200,
+    "elapsed_ms": 128.7,
+    "body": {
+      "count": 25,
+      "next": "https://book-tracker-api-frnm.onrender.com/api/books/?page=2&search=%D1%80%D0%B5%D0%B1%D1%8F%D1%82%D0%B8%D1%88%D0%BA%D0%B8-cf92254d-6cc6-445c-a4a4-f023d615ea00",
+      "previous": null,
+      "results": [
+        {
+          "id": 2981,
+          "title": "ребятишки-cf92254d-6cc6-445c-a4a4-f023d615ea00 Адвокат секунда",
+          "author": "Кириллов Терентий Бенедиктович",
+          "genre": "fantasy",
+          "year_published": 1992,
+          "cover_url": "https://picsum.photos/616/914",
+          "tags": [],
+          "created_at": "2026-08-18T09:30:57.337725+03:00"
+        },
+        {
+          "id": 3002,
+          "title": "ребятишки-cf92254d-6cc6-445c-a4a4-f023d615ea00 Белье остановить",
+          "author": "Аркадий Демьянович Куликов",
+          "genre": "non_fiction",
+          "year_published": 1979,
+          "cover_url": "https://dummyimage.com/28x666",
+          "tags": [],
+          "created_at": "2026-08-18T09:31:00.172569+03:00"
+        },
+        {
+          "id": 2979,
+          "title": "ребятишки-cf92254d-6cc6-445c-a4a4-f023d615ea00 Ведь приличный",
+          "author": "Денисова Лукия Николаевна",
+          "genre": "fantasy",
+          "year_published": 1995,
+          "cover_url": "https://placekitten.com/214/830",
+          "tags": [],
+          "created_at": "2026-08-18T09:30:56.987970+03:00"
+        },
+        {
+          "id": 2985,
+          "title": "ребятишки-cf92254d-6cc6-445c-a4a4-f023d615ea00 Выраженный свежий провал",
+          "author": "Светлана Вадимовна Лапина",
+          "genre": "fantasy",
+          "year_published": 1986,
+          "cover_url": "https://picsum.photos/912/299",
+          "tags": [],
+          "created_at": "2026-08-18T09:30:57.856759+03:00"
+        },
+        {
+          "id": 2996,
+          "title": "ребятишки-cf92254d-6cc6-445c-a4a4-f023d615ea00 Горький валюта соответствие",
+          "author": "Иннокентий Теймуразович Кононов",
+          "genre": "sci_fi",
+          "year_published": 1978,
+          "cover_url": "https://placekitten.com/817/955",
+          "tags": [],
+          "created_at": "2026-08-18T09:30:59.377521+03:00"
+        },
+        {
+          "id": 2989,
+          "title": "ребятишки-cf92254d-6cc6-445c-a4a4-f023d615ea00 Деньги боец",
+          "author": "Одинцова Марина Наумовна",
+          "genre": "non_fiction",
+          "year_published": 2000,
+          "cover_url": "https://dummyimage.com/836x509",
+          "tags": [],
+          "created_at": "2026-08-18T09:30:58.372380+03:00"
+        },
+        {
+          "id": 2983,
+          "title": "ребятишки-cf92254d-6cc6-445c-a4a4-f023d615ea00 Дремать лиловый результат",
+          "author": "Захарова Агата Даниловна",
+          "genre": "detective",
+          "year_published": 1973,
+          "cover_url": "https://placekitten.com/454/580",
+          "tags": [],
+          "created_at": "2026-08-18T09:30:57.602787+03:00"
+        },
+        {
+          "id": 2982,
+          "title": "ребятишки-cf92254d-6cc6-445c-a4a4-f023d615ea00 За",
+          "author": "Акулина Харитоновна Савина",
+          "genre": "detective",
+          "year_published": 1969,
+          "cover_url": "https://picsum.photos/716/534",
+          "tags": [],
+          "created_at": "2026-08-18T09:30:57.464535+03:00"
+        },
+        {
+          "id": 2990,
+          "title": "ребятишки-cf92254d-6cc6-445c-a4a4-f023d615ea00 Зарплата ребятишки",
+          "author": "Селиверст Марсович Михеев",
+          "genre": "non_fiction",
+          "year_published": 1986,
+          "cover_url": "https://dummyimage.com/146x486",
+          "tags": [],
+          "created_at": "2026-08-18T09:30:58.500533+03:00"
+        },
+        {
+          "id": 3001,
+          "title": "ребятишки-cf92254d-6cc6-445c-a4a4-f023d615ea00 Зеленый конструкция сустав",
+          "author": "Лидия Владиславовна Кононова",
+          "genre": "non_fiction",
+          "year_published": 1985,
+          "cover_url": "https://picsum.photos/739/610",
+          "tags": [],
+          "created_at": "2026-08-18T09:31:00.034088+03:00"
+        },
+        {
+          "id": 2994,
+          "title": "ребятишки-cf92254d-6cc6-445c-a4a4-f023d615ea00 Иной пропасть",
+          "author": "Матвеев Ким Гурьевич",
+          "genre": "fantasy",
+          "year_published": 2021,
+          "cover_url": "https://dummyimage.com/281x561",
+          "tags": [],
+          "created_at": "2026-08-18T09:30:59.022879+03:00"
+        },
+        {
+          "id": 2984,
+          "title": "ребятишки-cf92254d-6cc6-445c-a4a4-f023d615ea00 Интернет природа очередной",
+          "author": "Афанасий Григорьевич Суханов",
+          "genre": "detective",
+          "year_published": 2010,
+          "cover_url": "https://picsum.photos/188/512",
+          "tags": [],
+          "created_at": "2026-08-18T09:30:57.730446+03:00"
+        },
+        {
+          "id": 2995,
+          "title": "ребятишки-cf92254d-6cc6-445c-a4a4-f023d615ea00 Миллиард порядок",
+          "author": "Ираида Тарасовна Мухина",
+          "genre": "non_fiction",
+          "year_published": 1982,
+          "cover_url": "https://placekitten.com/842/672",
+          "tags": [],
+          "created_at": "2026-08-18T09:30:59.248454+03:00"
+        },
+        {
+          "id": 2986,
+          "title": "ребятишки-cf92254d-6cc6-445c-a4a4-f023d615ea00 Ответить возмутиться неожиданно",
+          "author": "Алексей Фокич Хохлов",
+          "genre": "detective",
+          "year_published": 2010,
+          "cover_url": "https://placekitten.com/491/428",
+          "tags": [],
+          "created_at": "2026-08-18T09:30:57.991548+03:00"
+        },
+        {
+          "id": 2999,
+          "title": "ребятишки-cf92254d-6cc6-445c-a4a4-f023d615ea00 Полностью равнодушный товар",
+          "author": "Матвеева Анжела Станиславовна",
+          "genre": "non_fiction",
+          "year_published": 1962,
+          "cover_url": "https://placekitten.com/620/385",
+          "tags": [],
+          "created_at": "2026-08-18T09:30:59.772392+03:00"
+        },
+        {
+          "id": 2980,
+          "title": "ребятишки-cf92254d-6cc6-445c-a4a4-f023d615ea00 Построить бригада уронить хлеб",
+          "author": "Белова Ия Дмитриевна",
+          "genre": "classic",
+          "year_published": 2024,
+          "cover_url": "https://picsum.photos/102/62",
+          "tags": [],
+          "created_at": "2026-08-18T09:30:57.116133+03:00"
+        },
+        {
+          "id": 2992,
+          "title": "ребятишки-cf92254d-6cc6-445c-a4a4-f023d615ea00 Появление набор",
+          "author": "Алевтина Тарасовна Горшкова",
+          "genre": "fantasy",
+          "year_published": 1998,
+          "cover_url": "https://dummyimage.com/298x996",
+          "tags": [],
+          "created_at": "2026-08-18T09:30:58.756247+03:00"
+        },
+        {
+          "id": 2993,
+          "title": "ребятишки-cf92254d-6cc6-445c-a4a4-f023d615ea00 Правление спалить",
+          "author": "Добромысл Владиленович Евсеев",
+          "genre": "non_fiction",
+          "year_published": 1984,
+          "cover_url": "https://placekitten.com/438/551",
+          "tags": [],
+          "created_at": "2026-08-18T09:30:58.884624+03:00"
+        },
+        {
+          "id": 3000,
+          "title": "ребятишки-cf92254d-6cc6-445c-a4a4-f023d615ea00 Провинция запретить",
+          "author": "Иванна Архиповна Зимина",
+          "genre": "detective",
+          "year_published": 2022,
+          "cover_url": "https://placekitten.com/350/816",
+          "tags": [],
+          "created_at": "2026-08-18T09:30:59.900623+03:00"
+        },
+        {
+          "id": 3003,
+          "title": "ребятишки-cf92254d-6cc6-445c-a4a4-f023d615ea00 Проход господь",
+          "author": "Амос Архипович Лыткин",
+          "genre": "fantasy",
+          "year_published": 1959,
+          "cover_url": "https://dummyimage.com/711x821",
+          "tags": [],
+          "created_at": "2026-08-18T09:31:00.305509+03:00"
+        }
+      ]
+    }
+  }
+}

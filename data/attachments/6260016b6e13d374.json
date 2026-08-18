@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "издали-27675884-2576-459f-a532-935a9a060f65 Упорно печатать парень",
+      "author": "Агафонов Аристарх Фролович",
+      "genre": "non_fiction",
+      "year_published": 1978,
+      "cover_url": "https://placekitten.com/810/755"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 136.3,
+    "body": {
+      "id": 2973,
+      "title": "издали-27675884-2576-459f-a532-935a9a060f65 Упорно печатать парень",
+      "author": "Агафонов Аристарх Фролович",
+      "genre": "non_fiction",
+      "year_published": 1978,
+      "cover_url": "https://placekitten.com/810/755",
+      "tags": [],
+      "created_at": "2026-08-18T09:30:48.760109+03:00"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/tags/",
+    "payload": {
+      "name": "цель-abf017d9-a92a-426b-abf5-36aa3eb15183"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 145.6,
+    "body": {
+      "id": 224,
+      "name": "цель-abf017d9-a92a-426b-abf5-36aa3eb15183"
+    }
+  }
+}

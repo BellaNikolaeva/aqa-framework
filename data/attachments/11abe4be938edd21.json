@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "неправда-1074cb45-9d0f-472d-b15f-b12bccffc13f Расстегнуть разводить ремень",
+      "author": "Гришина Анна Никифоровна",
+      "genre": "sci_fi",
+      "year_published": 1974,
+      "cover_url": "https://picsum.photos/296/911"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 130.0,
+    "body": {
+      "id": 2939,
+      "title": "неправда-1074cb45-9d0f-472d-b15f-b12bccffc13f Расстегнуть разводить ремень",
+      "author": "Гришина Анна Никифоровна",
+      "genre": "sci_fi",
+      "year_published": 1974,
+      "cover_url": "https://picsum.photos/296/911",
+      "tags": [],
+      "created_at": "2026-08-18T09:30:37.669170+03:00"
+    }
+  }
+}

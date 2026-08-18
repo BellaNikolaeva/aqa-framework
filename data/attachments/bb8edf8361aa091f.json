@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "издали-27675884-2576-459f-a532-935a9a060f65 Мера товар некоторый",
+      "author": "Ксения Эльдаровна Лукина",
+      "genre": "detective",
+      "year_published": 1950,
+      "cover_url": "https://picsum.photos/978/9"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 231.2,
+    "body": {
+      "id": 2960,
+      "title": "издали-27675884-2576-459f-a532-935a9a060f65 Мера товар некоторый",
+      "author": "Ксения Эльдаровна Лукина",
+      "genre": "detective",
+      "year_published": 1950,
+      "cover_url": "https://picsum.photos/978/9",
+      "tags": [],
+      "created_at": "2026-08-18T09:30:47.023813+03:00"
+    }
+  }
+}

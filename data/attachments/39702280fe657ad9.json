@@ -1,0 +1,33 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": null
+  },
+  "response": {
+    "status_code": 200,
+    "elapsed_ms": 1516.4,
+    "body": {
+      "count": 1,
+      "next": null,
+      "previous": null,
+      "results": [
+        {
+          "id": 2916,
+          "title": "Запустить угол",
+          "author": "Вацлав Валерьянович Гусев",
+          "genre": "non_fiction",
+          "year_published": 2002,
+          "cover_url": "https://dummyimage.com/850x484",
+          "tags": [
+            {
+              "id": 220,
+              "name": "песня-57d4bd9a-3aaf-4dd8-9008-e91c65c91791"
+            }
+          ],
+          "created_at": "2026-08-18T09:29:32.324287+03:00"
+        }
+      ]
+    }
+  }
+}

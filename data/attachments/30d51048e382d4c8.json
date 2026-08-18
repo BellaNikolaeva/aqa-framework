@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "неправда-1074cb45-9d0f-472d-b15f-b12bccffc13f Вчера угодный пропасть",
+      "author": "Кононов Филимон Авдеевич",
+      "genre": "sci_fi",
+      "year_published": 1956,
+      "cover_url": "https://dummyimage.com/849x807"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 129.5,
+    "body": {
+      "id": 2934,
+      "title": "неправда-1074cb45-9d0f-472d-b15f-b12bccffc13f Вчера угодный пропасть",
+      "author": "Кононов Филимон Авдеевич",
+      "genre": "sci_fi",
+      "year_published": 1956,
+      "cover_url": "https://dummyimage.com/849x807",
+      "tags": [],
+      "created_at": "2026-08-18T09:30:37.022368+03:00"
+    }
+  }
+}

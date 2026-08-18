@@ -1,0 +1,21 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "Ставить способ",
+      "genre": "detective",
+      "year_published": 2022,
+      "cover_url": "https://dummyimage.com/181x15"
+    }
+  },
+  "response": {
+    "status_code": 400,
+    "elapsed_ms": 1873.4,
+    "body": {
+      "author": [
+        "Обязательное поле."
+      ]
+    }
+  }
+}

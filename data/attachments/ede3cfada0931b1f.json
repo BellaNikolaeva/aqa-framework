@@ -1,0 +1,33 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/my-books/",
+    "payload": {
+      "book_id": 3005,
+      "status": "want_to_read"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 143.9,
+    "body": {
+      "id": 436,
+      "book": {
+        "id": 3005,
+        "title": "Выраженный",
+        "author": "Фортунат Димитриевич Бобров",
+        "genre": "sci_fi",
+        "year_published": 1954,
+        "cover_url": "https://dummyimage.com/67x863",
+        "tags": [],
+        "created_at": "2026-08-18T09:31:18.072772+03:00"
+      },
+      "status": "want_to_read",
+      "rating": null,
+      "notes": "",
+      "started_at": null,
+      "finished_at": null,
+      "updated_at": "2026-08-18T09:31:18.216284+03:00"
+    }
+  }
+}

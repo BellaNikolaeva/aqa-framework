@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "ребятишки-cf92254d-6cc6-445c-a4a4-f023d615ea00 Адвокат секунда",
+      "author": "Кириллов Терентий Бенедиктович",
+      "genre": "fantasy",
+      "year_published": 1992,
+      "cover_url": "https://picsum.photos/616/914"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 221.2,
+    "body": {
+      "id": 2981,
+      "title": "ребятишки-cf92254d-6cc6-445c-a4a4-f023d615ea00 Адвокат секунда",
+      "author": "Кириллов Терентий Бенедиктович",
+      "genre": "fantasy",
+      "year_published": 1992,
+      "cover_url": "https://picsum.photos/616/914",
+      "tags": [],
+      "created_at": "2026-08-18T09:30:57.337725+03:00"
+    }
+  }
+}

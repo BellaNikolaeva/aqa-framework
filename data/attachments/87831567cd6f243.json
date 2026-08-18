@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "неправда-1074cb45-9d0f-472d-b15f-b12bccffc13f Применяться боец",
+      "author": "Терентьева Виктория Игоревна",
+      "genre": "classic",
+      "year_published": 1993,
+      "cover_url": "https://picsum.photos/370/293"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 127.3,
+    "body": {
+      "id": 2948,
+      "title": "неправда-1074cb45-9d0f-472d-b15f-b12bccffc13f Применяться боец",
+      "author": "Терентьева Виктория Игоревна",
+      "genre": "classic",
+      "year_published": 1993,
+      "cover_url": "https://picsum.photos/370/293",
+      "tags": [],
+      "created_at": "2026-08-18T09:30:38.835062+03:00"
+    }
+  }
+}

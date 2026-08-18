@@ -1,0 +1,33 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/my-books/",
+    "payload": {
+      "book_id": 3004,
+      "status": "want_to_read"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 142.0,
+    "body": {
+      "id": 435,
+      "book": {
+        "id": 3004,
+        "title": "Кольцо войти",
+        "author": "Елизавета Максимовна Андреева",
+        "genre": "detective",
+        "year_published": 2005,
+        "cover_url": "https://dummyimage.com/255x982",
+        "tags": [],
+        "created_at": "2026-08-18T09:31:11.380876+03:00"
+      },
+      "status": "want_to_read",
+      "rating": null,
+      "notes": "",
+      "started_at": null,
+      "finished_at": null,
+      "updated_at": "2026-08-18T09:31:11.532403+03:00"
+    }
+  }
+}

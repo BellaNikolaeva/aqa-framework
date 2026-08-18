@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "ребятишки-cf92254d-6cc6-445c-a4a4-f023d615ea00 Сравнение палата единый",
+      "author": "Ювеналий Эдгардович Колесников",
+      "genre": "detective",
+      "year_published": 1977,
+      "cover_url": "https://dummyimage.com/523x366"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 126.6,
+    "body": {
+      "id": 2988,
+      "title": "ребятишки-cf92254d-6cc6-445c-a4a4-f023d615ea00 Сравнение палата единый",
+      "author": "Ювеналий Эдгардович Колесников",
+      "genre": "detective",
+      "year_published": 1977,
+      "cover_url": "https://dummyimage.com/523x366",
+      "tags": [],
+      "created_at": "2026-08-18T09:30:58.244681+03:00"
+    }
+  }
+}

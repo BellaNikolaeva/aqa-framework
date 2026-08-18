@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "неправда-1074cb45-9d0f-472d-b15f-b12bccffc13f Спешить актриса похороны",
+      "author": "Ситникова Марина Феликсовна",
+      "genre": "sci_fi",
+      "year_published": 1996,
+      "cover_url": "https://dummyimage.com/229x236"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 127.8,
+    "body": {
+      "id": 2942,
+      "title": "неправда-1074cb45-9d0f-472d-b15f-b12bccffc13f Спешить актриса похороны",
+      "author": "Ситникова Марина Феликсовна",
+      "genre": "sci_fi",
+      "year_published": 1996,
+      "cover_url": "https://dummyimage.com/229x236",
+      "tags": [],
+      "created_at": "2026-08-18T09:30:38.056696+03:00"
+    }
+  }
+}

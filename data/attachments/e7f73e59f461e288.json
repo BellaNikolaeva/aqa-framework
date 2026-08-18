@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "неправда-1074cb45-9d0f-472d-b15f-b12bccffc13f Девка слишком успокоиться",
+      "author": "тов. Суханова Элеонора Кирилловна",
+      "genre": "classic",
+      "year_published": 1977,
+      "cover_url": "https://picsum.photos/20/875"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 127.4,
+    "body": {
+      "id": 2938,
+      "title": "неправда-1074cb45-9d0f-472d-b15f-b12bccffc13f Девка слишком успокоиться",
+      "author": "тов. Суханова Элеонора Кирилловна",
+      "genre": "classic",
+      "year_published": 1977,
+      "cover_url": "https://picsum.photos/20/875",
+      "tags": [],
+      "created_at": "2026-08-18T09:30:37.538543+03:00"
+    }
+  }
+}

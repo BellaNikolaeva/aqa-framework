@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "Покидать мелочь космос",
+      "author": "Ирина Тимофеевна Абрамова",
+      "genre": "fantasy",
+      "year_published": 2000,
+      "cover_url": "https://picsum.photos/262/716"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 140.0,
+    "body": {
+      "id": 2920,
+      "title": "Покидать мелочь космос",
+      "author": "Ирина Тимофеевна Абрамова",
+      "genre": "fantasy",
+      "year_published": 2000,
+      "cover_url": "https://picsum.photos/262/716",
+      "tags": [],
+      "created_at": "2026-08-18T09:29:53.893289+03:00"
+    }
+  }
+}

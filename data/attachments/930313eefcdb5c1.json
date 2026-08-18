@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "издали-27675884-2576-459f-a532-935a9a060f65 Коробка другой",
+      "author": "Илья Исидорович Рогов",
+      "genre": "fantasy",
+      "year_published": 1958,
+      "cover_url": "https://dummyimage.com/55x7"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 134.0,
+    "body": {
+      "id": 2958,
+      "title": "издали-27675884-2576-459f-a532-935a9a060f65 Коробка другой",
+      "author": "Илья Исидорович Рогов",
+      "genre": "fantasy",
+      "year_published": 1958,
+      "cover_url": "https://dummyimage.com/55x7",
+      "tags": [],
+      "created_at": "2026-08-18T09:30:46.651543+03:00"
+    }
+  }
+}

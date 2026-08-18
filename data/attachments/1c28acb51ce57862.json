@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "Неожиданно",
+      "author": "Захаров Бажен Ефимович",
+      "genre": "non_fiction",
+      "year_published": 2026,
+      "cover_url": "https://dummyimage.com/355x737"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 143.4,
+    "body": {
+      "id": 2927,
+      "title": "Неожиданно",
+      "author": "Захаров Бажен Ефимович",
+      "genre": "non_fiction",
+      "year_published": 2026,
+      "cover_url": "https://dummyimage.com/355x737",
+      "tags": [],
+      "created_at": "2026-08-18T09:30:24.984711+03:00"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "издали-27675884-2576-459f-a532-935a9a060f65 Совет за волк",
+      "author": "Кузьмина Евфросиния Григорьевна",
+      "genre": "detective",
+      "year_published": 1972,
+      "cover_url": "https://placekitten.com/482/68"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 140.2,
+    "body": {
+      "id": 2956,
+      "title": "издали-27675884-2576-459f-a532-935a9a060f65 Совет за волк",
+      "author": "Кузьмина Евфросиния Григорьевна",
+      "genre": "detective",
+      "year_published": 1972,
+      "cover_url": "https://placekitten.com/482/68",
+      "tags": [],
+      "created_at": "2026-08-18T09:30:46.370401+03:00"
+    }
+  }
+}

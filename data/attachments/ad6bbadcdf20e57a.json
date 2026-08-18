@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "ребятишки-cf92254d-6cc6-445c-a4a4-f023d615ea00 Интернет природа очередной",
+      "author": "Афанасий Григорьевич Суханов",
+      "genre": "detective",
+      "year_published": 2010,
+      "cover_url": "https://picsum.photos/188/512"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 126.8,
+    "body": {
+      "id": 2984,
+      "title": "ребятишки-cf92254d-6cc6-445c-a4a4-f023d615ea00 Интернет природа очередной",
+      "author": "Афанасий Григорьевич Суханов",
+      "genre": "detective",
+      "year_published": 2010,
+      "cover_url": "https://picsum.photos/188/512",
+      "tags": [],
+      "created_at": "2026-08-18T09:30:57.730446+03:00"
+    }
+  }
+}

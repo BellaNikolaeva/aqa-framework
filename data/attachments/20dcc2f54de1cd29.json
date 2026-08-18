@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "издали-27675884-2576-459f-a532-935a9a060f65 Миллиард потянуться",
+      "author": "Горбунова Марина Кузьминична",
+      "genre": "non_fiction",
+      "year_published": 1995,
+      "cover_url": "https://picsum.photos/492/856"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 133.8,
+    "body": {
+      "id": 2955,
+      "title": "издали-27675884-2576-459f-a532-935a9a060f65 Миллиард потянуться",
+      "author": "Горбунова Марина Кузьминична",
+      "genre": "non_fiction",
+      "year_published": 1995,
+      "cover_url": "https://picsum.photos/492/856",
+      "tags": [],
+      "created_at": "2026-08-18T09:30:46.233365+03:00"
+    }
+  }
+}

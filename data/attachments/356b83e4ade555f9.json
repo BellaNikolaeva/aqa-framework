@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "издали-27675884-2576-459f-a532-935a9a060f65 Лапа командующий падаль",
+      "author": "Большаков Каллистрат Ермолаевич",
+      "genre": "sci_fi",
+      "year_published": 1958,
+      "cover_url": "https://placekitten.com/271/757"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 130.6,
+    "body": {
+      "id": 2962,
+      "title": "издали-27675884-2576-459f-a532-935a9a060f65 Лапа командующий падаль",
+      "author": "Большаков Каллистрат Ермолаевич",
+      "genre": "sci_fi",
+      "year_published": 1958,
+      "cover_url": "https://placekitten.com/271/757",
+      "tags": [],
+      "created_at": "2026-08-18T09:30:47.291361+03:00"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "ребятишки-cf92254d-6cc6-445c-a4a4-f023d615ea00 За",
+      "author": "Акулина Харитоновна Савина",
+      "genre": "detective",
+      "year_published": 1969,
+      "cover_url": "https://picsum.photos/716/534"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 124.5,
+    "body": {
+      "id": 2982,
+      "title": "ребятишки-cf92254d-6cc6-445c-a4a4-f023d615ea00 За",
+      "author": "Акулина Харитоновна Савина",
+      "genre": "detective",
+      "year_published": 1969,
+      "cover_url": "https://picsum.photos/716/534",
+      "tags": [],
+      "created_at": "2026-08-18T09:30:57.464535+03:00"
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/my-books/",
+    "payload": {
+      "book_id": 2922,
+      "status": "want_to_read"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 141.6,
+    "body": {
+      "id": 429,
+      "book": {
+        "id": 2922,
+        "title": "Выраженный очко стакан",
+        "author": "Мартьян Викентьевич Брагин",
+        "genre": "detective",
+        "year_published": 2005,
+        "cover_url": "https://placekitten.com/690/493",
+        "tags": [],
+        "created_at": "2026-08-18T09:30:01.784968+03:00"
+      },
+      "status": "want_to_read",
+      "rating": null,
+      "notes": "",
+      "started_at": null,
+      "finished_at": null,
+      "updated_at": "2026-08-18T09:30:01.927461+03:00"
+    }
+  }
+}

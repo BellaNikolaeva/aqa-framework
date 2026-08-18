@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "ребятишки-cf92254d-6cc6-445c-a4a4-f023d615ea00 Горький валюта соответствие",
+      "author": "Иннокентий Теймуразович Кононов",
+      "genre": "sci_fi",
+      "year_published": 1978,
+      "cover_url": "https://placekitten.com/817/955"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 128.4,
+    "body": {
+      "id": 2996,
+      "title": "ребятишки-cf92254d-6cc6-445c-a4a4-f023d615ea00 Горький валюта соответствие",
+      "author": "Иннокентий Теймуразович Кононов",
+      "genre": "sci_fi",
+      "year_published": 1978,
+      "cover_url": "https://placekitten.com/817/955",
+      "tags": [],
+      "created_at": "2026-08-18T09:30:59.377521+03:00"
+    }
+  }
+}

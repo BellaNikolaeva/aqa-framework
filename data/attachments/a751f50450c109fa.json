@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "ребятишки-cf92254d-6cc6-445c-a4a4-f023d615ea00 Ответить возмутиться неожиданно",
+      "author": "Алексей Фокич Хохлов",
+      "genre": "detective",
+      "year_published": 2010,
+      "cover_url": "https://placekitten.com/491/428"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 129.5,
+    "body": {
+      "id": 2986,
+      "title": "ребятишки-cf92254d-6cc6-445c-a4a4-f023d615ea00 Ответить возмутиться неожиданно",
+      "author": "Алексей Фокич Хохлов",
+      "genre": "detective",
+      "year_published": 2010,
+      "cover_url": "https://placekitten.com/491/428",
+      "tags": [],
+      "created_at": "2026-08-18T09:30:57.991548+03:00"
+    }
+  }
+}

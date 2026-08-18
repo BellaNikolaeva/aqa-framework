@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "неправда-1074cb45-9d0f-472d-b15f-b12bccffc13f Ответить поезд",
+      "author": "Артемьев Трифон Даниилович",
+      "genre": "fantasy",
+      "year_published": 1962,
+      "cover_url": "https://picsum.photos/277/516"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 127.9,
+    "body": {
+      "id": 2941,
+      "title": "неправда-1074cb45-9d0f-472d-b15f-b12bccffc13f Ответить поезд",
+      "author": "Артемьев Трифон Даниилович",
+      "genre": "fantasy",
+      "year_published": 1962,
+      "cover_url": "https://picsum.photos/277/516",
+      "tags": [],
+      "created_at": "2026-08-18T09:30:37.928828+03:00"
+    }
+  }
+}
