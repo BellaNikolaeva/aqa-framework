@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "дрогнуть-cccbf721-ca32-4c8d-860b-e1e7e70b6c3d Витрина дошлый очко",
+      "author": "Кулагин Ростислав Фомич",
+      "genre": "non_fiction",
+      "year_published": 1959,
+      "cover_url": "https://dummyimage.com/775x120"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 126.9,
+    "body": {
+      "id": 3052,
+      "title": "дрогнуть-cccbf721-ca32-4c8d-860b-e1e7e70b6c3d Витрина дошлый очко",
+      "author": "Кулагин Ростислав Фомич",
+      "genre": "non_fiction",
+      "year_published": 1959,
+      "cover_url": "https://dummyimage.com/775x120",
+      "tags": [],
+      "created_at": "2026-08-19T09:31:21.583471+03:00"
+    }
+  }
+}

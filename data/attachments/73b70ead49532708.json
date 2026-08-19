@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "Народ плясать прежде",
+      "author": "Кондратьев Яков Георгиевич",
+      "genre": "fantasy",
+      "year_published": 1966,
+      "cover_url": "https://placekitten.com/570/63"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 1875.3,
+    "body": {
+      "id": 3020,
+      "title": "Народ плясать прежде",
+      "author": "Кондратьев Яков Георгиевич",
+      "genre": "fantasy",
+      "year_published": 1966,
+      "cover_url": "https://placekitten.com/570/63",
+      "tags": [],
+      "created_at": "2026-08-19T09:30:26.642793+03:00"
+    }
+  }
+}

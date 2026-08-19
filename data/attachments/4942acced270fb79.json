@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "дрогнуть-cccbf721-ca32-4c8d-860b-e1e7e70b6c3d Приличный запустить возможно",
+      "author": "Вадим Васильевич Миронов",
+      "genre": "fantasy",
+      "year_published": 2019,
+      "cover_url": "https://dummyimage.com/96x425"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 124.7,
+    "body": {
+      "id": 3048,
+      "title": "дрогнуть-cccbf721-ca32-4c8d-860b-e1e7e70b6c3d Приличный запустить возможно",
+      "author": "Вадим Васильевич Миронов",
+      "genre": "fantasy",
+      "year_published": 2019,
+      "cover_url": "https://dummyimage.com/96x425",
+      "tags": [],
+      "created_at": "2026-08-19T09:31:21.060737+03:00"
+    }
+  }
+}

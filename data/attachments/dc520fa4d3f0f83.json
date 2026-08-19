@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "дрогнуть-cccbf721-ca32-4c8d-860b-e1e7e70b6c3d Рассуждение дрогнуть",
+      "author": "Орлов Серафим Богданович",
+      "genre": "non_fiction",
+      "year_published": 2023,
+      "cover_url": "https://picsum.photos/408/283"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 124.6,
+    "body": {
+      "id": 3045,
+      "title": "дрогнуть-cccbf721-ca32-4c8d-860b-e1e7e70b6c3d Рассуждение дрогнуть",
+      "author": "Орлов Серафим Богданович",
+      "genre": "non_fiction",
+      "year_published": 2023,
+      "cover_url": "https://picsum.photos/408/283",
+      "tags": [],
+      "created_at": "2026-08-19T09:31:20.670672+03:00"
+    }
+  }
+}

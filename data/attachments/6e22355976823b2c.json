@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "За печатать бригада",
+      "author": "Герасим Федосьевич Горбачев",
+      "genre": "sci_fi",
+      "year_published": 1958,
+      "cover_url": "https://placekitten.com/895/737"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 137.8,
+    "body": {
+      "id": 3022,
+      "title": "За печатать бригада",
+      "author": "Герасим Федосьевич Горбачев",
+      "genre": "sci_fi",
+      "year_published": 1958,
+      "cover_url": "https://placekitten.com/895/737",
+      "tags": [],
+      "created_at": "2026-08-19T09:30:35.277221+03:00"
+    }
+  }
+}

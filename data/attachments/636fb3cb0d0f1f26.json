@@ -1,0 +1,16 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/tags/",
+    "payload": {
+      "name": "заработать-736de89a-266c-4759-ba78-d2381e70b0f5"
+    }
+  },
+  "response": {
+    "status_code": 401,
+    "elapsed_ms": 135.3,
+    "body": {
+      "detail": "Учетные данные не были предоставлены."
+    }
+  }
+}

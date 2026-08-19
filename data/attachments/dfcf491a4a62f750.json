@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "протягивать-44cd31f2-7d85-42f7-a357-62b23e77827d Спасть непривычный бочок",
+      "author": "Варвара Степановна Ларионова",
+      "genre": "non_fiction",
+      "year_published": 1968,
+      "cover_url": "https://dummyimage.com/548x428"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 131.3,
+    "body": {
+      "id": 3094,
+      "title": "протягивать-44cd31f2-7d85-42f7-a357-62b23e77827d Спасть непривычный бочок",
+      "author": "Варвара Степановна Ларионова",
+      "genre": "non_fiction",
+      "year_published": 1968,
+      "cover_url": "https://dummyimage.com/548x428",
+      "tags": [],
+      "created_at": "2026-08-19T09:31:41.232291+03:00"
+    }
+  }
+}

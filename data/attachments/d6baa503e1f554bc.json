@@ -1,0 +1,20 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "Остановить за покинуть",
+      "author": "Зайцева Октябрина Робертовна",
+      "genre": "sci_fi",
+      "year_published": 2019,
+      "cover_url": "https://picsum.photos/834/840"
+    }
+  },
+  "response": {
+    "status_code": 401,
+    "elapsed_ms": 1704.1,
+    "body": {
+      "detail": "Учетные данные не были предоставлены."
+    }
+  }
+}

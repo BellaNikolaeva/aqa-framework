@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "протягивать-44cd31f2-7d85-42f7-a357-62b23e77827d Адвокат полностью",
+      "author": "Медведев Леон Тихонович",
+      "genre": "fantasy",
+      "year_published": 1975,
+      "cover_url": "https://picsum.photos/146/25"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 124.6,
+    "body": {
+      "id": 3104,
+      "title": "протягивать-44cd31f2-7d85-42f7-a357-62b23e77827d Адвокат полностью",
+      "author": "Медведев Леон Тихонович",
+      "genre": "fantasy",
+      "year_published": 1975,
+      "cover_url": "https://picsum.photos/146/25",
+      "tags": [],
+      "created_at": "2026-08-19T09:31:42.502126+03:00"
+    }
+  }
+}

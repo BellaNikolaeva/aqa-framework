@@ -1,0 +1,17 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/tags/",
+    "payload": {
+      "name": "тута-2c8dfd69-b87f-4820-8fe2-a6d54d59cbd7"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 148.0,
+    "body": {
+      "id": 229,
+      "name": "тута-2c8dfd69-b87f-4820-8fe2-a6d54d59cbd7"
+    }
+  }
+}

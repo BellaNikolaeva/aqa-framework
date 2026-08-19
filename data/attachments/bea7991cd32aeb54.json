@@ -1,0 +1,21 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "author": "Тихон Демидович Русаков",
+      "genre": "non_fiction",
+      "year_published": 1983,
+      "cover_url": "https://picsum.photos/194/570"
+    }
+  },
+  "response": {
+    "status_code": 400,
+    "elapsed_ms": 133.7,
+    "body": {
+      "title": [
+        "Обязательное поле."
+      ]
+    }
+  }
+}

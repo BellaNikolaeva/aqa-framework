@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "ручей-b658a558-eb49-4cd7-ba0d-79ef3f815fa2 Плясать плод материя еврейский",
+      "author": "Евфросиния Романовна Авдеева",
+      "genre": "classic",
+      "year_published": 1987,
+      "cover_url": "https://dummyimage.com/246x813"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 125.5,
+    "body": {
+      "id": 3076,
+      "title": "ручей-b658a558-eb49-4cd7-ba0d-79ef3f815fa2 Плясать плод материя еврейский",
+      "author": "Евфросиния Романовна Авдеева",
+      "genre": "classic",
+      "year_published": 1987,
+      "cover_url": "https://dummyimage.com/246x813",
+      "tags": [],
+      "created_at": "2026-08-19T09:31:31.603764+03:00"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "Ход один наступать дальний",
+      "author": "Таисия Валентиновна Копылова",
+      "genre": "classic",
+      "year_published": 1999,
+      "cover_url": "https://placekitten.com/427/166"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 139.1,
+    "body": {
+      "id": 3029,
+      "title": "Ход один наступать дальний",
+      "author": "Таисия Валентиновна Копылова",
+      "genre": "classic",
+      "year_published": 1999,
+      "cover_url": "https://placekitten.com/427/166",
+      "tags": [],
+      "created_at": "2026-08-19T09:31:07.881776+03:00"
+    }
+  }
+}

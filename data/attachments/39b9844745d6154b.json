@@ -1,0 +1,17 @@
+{
+  "request": {
+    "method": "PUT",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/tags/230/",
+    "payload": {
+      "name": "заведение-a71a46b0-28e3-45e8-993c-5994c1849f59"
+    }
+  },
+  "response": {
+    "status_code": 200,
+    "elapsed_ms": 121.9,
+    "body": {
+      "id": 230,
+      "name": "заведение-a71a46b0-28e3-45e8-993c-5994c1849f59"
+    }
+  }
+}

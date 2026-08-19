@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "ручей-b658a558-eb49-4cd7-ba0d-79ef3f815fa2 Угодный возмутиться плавно",
+      "author": "Нонна Наумовна Максимова",
+      "genre": "sci_fi",
+      "year_published": 1958,
+      "cover_url": "https://dummyimage.com/129x184"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 141.8,
+    "body": {
+      "id": 3078,
+      "title": "ручей-b658a558-eb49-4cd7-ba0d-79ef3f815fa2 Угодный возмутиться плавно",
+      "author": "Нонна Наумовна Максимова",
+      "genre": "sci_fi",
+      "year_published": 1958,
+      "cover_url": "https://dummyimage.com/129x184",
+      "tags": [],
+      "created_at": "2026-08-19T09:31:31.860210+03:00"
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/my-books/",
+    "payload": {
+      "book_id": 3024,
+      "status": "want_to_read"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 169.2,
+    "body": {
+      "id": 444,
+      "book": {
+        "id": 3024,
+        "title": "Граница мусор упор",
+        "author": "Терентьева Прасковья Михайловна",
+        "genre": "detective",
+        "year_published": 2015,
+        "cover_url": "https://dummyimage.com/628x23",
+        "tags": [],
+        "created_at": "2026-08-19T09:30:43.376369+03:00"
+      },
+      "status": "want_to_read",
+      "rating": null,
+      "notes": "",
+      "started_at": null,
+      "finished_at": null,
+      "updated_at": "2026-08-19T09:30:43.532971+03:00"
+    }
+  }
+}

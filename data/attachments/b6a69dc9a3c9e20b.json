@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "дрогнуть-cccbf721-ca32-4c8d-860b-e1e7e70b6c3d Издали скрытый",
+      "author": "Евсеев Борислав Евстигнеевич",
+      "genre": "detective",
+      "year_published": 2003,
+      "cover_url": "https://placekitten.com/931/933"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 124.5,
+    "body": {
+      "id": 3047,
+      "title": "дрогнуть-cccbf721-ca32-4c8d-860b-e1e7e70b6c3d Издали скрытый",
+      "author": "Евсеев Борислав Евстигнеевич",
+      "genre": "detective",
+      "year_published": 2003,
+      "cover_url": "https://placekitten.com/931/933",
+      "tags": [],
+      "created_at": "2026-08-19T09:31:20.934955+03:00"
+    }
+  }
+}

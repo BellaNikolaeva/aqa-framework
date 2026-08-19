@@ -1,0 +1,33 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/my-books/",
+    "payload": {
+      "book_id": 3028,
+      "status": "want_to_read"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 141.8,
+    "body": {
+      "id": 448,
+      "book": {
+        "id": 3028,
+        "title": "Радость наступать ведь",
+        "author": "Константин Виленович Воронов",
+        "genre": "non_fiction",
+        "year_published": 1957,
+        "cover_url": "https://placekitten.com/307/466",
+        "tags": [],
+        "created_at": "2026-08-19T09:31:01.071739+03:00"
+      },
+      "status": "want_to_read",
+      "rating": null,
+      "notes": "",
+      "started_at": null,
+      "finished_at": null,
+      "updated_at": "2026-08-19T09:31:01.211198+03:00"
+    }
+  }
+}

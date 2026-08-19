@@ -1,0 +1,33 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/my-books/",
+    "payload": {
+      "book_id": 3027,
+      "status": "reading"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 147.5,
+    "body": {
+      "id": 447,
+      "book": {
+        "id": 3027,
+        "title": "Бетонный",
+        "author": "Евгения Антоновна Корнилова",
+        "genre": "fantasy",
+        "year_published": 1955,
+        "cover_url": "https://picsum.photos/304/198",
+        "tags": [],
+        "created_at": "2026-08-19T09:30:56.893769+03:00"
+      },
+      "status": "reading",
+      "rating": null,
+      "notes": "",
+      "started_at": null,
+      "finished_at": null,
+      "updated_at": "2026-08-19T09:30:57.055734+03:00"
+    }
+  }
+}

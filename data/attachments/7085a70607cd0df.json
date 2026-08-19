@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "протягивать-44cd31f2-7d85-42f7-a357-62b23e77827d Пища настать пропадать",
+      "author": "Поляков Творимир Феофанович",
+      "genre": "fantasy",
+      "year_published": 1992,
+      "cover_url": "https://picsum.photos/720/628"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 125.7,
+    "body": {
+      "id": 3099,
+      "title": "протягивать-44cd31f2-7d85-42f7-a357-62b23e77827d Пища настать пропадать",
+      "author": "Поляков Творимир Феофанович",
+      "genre": "fantasy",
+      "year_published": 1992,
+      "cover_url": "https://picsum.photos/720/628",
+      "tags": [],
+      "created_at": "2026-08-19T09:31:41.864526+03:00"
+    }
+  }
+}

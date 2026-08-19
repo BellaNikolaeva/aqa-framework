@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "Поговорить юный что",
+      "author": "Александрова Евфросиния Павловна",
+      "genre": "sci_fi",
+      "year_published": 2026,
+      "cover_url": "https://placekitten.com/504/156"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 142.2,
+    "body": {
+      "id": 3021,
+      "title": "Поговорить юный что",
+      "author": "Александрова Евфросиния Павловна",
+      "genre": "sci_fi",
+      "year_published": 2026,
+      "cover_url": "https://placekitten.com/504/156",
+      "tags": [],
+      "created_at": "2026-08-19T09:30:31.177816+03:00"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "ручей-b658a558-eb49-4cd7-ba0d-79ef3f815fa2 Процесс хотеть",
+      "author": "Любовь Владиславовна Тимофеева",
+      "genre": "fantasy",
+      "year_published": 1977,
+      "cover_url": "https://placekitten.com/519/410"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 126.1,
+    "body": {
+      "id": 3074,
+      "title": "ручей-b658a558-eb49-4cd7-ba0d-79ef3f815fa2 Процесс хотеть",
+      "author": "Любовь Владиславовна Тимофеева",
+      "genre": "fantasy",
+      "year_published": 1977,
+      "cover_url": "https://placekitten.com/519/410",
+      "tags": [],
+      "created_at": "2026-08-19T09:31:31.335658+03:00"
+    }
+  }
+}

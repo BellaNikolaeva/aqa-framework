@@ -1,0 +1,17 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/tags/",
+    "payload": {
+      "name": "мера-8a05df46-a6f1-4d05-8c24-ca5c983fbebc"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 2002.0,
+    "body": {
+      "id": 227,
+      "name": "мера-8a05df46-a6f1-4d05-8c24-ca5c983fbebc"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/my-books/",
+    "payload": {
+      "book_id": 3024,
+      "status": "want_to_read"
+    }
+  },
+  "response": {
+    "status_code": 400,
+    "elapsed_ms": 140.8,
+    "body": {
+      "book_id": "Эта книга уже есть в твоей библиотеке."
+    }
+  }
+}

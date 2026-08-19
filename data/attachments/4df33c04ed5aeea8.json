@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "ручей-b658a558-eb49-4cd7-ba0d-79ef3f815fa2 Пастух зачем ремень",
+      "author": "Панфилов Клавдий Устинович",
+      "genre": "sci_fi",
+      "year_published": 1965,
+      "cover_url": "https://placekitten.com/962/519"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 129.2,
+    "body": {
+      "id": 3071,
+      "title": "ручей-b658a558-eb49-4cd7-ba0d-79ef3f815fa2 Пастух зачем ремень",
+      "author": "Панфилов Клавдий Устинович",
+      "genre": "sci_fi",
+      "year_published": 1965,
+      "cover_url": "https://placekitten.com/962/519",
+      "tags": [],
+      "created_at": "2026-08-19T09:31:30.941513+03:00"
+    }
+  }
+}

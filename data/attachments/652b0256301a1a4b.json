@@ -1,0 +1,18 @@
+{
+  "request": {
+    "method": "PATCH",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/my-books/440/",
+    "payload": {
+      "rating": 5
+    }
+  },
+  "response": {
+    "status_code": 400,
+    "elapsed_ms": 125.7,
+    "body": {
+      "non_field_errors": [
+        "Оценку можно поставить только прочитанной книге."
+      ]
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "Песенка страсть сравнение",
+      "author": "Бобров Дементий Феликсович",
+      "genre": "sci_fi",
+      "year_published": 1966,
+      "cover_url": "https://dummyimage.com/363x383"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 140.8,
+    "body": {
+      "id": 3010,
+      "title": "Песенка страсть сравнение",
+      "author": "Бобров Дементий Феликсович",
+      "genre": "sci_fi",
+      "year_published": 1966,
+      "cover_url": "https://dummyimage.com/363x383",
+      "tags": [],
+      "created_at": "2026-08-19T09:29:35.968953+03:00"
+    }
+  }
+}

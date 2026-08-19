@@ -1,0 +1,33 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/my-books/",
+    "payload": {
+      "book_id": 3023,
+      "status": "finished"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 152.5,
+    "body": {
+      "id": 443,
+      "book": {
+        "id": 3023,
+        "title": "При направо лететь",
+        "author": "Молчанова Агата Оскаровна",
+        "genre": "sci_fi",
+        "year_published": 1966,
+        "cover_url": "https://picsum.photos/872/757",
+        "tags": [],
+        "created_at": "2026-08-19T09:30:39.177332+03:00"
+      },
+      "status": "finished",
+      "rating": null,
+      "notes": "",
+      "started_at": null,
+      "finished_at": null,
+      "updated_at": "2026-08-19T09:30:39.328633+03:00"
+    }
+  }
+}

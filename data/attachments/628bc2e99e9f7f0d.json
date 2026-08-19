@@ -1,0 +1,33 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/my-books/",
+    "payload": {
+      "book_id": 3026,
+      "status": "reading"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 147.0,
+    "body": {
+      "id": 446,
+      "book": {
+        "id": 3026,
+        "title": "Цепочка беспомощный",
+        "author": "Никифоров Варфоломей Харлампович",
+        "genre": "classic",
+        "year_published": 1976,
+        "cover_url": "https://placekitten.com/131/406",
+        "tags": [],
+        "created_at": "2026-08-19T09:30:52.476344+03:00"
+      },
+      "status": "reading",
+      "rating": null,
+      "notes": "",
+      "started_at": null,
+      "finished_at": null,
+      "updated_at": "2026-08-19T09:30:52.625330+03:00"
+    }
+  }
+}

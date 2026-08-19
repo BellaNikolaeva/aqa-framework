@@ -1,0 +1,17 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/tags/",
+    "payload": {
+      "name": "поздравлять-dc83e5a5-06c6-4f0c-a422-3c24634daf1e"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 138.9,
+    "body": {
+      "id": 231,
+      "name": "поздравлять-dc83e5a5-06c6-4f0c-a422-3c24634daf1e"
+    }
+  }
+}

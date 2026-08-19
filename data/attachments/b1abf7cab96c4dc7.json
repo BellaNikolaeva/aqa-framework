@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "дрогнуть-cccbf721-ca32-4c8d-860b-e1e7e70b6c3d Юный результат ломать",
+      "author": "Владимирова Галина Макаровна",
+      "genre": "non_fiction",
+      "year_published": 2006,
+      "cover_url": "https://dummyimage.com/918x146"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 126.3,
+    "body": {
+      "id": 3054,
+      "title": "дрогнуть-cccbf721-ca32-4c8d-860b-e1e7e70b6c3d Юный результат ломать",
+      "author": "Владимирова Галина Макаровна",
+      "genre": "non_fiction",
+      "year_published": 2006,
+      "cover_url": "https://dummyimage.com/918x146",
+      "tags": [],
+      "created_at": "2026-08-19T09:31:21.837176+03:00"
+    }
+  }
+}

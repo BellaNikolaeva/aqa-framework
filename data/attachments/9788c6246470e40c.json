@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "ручей-b658a558-eb49-4cd7-ba0d-79ef3f815fa2 Мелькнуть салон трубка вариант",
+      "author": "Пахомов Максим Алексеевич",
+      "genre": "non_fiction",
+      "year_published": 1995,
+      "cover_url": "https://picsum.photos/17/269"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 141.8,
+    "body": {
+      "id": 3075,
+      "title": "ручей-b658a558-eb49-4cd7-ba0d-79ef3f815fa2 Мелькнуть салон трубка вариант",
+      "author": "Пахомов Максим Алексеевич",
+      "genre": "non_fiction",
+      "year_published": 1995,
+      "cover_url": "https://picsum.photos/17/269",
+      "tags": [],
+      "created_at": "2026-08-19T09:31:31.464262+03:00"
+    }
+  }
+}

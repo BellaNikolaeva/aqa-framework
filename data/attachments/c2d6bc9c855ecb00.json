@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "ручей-b658a558-eb49-4cd7-ba0d-79ef3f815fa2 Висеть металл",
+      "author": "Александрова Василиса Наумовна",
+      "genre": "sci_fi",
+      "year_published": 1968,
+      "cover_url": "https://placekitten.com/12/137"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 144.8,
+    "body": {
+      "id": 3079,
+      "title": "ручей-b658a558-eb49-4cd7-ba0d-79ef3f815fa2 Висеть металл",
+      "author": "Александрова Василиса Наумовна",
+      "genre": "sci_fi",
+      "year_published": 1968,
+      "cover_url": "https://placekitten.com/12/137",
+      "tags": [],
+      "created_at": "2026-08-19T09:31:32.005276+03:00"
+    }
+  }
+}
