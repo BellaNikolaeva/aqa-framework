@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "результат-d3e5bd58-5e87-4a79-87ef-fd6942497d0b Плод холодно",
+      "author": "Галина Эдуардовна Власова",
+      "genre": "non_fiction",
+      "year_published": 1967,
+      "cover_url": "https://placekitten.com/42/194"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 113.0,
+    "body": {
+      "id": 3198,
+      "title": "результат-d3e5bd58-5e87-4a79-87ef-fd6942497d0b Плод холодно",
+      "author": "Галина Эдуардовна Власова",
+      "genre": "non_fiction",
+      "year_published": 1967,
+      "cover_url": "https://placekitten.com/42/194",
+      "tags": [],
+      "created_at": "2026-08-20T09:33:29.315269+03:00"
+    }
+  }
+}

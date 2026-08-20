@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "теория-109e1c30-d498-4a26-86e9-091d3a9cf9c9 Угроза чем кузнец",
+      "author": "Рыбакова Олимпиада Рудольфовна",
+      "genre": "classic",
+      "year_published": 1977,
+      "cover_url": "https://placekitten.com/188/987"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 112.1,
+    "body": {
+      "id": 3155,
+      "title": "теория-109e1c30-d498-4a26-86e9-091d3a9cf9c9 Угроза чем кузнец",
+      "author": "Рыбакова Олимпиада Рудольфовна",
+      "genre": "classic",
+      "year_published": 1977,
+      "cover_url": "https://placekitten.com/188/987",
+      "tags": [],
+      "created_at": "2026-08-20T09:33:10.384380+03:00"
+    }
+  }
+}

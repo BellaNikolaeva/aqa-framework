@@ -1,0 +1,15 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/tags/236/",
+    "payload": null
+  },
+  "response": {
+    "status_code": 200,
+    "elapsed_ms": 108.6,
+    "body": {
+      "id": 236,
+      "name": "угроза-a0db6da4-1b1b-4901-9c6b-1d3a47ec0d12"
+    }
+  }
+}

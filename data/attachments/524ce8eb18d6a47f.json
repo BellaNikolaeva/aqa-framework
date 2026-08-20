@@ -1,0 +1,19 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/auth/register/",
+    "payload": {
+      "username": "aqa_acb44e10",
+      "email": "aqa_acb44e10@example.com"
+    }
+  },
+  "response": {
+    "status_code": 400,
+    "elapsed_ms": 1798.2,
+    "body": {
+      "password": [
+        "Обязательное поле."
+      ]
+    }
+  }
+}

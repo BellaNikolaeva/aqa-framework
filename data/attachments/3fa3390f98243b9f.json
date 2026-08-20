@@ -1,0 +1,18 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/tags/",
+    "payload": {
+      "name": "хлеб-db277307-a631-4b4f-9ba7-464ffac20b6d"
+    }
+  },
+  "response": {
+    "status_code": 400,
+    "elapsed_ms": 108.8,
+    "body": {
+      "name": [
+        "tag с таким name уже существует."
+      ]
+    }
+  }
+}

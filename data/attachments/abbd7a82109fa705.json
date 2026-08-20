@@ -1,0 +1,33 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/my-books/",
+    "payload": {
+      "book_id": 3208,
+      "status": "want_to_read"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 131.6,
+    "body": {
+      "id": 465,
+      "book": {
+        "id": 3208,
+        "title": "Выкинуть",
+        "author": "Харитонова Агата Святославовна",
+        "genre": "sci_fi",
+        "year_published": 1976,
+        "cover_url": "https://picsum.photos/257/466",
+        "tags": [],
+        "created_at": "2026-08-20T09:33:41.437344+03:00"
+      },
+      "status": "want_to_read",
+      "rating": null,
+      "notes": "",
+      "started_at": null,
+      "finished_at": null,
+      "updated_at": "2026-08-20T09:33:41.570704+03:00"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "результат-d3e5bd58-5e87-4a79-87ef-fd6942497d0b Дошлый палата ягода",
+      "author": "Королева Раиса Рудольфовна",
+      "genre": "non_fiction",
+      "year_published": 2006,
+      "cover_url": "https://dummyimage.com/512x716"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 116.5,
+    "body": {
+      "id": 3189,
+      "title": "результат-d3e5bd58-5e87-4a79-87ef-fd6942497d0b Дошлый палата ягода",
+      "author": "Королева Раиса Рудольфовна",
+      "genre": "non_fiction",
+      "year_published": 2006,
+      "cover_url": "https://dummyimage.com/512x716",
+      "tags": [],
+      "created_at": "2026-08-20T09:33:28.116703+03:00"
+    }
+  }
+}

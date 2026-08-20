@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "равнодушный-48e30a5c-7569-4e4b-8a2a-ba4112aae05b Пасть прежний виднеться",
+      "author": "Фёкла Вениаминовна Фокина",
+      "genre": "non_fiction",
+      "year_published": 2022,
+      "cover_url": "https://placekitten.com/617/1007"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 111.5,
+    "body": {
+      "id": 3174,
+      "title": "равнодушный-48e30a5c-7569-4e4b-8a2a-ba4112aae05b Пасть прежний виднеться",
+      "author": "Фёкла Вениаминовна Фокина",
+      "genre": "non_fiction",
+      "year_published": 2022,
+      "cover_url": "https://placekitten.com/617/1007",
+      "tags": [],
+      "created_at": "2026-08-20T09:33:19.964165+03:00"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/tags/",
+    "payload": {
+      "name": "заплакать-f7011ba7-42f3-41f7-a9bf-3b1df410a7a8"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 125.7,
+    "body": {
+      "id": 238,
+      "name": "заплакать-f7011ba7-42f3-41f7-a9bf-3b1df410a7a8"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/tags/",
+    "payload": {
+      "name": "дьявол-a944c6fd-414e-436e-a6cb-07bcf8c4c56f"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 128.5,
+    "body": {
+      "id": 237,
+      "name": "дьявол-a944c6fd-414e-436e-a6cb-07bcf8c4c56f"
+    }
+  }
+}

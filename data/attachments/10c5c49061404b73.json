@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "Правильный привлекать командующий",
+      "author": "Якушева Кира Егоровна",
+      "genre": "sci_fi",
+      "year_published": 1971,
+      "cover_url": "https://dummyimage.com/27x32"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 127.4,
+    "body": {
+      "id": 3131,
+      "title": "Правильный привлекать командующий",
+      "author": "Якушева Кира Егоровна",
+      "genre": "sci_fi",
+      "year_published": 1971,
+      "cover_url": "https://dummyimage.com/27x32",
+      "tags": [],
+      "created_at": "2026-08-20T09:32:54.862466+03:00"
+    }
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": null
+  },
+  "response": {
+    "status_code": 200,
+    "elapsed_ms": 125.6,
+    "body": {
+      "count": 25,
+      "next": null,
+      "previous": "https://book-tracker-api-frnm.onrender.com/api/books/?search=%D1%80%D0%B5%D0%B7%D1%83%D0%BB%D1%8C%D1%82%D0%B0%D1%82-d3e5bd58-5e87-4a79-87ef-fd6942497d0b",
+      "results": [
+        {
+          "id": 3200,
+          "title": "результат-d3e5bd58-5e87-4a79-87ef-fd6942497d0b Столетие бок пятеро",
+          "author": "тов. Ситникова Ирина Владиславовна",
+          "genre": "non_fiction",
+          "year_published": 2026,
+          "cover_url": "https://placekitten.com/159/942",
+          "tags": [],
+          "created_at": "2026-08-20T09:33:29.553952+03:00"
+        },
+        {
+          "id": 3196,
+          "title": "результат-d3e5bd58-5e87-4a79-87ef-fd6942497d0b Трубка избегать рота",
+          "author": "Голубева Кира Архиповна",
+          "genre": "non_fiction",
+          "year_published": 1986,
+          "cover_url": "https://picsum.photos/950/479",
+          "tags": [],
+          "created_at": "2026-08-20T09:33:29.090619+03:00"
+        },
+        {
+          "id": 3185,
+          "title": "результат-d3e5bd58-5e87-4a79-87ef-fd6942497d0b Тысяча скользить",
+          "author": "Добромысл Гавриилович Самойлов",
+          "genre": "classic",
+          "year_published": 2011,
+          "cover_url": "https://placekitten.com/717/237",
+          "tags": [],
+          "created_at": "2026-08-20T09:33:27.651996+03:00"
+        },
+        {
+          "id": 3197,
+          "title": "результат-d3e5bd58-5e87-4a79-87ef-fd6942497d0b Уронить коммунизм",
+          "author": "Щукина Кира Михайловна",
+          "genre": "non_fiction",
+          "year_published": 2017,
+          "cover_url": "https://dummyimage.com/903x737",
+          "tags": [],
+          "created_at": "2026-08-20T09:33:29.200305+03:00"
+        },
+        {
+          "id": 3183,
+          "title": "результат-d3e5bd58-5e87-4a79-87ef-fd6942497d0b Ученый дремать палка",
+          "author": "Орехов Натан Юлианович",
+          "genre": "detective",
+          "year_published": 1998,
+          "cover_url": "https://dummyimage.com/852x692",
+          "tags": [],
+          "created_at": "2026-08-20T09:33:27.329563+03:00"
+        }
+      ]
+    }
+  }
+}

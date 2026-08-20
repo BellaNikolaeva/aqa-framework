@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "Мимо угол",
+      "author": "Кузнецов Кир Ануфриевич",
+      "genre": "sci_fi",
+      "year_published": 1970,
+      "cover_url": "https://picsum.photos/424/674"
+    }
+  },
+  "response": {
+    "status_code": 201,
+    "elapsed_ms": 128.3,
+    "body": {
+      "id": 3130,
+      "title": "Мимо угол",
+      "author": "Кузнецов Кир Ануфриевич",
+      "genre": "sci_fi",
+      "year_published": 1970,
+      "cover_url": "https://picsum.photos/424/674",
+      "tags": [],
+      "created_at": "2026-08-20T09:32:45.876964+03:00"
+    }
+  }
+}
