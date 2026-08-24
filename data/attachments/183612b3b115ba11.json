@@ -1,0 +1,16 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/tags/",
+    "payload": {
+      "name": "легко-70b09b36-50bc-4b8f-841a-ee1354da9836"
+    }
+  },
+  "response": {
+    "status_code": 401,
+    "elapsed_ms": 190.5,
+    "body": {
+      "detail": "Учетные данные не были предоставлены."
+    }
+  }
+}

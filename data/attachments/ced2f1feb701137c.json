@@ -1,0 +1,21 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "Мрачно другой командир",
+      "author": "Эрнст Фёдорович Евдокимов",
+      "genre": "detective",
+      "year_published": 2006,
+      "cover_url": "https://placekitten.com/134/763"
+    }
+  },
+  "response": {
+    "status_code": 401,
+    "elapsed_ms": 192.5,
+    "body": {
+      "detail": "Заголовок авторизации должен содержать два значения, разделенных пробелом",
+      "code": "bad_authorization_header"
+    }
+  }
+}

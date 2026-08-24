@@ -1,0 +1,20 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "Оборот ребятишки",
+      "author": "Нина Богдановна Блинова",
+      "genre": "non_fiction",
+      "year_published": 1969,
+      "cover_url": "https://placekitten.com/1010/921"
+    }
+  },
+  "response": {
+    "status_code": 401,
+    "elapsed_ms": 216.9,
+    "body": {
+      "detail": "Учетные данные не были предоставлены."
+    }
+  }
+}
