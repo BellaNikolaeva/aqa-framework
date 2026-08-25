@@ -1,0 +1,21 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "Заработать цвет",
+      "author": "Нина Олеговна Герасимова",
+      "genre": "sci_fi",
+      "year_published": 2022,
+      "cover_url": "https://placekitten.com/207/697"
+    }
+  },
+  "response": {
+    "status_code": 401,
+    "elapsed_ms": 207.4,
+    "body": {
+      "detail": "Заголовок авторизации должен содержать два значения, разделенных пробелом",
+      "code": "bad_authorization_header"
+    }
+  }
+}
