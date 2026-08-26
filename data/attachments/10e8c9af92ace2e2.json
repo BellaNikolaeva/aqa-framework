@@ -1,0 +1,21 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "Неправда трубка социалистический уронить",
+      "author": "Семенов Творимир Феодосьевич",
+      "genre": "detective",
+      "year_published": 2011,
+      "cover_url": "https://picsum.photos/731/418"
+    }
+  },
+  "response": {
+    "status_code": 401,
+    "elapsed_ms": 140.0,
+    "body": {
+      "detail": "Заголовок авторизации должен содержать два значения, разделенных пробелом",
+      "code": "bad_authorization_header"
+    }
+  }
+}

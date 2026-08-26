@@ -1,0 +1,16 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/tags/",
+    "payload": {
+      "name": "коричневый-2612d75f-7b62-4713-aefe-8dfec46df523"
+    }
+  },
+  "response": {
+    "status_code": 401,
+    "elapsed_ms": 152.9,
+    "body": {
+      "detail": "Учетные данные не были предоставлены."
+    }
+  }
+}
