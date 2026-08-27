@@ -1,0 +1,20 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "Мелькнуть отъезд ручей",
+      "author": "Жданов Пров Валерианович",
+      "genre": "fantasy",
+      "year_published": 1994,
+      "cover_url": "https://picsum.photos/738/20"
+    }
+  },
+  "response": {
+    "status_code": 401,
+    "elapsed_ms": 491.2,
+    "body": {
+      "detail": "Учетные данные не были предоставлены."
+    }
+  }
+}
