@@ -1,0 +1,21 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "Художественный степь хозяйка мгновение",
+      "author": "Субботин Лавр Валентинович",
+      "genre": "detective",
+      "year_published": 1952,
+      "cover_url": "https://dummyimage.com/905x999"
+    }
+  },
+  "response": {
+    "status_code": 401,
+    "elapsed_ms": 202.4,
+    "body": {
+      "detail": "Заголовок авторизации должен содержать два значения, разделенных пробелом",
+      "code": "bad_authorization_header"
+    }
+  }
+}

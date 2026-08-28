@@ -1,0 +1,20 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "Художественный тяжелый металл",
+      "author": "Харитонов Онуфрий Бориславович",
+      "genre": "non_fiction",
+      "year_published": 1993,
+      "cover_url": "https://placekitten.com/941/424"
+    }
+  },
+  "response": {
+    "status_code": 401,
+    "elapsed_ms": 190.5,
+    "body": {
+      "detail": "Учетные данные не были предоставлены."
+    }
+  }
+}
