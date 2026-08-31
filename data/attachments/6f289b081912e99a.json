@@ -1,0 +1,20 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "Блин хозяйка падать",
+      "author": "Ростислав Терентьевич Устинов",
+      "genre": "fantasy",
+      "year_published": 1954,
+      "cover_url": "https://dummyimage.com/223x133"
+    }
+  },
+  "response": {
+    "status_code": 401,
+    "elapsed_ms": 141.1,
+    "body": {
+      "detail": "Учетные данные не были предоставлены."
+    }
+  }
+}
