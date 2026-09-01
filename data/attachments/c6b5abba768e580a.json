@@ -1,0 +1,20 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "Невозможно слать",
+      "author": "Антип Бориславович Родионов",
+      "genre": "sci_fi",
+      "year_published": 1983,
+      "cover_url": "https://placekitten.com/30/850"
+    }
+  },
+  "response": {
+    "status_code": 401,
+    "elapsed_ms": 220.2,
+    "body": {
+      "detail": "Учетные данные не были предоставлены."
+    }
+  }
+}
