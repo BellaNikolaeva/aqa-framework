@@ -1,0 +1,21 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "Район расстройство",
+      "author": "Фадеева Полина Болеславовна",
+      "genre": "fantasy",
+      "year_published": 1978,
+      "cover_url": "https://picsum.photos/962/166"
+    }
+  },
+  "response": {
+    "status_code": 401,
+    "elapsed_ms": 205.2,
+    "body": {
+      "detail": "Заголовок авторизации должен содержать два значения, разделенных пробелом",
+      "code": "bad_authorization_header"
+    }
+  }
+}
