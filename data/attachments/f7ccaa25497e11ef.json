@@ -1,0 +1,16 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/tags/",
+    "payload": {
+      "name": "мрачно-0d160c11-619f-4d0f-9cf2-de8203aa97d3"
+    }
+  },
+  "response": {
+    "status_code": 401,
+    "elapsed_ms": 196.7,
+    "body": {
+      "detail": "Учетные данные не были предоставлены."
+    }
+  }
+}

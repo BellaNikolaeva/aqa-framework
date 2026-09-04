@@ -1,0 +1,20 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "Следовательно нажать вряд",
+      "author": "Радован Алексеевич Давыдов",
+      "genre": "detective",
+      "year_published": 1977,
+      "cover_url": "https://dummyimage.com/980x324"
+    }
+  },
+  "response": {
+    "status_code": 401,
+    "elapsed_ms": 181.0,
+    "body": {
+      "detail": "Учетные данные не были предоставлены."
+    }
+  }
+}
