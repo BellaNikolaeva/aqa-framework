@@ -1,0 +1,20 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "Разуметься спешить штаб",
+      "author": "Ладимир Иосипович Носков",
+      "genre": "detective",
+      "year_published": 1987,
+      "cover_url": "https://placekitten.com/979/751"
+    }
+  },
+  "response": {
+    "status_code": 401,
+    "elapsed_ms": 214.7,
+    "body": {
+      "detail": "Учетные данные не были предоставлены."
+    }
+  }
+}
