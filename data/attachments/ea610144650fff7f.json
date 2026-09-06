@@ -1,0 +1,21 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "Механический прежде",
+      "author": "Игнатьева Татьяна Петровна",
+      "genre": "non_fiction",
+      "year_published": 1995,
+      "cover_url": "https://placekitten.com/980/796"
+    }
+  },
+  "response": {
+    "status_code": 401,
+    "elapsed_ms": 117.9,
+    "body": {
+      "detail": "Заголовок авторизации должен содержать два значения, разделенных пробелом",
+      "code": "bad_authorization_header"
+    }
+  }
+}

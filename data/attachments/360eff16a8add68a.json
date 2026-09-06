@@ -1,0 +1,17 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/auth/refresh/",
+    "payload": {
+      "refresh": "not-a-real-token"
+    }
+  },
+  "response": {
+    "status_code": 401,
+    "elapsed_ms": 121.7,
+    "body": {
+      "detail": "Token is invalid",
+      "code": "token_not_valid"
+    }
+  }
+}

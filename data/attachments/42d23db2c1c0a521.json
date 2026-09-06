@@ -1,0 +1,20 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "Сомнительный дыхание валюта",
+      "author": "Надежда Феликсовна Евсеева",
+      "genre": "non_fiction",
+      "year_published": 1954,
+      "cover_url": "https://placekitten.com/105/255"
+    }
+  },
+  "response": {
+    "status_code": 401,
+    "elapsed_ms": 110.6,
+    "body": {
+      "detail": "Учетные данные не были предоставлены."
+    }
+  }
+}
