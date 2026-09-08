@@ -1,0 +1,21 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "О цепочка правление",
+      "author": "Эдуард Артемьевич Рыбаков",
+      "genre": "fantasy",
+      "year_published": 2005,
+      "cover_url": "https://dummyimage.com/308x68"
+    }
+  },
+  "response": {
+    "status_code": 401,
+    "elapsed_ms": 209.4,
+    "body": {
+      "detail": "Заголовок авторизации должен содержать два значения, разделенных пробелом",
+      "code": "bad_authorization_header"
+    }
+  }
+}
