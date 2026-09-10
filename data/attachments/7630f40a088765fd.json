@@ -1,0 +1,20 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "Какой перебивать",
+      "author": "Панфилов Валерьян Власович",
+      "genre": "sci_fi",
+      "year_published": 2026,
+      "cover_url": "https://placekitten.com/651/658"
+    }
+  },
+  "response": {
+    "status_code": 401,
+    "elapsed_ms": 176.9,
+    "body": {
+      "detail": "Учетные данные не были предоставлены."
+    }
+  }
+}
