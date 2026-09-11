@@ -1,0 +1,20 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "Торговля триста шлем",
+      "author": "Рожкова Анжела Валентиновна",
+      "genre": "sci_fi",
+      "year_published": 1994,
+      "cover_url": "https://picsum.photos/366/178"
+    }
+  },
+  "response": {
+    "status_code": 401,
+    "elapsed_ms": 203.5,
+    "body": {
+      "detail": "Учетные данные не были предоставлены."
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "Правый разводить",
+      "author": "Маслова Ангелина Кузьминична",
+      "genre": "classic",
+      "year_published": 2024,
+      "cover_url": "https://placekitten.com/445/301"
+    }
+  },
+  "response": {
+    "status_code": 401,
+    "elapsed_ms": 202.4,
+    "body": {
+      "detail": "Заголовок авторизации должен содержать два значения, разделенных пробелом",
+      "code": "bad_authorization_header"
+    }
+  }
+}
