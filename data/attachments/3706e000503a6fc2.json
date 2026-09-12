@@ -1,0 +1,20 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "Еврейский увеличиваться",
+      "author": "Григорьев Пров Юлианович",
+      "genre": "sci_fi",
+      "year_published": 1985,
+      "cover_url": "https://dummyimage.com/148x587"
+    }
+  },
+  "response": {
+    "status_code": 401,
+    "elapsed_ms": 126.6,
+    "body": {
+      "detail": "Учетные данные не были предоставлены."
+    }
+  }
+}
