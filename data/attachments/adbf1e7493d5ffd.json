@@ -1,0 +1,16 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/tags/",
+    "payload": {
+      "name": "умирать-b2d06cfc-cb8e-48f6-bd9c-f35f0cc9d45c"
+    }
+  },
+  "response": {
+    "status_code": 401,
+    "elapsed_ms": 193.3,
+    "body": {
+      "detail": "Учетные данные не были предоставлены."
+    }
+  }
+}
