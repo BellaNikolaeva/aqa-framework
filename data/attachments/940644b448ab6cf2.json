@@ -1,0 +1,16 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/tags/",
+    "payload": {
+      "name": "дрогнуть-ff6e222c-2e76-49e7-b518-b66bf5bd74d3"
+    }
+  },
+  "response": {
+    "status_code": 401,
+    "elapsed_ms": 172.2,
+    "body": {
+      "detail": "Учетные данные не были предоставлены."
+    }
+  }
+}
