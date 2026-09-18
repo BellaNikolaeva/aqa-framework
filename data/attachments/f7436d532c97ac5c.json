@@ -1,0 +1,16 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/tags/",
+    "payload": {
+      "name": "растеряться-843d17e7-3de6-4ae3-89a7-28d1d86acdc0"
+    }
+  },
+  "response": {
+    "status_code": 401,
+    "elapsed_ms": 133.7,
+    "body": {
+      "detail": "Учетные данные не были предоставлены."
+    }
+  }
+}
