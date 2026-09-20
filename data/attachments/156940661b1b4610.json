@@ -1,0 +1,16 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/tags/",
+    "payload": {
+      "name": "появление-cdac8442-f7a4-450a-883a-9f75032c3a1e"
+    }
+  },
+  "response": {
+    "status_code": 401,
+    "elapsed_ms": 122.7,
+    "body": {
+      "detail": "Учетные данные не были предоставлены."
+    }
+  }
+}
