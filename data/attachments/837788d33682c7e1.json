@@ -1,0 +1,16 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/tags/",
+    "payload": {
+      "name": "нож-a14ae98c-b1c7-4b42-8d57-76705bc67574"
+    }
+  },
+  "response": {
+    "status_code": 401,
+    "elapsed_ms": 138.2,
+    "body": {
+      "detail": "Учетные данные не были предоставлены."
+    }
+  }
+}
