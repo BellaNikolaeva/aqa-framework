@@ -1,0 +1,21 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "Картинка тюрьма",
+      "author": "Анжела Юльевна Баранова",
+      "genre": "fantasy",
+      "year_published": 2011,
+      "cover_url": "https://placekitten.com/520/127"
+    }
+  },
+  "response": {
+    "status_code": 401,
+    "elapsed_ms": 194.5,
+    "body": {
+      "detail": "Заголовок авторизации должен содержать два значения, разделенных пробелом",
+      "code": "bad_authorization_header"
+    }
+  }
+}

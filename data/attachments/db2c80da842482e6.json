@@ -1,0 +1,20 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "Войти пастух",
+      "author": "Петухова Лукия Викторовна",
+      "genre": "classic",
+      "year_published": 1985,
+      "cover_url": "https://placekitten.com/923/1000"
+    }
+  },
+  "response": {
+    "status_code": 401,
+    "elapsed_ms": 199.8,
+    "body": {
+      "detail": "Учетные данные не были предоставлены."
+    }
+  }
+}
