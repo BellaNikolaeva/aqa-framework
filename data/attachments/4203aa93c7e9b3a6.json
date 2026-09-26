@@ -1,0 +1,20 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "Стакан исследование покидать выражение",
+      "author": "Трофим Бориславович Кулаков",
+      "genre": "detective",
+      "year_published": 2002,
+      "cover_url": "https://dummyimage.com/683x705"
+    }
+  },
+  "response": {
+    "status_code": 401,
+    "elapsed_ms": 166.7,
+    "body": {
+      "detail": "Учетные данные не были предоставлены."
+    }
+  }
+}

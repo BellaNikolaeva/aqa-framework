@@ -1,0 +1,21 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "Единый неудобно школьный",
+      "author": "Валентина Валентиновна Рябова",
+      "genre": "sci_fi",
+      "year_published": 1966,
+      "cover_url": "https://placekitten.com/328/676"
+    }
+  },
+  "response": {
+    "status_code": 401,
+    "elapsed_ms": 161.2,
+    "body": {
+      "detail": "Заголовок авторизации должен содержать два значения, разделенных пробелом",
+      "code": "bad_authorization_header"
+    }
+  }
+}
