@@ -1,0 +1,20 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "Мрачно скрытый ставить",
+      "author": "Лазарев Остромир Тихонович",
+      "genre": "detective",
+      "year_published": 1980,
+      "cover_url": "https://dummyimage.com/259x384"
+    }
+  },
+  "response": {
+    "status_code": 401,
+    "elapsed_ms": 192.2,
+    "body": {
+      "detail": "Учетные данные не были предоставлены."
+    }
+  }
+}
