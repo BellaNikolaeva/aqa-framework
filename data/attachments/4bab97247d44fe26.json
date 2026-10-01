@@ -1,0 +1,21 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "Бровь уничтожение отдел",
+      "author": "Анастасия Анатольевна Харитонова",
+      "genre": "non_fiction",
+      "year_published": 1979,
+      "cover_url": "https://dummyimage.com/548x126"
+    }
+  },
+  "response": {
+    "status_code": 401,
+    "elapsed_ms": 198.4,
+    "body": {
+      "detail": "Заголовок авторизации должен содержать два значения, разделенных пробелом",
+      "code": "bad_authorization_header"
+    }
+  }
+}
