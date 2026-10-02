@@ -1,0 +1,21 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "Товар",
+      "author": "Фотий Владиславович Игнатов",
+      "genre": "fantasy",
+      "year_published": 1952,
+      "cover_url": "https://picsum.photos/929/71"
+    }
+  },
+  "response": {
+    "status_code": 401,
+    "elapsed_ms": 190.1,
+    "body": {
+      "detail": "Заголовок авторизации должен содержать два значения, разделенных пробелом",
+      "code": "bad_authorization_header"
+    }
+  }
+}

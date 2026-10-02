@@ -1,0 +1,20 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "Другой бок",
+      "author": "Медведева Анастасия Сергеевна",
+      "genre": "sci_fi",
+      "year_published": 1987,
+      "cover_url": "https://dummyimage.com/597x989"
+    }
+  },
+  "response": {
+    "status_code": 401,
+    "elapsed_ms": 209.6,
+    "body": {
+      "detail": "Учетные данные не были предоставлены."
+    }
+  }
+}
