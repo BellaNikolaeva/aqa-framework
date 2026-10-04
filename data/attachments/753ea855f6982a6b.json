@@ -1,0 +1,20 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "Порода полностью темнеть",
+      "author": "Меркушева София Аркадьевна",
+      "genre": "fantasy",
+      "year_published": 2004,
+      "cover_url": "https://picsum.photos/269/829"
+    }
+  },
+  "response": {
+    "status_code": 401,
+    "elapsed_ms": 492.8,
+    "body": {
+      "detail": "Учетные данные не были предоставлены."
+    }
+  }
+}

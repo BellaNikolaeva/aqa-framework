@@ -1,0 +1,16 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/tags/",
+    "payload": {
+      "name": "освобождение-90ac03a5-4746-4a57-9dcd-0ebd10b4f4a8"
+    }
+  },
+  "response": {
+    "status_code": 401,
+    "elapsed_ms": 507.0,
+    "body": {
+      "detail": "Учетные данные не были предоставлены."
+    }
+  }
+}
