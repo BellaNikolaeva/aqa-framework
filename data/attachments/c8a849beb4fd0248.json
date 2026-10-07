@@ -1,0 +1,21 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "Неправда дальний карман",
+      "author": "Лидия Владимировна Одинцова",
+      "genre": "sci_fi",
+      "year_published": 2009,
+      "cover_url": "https://picsum.photos/318/547"
+    }
+  },
+  "response": {
+    "status_code": 401,
+    "elapsed_ms": 157.5,
+    "body": {
+      "detail": "Заголовок авторизации должен содержать два значения, разделенных пробелом",
+      "code": "bad_authorization_header"
+    }
+  }
+}
