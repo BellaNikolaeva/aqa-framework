@@ -1,0 +1,21 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "Приятель наступать художественный",
+      "author": "Наина Даниловна Костина",
+      "genre": "detective",
+      "year_published": 1951,
+      "cover_url": "https://picsum.photos/228/457"
+    }
+  },
+  "response": {
+    "status_code": 401,
+    "elapsed_ms": 195.7,
+    "body": {
+      "detail": "Заголовок авторизации должен содержать два значения, разделенных пробелом",
+      "code": "bad_authorization_header"
+    }
+  }
+}
