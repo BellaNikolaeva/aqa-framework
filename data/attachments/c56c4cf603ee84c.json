@@ -1,0 +1,20 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "Инфекция поколение опасность крутой",
+      "author": "Ульяна Степановна Стрелкова",
+      "genre": "detective",
+      "year_published": 2015,
+      "cover_url": "https://placekitten.com/800/960"
+    }
+  },
+  "response": {
+    "status_code": 401,
+    "elapsed_ms": 235.7,
+    "body": {
+      "detail": "Учетные данные не были предоставлены."
+    }
+  }
+}
