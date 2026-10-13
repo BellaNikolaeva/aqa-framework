@@ -1,0 +1,20 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "Указанный песня скрытый",
+      "author": "Ершова Анжелика Александровна",
+      "genre": "fantasy",
+      "year_published": 2015,
+      "cover_url": "https://placekitten.com/550/792"
+    }
+  },
+  "response": {
+    "status_code": 401,
+    "elapsed_ms": 224.5,
+    "body": {
+      "detail": "Учетные данные не были предоставлены."
+    }
+  }
+}
