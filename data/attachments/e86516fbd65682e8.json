@@ -1,0 +1,16 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/tags/",
+    "payload": {
+      "name": "эффект-fe64cdf2-33bb-4662-b241-0d2c63fba8ed"
+    }
+  },
+  "response": {
+    "status_code": 401,
+    "elapsed_ms": 176.0,
+    "body": {
+      "detail": "Учетные данные не были предоставлены."
+    }
+  }
+}
