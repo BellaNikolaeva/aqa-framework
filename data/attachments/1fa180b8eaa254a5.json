@@ -1,0 +1,16 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/tags/",
+    "payload": {
+      "name": "спорт-e61c25dc-851c-4ac1-9383-049a05a86aef"
+    }
+  },
+  "response": {
+    "status_code": 401,
+    "elapsed_ms": 135.0,
+    "body": {
+      "detail": "Учетные данные не были предоставлены."
+    }
+  }
+}
