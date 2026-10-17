@@ -1,0 +1,21 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "Полюбить потянуться",
+      "author": "Кузьма Яковлевич Орлов",
+      "genre": "non_fiction",
+      "year_published": 1989,
+      "cover_url": "https://picsum.photos/678/1012"
+    }
+  },
+  "response": {
+    "status_code": 401,
+    "elapsed_ms": 172.4,
+    "body": {
+      "detail": "Заголовок авторизации должен содержать два значения, разделенных пробелом",
+      "code": "bad_authorization_header"
+    }
+  }
+}

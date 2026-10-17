@@ -1,0 +1,20 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "Горький непривычный отъезд",
+      "author": "Антонин Георгиевич Рогов",
+      "genre": "fantasy",
+      "year_published": 1979,
+      "cover_url": "https://picsum.photos/859/428"
+    }
+  },
+  "response": {
+    "status_code": 401,
+    "elapsed_ms": 174.8,
+    "body": {
+      "detail": "Учетные данные не были предоставлены."
+    }
+  }
+}
