@@ -1,0 +1,16 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/tags/",
+    "payload": {
+      "name": "славный-e28fd528-dc69-43c3-bf8a-956742b2fb09"
+    }
+  },
+  "response": {
+    "status_code": 401,
+    "elapsed_ms": 187.6,
+    "body": {
+      "detail": "Учетные данные не были предоставлены."
+    }
+  }
+}
