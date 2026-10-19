@@ -1,0 +1,20 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "Банк ботинок покидать",
+      "author": "Рябова София Оскаровна",
+      "genre": "detective",
+      "year_published": 1983,
+      "cover_url": "https://placekitten.com/403/976"
+    }
+  },
+  "response": {
+    "status_code": 401,
+    "elapsed_ms": 186.3,
+    "body": {
+      "detail": "Учетные данные не были предоставлены."
+    }
+  }
+}
