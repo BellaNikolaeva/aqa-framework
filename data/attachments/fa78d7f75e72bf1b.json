@@ -1,0 +1,16 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/auth/register/",
+    "payload": {
+      "username": "aqa_606e26fa",
+      "email": "aqa_606e26fa@example.com",
+      "password": "StrongPass123!"
+    }
+  },
+  "response": {
+    "status_code": 500,
+    "elapsed_ms": 236.3,
+    "body": "\n<!doctype html>\n<html lang=\"en\">\n<head>\n  <title>Server Error (500)</title>\n</head>\n<body>\n  <h1>Server Error (500)</h1><p></p>\n</body>\n</html>\n"
+  }
+}
