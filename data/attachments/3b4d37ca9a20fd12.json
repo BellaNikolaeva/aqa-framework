@@ -1,0 +1,20 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "Да войти непривычный",
+      "author": "Прасковья Игоревна Ефремова",
+      "genre": "detective",
+      "year_published": 1995,
+      "cover_url": "https://dummyimage.com/881x1004"
+    }
+  },
+  "response": {
+    "status_code": 401,
+    "elapsed_ms": 203.0,
+    "body": {
+      "detail": "Учетные данные не были предоставлены."
+    }
+  }
+}
