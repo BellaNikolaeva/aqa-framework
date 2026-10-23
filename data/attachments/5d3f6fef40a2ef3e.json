@@ -1,0 +1,21 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "Редактор ученый тюрьма",
+      "author": "Крюков Гордей Измаилович",
+      "genre": "detective",
+      "year_published": 1980,
+      "cover_url": "https://placekitten.com/278/517"
+    }
+  },
+  "response": {
+    "status_code": 401,
+    "elapsed_ms": 179.3,
+    "body": {
+      "detail": "Заголовок авторизации должен содержать два значения, разделенных пробелом",
+      "code": "bad_authorization_header"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/tags/",
+    "payload": {
+      "name": "волк-8bcd2ecc-597e-425b-8877-8d55d29300e8"
+    }
+  },
+  "response": {
+    "status_code": 401,
+    "elapsed_ms": 320.2,
+    "body": {
+      "detail": "Учетные данные не были предоставлены."
+    }
+  }
+}
