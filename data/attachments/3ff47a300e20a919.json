@@ -1,0 +1,16 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/tags/",
+    "payload": {
+      "name": "зарплата-02c82e90-3dbf-4608-a9a8-339f924bb91f"
+    }
+  },
+  "response": {
+    "status_code": 401,
+    "elapsed_ms": 213.1,
+    "body": {
+      "detail": "Учетные данные не были предоставлены."
+    }
+  }
+}
