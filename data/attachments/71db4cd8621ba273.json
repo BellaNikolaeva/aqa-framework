@@ -1,0 +1,16 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/tags/",
+    "payload": {
+      "name": "сомнительный-ef15a94e-9f64-4c38-bc1f-7d3574bef34e"
+    }
+  },
+  "response": {
+    "status_code": 401,
+    "elapsed_ms": 161.7,
+    "body": {
+      "detail": "Учетные данные не были предоставлены."
+    }
+  }
+}
