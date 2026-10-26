@@ -1,0 +1,21 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "Пересечь команда",
+      "author": "Алевтина Кирилловна Миронова",
+      "genre": "classic",
+      "year_published": 2019,
+      "cover_url": "https://dummyimage.com/473x109"
+    }
+  },
+  "response": {
+    "status_code": 401,
+    "elapsed_ms": 205.9,
+    "body": {
+      "detail": "Заголовок авторизации должен содержать два значения, разделенных пробелом",
+      "code": "bad_authorization_header"
+    }
+  }
+}
