@@ -1,0 +1,16 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/tags/",
+    "payload": {
+      "name": "сверкать-0af16649-c0e5-4736-813f-4b2d44bf0335"
+    }
+  },
+  "response": {
+    "status_code": 401,
+    "elapsed_ms": 216.7,
+    "body": {
+      "detail": "Учетные данные не были предоставлены."
+    }
+  }
+}

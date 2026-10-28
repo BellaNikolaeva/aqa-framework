@@ -1,0 +1,20 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "Умирать научить",
+      "author": "Нинель Семеновна Ковалева",
+      "genre": "non_fiction",
+      "year_published": 1979,
+      "cover_url": "https://picsum.photos/1007/393"
+    }
+  },
+  "response": {
+    "status_code": 401,
+    "elapsed_ms": 219.6,
+    "body": {
+      "detail": "Учетные данные не были предоставлены."
+    }
+  }
+}
