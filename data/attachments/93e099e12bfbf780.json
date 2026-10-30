@@ -1,0 +1,20 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "Ленинград падаль",
+      "author": "Силин Тарас Терентьевич",
+      "genre": "fantasy",
+      "year_published": 1992,
+      "cover_url": "https://dummyimage.com/586x517"
+    }
+  },
+  "response": {
+    "status_code": 401,
+    "elapsed_ms": 195.4,
+    "body": {
+      "detail": "Учетные данные не были предоставлены."
+    }
+  }
+}
