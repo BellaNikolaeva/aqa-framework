@@ -1,0 +1,21 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "Командование успокоиться",
+      "author": "Симон Игнатович Третьяков",
+      "genre": "detective",
+      "year_published": 1964,
+      "cover_url": "https://picsum.photos/752/166"
+    }
+  },
+  "response": {
+    "status_code": 401,
+    "elapsed_ms": 161.2,
+    "body": {
+      "detail": "Заголовок авторизации должен содержать два значения, разделенных пробелом",
+      "code": "bad_authorization_header"
+    }
+  }
+}
