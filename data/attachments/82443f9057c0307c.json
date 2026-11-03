@@ -1,0 +1,16 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/tags/",
+    "payload": {
+      "name": "снимать-9a449068-4f76-4f20-9fb4-93575967f179"
+    }
+  },
+  "response": {
+    "status_code": 401,
+    "elapsed_ms": 194.3,
+    "body": {
+      "detail": "Учетные данные не были предоставлены."
+    }
+  }
+}

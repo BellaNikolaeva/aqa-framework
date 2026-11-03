@@ -1,0 +1,20 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "Назначить левый господь горький",
+      "author": "Абрамов Эраст Владленович",
+      "genre": "fantasy",
+      "year_published": 2006,
+      "cover_url": "https://picsum.photos/147/894"
+    }
+  },
+  "response": {
+    "status_code": 401,
+    "elapsed_ms": 212.2,
+    "body": {
+      "detail": "Учетные данные не были предоставлены."
+    }
+  }
+}
