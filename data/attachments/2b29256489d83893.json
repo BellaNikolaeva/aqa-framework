@@ -1,0 +1,20 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "Лететь ломать",
+      "author": "Харлампий Теймуразович Тетерин",
+      "genre": "classic",
+      "year_published": 2019,
+      "cover_url": "https://placekitten.com/427/182"
+    }
+  },
+  "response": {
+    "status_code": 401,
+    "elapsed_ms": 494.5,
+    "body": {
+      "detail": "Учетные данные не были предоставлены."
+    }
+  }
+}

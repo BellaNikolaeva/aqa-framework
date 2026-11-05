@@ -1,0 +1,21 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "Бегать крутой",
+      "author": "Светлана Константиновна Цветкова",
+      "genre": "detective",
+      "year_published": 1979,
+      "cover_url": "https://placekitten.com/417/154"
+    }
+  },
+  "response": {
+    "status_code": 401,
+    "elapsed_ms": 186.4,
+    "body": {
+      "detail": "Заголовок авторизации должен содержать два значения, разделенных пробелом",
+      "code": "bad_authorization_header"
+    }
+  }
+}
