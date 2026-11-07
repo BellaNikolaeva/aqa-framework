@@ -1,0 +1,20 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "Темнеть порт изображать неожиданный",
+      "author": "Лукия Никифоровна Комарова",
+      "genre": "sci_fi",
+      "year_published": 1978,
+      "cover_url": "https://picsum.photos/788/34"
+    }
+  },
+  "response": {
+    "status_code": 401,
+    "elapsed_ms": 598.9,
+    "body": {
+      "detail": "Учетные данные не были предоставлены."
+    }
+  }
+}
