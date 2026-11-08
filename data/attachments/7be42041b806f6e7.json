@@ -1,0 +1,21 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "Полоска нож",
+      "author": "Шубина Евгения Ильинична",
+      "genre": "non_fiction",
+      "year_published": 1954,
+      "cover_url": "https://placekitten.com/1008/784"
+    }
+  },
+  "response": {
+    "status_code": 401,
+    "elapsed_ms": 176.8,
+    "body": {
+      "detail": "Заголовок авторизации должен содержать два значения, разделенных пробелом",
+      "code": "bad_authorization_header"
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "Деловой издали страсть",
+      "author": "Нонна Васильевна Гуляева",
+      "genre": "fantasy",
+      "year_published": 2019,
+      "cover_url": "https://dummyimage.com/198x936"
+    }
+  },
+  "response": {
+    "status_code": 401,
+    "elapsed_ms": 462.1,
+    "body": {
+      "detail": "Учетные данные не были предоставлены."
+    }
+  }
+}
