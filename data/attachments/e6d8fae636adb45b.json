@@ -1,0 +1,20 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "Белье тюрьма",
+      "author": "Вера Романовна Александрова",
+      "genre": "classic",
+      "year_published": 2014,
+      "cover_url": "https://dummyimage.com/546x366"
+    }
+  },
+  "response": {
+    "status_code": 401,
+    "elapsed_ms": 523.9,
+    "body": {
+      "detail": "Учетные данные не были предоставлены."
+    }
+  }
+}
