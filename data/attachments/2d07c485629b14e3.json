@@ -1,0 +1,16 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/tags/",
+    "payload": {
+      "name": "падать-a49d9af3-a791-4e8c-96bd-278591618317"
+    }
+  },
+  "response": {
+    "status_code": 401,
+    "elapsed_ms": 197.8,
+    "body": {
+      "detail": "Учетные данные не были предоставлены."
+    }
+  }
+}
