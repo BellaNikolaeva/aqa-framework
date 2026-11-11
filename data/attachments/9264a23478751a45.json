@@ -1,0 +1,21 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "Юный художественный поставить",
+      "author": "Зимин Зосима Исидорович",
+      "genre": "non_fiction",
+      "year_published": 2008,
+      "cover_url": "https://picsum.photos/133/567"
+    }
+  },
+  "response": {
+    "status_code": 401,
+    "elapsed_ms": 185.5,
+    "body": {
+      "detail": "Заголовок авторизации должен содержать два значения, разделенных пробелом",
+      "code": "bad_authorization_header"
+    }
+  }
+}
