@@ -1,0 +1,21 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "Пламя непривычный собеседник",
+      "author": "Комарова Феврония Никифоровна",
+      "genre": "detective",
+      "year_published": 1984,
+      "cover_url": "https://dummyimage.com/179x737"
+    }
+  },
+  "response": {
+    "status_code": 401,
+    "elapsed_ms": 340.0,
+    "body": {
+      "detail": "Заголовок авторизации должен содержать два значения, разделенных пробелом",
+      "code": "bad_authorization_header"
+    }
+  }
+}
