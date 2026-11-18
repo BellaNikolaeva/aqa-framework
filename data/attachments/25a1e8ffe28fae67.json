@@ -1,0 +1,20 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "Появление",
+      "author": "Макаров Наум Данилович",
+      "genre": "non_fiction",
+      "year_published": 1953,
+      "cover_url": "https://placekitten.com/270/525"
+    }
+  },
+  "response": {
+    "status_code": 401,
+    "elapsed_ms": 195.3,
+    "body": {
+      "detail": "Учетные данные не были предоставлены."
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/tags/",
+    "payload": {
+      "name": "ребятишки-065c1457-d91c-497d-bc73-034f92869e1c"
+    }
+  },
+  "response": {
+    "status_code": 401,
+    "elapsed_ms": 201.1,
+    "body": {
+      "detail": "Учетные данные не были предоставлены."
+    }
+  }
+}
