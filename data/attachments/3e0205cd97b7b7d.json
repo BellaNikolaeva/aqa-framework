@@ -1,0 +1,16 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/tags/",
+    "payload": {
+      "name": "инструкция-c7cc8c8b-c8b5-4fc2-b90b-5eeb4e5e56f3"
+    }
+  },
+  "response": {
+    "status_code": 401,
+    "elapsed_ms": 162.3,
+    "body": {
+      "detail": "Учетные данные не были предоставлены."
+    }
+  }
+}
