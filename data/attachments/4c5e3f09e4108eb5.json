@@ -1,0 +1,20 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/books/",
+    "payload": {
+      "title": "Бровь житель",
+      "author": "Калашникова Мария Болеславовна",
+      "genre": "detective",
+      "year_published": 2015,
+      "cover_url": "https://picsum.photos/931/703"
+    }
+  },
+  "response": {
+    "status_code": 401,
+    "elapsed_ms": 241.6,
+    "body": {
+      "detail": "Учетные данные не были предоставлены."
+    }
+  }
+}
