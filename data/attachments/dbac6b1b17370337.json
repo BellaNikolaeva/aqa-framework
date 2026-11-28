@@ -1,0 +1,16 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "https://book-tracker-api-frnm.onrender.com/api/tags/",
+    "payload": {
+      "name": "девка-21792a24-2c42-414b-b80e-b2bdc8f6ab26"
+    }
+  },
+  "response": {
+    "status_code": 401,
+    "elapsed_ms": 181.3,
+    "body": {
+      "detail": "Учетные данные не были предоставлены."
+    }
+  }
+}
